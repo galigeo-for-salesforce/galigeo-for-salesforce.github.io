@@ -1,7 +1,7 @@
 # Site Settings
 title: 'Documentation Galigeo for Salesforce'
 description: 'Apprenez comment Galigeo for Salesforce fonctionne'
-url: 'galigeo-for-salesforce.github.io' # the base hostname & protocol for your site
+url: 'https://galigeo-for-salesforce.github.io' # the base hostname & protocol for your site
 footer_text: '© Galigeo 2016 - ® Tous droits réservés'
 
 # Admin Settings
