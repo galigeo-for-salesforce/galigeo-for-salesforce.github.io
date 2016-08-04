@@ -1,9 +1,17 @@
+<!-- Sticky footer stuff -->
+<div class="push"></div>
+</section>
 
-    <footer class="site-footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p class="text-muted">{{ site.data.global.footer_text }}</p>
+                <div class="col-md-12 text-center">
+                    <ul class="list-inline m-t-10">
+                        <li><a href="http://www.galigeo.com/fr/nos-produits/territory-management-products/galigeo-sell-where/"> Informations produit</a></li>
+                        <li> - </li>
+                        <li><a href="http://www.galigeo.com/fr/societe/a-propos-de-galigeo/"> A propos de Galigeo</a></li>
+                    </ul>
+                    <p class="text-muted small">{{ site.data.global.footer_text }}</p>
                 </div>
             </div>
         </div>
@@ -11,9 +19,10 @@
 
 
     <!-- JavaScript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="{{ site.data.global.url }}/js/jquery.js"></script>
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
     <script src="{{ site.data.global.url }}/js/power.js"></script>
+    <script src="{{ site.data.global.url }}/js/app.js"></script>
 
     </body>
 </html>
