@@ -44,6 +44,19 @@
 </ul>
 
 <h4>ADVANCED EDITION</h4>
+<h5>Guide d'installation</h5>
+<ul>
+	{% for item in site.data.sidebar.advanced.install %}
+	<li>
+		{% if page.url == item.url %}
+			<div class="arrow-container">
+				<span class="arrow-right"></span>
+			</div>
+		{% endif %}
+	  <a href="{{ item.url }}">{{ item.text }}</a>
+	</li>
+	{% endfor %}
+</ul>
 <h5>Guide Administrateur</h5>
 <ul>
 	{% for item in site.data.sidebar.advanced.admin %}

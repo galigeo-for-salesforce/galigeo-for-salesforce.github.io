@@ -5,55 +5,55 @@ categories: documentation
 permalink: /create-map
 ---
 
-## Créer une carte
+## Créer une carte
 
 
-Le point d’entrée de l’application est l’onglet Galigeo.
-A partir de cet onglet, un utilisateur peut gérer (créer/modifier/supprimer) une ou plusieurs cartes.
+Le point d’entrée de l’application est l’onglet Galigeo.
+A partir de cet onglet, un utilisateur peut gérer (créer/modifier/supprimer) une ou plusieurs cartes.
 
 ### Qu’est-ce qu’une « carte » ?
 
-Une « carte », dans le contexte de l’application, est un ensemble d’objets géographiques et d’analyses définies par l’administrateur de l’application. L’utilisateur peut construire ses propres cartes à partir de ces objets et les partager.
+Une « carte », dans le contexte de l’application, est un ensemble d’objets géographiques et d’analyses définies par l’administrateur de l’application. L’utilisateur peut construire ses propres cartes à partir de ces objets et les partager.
 
-### Créer une carte
+### Créer une carte
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new1.png){:.img.img-responsive.img-center}
 
-Cliquez sur le bouton **« Nouveau »** pour créer votre première carte.
+Cliquez sur le bouton **« Nouveau »** pour créer votre première carte.
 
-La page de création se divise en trois parties :
+La page de création se divise en trois parties :
 
-1. La section d’information de base : l’utilisateur est invité à donner un nom à sa carte,
-et à sélectionner s’il souhaite voir tous les objets auxquels il a accès ou seulement ceux dont il est propriétaire dans Salesforce.
-	L’option « Utiliser le calendrier avancé » permet à l’utilisateur de gérer les événements en affichant le calendrier par semaine. Cette fonctionnalité est détaillée dans [Planifier des événements](#planifier-des-evenements).
+1. La section d’information de base : l’utilisateur est invité à donner un nom à sa carte,
+et à sélectionner s’il souhaite voir tous les objets auxquels il a accès ou seulement ceux dont il est propriétaire dans Salesforce.
+	L’option « Utiliser le calendrier avancé » permet à l’utilisateur de gérer les événements en affichant le calendrier par semaine. Cette fonctionnalité est détaillée dans [Planifier des événements](#planifier-des-evenements).
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-015.png){:.img.img-responsive.img-center}
 
-2. La section liste des objets géographiques associés : l’utilisateur sélectionne dans la liste des objets géographiques ceux qu’il souhaite visualiser sur sa carte.
+2. La section liste des objets géographiques associés : l’utilisateur sélectionne dans la liste des objets géographiques ceux qu’il souhaite visualiser sur sa carte.
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-016.png){:.img.img-responsive.img-center}
 
-3. La section des Analyses thématiques associées : l’utilisateur sélectionne des analyses définies par l’administrateur. Elles apparaîtront dans la section « Analyse » de sa carte.
+3. La section des Analyses thématiques associées : l’utilisateur sélectionne des analyses définies par l’administrateur. Elles apparaîtront dans la section « Analyse » de sa carte.
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-017.png){:.img.img-responsive.img-center}
 
-	Il est possible pour l’administrateur de classer les analyses par catégorie. Un champ de recherche permet de filtrer la liste d’analyses.
+	Il est possible pour l’administrateur de classer les analyses par catégorie. Un champ de recherche permet de filtrer la liste d’analyses.
 
-Les deux listes à sélection multiple peuvent être utilisées comme décrit ci-dessous :
+Les deux listes à sélection multiple peuvent être utilisées comme décrit ci-dessous :
 
-1. Sélectionnez une valeur que vous souhaitez ajouter
+1. Sélectionnez une valeur que vous souhaitez ajouter
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-018.png){:.img.img-responsive.img-center}
 
 2. Cliquez sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-019.png)
 
-3. La valeur sélectionnée apparaît dans la colonne de droite
+3. La valeur sélectionnée apparaît dans la colonne de droite
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-020.png){:.img.img-responsive.img-center}
 
-Pour supprimer un objet. Sélectionnez un objet du panneau de droite et cliquez sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-021.png)
+Pour supprimer un objet. Sélectionnez un objet du panneau de droite et cliquez sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-021.png)
 
-Vous pouvez désormais sauvegarder votre carte en cliquant sur « Enregistrer ».
+Vous pouvez désormais sauvegarder votre carte en cliquant sur « Enregistrer ».
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-021.png){:.img.img-responsive.img-center}
 
@@ -64,8 +64,8 @@ Une nouvelle carte apparaît maintenant dans votre liste de cartes, vous pouvez
 	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png) : Partager la carte
 	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-024.png) : cliquer pour supprimer la carte
 	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-025.png) : Accéder à la carte
-2. Objets géographiques : la liste d’objets géographiques associés à la carte
-3. Analyses : la liste des analyses associées à la carte
+2. Objets géographiques : la liste d’objets géographiques associés à la carte
+3. Analyses : la liste des analyses associées à la carte
 4. Voir le nom du propriétaire
 
 ### Partager une carte
