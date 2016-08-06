@@ -69,16 +69,20 @@
 
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav nav-pills navbar-right">
-                {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+
+
+                {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
+
                 {% for one_post in posts %}
-                  {% if one_post.lang != post.lang %}
+                    
+                  {% if one_post.lang != page.lang %}
                   <li>
                     <a href="{{ one_post.url }}" class="{{ one_post.lang }}">{{ one_post.lang }}</a>
                   </li>
                   {% endif %}
                 {% endfor %}
 
-                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
                 {% for one_page in pages %}
                   {% if one_page.lang != page.lang %}
                   <li>

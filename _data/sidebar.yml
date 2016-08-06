@@ -37,5 +37,35 @@ fr:
 en:
   std:
     install:
-      - { url: '/install-std', text: 'Package install' }
-      - { url: '/post-install-std', text: 'Post installation' }
+      - { url: '/install-std-en', text: 'Package Installation' }
+      - { url: '/post-install-std-en', text: 'Post installation' }
+    admin:
+      - { url: '/access-en', text: 'Access' }
+      - { url: '/geo-object-en', text: 'Geographical Object' }
+      - { url: '/geofilters-en', text: 'Geofilters' }
+      - { url: '/analytics-en', text: 'Analytics' }
+    user:
+      - { url: '/create-map-en', text: 'Create a map' }
+      - { url: '/interface-en', text: 'Presentation' }
+      - { url: '/filters-en', text: 'Filters and Actions' }
+      - { url: '/plan-en', text: 'Visit planning' }
+      - { url: '/analysis-en', text: 'Analytics' }
+      - { url: '/selection-en', text: 'Selection' }
+      - { url: '/addresses-en', text: 'Address Lookup' }
+      - { url: '/basemaps', text: 'Basemaps' }
+
+  advanced:
+    install:
+      - { url: '/install-advanced-en', text: 'Package Installation' }
+      - { url: '/post-install-advanced-en', text: 'Post installation' }
+    admin:
+      - { url: '/register-en', text: 'Registering' }
+      - { url: '/users-en', text: 'Users' }
+      - { url: '/sectors-en', text: 'Sectors' }
+    user:
+      - { url: '/introduction-adv-en', text: 'Introduction' }
+      - { url: '/project-adv-en', text: 'Projects' }
+      - { url: '/visualisations-adv-en', text: 'Visualisations' }
+      - { url: '/territoires-adv-en', text: 'Territory Design' }
+      - { url: '/analytics-adv-en', text: 'Analytics' }
+      - { url: '/assignment-adv-en', text: 'Assignment' }
