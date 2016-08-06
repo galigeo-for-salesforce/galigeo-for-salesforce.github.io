@@ -5,9 +5,11 @@
     <div class="row">        
       <div class="col-md-10 col-md-offset-1">
         <div class="content-body">
+          
           {% if page.type == 'collection' %}
-            {% for post in site.posts %}
-              {% if post.categories contains 'release' %}
+            {% assign posts=site.posts | where:"lang", page.lang %}
+            {% for post in posts %}
+              {% if post.categories contains 'release'  %}
                 <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
                 {{post.lead_text}}
                 <a href="{{ post.url }}"> Lire plus...</a>
