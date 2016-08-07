@@ -1,21 +1,42 @@
-<p>nbre de pages : {{ paginator.total_pages }}</p>
+{% if page.lang == 'en' %}
+  {% assign links = site.data.sidebar.en %}
 
-{% if paginator.total_pages > 1 %}
-<p>Ma pagination</p>
-<nav>
-    <ul class="pager">
-        {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-        {% else %}
-        <span>&laquo; Prev</span>
-        {% endif %}
+  {% assign next_page = site.data.translation.pagination.en.next %}
+  {% assign prev_page = site.data.translation.pagination.en.prev %}
+{% else %}
 
-      {% if paginator.next_page %}
-      <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-      {% else %}
-        <span>Next &raquo;</span>
-      {% endif %}
-    </ul>
-</nav>
+  {% assign links = site.data.sidebar.fr %}
+
+  {% assign next_page = site.data.translation.pagination.fr.next %}
+  {% assign prev_page = site.data.translation.pagination.fr.prev %}
 {% endif %}
+
+{% for edition in links %}
+  {% for guides in edition %}
+    {% for urls in guides %}
+      {%for items in urls%}
+        {% for item in items %}
+
+          {% if page.url ==  item.url %}
+            <nav>
+              <ul class="pager">
+                  {% if item.prev %}
+                    <li><a href="{{ item.prev | prepend: site.baseurl | replace: '//', '/' }}">&larr; {{ prev_page }}</a></li>
+                  {% else %}
+                    <li class="disabled"> <a href="#">&larr; {{ prev_page }}</a> </li>
+                  {% endif %}
+
+                {% if item.next %}
+                  <li><a href="{{ item.next | prepend: site.baseurl | replace: '//', '/' }}">{{ next_page }} &rarr;</a></li>
+                {% else %}
+                  <li class="disabled"> <a href="#">{{ next_page }} &rarr;</a></li>
+                {% endif %}
+              </ul>
+          </nav>
+        
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}

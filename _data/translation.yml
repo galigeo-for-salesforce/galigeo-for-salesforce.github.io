@@ -15,3 +15,11 @@ footer:
   fr:
     - {url: "http://www.galigeo.com/fr/nos-produits/territory-management-products/galigeo-sell-where/", text: "Page produit"}
     - {url: "http://www.galigeo.com/fr/societe/a-propos-de-galigeo/", text: "A propos de Galigeo"}
+
+pagination:
+  en:
+    next: "Next"
+    prev: "Prev"
+  fr:
+    next: "Suivant"
+    prev: "Précédent"
