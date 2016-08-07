@@ -1,114 +1,106 @@
 ---
 layout: sidebar
-title: Concevoir une sectorisation commerciale
+title: Drawing Sales Territoritories
 categories: documentation
 permalink: /territoires-adv-en
 lang: en
 ref: territoires-adv
 ---
 
-## Conception de territoires
+## Designing Territories
 
+### Selection
 
-### Sélection
-
-- Définition
+- Definition
 	
-	Pour créer un territoire on doit sélectionner un ensemble de secteurs. Cette sélection apparaît d’abord comme territoire « virtuel » :
+	In order to create and redesign territories, one has to previously create a selection. This one is considered like a "virtual" territory. It is a set of sectors and as such is represented like a classical territory:
 
-	- Il apparaît sur la carte (par défaut en bleu), le détail des secteurs est affiché o Il est affiché dans le tableau de territoires, sur la première ligne
-	- Il est affiché dans la vue graphique
-	- Le détail par secteur apparaît dans le tableau en bas à droite.
+	- It is visible on the map (by default in blue), with the sectors details always displayed.
+	- It is displayed in the territories table, always on the first row. o It is displayed in the graphical view.
+	- Its content can be viewed in the sectors table.
+	
+	<br>It has however some notable differences in comparison with a classical territory:
 
-	<br>Ses différences notables par rapport à un territoire classique :
-
-	- Il peut chevaucher d’autres territoires
-	- Aucun collaborateur ne peut être affecté à ce territoire 
-	- Il ne peut pas être supprimé
+	- It can overlap other territories.
+	- No stakeholder can be assigned to it. 
+	- It cannot be deleted.
 
 - Manipulation
 
-	Pour modifier une sélection, on doit entrer en mode édition en cliquant sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-026.jpg). On peut quitter l’outil en cliquant à nouveau sur ce bouton ou en appuyant sur ESC.
+	In order to update the selection, one has to enter the edition mode by clicking on the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-026.jpg). In order to exit that, one has to click again on the button or press the ESC key.
 
 	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-027.png){:.img.img-responsive.img-center}
 
-	A partir du bouton de sélection, on accède aux 3 outils de dessin disponibles : le point, le cercle et le polygone libre.
+	This button has actually a double utilization. It serves also to display the actual drawing mode. The arrow close to the button allows the access to two drawing tools available: by circle or by free hand polygon.
+
+	Once in edition mode, it is enough to keep the mouse button clicked on the map to begin drawing and release it to finish. The sectors contained in the drawn circle or polygon form the selection. By keeping the CTRL key pressed during drawing, the sectors are added to the actual selection. By keeping the SHIFT key pressed, they are removed from the selection.
+
+	There is another way selecting sectors. That is done by using the sectors table. Once in edition mode, the lines from the table can be selected. It is enough to select them in the same manner like on a classic table: simple click to select a row, keep the CTRL key pressed to add another row, keep the SHIFT key to add a whole interval of rows, CTRL-A in order to select everything.
 	
-	Les secteurs contenus dans le cercle, le polygone ou le point tracé forment la sélection. En maintenant la touche CTRL appuyée durant le dessin, les secteurs seront ajoutés à la sélection. En maintenant la touche MAJ appuyée, ils seront soustraits de la sélection.
-	
-	Les secteurs peuvent également être sélectionnés depuis le tableau des secteurs. En mode édition, les lignes du tableau peuvent être sélectionnées. La sélection se fait de la même manière que dans un tableau classique : un clic permet de sélectionner une ligne, en maintenant la touche CTRL enfoncée on peut ajouter d’autres lignes, en maintenant la touche MAJ enfoncée on peut sélectionner une plage de lignes, CTRL-A permet de tout sélectionner.
-	
-	Cliquer sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg) de la barre d’outils permet de supprimer la sélection.
+	Finally, clicking on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg) button in the toolbar allows the clearing of the selection.
 
 ### Actions
 
-À partir d’une sélection, plusieurs actions sur les territoires sont possibles :
+Going from a selection, there are different actions possible on the territories:
 
-- Créer un territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-029.jpg)
+- Create a territory ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-029.jpg)
 
-	Un nouveau territoire se crée à partir d’une sélection. Il apparaît ainsi sur la carte, dans le tableau et sur le graphique.Par défaut, sa couleur est aléatoire. Le nom par défaut est « Territoire n », où n est le nombre de territoires au sein du projet. Ces deux paramètres peuvent être modifiés.
+	A new territory is created from the selection. It appears thus on the map, in the table and on the graphic. The default color is random. The default name is "Territory n", where n is the number of existent territories. These two parameters can be later on modified.
 
-	Lorsqu’une sélection chevauche un ou plusieurs territoires, la fenêtre ci-dessous s’affiche :
+	When a selection is overlapping one or several existing territories, the following window will be displayed:
 
 	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-030.png){:.img.img-responsive.img-center}
 
+	There are two solutions suggested:
 
-	Deux possibilités :
+	- Use all the sectors. The new territory is created from all the sectors contained in the selection. The sectors that belong to another territory will be eliminated from that territory (including the filtered territories).
+	- Use only the not assigned sectors. Only the sectors that are not assigned to an existing territory are used to create the new territory. The existing territories are not modified (including the filtered territories).
 
-	- Utiliser toutes les geounits : le nouveau territoire est créé à partir de tous les secteurs contenus dans la sélection. Les secteurs qui appartiennent à un autre territoire seront soustraits à ce territoire (territoires filtrés inclus).
-	- Utiliser seulement les geounits non assignées : les secteurs qui ne sont pas assignés à un territoire existant seront utilisés pour créer le nouveau territoire. Les territoires existants ne sont pas modifiés (territoires filtrés inclus).
+- Assign the selection to a territory ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-031.jpg)
 
-- Assigner la sélection à un territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-031.jpg)
-
-	La sélection s’ajoute à un territoire existant. S’il n’y a qu’un territoire, la sélection sera automatiquement ajoutée à celui-ci. Dans le cas contraire, la fenêtre ci-dessous apparaît :
+	The actual selection is added to an existing territory. If only one territory exists, the selection will automatically added to that one. Otherwise, the following window will open:
 
 	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-032.png){:.img.img-responsive.img-center}
 
 
-	La liste déroulante contient tous les territoires existants non filtrés. Elle permet de choisir à quel territoire la sélection sera assignée.
+	The drop down list contains all the existing not filtered territories. It allows to choose to which territory will be assigned the selection.
+	Similar to the creation of a territory, there are two possible choices:
 
-	Deux options possibles :
+	- Use all the sectors. All the sectors of the selection are assigned to the selected territory. The sectors already assigned to another territory will be extracted from that territory (including the filtered territories).
+	- Use only the not assigned sectors. Only the sectors that were not assigned to an existing territory are assigned to the selected territory. The existing territories are not modified (including the filtered territories).
 
-	- Utiliser toutes les geounits : le nouveau territoire est créé des tous les secteurs contenus dans la sélection. Les secteurs qui appartiennent à un autre territoire seront soustraits à ce territoire (territoires filtrés inclus).
-      
-	- Utiliser seulement les geounits non assignées : Seuls les secteurs qui ne sont pas assignés à un territoire existant seront utilisés pour créer le nouveau territoire. Les territoires existants ne sont pas modifiés (incluant les territoires filtrés).
+	This action can also be performed by drag and drop with the mouse between the selected sectors on the map OR the selectors selected in the sectors table and a territory which can be on the map, the sectors table or the graphical view. The table row corresponding to the selection or the graphic of the selection cannot be targets for the drag and drop action. Furthermore, an assignment by drag and drop uses automatically all the sectors of the selection, including those already assigned to an existing territory.
 
-	Cette action peut aussi être effectuée par glisser déposer avec la souris DEPUIS les secteurs sélectionnés sur la carte ou via le tableau de secteurs VERS un territoire affiché sur la carte, une ligne du tableau de territoires ou une barre de la vue graphique.
+- Cancel the territory selection ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-033.jpg)
 
-- Annuler la sélection de territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-033.jpg)
+	The sectors contained in the selection are removed from the existing territories. If a selection overlaps several territories, the sectors are removed from all those territories. A confirmation message will appear before performing the action.
 
-	Les secteurs contenus dans la sélection sont soustraits des territoires auxquels ils appartiennent. Un message de validation s’affiche pour confirmation.
+### Cancel a redesign
 
-### Annuler une conception
+The following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-034.jpg), uniquely available as an action is about to be performed, allows canceling of the last redesign action of one or more territories. One can also perform the canceling by using the key combination CTRL-Z.
 
-Le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-034.jpg) permet l’annulation du ou des derniers territoires créés. On peut aussi effectuer cette action à l’aide de la combinaison de touches CTRL-Z.
+### Isochrony
 
-### Isochronie
-
-Les nouveaux territoires peuvent aussi être créés à partir de l’outil d’isochronie accessible depuis l’icône ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-035.jpg).
+The new territories can as well be created from an isochronic tool integrated to the Territory Management, and accessible by clicking on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-035.jpg) icon.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-036.png){:.img.img-responsive.img-center}
 
-L’outil d’isochronie calcule une ou plusieurs zones en fonction de différents critères. Ces zones sont alors intersectées avec les secteurs afin de former des territoires. Voici les paramètres à saisir :
+The isochrony tool calculates one or several zones according to different criteria. Those zones are then intersected with the sectors in order to form territories. The parameters to be entered are the following:
 
-- Placer un point : peut être fait manuellement en cliquant sur la carte à l’endroit souhaité. Si une adresse à été antérieurement recherchée, il est possible de placer le point à cet endroit.
+- Place a point. That can be done manually: clicking once with the mouse on the map is enough to place the point. If an address was previously searched, it is also possible to place the button exactly on it.
+- Method. There are three available methods:
+  - Iso-distance : is a simple geometrical calculation. A circle is calculated from a point and the radius is equal to the values indicated for each zone.
+  - Sectorization using drive time: these are the sectors accessible by car from the point placed and in the necessary time indicated for each zone
+  - Sectorization using drive distance: these are the sectors accessible by car from the indicated point to a distance smaller or equal to the values indicated for each zone.
+- Zones. The table allows to define the calculation zones. 
 
-- Méthode de calcul : trois méthodes sont disponibles :
+	By default, there are three zones. It is possible to add or extract using the buttons ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-037.jpg) and ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-038.jpg). One can change their color and name. This name and this color are then used to create the territory, and these parameters can be modified later on in TM. Finally, one has to specify the value for each zone.
 
-  - Isodistance : c’est un calcul géométrique simple. Les rayons des cercles ont les valeurs indiquées pour chaque zone.
+For the two iso-distance methods, this value is in kilometers. For the isochrony method, this value is in
+minutes.
 
-  - Sectorisation utilisant isochronie (temps de transport en voiture) : sont sélectionnés les secteurs accessibles en voiture dans le temps imparti à partir du point de départ indiqué
+- Use only not assigned sectors. If this box is checked, the territories are created only by using the sectors that do not belong to any territory. The existent territories are not modified. If it is not checked, all the sectors will be used. If they belong already to existing territories, they will be previously removed from those territories.
 
-  - Sectorisation utilisant isodistance en voiture : sont sélectionnés les secteurs accessibles en voiture à une distance égale ou inférieure aux valeurs indiquée à partir du point de départ indiqué
+Once all these parameters entered, the button "Simulate" will start a calculation without creating territories. The results are displayed on the map with a symbology slightly different then the existent territories (all sectors are visible and the borders are thicker). One can perform as many simulations as possible.
 
-- Zones : le tableau permet de définir la méthode utilisée pour calculer les zones.
-
-	Par défaut, il y a deux zones. Il est possible d’ajouter ou d’éliminer une zone à l’aide des ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-037.jpg) et ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-038.jpg). On peut modifier les couleurs et les noms. Ces noms et couleurs sont utilisés pour créer les territoires. Ces paramètres peuvent être modifiés par la suite. On doit spécifie une valeur pour chaque zone. Pour les deux méthodes d’isodistance les valeurs sont en kilomètres. Pour la méthode d’isochronie les valeurs sont en minutes.
-
-- Utiliser seulement des secteurs non assignés. Si cette case est cochée, les territoires sont créés en utilisant les secteurs qui n’appartiennent à aucun territoire. Les territoires existants ne sont pas modifiés. Si elle n’est pas cochée, tous les secteurs seront utilisés. S’ils appartiennent à des territoires existants, ils seront soustraits à ces territoires.
-
-Une fois les paramètres saisis, le bouton « Simuler » lance un calcul sans créer de territoire. Le résultat s’affiche sur la carte avec une symbologie différente des territoires existants (tous les secteurs sont visibles et les bordures sont plus épaisses). On peut effectuer autant de simulations que nécessaire.
-
-Les territoires sont effectivement créés après avoir cliqué sur le bouton « Valider ».
-
-
+As the result is satisfying, the territories are effectively created by clicking on the button "Validate".

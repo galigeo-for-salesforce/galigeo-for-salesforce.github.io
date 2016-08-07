@@ -1,96 +1,96 @@
 ---
 layout: sidebar
-title: Modes de visualisation
+title: Visualization Modes
 categories: documentation
 permalink: /visualisations-adv-en
 lang: en
 ref: visualisations-adv
 ---
 
-## Modes de visualisation
+## Visualization Modes
 
-### Carte
+### Map
 
-Les territoires sont représentés sur la carte dans la couleur qui leur a été assignée.
+The territories are represented on the map in the color assigned to them.
 
-### Tableaux/Graphiques
+### Tables/Graphics
 
-En bas à gauche de l’interface, les territoires sont représentés d’une manière tabulaire ou graphique. Un switch permet le basculement entre les deux vues.
+At the left hand side of the interface, the territories are represented in a tabular or a graphical manner. A switch allows the toggling of the views.
 
-- Vue tabulaire
+- Tabular view
 
-	Chaque ligne correspond à un territoire. La première ligne du tableau correspond toujours, même pour les nouveaux projets, à la sélection. La sélection est un territoire « virtuel ». Il est utilisé pour la création et modification des territoires. Plus de détails sur la sélection sont disponibles dans le chapitre sur la conception des territoires.
-
-	Ce tableau comprend les colonnes suivantes :
-
-	- Territoire : contient le nom, la couleur et le nombre de secteurs composant le territoire.
-	- Collaborateur : c’est le collaborateur affecté au territoire, s’il y a un. 
-	- Les colonnes suivantes correspondent aux indicateurs disponibles. Un indicateur est un champ numérique défini au niveau de secteur. Dans ce tableau les indicateurs sont agrégés pour chaque territoire. Dans l’entête des colonnes, un bouton permet de changer la fonction d’agrégation. Les fonctions suivantes sont disponibles : moyenne (average), somme (sum), minimum, maximum, nombre (number). Par défaut, la somme est sélectionnée.
-
-	Pour chaque territoire plusieurs actions sont disponibles dans la colonne « Territoire » :
-
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-020.png) : Ce bouton modifie la visibilité du territoire sur la carte
-
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-021.png) : Ce bouton effectue un zoom sur le territoire
-
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg) : Ce bouton supprime un territoire
-
-	En cliquant sur la couleur assignée au territoire, une fenêtre s’ouvre et permet la sélection d’une couleur pour le territoire
+	Each line corresponds to a territory. The first line of the table corresponds always, even for the new projects, to the selection. The selection is a "virtual" territory. It is necessary for the creation and modification of territories. More details about the selection will be given in the chapter about the territory design.
 	
-	Un double clic sur le nom de territoire permet de renommer le territoire.
-  
-  Dans la colonne « Collaborateur », il est possible d’assigner un collaborateur au territoire. La liste des collaborateurs disponibles est définie par l’administrateur du Territory Management. Une barre de recherche permet de filtrer les collaborateurs par nom. L’x rouge supprime l’affectation d’un collaborateur à un territoire.
+	This table has the following columns:
 
-- Graphiques
+	- Territory: it has the name, the color as well as the number of the sectors composing the territory. Different buttons, described below, are also available.
+	- Stakeholder: it is the stakeholder assigned to the territory, if there is one.
+	- The following columns correspond to the available indicators. An indicator is a numeric field defined at the sectors level. In this table the indicators are aggregated for each territory. In the column headers, a button allows to change the aggregate function. The following functions are available: average, sum, minimum, maximum, number. By default, the sum is selected.
 
-	Cette vue affiche, pour chaque territoire, les agrégats issus des indicateurs sous forme d’histogramme. La fonction d’agrégation retenu est celle qui est sélectionnée dans la vue tabulaire.
+	For each territory there are several actions available in the column "Territory":
 
-	Par défaut, tous les indicateurs sont simultanément affichés. La légende située à droite du graphique permet la sélection des indicateurs à afficher.
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-020.png): This button toggles the visibility of the territory on the map.
 
-	Lorsque la souris survole une barre diagramme, une infobulle s’affiche montrant l’indicateur, le territoire et la valeur à laquelle correspond la barre.
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-021.png): This button makes a zoom on the territory.
 
-	Sur l’axe des ordonnées le minimum et le maximum correspondent au minimum et maximum de tous les indicateurs sur tous les territoires. En conséquence, si les indicateurs sont affichés avec des unités différentes ou s’il y a des indicateurs avec des valeurs très éloignées, un problème d’échelle peut apparaître.
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg): This button deletes a territory.
 
-### Interactions
+	By clicking on the color assigned to the territory, a window will open allowing the selection of the color for the territory.
+	
+	A double click on the territory name allows the renaming of the territory.
 
-Les vues cartographiques, tabulaires et graphiques des territoires sont interconnectées. 
+	Also, in the "Stakeholder" column, it is possible to assign a stakeholder to a territory. The arrow allows the selection of a stakeholder from the list of ones available. These stakeholders have been defined by the Territory Management administrator. A search bar allows the filtering of the stakeholders by name. The red cross retracts the assignment of a stakeholder to a territory.
 
-Si on clique sur un territoire dans l’une de ces 3 vues, son apparence sera modifiée : il apparaît en surbrillance avec une bordure jaune sur la carte, un arrière-plan grisé apparaît sur la ligne du tableau correspondante et sous la forme d’une barre plus foncée dans le diagramme.
+- Graphics
+
+	This view displays for each territory the indicators aggregation in the form of a bar chart. The aggregation function corresponds to that selected in the table view.
+
+	By default, all the indicators are simultaneously displayed. The legend at the right hand side of the graphic allows the selection of the indicators to display.
+
+	When the mouse hovers over one of the bars from the chart, a tooltip is displayed showing the indicator, the territory and the value to which corresponds the bar
+
+	On the X axis, that corresponds to the value of the indicators, the minimum and the maximum correspond to the minimum and maximum of all the indicators on all the territories. Accordingly, if indicators are displayed which unit is different, or if there are indicators that have very different values, a problem of scale can appear.
+
+### Interaction
+
+The cartographic views, tabular and graphic, of the territories are connected. 
+
+Regardless of the view, if it is clicked on a territory, this one will be displayed in the 3 views: highlighted with a yellow border on the map, with a gray line background on the table, darker bar on the chart.
 
 ### Détails des secteurs
 
-Si on sélectionne un territoire, les détails des secteurs le composant sont affichés de deux façons différentes :
+As one selects a territory, the details of the sectors composing it are displayed in two different manners:
 
-- Sur la carte, les géométries des secteurs sont visibles
-- En bas à droite de l’interface, un tableau affiche le détail des attributs des différents secteurs.
+- On the map, the geometries of the sectors are visible
+- On the right hand side of the interface, a table displaying the attribute details of different sectors. We find the sector label, the different indicator values, and all other non-numerical fields defined.
 
-Ces deux affichages sont interconnectés. Si on clique sur un secteur sur la carte, celui- ci apparaît en surbrillance, dans le tableau le cadre de la ligne correspondante clignote et inversement.
+These two displaying manners are also connected. If one clicks on a sector on the map, that is highlighted on the table by a flashing frame, and if ones clicks on a sector on the table this will be highlighted on the map by a flashing sector.
 
-### Options d’affichage
+### Display options
 
-- Étiquettes
+- Labels
 
-	Les noms de territoires peuvent être affichés sur la carte utilisant le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-023.png).
+	The names of territories can be displayed on the map using the following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-023.png).
 
-- Filtres
+- Filters
 
-	Il est possible de filtrer des territoires visibles dans l’application. Il y a deux types de filtres :
+	It is possible to filter visible territories in the application. There are two types of filters:
 
-	- Filtre texte : il filtre les noms des collaborateurs affectés à un territoire. Le filtre est disponible dans la barre d’outils ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-024.png)
+	- Text filter: It filters after the name of the stakeholder assigned to the territory. The filter is available in the toolbar. ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-024.png) It keeps only the territories which name contains the string entered in the text field.
 
-  - Filtre d’étendue : il est actif lorsqu’on clique sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-025.png) de la barre d’outils. Il filtre les territoires pour n’afficher que les territoires visibles sur la carte au moment de l’activation.
+  - Extent filter. It is becomes active by the user of the following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-025.png) available in the toolbar. It filters the territories according to the actual extent of the map at the moment of its activation. Thus will be kept only the territories visible on the screen.
 
-### Couches de ponctuels
+### Points Details
 
-Si à la création du projet l’utilisateur a sélectionné une couche de ponctuels, elle apparaît sur la carte. Elle sera « clusterisée », c’est-à-dire les points proches du point de vue géographique sont regroupés afin de ne pas surcharger la carte.
+If at the creation of the project the user selected a layer of points, this one is then displayed on the map. It is “clustered”, i.e. the points that are close from the geographical point of view are regrouped in order not to overload the map.
 
-En bas à droite un bouton permet d’afficher les informations de la couche de ponctuels en lieu et place de celles des secteurs.
+Also, at the right hand side of the interface, there is a switch that allows the toggling from sectors to the point details.
 
-L’interface en mode « Ponctuel » est identique à celle du mode « Secteur » et il n’y a que les deux différences suivantes :
+The interface in mode “Point” is identical with the mode “Sector”, and there are only the following 2 differences:
 
-- Le tableau à droite : il affiche le détail des points qui sont affectés à un collaborateur pour un territoire donné
-- Le tableau à gauche : il affiche l’agrégation des attributs des points qui sont affectés à un collaborateur pour un territoire
+- The table at the right: it displays the details of points that are assigned to a territory
+- The table at the left: it displays the aggregation of attributes of points assigned to every territory
 
-Un point prend la couleur du territoire où il est situé si le propriétaire de l’objet est aussi déclaré comme un collaborateur sur ce territoire. Si un collaborateur est assigné à plusieurs territoires, alors les points prennent la couleur du premier territoire apparaissant dans le tableau.
+The assigning Point-Territory is done automatically. A point is assigned to a territory if its owner is also a stakeholder of the territory. If a stakeholder is assigned to more territories, then the points are assigned to the first found corresponding territory.
 
-Par défaut, les points apparaissent en gris.
+On the map, the points take the color of the territory to which they are assigned. If they are not assigned to any territory, then they are grayed out.

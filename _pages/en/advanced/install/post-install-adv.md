@@ -1,63 +1,63 @@
 ---
 layout: sidebar
-title: Post installation du package
+title: Package Post installation
 categories: documentation
 permalink: /post-install-advanced-en
 lang: en
 ref: post-install-advanced
 ---
 
-## Etapes de post-installation
+## Post-Installation steps
 
-Comme mentionné dans la [section d'installation](/install-advanced), ce package est une extension de l’application Galigeo Visit Planning.
+As mentioned in the [Install section](/install-advanced-en), this package is an extension of Galigeo for Salesforce Standard Edition.
 
-Plusieurs étapes sont nécessaires pour terminer cette installation :
+There severals steps to complete this installation:
 
-- Modifiez le package de base pour inclure les nouveaux onglets
-- Assigner des autorisations
+- Modify the base package to include the new tabs
+- Assign permissions
 
-### Modification du package de base
+### Base package modification
 
-Rendez-vous dans 
-**Configuration | Créer | Applications** et modifiez le **Galigeo Visit Planning** package.
+Go to **Setup | Create | Apps** 
+and edit the Galigeo for Salesforce Standard Edition package.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-047.png){:.img.img-responsive.img-center}
 
-L'Advanced édition contient trois onglets qui doivent être ajoutés à l’application Standard Edition (Galigeo). Ces onglets sont :
+The advanced edition contains three tabs that need to be added to the Standard Edition app. Those tabs are:
 
 - Galigeo Admin (Advanced)
 - Territory Design
 - Records Assignment
 
-Ajoutez ces onglets aux onglets déjà sélectionnés et cliquez sur « Enregistrer » :
+Add these tabs the selected tabs for the app and click "Save":
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-048.png){:.img.img-responsive.img-center}
 
-### Accorder l’accès à l’aide des ensembles d’autorisations
+### Give access using Permission Set
 
-Cette application étant une extension de Galigeo Standard édition, il est possible que l’accès soit déjà accordé.
+As this application is an extension of the Galigeo Standard Edition, it is probably already done.
 
-### Créer/Actualiser le profil d’utilisateur
+### Create/Update user profile
 
-En fonction de la configuration des règles de sécurité de votre organisation, les administrateurs Salesforce vont donner des autorisations particulières à un profil donné. 
+Depending on your organization settings and security rules, SalesForce administrators would give special rule to a given profile.
 
-Cette application a trois nouveaux onglets :
+This application has three new tabs:
 
-- **Galigeo Admin (Advanced)** : vous permet de gérer votre organisation : vous pouvez voir les types et le numéro de licence de Territory Design et vous pouvez gérer vos utilisateurs
-- **Territory Design** : vous permet de concevoir des territoires
-- **Records Assignment** : sur cet onglet, un utilisateur peut assigner en masse des enregistrements en fonction d’un propriétaire de territoire d’un projet de territoire.
+- **Galigeo Admin (Advanced)** : administrate your organization: see Territory Design licenses type and number, manage your users
+- **Territory Design** : allow a user to design territories
+- **Records Assignment** : in this tab, a user can do a mass records assignment according to a territory owner from a territory project.
 
-En fonction des actions que vous souhaitez rendre disponibles aux utilisateurs, il peut être nécessaire de ne pas donner aux utilisateurs l’accès aux onglets **Galigeo Admin (Advanced)** et **Territory Design**, mais uniquement à l’onglet **Records Assignment**.
+According to the several actions available in each tab, you may don't want an end user to acces to the **Galigeo Admin (Advanced)** and **Territory Design** tabs but only has access to the Records Assignment tab.
 
-Pour mettre ça en place, supposons que nous avons un profil « Galigeo utilisateur final ». Cliquez sur « Modifier ».
+To achieve this, suppose we already have a profile named "Galigeo end user". Click on "Edit".
 
-Allez à la section « Paramètres d’onglet personnalisés » et activez l’onglet « Records Assignment » pour ce profil :
+Go to the "Custom Tab Settings" section, and activate the "Records Assignment" tab for this profile:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-049.png){:.img.img-responsive.img-center}
 
-Et cliquez sur « Enregistrer ».
+and click "Save".
 
-Plus généralement, pour chaque page VisualForce voici la liste des classes Apex utilisées et l’onglet où chacune est incluse :
+More generally, for each VisualForce Page, here is the list of the Apex Classes used and the Tab where it is included:
 
 {:.table.table-bordered.table-condensed.table-small}
 | Visualforce Page | Apex Class | Custom Object | Tab Label | Tab Name |
@@ -67,5 +67,5 @@ Plus généralement, pour chaque page VisualForce voici la liste des classes Ape
 | Tm_app				 | TMMapController |  | Territory Design | TM_App |
 | TM_Assignment		| TMAssignmentController <br> TMBatchAssignment |  | Records Assignment | Territory_Assignment |
 
-Merci de vous referer à ce tableau lorsque vous configurez la sécurité d’accès pour votre profil.
+Please refer to this table when setting security access for your profile.
 

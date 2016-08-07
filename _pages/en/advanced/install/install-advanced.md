@@ -1,88 +1,85 @@
 ---
 layout: sidebar
-title: Installation du package
+title: Package Installation
 categories: documentation
 permalink: /install-advanced-en
 lang: en
 ref: install-advanced
 ---
 
-## Installation du package
+## Package Installation
 
-### Démarrer l’installation
+### Start Installation
 
-Galigeo Advanced Edition est un package d’extension pour Galigeo Visit Planning. Lors de l’installation, le processus vérifie si le package de base est installé avant de démarrer l’installation.
+The Galigeo Advanced Edition is an extension package of Galigeo Standard Edition. At the installation, the process check if the base package is installed before starting the installation.
 
-Rendez-vous sur la [page Galigeo de l’AppExchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B4tg3EAB) de cette application.
+Go to the [Galigeo for Salesforce Advanced Edition listing page](https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B4tg3EAB)
+
+To start the package installation, click **"Get It Now"** on the right.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-014.jpg){:.img.img-responsive.img-center}
 
-Pour démarrer l’installation du package, cliquez sur **« Get It Now »** sur la droite.
+### Sign In
 
-### Vous connecter
-
-Connectez-vous en utilisant vos identifiants Salesforce ou en tant que visiteur.
+Sign in using your Salesforce credentials or log in as a guest.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-017.png){:.img.img-responsive.img-center}
 
-### Méthode d'installation
+### Installation method
 
-Choisissez si vous voulez installer l’application dans le système de production de votre organisation ou dans un système Sandbox.
+Choose if you want to install the application in your Production organization or in a Sandbox system.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-020.png){:.img.img-responsive.img-center}
 
-### Accepter les conditions d’utilisation
+### Agree to Terms and conditions
 
-Une fenêtre affiche le détail des informations de la version de l’application Galigeo prête à être installée ainsi que le compte sur lequel elle sera installée.
+It is showing the details about the version of Galigeo for Salesforce Advanced Edition being installed and the account it will be installed on.
 
-Confirmez en cochant la case « I have read and agree to the terms and conditions » et cliquez sur le bouton « Confirm and Install! ».
-
-La version du package est destinée à évoluer au fur et à mesure des améliorations.
+Confirm by checking the box **"I have read and agree to the terms and conditions"**, and then click **"Confirm and Install!"**.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-023.png){:.img.img-responsive.img-center}
 
-### Détails d’installation du package
+### Package Installation Details
 
-Passez en revue les détails de l’installation du package et cliquez sur « Continue ».
+Review the package installation details and then click on "Continue".
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-028.png){:.img.img-responsive.img-center}
 
-### Acceptez l’accès de sites Web tiers
+### Approve Third-Party Access
 
-Ce package a besoin d’accéder des services Web tiers pour interroger des ressources REST.
-
-1. Cochez la case **« Yes, grant access to these third-party web sites »**
-2. Cliquez sur **« Continue »**.
+This package need to access a Third-Party Web Service to consume REST resources.
+1. Select the checkbox **"Yes, grant access to these third-party web sites"**
+2. then click **"Continue"**.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-031.png){:.img.img-responsive.img-center}
 
-### Acceptez l’accès Package API
+### Approve Package API Access
 
-1. Passez en revue les autorisations listées sur la page
-2. Cliquez sur « Next » pour continuer
+1. Review the permissions listed on the page
+2. Click "Next" to continue
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-034.png){:.img.img-responsive.img-center}
 
-### Niveau de sécurité
+### Security Level
 
-1. Sélectionnez la configuration de sécurité désirée
-2. Cliquez sur « Next » pour continuer
+1. Select your desired security settings
+2. click "Next" to continue
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-037.png){:.img.img-responsive.img-center}
 
-### Installer le package
+### Install Package
 
-Enfin, cliquez sur le bouton **« Install »** pour démarrer l’installation de Galigeo Advanced Edition.
+Finally, click the **"Install"** button to start the SellWhere Visit Planning installation.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-040.png){:.img.img-responsive.img-center}
 
-Quelques minutes sont nécessaires pour installer le package dans votre organisation.
+It takes a few minutes to install the package on your organization.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-043.png){:.img.img-responsive.img-center}
 
-### Vérifier les packages installés
+### Check Installed Packages
 
-A réception de l’e-mail de confirmation, afin de vérifier si le package a été installé, rendez-vous sur : 
-**Configuration | Configuration de l’application | Packages installés**
+Once you received the confirmation email, in order to check if the package is installed, go to:
+**Setup | App Setup | Installed Packages**
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-045.jpg){:.img.img-responsive.img-center}

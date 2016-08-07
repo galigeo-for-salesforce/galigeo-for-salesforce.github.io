@@ -2,14 +2,21 @@
 <div class="push"></div>
 </section>
 
+{% if page.lang == 'en' %}
+    {% assign links = site.data.translation.footer.en %}
+{% else %}
+    {% assign links = site.data.translation.footer.fr %}
+
+{% endif %}
+
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <ul class="list-inline m-t-10">
-                        <li><a href="http://www.galigeo.com/fr/nos-produits/territory-management-products/galigeo-sell-where/"> Informations produit</a></li>
-                        <li> - </li>
-                        <li><a href="http://www.galigeo.com/fr/societe/a-propos-de-galigeo/"> A propos de Galigeo</a></li>
+                        {% for link in links %}
+                        <li><a href="{{link.url}}"> {{link.text}}</a></li>
+                        {% endfor %}
                     </ul>
                     <p class="text-muted small">{{ site.data.global.footer_text }}</p>
                 </div>

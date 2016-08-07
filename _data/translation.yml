@@ -1,0 +1,17 @@
+sidebar:
+  en:
+    install_guide: "Installation Guide"
+    admin_guide: "Admin Guide"
+    user_guide: "User Guide"
+  fr:
+    install_guide: "Guide d\'installation"
+    admin_guide: "Guide Admnistrateur"
+    user_guide: "Guide utilisateur"
+
+footer:
+  en:
+    - {url: "http://www.galigeo.com/products-overview/territory-management-products/galigeo-salesforce/", text: "Product Page"}
+    - {url: "http://www.galigeo.com/company/about-galigeo/", text: "About Galigeo"}
+  fr:
+    - {url: "http://www.galigeo.com/fr/nos-produits/territory-management-products/galigeo-sell-where/", text: "Page produit"}
+    - {url: "http://www.galigeo.com/fr/societe/a-propos-de-galigeo/", text: "A propos de Galigeo"}

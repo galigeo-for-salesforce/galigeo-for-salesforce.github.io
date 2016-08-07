@@ -1,8 +1,4 @@
 
-<div class="menu">
-<h4>STANDARD EDITION</h4>
-<h5>Guide d'installation</h5>
-
 {% if page.lang == 'en' %}
 	{% assign links_install = site.data.sidebar.en.std.install %}
 	{% assign links_admin = site.data.sidebar.en.std.admin %}
@@ -10,6 +6,11 @@
 	{% assign links_adv_install = site.data.sidebar.en.advanced.install %}
 	{% assign links_adv_admin = site.data.sidebar.en.advanced.admin %}
 	{% assign links_adv_user = site.data.sidebar.en.advanced.user %}
+
+	{% assign user_guide = site.data.translation.sidebar.en.user_guide %}
+	{% assign admin_guide = site.data.translation.sidebar.en.admin_guide %}
+	{% assign install_guide = site.data.translation.sidebar.en.install_guide %}
+
 {% else %}
 	{% assign links_install = site.data.sidebar.fr.std.install %}
 	{% assign links_admin = site.data.sidebar.fr.std.admin %}
@@ -17,9 +18,16 @@
 	{% assign links_adv_install = site.data.sidebar.fr.advanced.install %}
 	{% assign links_adv_admin = site.data.sidebar.fr.advanced.admin %}
 	{% assign links_adv_user = site.data.sidebar.fr.advanced.user %}
+
+	{% assign user_guide = site.data.translation.sidebar.fr.user_guide %}
+	{% assign admin_guide = site.data.translation.sidebar.fr.admin_guide %}
+	{% assign install_guide = site.data.translation.sidebar.fr.install_guide %}
+
 {% endif %}
 
-
+<div class="menu">
+<h4>STANDARD EDITION</h4>
+<h5>{{install_guide}}</h5>
 <ul>
 	{% for item in links_install %}
 	<li>
@@ -33,7 +41,7 @@
 	{% endfor %}
 </ul>
 
-<h5>Guide Administrateur</h5>
+<h5>{{admin_guide}}</h5>
 <ul>
 	{% for item in links_admin %}
 	<li>
@@ -47,7 +55,7 @@
 	{% endfor %}
 </ul>
 
-<h5>Guide Utilisateur</h5>
+<h5>{{user_guide}}</h5>
 <ul>
 	{% for item in links_user %}
 	<li>
@@ -62,7 +70,7 @@
 </ul>
 
 <h4>ADVANCED EDITION</h4>
-<h5>Guide d'installation</h5>
+<h5>{{install_guide}}</h5>
 <ul>
 	{% for item in links_adv_install %}
 	<li>
@@ -75,7 +83,7 @@
 	</li>
 	{% endfor %}
 </ul>
-<h5>Guide Administrateur</h5>
+<h5>{{admin_guide}}</h5>
 <ul>
 	{% for item in links_adv_admin %}
 	<li>
@@ -89,7 +97,7 @@
 	{% endfor %}
 </ul>
 
-<h5>Guide Utilisateur</h5>
+<h5>{{user_guide}}</h5>
 <ul>
 	{% for item in links_adv_user %}
 	<li>

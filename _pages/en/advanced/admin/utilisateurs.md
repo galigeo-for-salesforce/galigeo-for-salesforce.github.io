@@ -1,49 +1,49 @@
 ---
 layout: sidebar
-title: Gestion des utilisateurs dans Galigeo Territory Management
+title: User management in Galigeo Territory Management
 categories: documentation
 permalink: /users-en
 lang: en
 ref: utilisateurs
 ---
 
-## Gestion des utilisateurs
+## User management
 
-### Rôles
+### TM Role
 
-Trois profils d'utilisateur sont disponibles :
+The application used three different roles:
 
-- TM_Admin: ce rôle peut créer un projet, concevoir des territoires, affecter un territoire à un utilisateur (quel que soit son rôle dans l'application). Ce rôle peut voir tous les projets de l'organisation.
-- TM_Owner: ce rôle a les mêmes droits que le rôle TM_Admin, à l'exception du fait qu’il ne voit que ses propres projets.
-- TM_Stakeholder: n’a aucun droit. Ce rôle est utilisé pour déclarer un utilisateur qu'un Designer peut assigner à un territoire.
+- TM_Admin: this role can create a project, design territories, assign a territory to a user (whatever this user role). This role can see all the Territory Management Project for an organization.
+- TM_Owner: this role has the same capabilities than the TM_Admin role, except that it sees only its owned project.
+- TM_Stakeholder: has no right. This role is used to declared a user that a Designer can assign to a territory.
 
-### Ajouter un utilisateur
+### Add an user
 
-Pour ajouter un utilisateur, cliquez sur le bouton « Add a user » :
+To add a user to the Full Edition, click on the "Add a user" button:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-022.png){:.img.img-responsive.img-center}
 
-Cliquez sur l’icône de recherche pour trouver un utilisateur dans votre organisation :
+Click on the lookup icon to find a user from your org:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-025.png){:.img.img-responsive.img-center}
 
-Dans la fenêtre de recherche de Salesforce, sélectionnez un utilisateur que vous désirez ajouter :
+The standard Salesforce Lookup window is popup. Click or search for a user that you want to add:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-028.png){:.img.img-responsive.img-center}
 
-Sélectionnez un rôle (ce est rôle spécifique à l’application, il n'a pas de rappport avec les rôles Salesforce) :
+Select a role (this is a specific role for the application, not the same as a Salesforce role).
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-031.png){:.img.img-responsive.img-center}
 
-Cliquez sur « Save ».
-En cas d'erreur, celle-ci s’affiche. Sinon, vous êtes dirigé vers la page d’administration.
+And click "Save".
+If there is any error, the information is displayed. Otherwise, the admin is forwarded to the Admin page.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-034.png){:.img.img-responsive.img-center}
 
-Un nouvel utilisateur a été déclaré en tant que Designer (avec le rôle TM_Admin).
+There is now a new user declared as a Designer (with role TM_Admin). As you can see, the used licenses has been incremented to 1.
 
-Dans la colonne « Action », l’administrateur peut :
+In the action column, admin can:
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-035.png) Modifier l’utilisateur et seulement changer son rôle 
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-035.png) Edit the user and change its role only
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-036.png) Supprimer l’utilisateur de l’application TM Designer
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-036.png) Remove the user to the TM Designer App

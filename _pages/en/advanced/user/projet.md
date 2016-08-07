@@ -1,101 +1,108 @@
 ---
 layout: sidebar
-title: Projets de Territory Management
+title: Territory Management Projects
 categories: documentation
 permalink: /project-adv-en
 lang: en
 ref: projet-adv
 ---
 
-## Gestion des projets
+## Project Management
 
-### Créer un projet
+### New project
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-005.jpg){:.img.img-responsive.img-center}
 
 
-La création d’un projet se fait en cliquant sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-006.png)
+The creation of a project is started by pressing the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-006.png)
 
-La fenêtre de création de projet s’ouvre et offre deux options :
+The project creation window is opening and is offering 2 solutions:
 
-- Démarrer à partir d’un Projet vierge
+- Start from an empty project
 
-	Une couche de secteurs sur laquelle se basera le projet doit être sélectionnée. Pour rappel, un projet est basé sur une unique couche de secteurs. Il est également possible de sélectionner une couche de ponctuels pour la visionner dans le projet.
+	To do that, a sector layer has to be selected on which the project will be built. As a reminder, a project is based on only a sector layer. It is possible as well optionally to select a layer of points to view in the project.
 
-	Les couches de points sont définies dans le module d’administration (onglet Galigeo Admin).
+	The available points layers are defined in the administration module.
 
-- Créer une copie d’un projet existant.
+- Create a copy of an existing project 
+	
+	The selected project is then copied and the user begins to work on this copy. For this option, a search bar allows to filter the list of available projects by the name
 
-	Une barre de recherche permet de filtrer par nom la liste des projets disponibles.
+Once the form is completed, a window asking for the name of the new project will appear. Note that it is not possible to give the new project the name of an already existing one. Otherwise, an error message will appear.
 
-	Pour terminer la création du projet, il faut saisir un nom dans la nouvelle fenêtre qui apparaît. A noter qu’il n’est pas possible de donner au nouveau projet le nom d’un projet déjà existant. Dans ce cas, un message d’erreur s’affiche.
-
-### Ouvrir/Supprimer un projet
+### Open/Delete a project
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-007.png){:.img.img-responsive.img-center}
 
-L’ouverture d’un projet se fait à l’aide du bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-008.png)
+The opening of a project is done using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-008.png)
 
-La liste des projets disponibles s’affiche, une barre de recherche permet de filtrer les projets par nom.
+The list of projects available to the user is displayed. A search bar allows to filter the list by
+the project name.
 
-Dans cette fenêtre, on peut également supprimer un projet à l’aide du bouton  ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-009.png).
+Also in this window one can delete a project using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-009.png)
 
-### Importer un projet
+### Import a project
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-010.jpg){:.img.img-responsive.img-center}
 
-Il est possible de créer un projet à partir d’un fichier CSV ou XLS. Le fichier doit contenir une liste de correspondances secteurs/territoires. L’import du fichier se fait à l’aide du bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-011.png).
+It is possible to create a project from a CSV or XLS file. The file has to contain a list of assignment of sectors/territories. The import of the file is done with the help of the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-011.png).
  
-Pour les fichiers CSV, les délimiteurs acceptés sont « ; » ou « , ». Attention, le format XLSX n’est pas supporté. Si le fichier sélectionné est valide, le message suivant apparaît : ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-012.png)
+In a CSV, the accepted delimiters are ";" or ",". Attention, the XLSX format is not accepted. If the selected file is valid, the following message will appear: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-012.png)
 
-Ensuite, plusieurs informations doivent être renseignées :
+Afterwards there are several fields that have to be entered:
 
-- Indiquer la colonne contenant les identifiants de secteurs (code INSEE pour les communes, codes postaux, etc.) - obligatoire
-- Indiquer la colonne contenant les noms de territoires auxquels appartiennent les secteurs - obligatoire
-- Indiquer la colonne contenant les noms des collaborateurs assignés aux territoires - facultatif
-- Indiquer le nom du projet – obligatoire
-- Indiquer la couche que le secteur utilise. Cette couche doit correspondre aux secteurs contenus dans le fichier – obligatoire
+- Indicate the column containing the identifier of sectors (code INSEE for the commons, postal codes, etc.) - mandatory
+- Indicate the column containing the name of territory to which belongs the sector - mandatory
+- Indicate the column containing the name of the collaborator assigned to the territory - optional
+- Indicate the project name - mandatory
+- Indicate the layer that the sector used. Of course, this layer has to correspond to the type of sector contained in the file - mandatory
 
-### Fusionner des projets
+### Merge projects
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-013.png){:.img.img-responsive.img-center}
 
-Il est possible de fusionner deux projets qui partagent la même couche de secteurs, c’est-à-dire de copier le contenu d’un projet (le projet source) vers un autre projet (le projet cible). 
+It is possible to merge two projects that share the same layer of sectors, i.e. to copy the content of a project (the source project) to another project (the target projects). 
 
-Pour ce faire, dans la liste des projets, l’utilisateur doit cliquer sur la flèche située à droite du projet cible et puis sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-014.png)
+In order to do that, one has to click on the arrow at the right side of the target project, then click on the following button: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-014.png)
 
-Dans la fenêtre qui suit, il faut sélectionner le projet source et valider la sélection. La liste des projets affichés ne contient que les projets compatibles qui partagent la même couche de secteurs que le projet cible.
+In the following window, it is enough to select the source project and to validate. To keep in mind that the projects list contains only compatible projects, i.e. projects that share the same layer as the target project.
 
-Pour que la fusion se fasse correctement, il faut qu’il n’y ait pas d’ambiguïté entre les deux projets :
+In order that the merge works, it is necessary to avoid ambiguities between the two projects:
 
-- Les territoires des deux projets ne doivent pas se chevaucher (du point de vue géographique)
-- Les territoires des deux projets ne doivent pas avoir de noms identiques.
+- The territories of the two projects have to not overlay (from the geographical point of view)
+- The territories of the two projects do not have common names.
 
-### Activer un projet
+### Reorder layer
 
-Pour modifier un projet, il faut cliquer sur la flèche à droite du projet puis sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-015.png).
+In the bottom right of the projects list panel, the following button   allows user to reorder layers. This ensures an optimum visibility of the map between the Territory Management’s data and the possible added business data. Concretely, this reorders the polygons layers under the lines layers, themselves under the points layers. No reorder is done within layers of the same type.
 
-Le projet destiné à être modifié s’affiche dans la fenêtre du bas. Le titre du projet devenu actif passe en vert dans la liste de projets.
+### Activate project
 
-### Enregistrer un projet
+In order to edit a project, one has to click on the arrow down at the right hand side of the project, and then click on the following button: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-015.png).
 
-L’enregistrement d’un projet se fait à l’aide du bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-016.png) ou à l’aide de la combinaison de touches Ctrl-S.
+A project that is about to be edited will display then in the window below. The project about to be edited is displayed highlighted in the projects list.
 
-Attention, si, au même moment, une autre personne modifie le projet, il n’est pas possible de l’enregistrer. Lorsque c’est le cas, l’icône d’enregistrement s'affiche comme ceci : ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-017.png).
 
-Attention, si le navigateur se ferme ou si la page est rechargée, les modifications seront perdues. Aussi pensez à sauvegarder régulièrement votre projet.
+### Save a project
 
-### Exporter un projet
+The saving of a project is done using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-016.png) or by using the key combination Ctrl-S.
 
-L’exportation d’un projet se fait à l’aide du bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-018.png)
+Attention, if the project is about to be edited by another user, then it is not possible to
+save it. In this case, the saving icon is grayed out and is displayed differently: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-017.png).
 
-Une fenêtre s’ouvre et permet de choisir entre deux options d’exportation possibles :
+Attention, if the Internet browser is closed or the page is changed, the application does not check if the project was previously saved, and the changes will be lost.
+
+### Export a project
+
+The exportation of a project is done using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-018.png)
+
+A window opens and allows to choose between two possible exportation options:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-019.jpg){:.img.img-responsive.img-center}
 
-- Un shapefile des territoires. La géométrie des territoires et leurs attributs (nom du territoire, collaborateur, indicateurs) sont exportés en tant shapefile. Seule la couleur des territoires n’est pas exportée.
+- A shapefile of the territories. The geometry of the territories is exported to a shapefile as well as their attributes: name, representative and aggregate indicators. The color of the territories is not exported.
 
-- Un fichier CSV. Chaque ligne correspond à un secteur. Tous les secteurs assignés à un territoire dans le projet sont exportés. Chaque ligne contient toutes les informations disponibles sur ce secteur (l’équivalent du tableau de secteurs situé en bas à droite de l’interface).
+- A CSV file of the assignments of the sector. A CSV is generated, and each line corresponds to a sector. All the sectors assigned to a territory in the project are exported. Every line contains all the available information on that sector (the equivalent of the sector table at the right hand side of the application). It is also added the name of the territory to which the sector belongs as well as the representative assigned to the territory.
 
-- À noter que seuls les territoires non filtrés sont pris en compte lors de l’exportation (voir la section [« Visualisations »](/visualisations-adv) pour plus d’informations).
+- To be taken in the consideration is the fact that only the territories that are not filtered are exported for these two types of export (see chapter [« Visualisations »](/visualisations-adv-en) for more information).
 
