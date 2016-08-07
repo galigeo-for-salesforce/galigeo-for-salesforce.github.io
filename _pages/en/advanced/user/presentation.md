@@ -1,39 +1,39 @@
 ---
 layout: sidebar
-title: Présentation application Territory Management
+title: Introduction to the Territory Management App
 categories: documentation
 permalink: /introduction-adv-en
 lang: en
 ref: presentation-adv
 ---
 
-## Définitions
+## Definitions
 
-### Territoire
+### Territory
 
-Un territoire est une zone géographique contenant un ensemble de secteurs. Un territoire peut être affecté à un collaborateur.
+A territory is a geographical area containing a set of sectors. A territory can be assigned to a stakeholder.
 
-### Secteur
+### Sector
 
-Un secteur est une entité géographique. C’est l’unité de base d’un territoire. Un projet de Territory Design repose sur une couche de secteurs. Voici quelques exemples de couches de secteurs : les communes ou les IRIS en France, les codes postaux ou les counties aux Etats- Unis etc.
+A sector is a small geographical entity. It is the building stone of a territory. A Territory Design project is based on a layer of sectors, i.e. a contiguous set of sectors. Here are some examples of sector layers: the commons or the IRIS indicators in France, the zip codes or the counties in the US, etc.
 
-### Collaborateur
+### Stakeholder
 
-Un collaborateur, au sens du Territory Management, est une personne physique ou une entité qui peut être affectée à un territoire. Les collaborateurs sont ajoutés par l’administrateur de l’application.
+A stakeholder, in the sense of Territory Management, is a physical person or an entity who can be assigned to a territory. The representatives are defined by the application administrator.
 
-## Interface
+## User Interface
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-004.jpg){:.img.img-responsive.img-center}
 
-L’interface générale du Territory Management se présente comme ci-dessus :
+The general interface of Territory Management looks like in the above figure and has the following functionalities:
 
-1. Liste des projets
-2. Vue cartographique
-3. Barre d’outils
-4. Vue des territoires (tabulaire ou graphique)
-5. Bouton pour basculer entre vue tabulaire et graphique
-6. Vue des secteurs
+1. Projects
+1. Map view
+2. Toolbar
+3. Territory view (table view or graph)
+4. Button for toggling the type of view
+5. Sectors view
 
-La barre horizontale verte permet de redimensionner la fenêtre du bas ou de la cacher en cliquant sur le bouton du milieu.
+The green horizontal bar allows to resize the application, or to hide it if the button in the middle of it is pressed.
 
-La barre verticale placée entre les deux tableaux, permet de modifier la taille des vues territoires et secteurs.
+The vertical bar placed between the two tables, modifies the size of the territory and sector view.

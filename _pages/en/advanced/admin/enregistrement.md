@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: Enregistrement de l'application
+title: Register the app
 categories: documentation
 permalink: /register-en
 lang: en
@@ -9,28 +9,26 @@ ref: enregistrement
 
 ## Introduction
 
-L’administration de Galigeo for Salesforce Advanced Édition se fait dans l’onglet « Galigeo Admin (full) ».
+The administration of the Galigeo for Salesforce Advanced Edition app is done from the « Galigeo Admin (advanced) » tab.
 
-La page contient deux onglets :
+The page contains two tabs:
 
-1. Organisation : permet à l’administrateur d’enregistrer/désenregistrer son organisation dans l’application Territory Management Designer (TM Designer App), hébergée sur Heroku, et de déclarer des utilisateurs avec leurs rôles associés à l’application TM Designer.
+1. Organization: allows the admin the to register/unregister its org to the Territory Management Designer App (TM Designer App) hosted on Heroku and declare users with associated roles to the TM Designer App.
+2. Sectors: from here, the admin can manage (Create/refresh or delete) the base sector used in the TM Designer App populated with Salesforce metrics.
 
-2. Secteurs : A partir d’ici, l’administrateur peut gérer (créer/rafraichir ou supprimer) des secteurs de base utilisés dan l’application TM Designer, peuplée avec des métriques Salesforce.
+## Register your organization
 
+The first thing you need to do is to register your organization in the Territory Management App database. To do this, select the "Galigeo" application and click on the "Galigeo Admin (advanced)" tab and activate the tab "Organization" if it is not the case.
 
-## Enregistrer votre organisation
-
-La première chose à faire est d’enregistrer votre organisation dans la base de données de l’application Territory Management. Pour cela, sélectionnez l’application « Galigeo for Salesforce », cliquez sur l’onglet « Galigeo Admin (full) » et activez l’onglet « Organisation » s’il n’est pas activé.
-
-Vous devriez voir l’écran ci-dessous, qui mentionne que votre organisation n’est pas encore enregistrée.
+You should have the following screen with the information that you organization is not yet registered.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-016.png){:.img.img-responsive.img-center}
 
-Cliquez sur le bouton « Register org ». Après avoir effectué la configuration, l’écran suivant apparaît :
+Click the "Register org" button. Once everything has been set up, the screen is refreshed and you may see the following screenshot:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-019.png){:.img.img-responsive.img-center}
 
-Cette page est divisée en deux sections :
+This page is divided in two section:
 
-- Informations sur votre organisation avec les licences utilisées par type. Par défaut, lorsqu’une organisation est enregistrée, il y a deux licences Designer et deux licences Stakeholder. Un Designer a un rôle TM_Admin ou un rôle TM_Owner. Un Stakeholder a le rôle TM_Stakeholder.
-- Un utilisateur doit faire partie de cette liste pour utiliser l’application.
+- Informations about your organization with the of licenses used by type. By default, when an organization is registered, there are 2 Designer licenses and 2 stakeholder licenses. A Designer is either a TM_Admin role or a TM_Owner role. A Stakeholder has the role TM_Stakeholder.
+- The list of the user allow to use the application.

@@ -1,85 +1,84 @@
 ---
 layout: sidebar
-title: Sectorisation à partir de vos données Salesforce
+title: Manage sectors
 categories: documentation
 permalink: /sectors-en
 lang: en
 ref: secteurs
 ---
 
-## Secteurs
+## Manage sectors
 
-Dans l’onglet « Galigeo Admin (full) » cliquez sur « Sectors » :
+In the "Galigeo Admin (advanced)" tab, click on "Sectors":
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-039.png){:.img.img-responsive.img-center}
 
-Cet onglet présente la liste des secteurs enregistrés. L’administrateur peut en créer, les modifier, les rafraîchir ou les supprimer.
-Un secteur correspond à l’unité géographique de base (par exemple : les codes postaux (ZIP) aux Etats-Unis) utilisée pour construire des territoires.
+This component presents the list of declared custom sectors and admin can create, refresh or delete them.
+A sector is the based geographical unit (for example: the zipcode in the USA) used to build territories.
 
-### Créer un secteur
+### Create a sector
 
-Nous nous proposons ici de construire un secteur basé sur les métriques de l’objet Compte et les cartographier (ou les joindre) au ZipCode géographique.
+We propose here to build a sector based on metrics from the Account object and map (or join) them on the geographic ZipCode.
 
-Pour créer un secteur, cliquez sur l’icône ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-040.png) pour accéder à la page de création.
+To create a sector, click on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-040.png) icon to be forwarded to the creation page.
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Définir les propriétés du secteur
+#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Define sector properties
 
-Donnez un nom à votre secteur et choisissez dans la liste la géométrie de base utilisée pour joindre les métriques Salesforce. Choisissons ici « zipcodes ».
+Give a name to your sector and choose from the list the base geometry used to join the salesforce metrics. Here let's choose "zipcodes".
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-045.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les métriques
+#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Define metrics
 
-Sélectionnez un objet Salesforce dans la liste d’objets source. La liste affiche des objets custom et standard comme Compte, Contact, Piste et Opportunité (objets standard avec le champ zipcode). 
+Select a Salesforce object in the source object list. The list displays Custom object and Standard object like Account, Contact, Lead and Opportunity (standard objects with zipcode field). 
 
-Choisissons l’objet Compte :
+Let choose the Account Object:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-050.png){:.img.img-responsive.img-center}
 
-Une fois l'objet source sélectionné, la liste des champs s’actualise. Chaque champ s’affiche avec son étiquette et son nom :
+Once a source object selected, the fields list is updated. Each field is displayed with its label and its name:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-053.png){:.img.img-responsive.img-center}
 
-Sélectionnons « Code postal de l’adresse de facturation », « Employés » et « Chiffre d’affaires annuel » puis cliquons sur « Ajouter ».
+Let select "Billing Zip/Postal Code", "Employees" and "Annual Revenue" and then click "Add".
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-054.jpg){:.img.img-responsive.img-center}
 
-Trois champs ont été ajoutés aux « Champs sélectionnés ».
 
-Afin d’éviter de dépasser les limites du gouverneur (par exemple le nombre de lignes), il est possible de définir une clause WHERE en utilisant la syntaxe SOQL (sans le mot cle « WHERE »). 
+The selected fields now contains those three fields.
 
-Sélectionnons uniquement les Comptes dont le Chiffre d’affaires annuel est supérieur à 1000. (Pour plus de détail sur les clauses WHERE SOQL, voir [Condition Expression Syntax](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_conditionexpression.htm)). 
+In order to limit the reach of Governors Limits (for example the number of rows), it's possible to define the content of a where clause using the SOQL syntax (without the keyword "WHERE"). 
 
-Cette clause WHERE est néanmoins facultative.
+Let's choose to select only Accounts with Annual Revenue greater than 1000. (For more details about SOQL WHERE Clauses, see [Condition Expression Syntax](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_conditionexpression.htm)). 
+
+The WHERE clause is optional.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-057.png){:.img.img-responsive.img-center}
 
-Afin d’agréger le résultat par code postal, sélectionnons dans la liste déroulante « Group by » le champ « Code postal de l’adresse de facturation » :
+To be able to aggregate result on zipcodes, select in the list right to the "Group by" the field "Billing Zip/Postal Code":
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-058.png){:.img.img-responsive.img-center}
 
-La liste des champs sélectionnés s’actualise :
+Once a group by field is chosen, the selected fields list is update:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-059.png){:.img.img-responsive.img-center}
 
-La liste des champs se présente sous la forme d'un tableau avec deux colonnes :
+The fields list is presented in a table format with four columns:
 
-- Actions :
+- Actions:
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-071.png) Supprimer un champ de la liste
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-071.png) Remove a field from the list
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-061.png) Déplacer un champ vers le haut
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-061.png) Move the field up
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-062.png) Déplacer un champ vers le bas
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-062.png) Move the field down
 
+- Aggregate function: as we use a group by field, it is necessary to define an aggregate function for all field different then the field used to group with.
+	Available aggregate functions are: Avg, Count, Max, Min, Sum. (see [Salesforce SOQL Aggregate functions](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_agg_functions.htm))
+- Field label: this column is automatically filled with the field label and cannot be modified
+- Field alias: allows to modify the alias in the query result.
 
-- Fonctions d’agrégation : il est nécessaire de définir une fonction d’agrégation pour tous les champs excepté pour celui utilisé pour faire la joiture ( "Code postal de l’adresse de facturation" dans notre exemple).
-
-	Les fonctions d’agrégation disponibles : Avg, Count, Max, Min, Sum. (voir [Salesforce SOQL Aggregate functions](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_agg_functions.htm))
-- Étiquette de champ : cette colonne est remplie automatiquement avec les étiquettes de champ et ne peut pas être modifiée
-- Alias de champ : permet de modifier l’alias du résultat de requête et de présenter des noms de champs plus faciles à lire pour les utilisateurs.
-
-La requête générée sera :
+The generated query will be:
 
 ```sql
 SELECT BillingPostalCode zcode,SUM(NumberOfEmployees) NbEmp,AVG(AnnualRevenue) AvgRevenue
@@ -89,37 +88,34 @@ GROUP BY BillingPostalCode
 ```
 
 
-Cliquez sur le bouton « Test » dans la section « Sample Result » pour avoir un aperçu.
+Click the "Test" button in the "Sample Result" section to have a preview.
 
-Si le nombre de lignes (sans groupage par champ) est supérieur à 50.000, un message sera affiché et l’utilisateur sera invité à modifier la clause WHERE pour avoir une requête plus sélective.
+If the number of rows (without grouping by the field) is greater than 50000, a message is displayed and user is invited to modify the WHERE clause to have a more selective query.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-065.png){:.img.img-responsive.img-center}
 
-Cliquez sur le bouton « Save » pour enregistrer votre secteur et retourner à la page d’administration Galigeo Admin (full).
+And click "Save" button to save your sector and being forwarded to the Galigeo Admin page. When saving your sector, a batch process is scheduled and you will received a mail when the job is done.
 
-Après avoir enregistré, un processus de traitement par lots est planifié. Vous recevrez un e-mail lorsque le processus est terminé (en général, le processus dure moins de 5 minutes).
+### Manage sectors
 
-### Gérer des secteurs
-
-Rendez-vous sur l’onglet « Galigeo Admin (full) » et sélectionnez « Sector ».
-
-La liste des secteurs s’affichent dans un tableau avec quatre colonnes :
+Go to the "Galigeo Admin (advanced)" tab and select "Sector".
+The list of custom sectors are displayed in a table with four columns:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-068.png){:.img.img-responsive.img-center}
 
-Pour chaque secteur :
+For each sector:
 
-- Action :
+- Action: allows to do some actions on a sector
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-069.png) Modifier la définition du secteur
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-069.png) Change the sector definition
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-070.png) Rafraichir le secteur en recalculant toutes les valeurs dans par lot. Lorsque la tâche est finie, l’utilisateur recevra un e-mail.
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-070.png) Refresh the sector by recalculating all values in batch. When the job is done, user will receive an e-mail.
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-071.png) Effacer un secteur et tous les projets Territory Management qui se reposent sur lui
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-071.png) Delete the sector and all Territory Management projects based on it.
 
-- Name: affiche le nom du secteur
-- Object: affiche l’objet Salesforce utilisé
-- Batch in progress: indique si un rafraichissement dans un traitement par lots est en cours
+- Name: displays the name of the sector
+- Object: displays the Salesforce Object used
+- Batch in progress: indicates if a refresh in a batch processing is in progress
 
-Ces secteurs sont utilisés pour créer un projet Territory Management dans l’application TM Designer (se référer au [Guide utilisateur](/presentation-adv)).
+Those Sectors can be used to create a Territory Management Project in the TM Designer App (refers to the [User Guide](/introduction-adv-en)).
 

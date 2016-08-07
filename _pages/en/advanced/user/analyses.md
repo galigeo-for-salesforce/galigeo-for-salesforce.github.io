@@ -1,40 +1,38 @@
 ---
 layout: sidebar
-title: Analyses géographiques et territory management
+title: Geographical analytics and territory management
 categories: documentation
 permalink: /analytics-adv-en
 lang: en
 ref: analyses-adv
 ---
 
-## Analyses cartographiques Galigeo
+## Galigeo Map Analytics
 
-Galigeo for Salesforce Advanced Edition est une extension de Galigeo for Salesforce Standard Edition. Il est possible d’afficher des cartes et leurs analyses issues de Galigeo Standard Edition dans l’application de Territory Design. (Voir le [guide utilisateur de Galigeo Standard Édition pour créer des analyses](/analytics))
 
-Depuis la barre d’outils, cliquez sur l’icône 	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-040.png) pour charger le widget SFDC Map.
+As the Galigeo for Salesforce Advanced Edition is an extension of the Galigeo for Salesforce Standard Edition, it is possible to display maps and their associated analytics defined in the Galigeo Standard Edition in the Territory Design App (Refer to [Galigeo Standard Edition User Guide](/create-map-en) for map creation).
+
+In the toolbar, click on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-040.png) icon to load the SFDC Map widget.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-043.png){:.img.img-responsive.img-center}
 
-Cliquez sur l’icône ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-045.png) pour ajouter les analyses d’une carte à l’application.
+Click on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-045.png) icon to add a map and its analytics to the application.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-046.jpg){:.img.img-responsive.img-center}
 
-Au dessous de chaque analyse s’affiche la légende.
+Under each analytic, the legend is displayed.
 
-Un clic sur un graphique permet d’afficher la fiche d’informations. Les attributs utilisés pour construire l’analyse apparaissent en gras.
+A click on a graphic will show an information window with some attributes. Attributes used to build the analytic are highlighted in bold.
 
 {:.table}
 |![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-047.jpg){:.img.img-responsive.img-center}|![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-048.jpg){:.img.img-responsive.img-center}|
 
-
-
-L’utilisateur peut ajouter les analyses de plusieurs cartes. Cliquez sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-050.png), pour en ajouter une autre
+User can add several maps. Click on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-050.png), go back to the list and add another one.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-053.jpg){:.img.img-responsive.img-center}
 
+For each maps:
 
-Pour chaque carte :
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-054.png) Click on this icon to change the visibility (show/hide). When hiding the parent, children are also hidden. Making a child visible will make the parent visible.
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-054.png) Cliquez sur cette icône pour modifier la visibilité (afficher/cacher). Lorsqu’on cache un parent, les enfants sont également cachés. Lorsqu’on rend un enfant visible, le parent devient visible.
-
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-055.png) Cliquez pour supprimer une carte et ses analyses
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-055.png) Click on it to remove a map and its analytics.
