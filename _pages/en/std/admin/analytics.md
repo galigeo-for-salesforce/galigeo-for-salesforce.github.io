@@ -1,187 +1,186 @@
 ---
 layout: sidebar
-title: Analyse de données
+title: Data analysis
 categories: documentation
 permalink: /analytics-en
 lang: en
 ref: analytics
 ---
 
-## Analyse de données
+## Data Analysis
 
-Galigeo for Salesforce permet d’afficher vos données à travers les représentations suivantes :
+Galigeo for Salesforce allows to create analytics like Pie Chart, Proportional Symbol or Choropleth based on a data.
 
-- Camemberts
-- Symboles proportionnels
-- Aplats de couleur (ou carte choroplèthe)
+To achieve this, a Galigeo Admin user need to define a data source and some analytics based on data sources.
 
-Pour afficher ces représentations, il faut définir une source de données et des « analyses » basées sur cette source de données.
+### Manage Data Sources
 
-### Gérer les sources de données
-
-Dans l’onglet Galigeo Admin, cliquez sur « Analyses » pour accéder au panneau d’administration des sources de données.
+In the Galigeo Admin tab, click on **"Analytics"** to switch to the Data Sources Administration panel.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-130.png){:.img.img-responsive.img-center}
 
-Cliquez sur le bouton « Nouveau » pour créer une source de données.
+Click on the "New" button to go the Data Source creation page.
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Renseigner les propriétés de source de données
+#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Fill Data Source Properties
 
-Choisissez un nom pour votre source de données et sélectionnez un type de source de données.
+Choose a name for your data source, select the type of the data source.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-135.png){:.img.img-responsive.img-center}
 
-Initialement, aucune couche cartographique n’est sélectionnée. Cliquez sur l’icône ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-057.png) pour en choisir une.
+At the first time, there isn't any geographic layer register as mentioned in red. Click on the ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-057.png) icon to register a new layer.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-138.png){:.img.img-responsive.img-center}
 
-Sélectionnons les « Zipcodes (USA) – SAMPLE » et cliquons sur le bouton « Enregistrer ». Il est désormais possible d’associer une source de données à cette couche cartographique.
+Let select the "Zipcodes (USA) – SAMPLE" and click the "Save" button. 
+Now it is possible to choose a layer on which the result will be joined.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-139.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les données
+#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Define Data
 
-Il y a deux façons de définir les données qui seront utilisées en tant que source de données :
+There are two ways to define what data will be exposed from this datasource:
 
-1. Mode Simple : Choisir les champs d’un objet (standard ou custom)
-2. Mode avancée : écrire une requête complète SoQL
+1. Simple mode: Choose fields from an object (Standard or Custom)
+2. Advanced mode: Write a Full SoQL query
 
-Dans l’exemple ci-dessous, nous désirons obtenir le chiffre d’affaires annuel des comptes par code postal (ZIP code).
+For both modes, let's define a datasource for which we want the sum of the annual revenue of accounts by Zip Code.
 
-- **Mode simple** :
-  Nous sélectionnons l’objet Compte en tant qu’objet source.
-  Tous les champs de l’objet Compte apparaissent dans les champs disponibles. Nous choisissons BillingPostalCode (code postal de facturation) et AnnualRevenue (chiffre d’affaires annuel) et cliquons sur le bouton contenant une flèche vers la droite.
-  Nous choisissons de grouper nos données par code postal de facturation. Il faut maintenant préciser une fonction d’agrégation de .
-  Sélectionnons la fonction « SUM » pour le champ « AnnualRevenue ».
+- **Simple Mode**:
+  In the objects dropdown list, select the Account Object.
+
+  The **"Available Fields"** will refresh with all the Account Object fields. Select "Billing Zip/Postal Code" and "Annual Revenue" fields and click Add button (right arrow icon). Then, choose to group the result with the "Billing Zip/Postal Code" field. Once you choose to group your data by a field, you need to define which aggregate function will be used for other fields.
+  Let's select the "SUM" function for the "Annual Revenue" field.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-142.jpg){:.img.img-responsive.img-center}
 
-  Pour chaque champ sélectionné, les icônes suivantes permettent des actions suivantes :
+  For each selected fields, the following icons allows different actions:
 
-  - ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png) : supprimer le champ
-  - ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-144.png) : déplacer le champ vers le haut
-  - ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-145.png) : déplacer le champ vers le bas
+  - ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png) : remove the field
+  - ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-144.png) : move the field up
+  - ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-145.png) : move the field down
 
-  Un aperçu des données est disponible en cliquant sur « Tester la requête » :
+  Then click the "Test" button to have preview of your data:
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-146.png){:.img.img-responsive.img-center}
 
-- Mode avancé SOQL :
-  Cochez la case « Requête SOQL » pour basculer en mode avancé. Ce mode permet à l’utilisateur de sélectionner les données grâce à une requête SOQL. L’exemple précédent peut être reproduit avec la requête SOQL suivante :
+- **Full SOQL Mode**:
+  Select the "Full SOQL Query" checkbox to switch to the advanced mode. This mode allow the user to enter a SOQL query that will be used to get the data. The previous example can be defined in SOQL query as follow:
 
   ```sql 
   SELECT BillingPostalCode, SUM(AnnualRevenue) AnnualRevenue
   FROM Account 
   GROUP BY BillingPostalCode
   ```
-  Vous pouvez trouver plus d’informations sur comment définir une requête Salesforce [Object Query Language](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm) (SOQL).
+  You can find more informations on how to define a [Salesforce Object Query Language](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm) (SOQL) query.
 
   {:.table.table-bordered}
-  | ![warning]({{ site.url }}/assets/warning.png)     | Les requêtes sont soumises aux [Salesforce Governors Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm). L’utilisation du mode simple est appropriée pour un nombre limité de lignes, aucune clause WHERE n’est utilisée pour limiter la requête. Pour filtrer vos données, nous recommandons l’utilisation du mode avancé SOQL. |
-  | ![notice]({{ site.url }}/assets/notice.png)  | Que ce soit en mode simple ou avancé, il est indispensable de respecter la règle suivante : **Le premier champ doit correspondre à la couche géographique et être de type String**. <br><br>Dans notre exemple :<br> - Le code postal (Billing ou Shipping PostalCode) de l’objet Compte correspond à notre couche ZipCodes (USA). <br>Les 2 sont basés sur les codes postaux des Etats-Unis ! |
+  | ![warning]({{ site.url }}/assets/warning.png)     | Queries are subject to the [Salesforce Governors Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm). The use of the Simple Mode is well for limited number of rows because there isn't any where clause available to set the query selective. Otherwise, we recommend to use the Full SOQL Mode in order to filter as well your data. |
+  | ![notice]({{ site.url }}/assets/notice.png)  | For both simple mode and Full SOQL mode, user needs to follow one rule: **The first field needs to be able to match the geographic layer and type of String**. <br><br>For example: <br> - For USA, you can use a Zip Code field of the Account Object (Billing or Shipping) |
 
-Une fois satisfait de votre source de données, cliquez sur le bouton « Enregistrer » pour la sauvegarder. Vous êtes redirigé vers un panneau reprenant les informations relatives à votre source de données.
+Once you are satisfied with what your Data Source has to expose, click the "Save" button to save it and user is forwarded to the Data Source details page:
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-151.png){:.img.img-responsive.img-center}
 
-La source de données est présentée en 3 parties :
+From this page, user can go back to the Galigeo Admin page or delete the data source.
 
-1. Propriétés : affiche les propriétés de la source de données (nom, couche géographique utilisée et métriques représentées)
+The Data Source details page has three main parts:
+
+1. Properties: displays the data source properties like its name, type, which geographic layer is used and what metrics are exposed.
   
-    Le nom et la couche géographique peuvent être édités directement depuis cet écran. Il suffit de cliquer sur l’un d’eux.
+    The name and the geographic layer properties can be edited inline. User has to double-click on it.
   
-    Dès lors, le nom peut être modifié à partir d’un champ texte :
+    For the name: in edit mode, an input text is displayed, allowing to change the name:
 
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-152.png){:.img.img-responsive.img-center}
 
-    Vous pouvez enregistrer ou annuler les changements en cliquant sur le bouton correspondant :
+    The user can save or cancel his changes by clicking on the top button:
 
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-153.png){:.img.img-responsive.img-center}
 
-    Pour changer de couche géographique, sélectionnez une valeur de la liste déroulante :
+    For the geographic layer: in edit mode, a select option list displays all registered geographic layers:
 
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-156.png){:.img.img-responsive.img-center}
 
-    Si aucune couche n’est sélectionnée, l’utilisateur ne pourra pas créer d’analyse.
+    User can change the layer on which the data will be joined. If no layer is selected, user will not be able to create analytics based on the data source metrics.
 
-2. Couches géographiques :
+2. This is common to all Data Sources:
   
-    a. Gérer les couches géographiques :
+    a. Manage geographic layers:
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) Ajouter une couche géographique. Cliquez sur l’icône pour afficher une liste déroulante où sont affichées les couches disponibles.Sélectionnez une couche et cliquez sur le bouton « Enregistrer » pour confirmer :
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) Add a geographic layer. Click on the icon to display a popup where all available layers are listed. Select one and click on the "Save" button to register it:
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-158.png){:.img.img-responsive.img-center}
 
-      Le panneau de couches affiche plusieurs couches :
+      The layer panel lists several layers:
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-160.png){:.img.img-responsive.img-center}
 
-      Vous pouvez modifier la couche utilisée pour segmenter la source de données :
+      It's now possible to change the layer used to join the datasource data:
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-161.png){:.img.img-responsive.img-center}
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png) : Supprimer une couche
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png): delete a layer
 
-    b. Gérer des catégories
+    b. Manage categories
 
-      Une catégorie peut être assignée à une analyse. Cela permet de présenter à l’utilisateur final une liste de toutes les analyses groupées par catégorie pour l’aider dans la création de sa carte.
+      A category can be assigned to an analytics to group them. It allow the end user to have a list of all available analytics created by the admin user grouped by category when he's creating his map.
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-163.png){:.img.img-responsive.img-center}
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) Cliquez sur l’icône pour créer une nouvelle catégorie.
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) Add a category. Click on the icon to display a popup. Enter a name for the category and click on the "Save".
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-165.png){:.img.img-responsive.img-center}
 
-      Le panneau des catégories affiche alors la nouvelle catégorie :
+      The category panel lists the new category:
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-166.png){:.img.img-responsive.img-center}
 
-      Si aucune catégorie n’est associée à une analyse, double cliquez sur le message « Double clic pour renseigner la catégorie ».
+      For an analytic, if no category is defined, double click on the message "Double click to set a category".
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-167.png){:.img.img-responsive.img-center}
 
-      Sélectionnez une catégorie depuis la liste déroulante,
+      Select a category from the list,
 
       ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-168.png){:.img.img-responsive.img-center}
 
-      Cliquez sur l’icône disquette pour enregistrer l’analyse.
+      Click on the floppy disk icon to save the analytic.
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png) : Supprimer une catégorie
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png) : delete a category
 
-3. Analyses : Ce panneau affiche toutes les analyses créées sur les métriques de la source de données.
+3. Analytics: this panel shows all analytics created on the data source's metrics.
 
-    a. Actions disponibles
+    a. Available actions
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) Ajouter une analyse. Cliquez sur l’icône pour lancer l’assistant d’analyses.
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) Add an analytics. Click on the icon to display the analytic wizard application.
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/duplicate.png) Dupliquer une analyse existante.
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/duplicate.png) Duplicate an existing analytic.
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/pencil.png) Modifier une analyse
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/pencil.png) Edit an analytic
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png) Supprimer une analyse
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-035.png) delete an analytic
 
-    b. Seuils de visibilité
+    b. Visibility thresholds
 
-      Les seuils de visibilité permettent de spécifier les niveaux de zoom auxquels vous souhaitez voir apparaître vos analyses thématiques. Ils s'appliquent au niveau de la source de données.
+      Visibility thresholds allow to set the zoom levels at which you wish to activate your analytics. They work on a data source.
        
-      Ces niveaux de zoom vont de la vision globale du monde au numéro de rue.
+      Zoom levels go from world wide view to house number view.
        
-      Dans l’exemple ci-dessous, nous avons créé des analyses qui affichent des informations au niveau départemental. Elles s’affichent pour les zooms de haut niveau.
-      Pour les niveaux de zoom plus détaillés, les analyses affichent les mêmes informations au niveau du code postal.
+      In the example below, we created analtytics displaying information at the level of a french departement. They are displayed for the upper zoom levels.
+      For more detailed zoom levels, analytics display the same information at a zipcode level.
        
-      Notez également, que dans le panneau Analyses de la carte, les zooms analyses cachées apparaissent en grisé.
+      In the analytics panel, please note that hidden analytics are grayed.
 
       {:.table}
-      | Analyses sur le département | Analyses sur le code postal |
+      | Departement analytics | zipcode analytics |
       | :----------:     | :--------: |
       | ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new8.png){:.img.img-responsive.img-center}     | ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new9.png){:.img.img-responsive.img-center} |
       | ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new10.png){:.img.img-responsive.img-center}     | ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new11.png){:.img.img-responsive.img-center} |
 
     
 
-### Cloner une source de données
+### Clone a data source
 
-Supposons qu’une source de données a été définie sur les Comptes dont le Record Type est "Client". Elle utilise la where clause ci-dessous :
+Let's assume that a data source has been defined on the Accounts which Record Type is "Client". It uses the whereclause below:
 
 ```sql
 WHERE RecordType.Name = 'Client'
@@ -189,119 +188,119 @@ WHERE RecordType.Name = 'Client'
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new13.png){:.img.img-responsive.img-center}
 
-Nous voulons maintenant produire les mêmes analyses mais, cette fois, sur les Comptes dont le record type est “Prospect”. Pour ce faire, clonons notre source de données et ses analyses.
+We now want to produce the same analytics on Accounts with "Prospect" Record Type. Let's clone our data source and the corresponding analytics.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new14.png){:.img.img-responsive.img-center}
 
-Dans la tab "Analytics" du panneau d’administration, cliquez sur l’icône ![Duplicate]({{ site.url }}/assets/img-std-admin/duplicate.png) saisissez le nom de votre nouvelle source de données et enregistrez-la.
+In the "Analytics" tab of the administration panel, click the ![Duplicate]({{ site.url }}/assets/img-std-admin/duplicate.png) icon, give your new data source a name and save it.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new15.png){:.img.img-responsive.img-center}
 
-Sur la page de nouvelle nouvelle source de données "ADS1_Prospect", toutes les propriétés de "ADS1_Client" ont été clonées.
+On the newly created data source "ADS1_Prospect", all "ADS1_Client" properties have been cloned.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new16.png){:.img.img-responsive.img-center}
 
-Cliquez sur le bouton modifier et changez la whereclause pour qu’elle ne renvoie que les Comptes dont le record type est "Prospect":
+Click the Edit button and change the whereclause so that it adresses only Accounts with "Prospect" Record Type:
 
 ```sql
 WHERE RecordType.Name = 'Prospect'
 ```
 
-### Gérer les analyses
+### Manage Analytics
 
-Avec notre source de données « Comptes par code ZIP » connectée aux « USA Zip Codes », nous pouvons à présent créer des analyses.
-Cliquez sur l’icône ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) dans le panneau des analyses pour démarrer l’assistant d’analyses.
+Since we have our "Accounts by Zipcode" data source linked on the USA Zip Codes, it's time to create analytics.
+Click on the ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) icon in the Analytics panel to run the Analytic Wizard.
 
-Le Thematic Wizard est une application hébergée sur Heroku. La première fois que vous la démarrez, vous allez être invité à autoriser cette application à accéder à vos données Salesforce et à accéder à l’application Analytic Wizard :
+The Thematic Wizard is a connected application hosted on Heroku. The first you run it, you will be asked to allow this application to connect to your Salesforce data and access to the Analytic Wizard Application:
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-175.png){:.img.img-responsive.img-center}
 
-Vous pouvez choisir parmi les types d’analyse suivants :
+Here you can defined the type of analytic you want to create:
 
-- **Symboles uniques**
+- **Uniq symbols**
 
-  Ce type d'analyse permet de tracer les contours d’une couche cartographique ou de placer un symbole au centre de celle-ci.
+  This type of analysis allows to display the borders of a geographical layers or to display a symbol in its center.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new1.png){:.img.img-responsive.img-center}
 
-- **Plages de valeurs**
+- **Range color:**
 
-  Ce type d’analyse permet de séparer un champ contenant des données numériques entre plusieurs plages de valeurs. À chaque plage de valeurs est associée une couleur unique.
+  This type of analysis enables the repartition of numerical data in several range values. To each range values is associated a unique color.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-180.jpg){:.img.img-responsive.img-center}
 
-  L’assistant de création s’affiche comme ci-dessous :
+  The creation window for this representation is displayed as follows:
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new2.png){:.img.img-responsive.img-center}
 
-  Vous choisissez le champ de données que vous souhaitez utiliser pour l’analyse. 
+  The Field control one can select the field for the analysis.
 
-  Pour déterminer les seuils, trois méthodes de calcul sont disponibles :
+  The Method will help choose the type of calculation for the analysis. There are three calculation methods available:
 
-  - Effectifs égaux :
-    Cette méthode permet de répartir les valeurs de manière à ce que chaque plage contienne le même nombre de valeurs. Les seuils sont calculées automatiquement (et recalculées à chaque rafraichissement).
-  - Intervalles égaux :
-    Cette méthode permet de répartir les valeurs en plages de même taille. Les seuils sont calculées automatiquement (et recalculées à chaque rafraichissement).
-  - Seuils naturels :
-    Dans cette méthode, les seuils sont calculés automatiquement et correspondent aux sauts de valeurs significatifs.
-  - Classification manuelle :
-    Cette méthode vous permet de déterminer vous mêmes les seuils séparant les classes entre elles. Exemple : Séparer les valeurs en-dessous et au dessus de 0.
+  - Quantiles:
+    This method divides automatically the values in a manner that each range has an identical number. The boundaries are automatically calculated (and recalculated at every query refresh).
+  - Equal Interval:
+    This method divides automatically the values in intervals of the same size. The difference between the upper boundary and lower boundary is the same for each interval. Similarly, the boundaries are automatically calculated (and recalculated at every query refresh).
+  - Jenks (Natural Breaks method):
+    This method divides automatically the value in homogeneous intervals defined by the reading of the bar chart of frequencies of the series. The boundaries are automatically calculated and correspond to significant breaks of the number.
+  - Manual:
+    This method allows you to manually set the thresholds which set classes apart. Example: Setting apart negative and positive values.
 
-  Par défaut, le nombre de classe est de 4, vous pouvez séparer votre jeu de données entre 15 classes maximum.
+  From the Classes one can set the number of classes for the thematic (by default it is set to 4).
 
-  Pour modifier modifier le symbole et la couleur d'une classe, cliquez sur le crayon :
+  Inside the table control one can set the color, the type of symbol to be used, and the size of the symbol:
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new7.png){:.img.img-responsive.img-center}
 
-- **Valeurs individuelles**
+- **Individual color:**
   
-  Ce type de représentation permet l’affichage de données discrètes où une couleur représentera une valeur unique.
+  This type of representation allows displaying of data that have a single value through colored symbols.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-183.jpg){:.img.img-responsive.img-center}
 
-  Ce type de représentation s’applique principalement aux champs ayant des valeurs alphanumériques (chaînes), elle est aussi utilisable avec des champs numériques (prenant moins de 15 valeurs).
+  This type of representation is applied only to fields of alphanumeric values (strings), however it is also usable on numeric fields.
 
-  La configuration est similaire à celle des plages de valeurs :
+  The configuration of the functionality is similar as for the Range Color with the controls having same type of roles.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new3.png){:.img.img-responsive.img-center}
 
-- **Symboles proportionnels**
+- **Proportional Symbol:**
 
-  Ce type de représentation permet d’afficher des cercles proportionnels aux valeurs numériques.
+  This analysis type allows dividing the numeric data in function of their values, in a proportional manner.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-185.jpg){:.img.img-responsive.img-center}
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new4.png){:.img.img-responsive.img-center}
 
-- **Diagramme à secteurs**
+- **Pie charts**
 
-  Ce type de représentation permet l’affichage des plusieurs indicateurs en utilisant des camemberts.
+  This representation type allows displaying several query indicators, or several queries using pie charts.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-187.jpg){:.img.img-responsive.img-center}
 
-  Ce type de représentation s’applique spécifiquement aux champs de valeurs numériques.
+  This representation type is applied specifically to numeric values fields.
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new5.png){:.img.img-responsive.img-center}
 
-- **Libellé**
+- **Label Thematic**
 
-  Affiche la valeur d'un indicateur ou un label géographique sous forme de texte sur la carte. 
+  Display, as text, the value of an indicator or a geographical label on the map. 
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new6.png){:.img.img-responsive.img-center}
 
-Lorsque la configuration de l’analyse est terminée, enregistrez-la en cliquant sur le bouton **« Sauvegarder »**. En cliquant sur le bouton **« Annuler »** la configuration sera annulée.
+When the configuration of the analysis is done, save it by clicking on the "Save" button. Clicking on the "Cancel" button will cancel all the settings.
 
-Après avoir créé l’analyse, dans le panneau d’administration de la source de données, l’utilisateur peut voir les analyses créées pour chaque source de données.
+After creating analysis, on the Data Source Administration panel, user can see for each datasource, analysis created on it.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new12.png){:.img.img-responsive.img-center}
 
-L'utilisateur final, à partir de l’interface de la carte peut désormais ajouter ou cacher des analyses et afficher leurs légendes comme illustré ci-dessous :
+When an end user defined its visual dataset and add some analytics to it, the map interface shows controls to switch on/off analytics and their legend as shown below.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-192.jpg){:.img.img-responsive.img-center}
 
-### Cloner une analyse
+### Clone an analytic
 
-Supposons qu’une source de données a été définie sur les comptes dont le record Type est “Client” et dont le code postal commence par 59 ou 62. Des analyses ont aussi été définies pour cette objet.
+Let's assume that a data source has been set up on the Accounts with the record Type est “Client” and with zipcodes starting with 59 or 62. Some analytics also have been set up on this object.
 
 ```sql
 WHERE Postal_Code__c Like '59%' or Postal_Code__c Like '62%'
@@ -309,9 +308,9 @@ WHERE Postal_Code__c Like '59%' or Postal_Code__c Like '62%'
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/new17.png){:.img.img-responsive.img-center}
 
-Nous souhaitons répliquer ces analyses pour les Clients dont les codes postaux commencent par 78 ou 75. Dans la source de données, modifions la clause where :
+We wish to replicate these analytics for Clients whose zipcodes start with 78 or 75. In the data source, let's change the whereclause:
 
 ```sql
 WHERE Postal_Code__c Like '78%' or Postal_Code__c Like '75%'
 ```
-Une fois l’opération effectuée. De nouvelles analyses sont prêtes à être consommées par les cartes.
+Once this has been done, new analytics are ready to be used on the maps.

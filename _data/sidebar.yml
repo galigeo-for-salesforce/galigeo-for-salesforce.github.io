@@ -17,7 +17,6 @@ fr:
       - { url: '/selection', text: 'Sélection' }
       - { url: '/adresses', text: 'Recherche d adresses' }
       - { url: '/fonds-de-plan', text: 'Fonds de plan' }
-
   advanced:
     install:
       - { url: '/install-advanced', text: 'Installation du package' }
@@ -33,7 +32,6 @@ fr:
       - { url: '/territoires-adv', text: 'Conception de territoires' }
       - { url: '/analyses-adv', text: 'Analyses' }
       - { url: '/affectation-adv', text: 'Affectation' }
-
 en:
   std:
     install:
@@ -53,7 +51,6 @@ en:
       - { url: '/selection-en', text: 'Selection' }
       - { url: '/addresses-en', text: 'Address Lookup' }
       - { url: '/basemaps', text: 'Basemaps' }
-
   advanced:
     install:
       - { url: '/install-advanced-en', text: 'Package Installation' }
