@@ -68,7 +68,7 @@
             
 
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav hidden-md hidden-lg">
+                <ul class="nav navbar-nav visible-xs-block">
 
                     {% if page.lang == 'en' %}
                         {% assign links = site.data.nav.en %}
@@ -109,7 +109,7 @@
                 </ul>
 
 
-              <ul class="nav nav-pills navbar-right hidden-xs hidden-sm">
+              <ul class="nav nav-pills navbar-right hidden-xs">
 
 
                 {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
@@ -133,7 +133,7 @@
                 {% endfor %}
                 </ul>
 
-                <ul class="nav nav-pills navbar-right hidden-xs hidden-sm">
+                <ul class="nav nav-pills navbar-right hidden-xs">
 
                     {% if page.lang == 'en' %}
                         {% assign links = site.data.nav.en %}
