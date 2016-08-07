@@ -1,16 +1,20 @@
 {% include header.html %}
 
 <div class="container-doc">
+    
     <div class="container">
         <div class="row">        
             <div class="col-md-7 col-md-offset-1 no-padding">
                 <div class="content-body sidebar">
+                    <div class="visible-xs-block visible-sm-block">
+                        {% include pagination.html %}
+                    </div>
                     {{ content }}
                     {% include pagination.html %}
                 </div>
             </div>
 
-            <aside class="col-md-2 no-padding">
+            <aside class="col-md-2 no-padding hidden-xs">
                 {% include sidebar.html %}
             </aside>
         </div>
