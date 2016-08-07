@@ -68,17 +68,50 @@
             
 
             <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-pills navbar-right">
+
+
+                {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
+
+                {% for one_post in posts %}
+                    
+                  {% if one_post.lang != page.lang %}
+                  <li>
+                    <a href="{{ one_post.url }}" class="{{ one_post.lang }}">{{ one_post.lang }}</a>
+                  </li>
+                  {% endif %}
+                {% endfor %}
+
+                {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% for one_page in pages %}
+                  {% if one_page.lang != page.lang %}
+                  <li>
+                    <a href="{{ one_page.url }}" class="{{ one_page.lang }}">{{ one_page.lang }}</a>
+                  </li>
+                  {% endif %}
+                {% endfor %}
+                </ul>
+
                 <ul class="nav nav-pills navbar-right">
-                    {% for link in site.data.nav.main %}
-                      {% assign current = nil %}
-                      {% if page.url == link.url or page.categories contains link.type %}
-                        {% assign current = 'active' %}
+
+                    {% if page.lang == 'en' %}
+                        {% assign links = site.data.nav.en %}
+                    {% else %}
+                        {% assign links = site.data.nav.fr %}
                     {% endif %}
+
+                    {% for link in links %}
+                        {% assign current = nil %}
+                        {% if page.url == link.url or page.categories contains link.type %}
+                            {% assign current = 'active' %}
+                        {% endif %}
                         <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
                             <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
                         </li>
                     {% endfor %}
+
                 </ul>
+
             </div>
         </div>
     </nav>

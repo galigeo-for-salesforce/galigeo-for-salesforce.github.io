@@ -1,34 +1,68 @@
-std:
-  install:
-    - { url: '/install-std', text: 'Installation du package' }
-    - { url: '/post-install-std', text: 'Post installation' }
-  admin:
-    - { url: '/acces', text: 'Accès' }
-    - { url: '/objet-geo', text: 'Objet géographique' }
-    - { url: '/geofiltre', text: 'Géofiltre' }
-    - { url: '/analytics', text: 'Analytics' }
-  user:
-    - { url: '/create-map', text: 'Créer une carte' }
-    - { url: '/interface-carto', text: 'Présentation' }
-    - { url: '/filtres', text: 'Filtres et Actions' }
-    - { url: '/planifier', text: 'Planifier des événements' }
-    - { url: '/analyses', text: 'Analyses' }
-    - { url: '/selection', text: 'Sélection' }
-    - { url: '/adresses', text: 'Recherche d adresses' }
-    - { url: '/fonds-de-plan', text: 'Fonds de plan' }
-
-advanced:
-  install:
-    - { url: '/install-advanced', text: 'Installation du package' }
-    - { url: '/post-install-advanced', text: 'Post installation' }
-  admin:
-    - { url: '/enregistrement', text: 'Enregistrement' }
-    - { url: '/utilisateurs', text: 'Utilisateurs' }
-    - { url: '/secteurs', text: 'Secteurs' }
-  user:
-    - { url: '/presentation-adv', text: 'Présentation' }
-    - { url: '/projet-adv', text: 'Projets' }
-    - { url: '/visualisations-adv', text: 'Visualisations' }
-    - { url: '/territoires-adv', text: 'Conception de territoires' }
-    - { url: '/analyses-adv', text: 'Analyses' }
-    - { url: '/affectation-adv', text: 'Affectation' }
+fr:
+  std:
+    install:
+      - { url: '/install-std', text: 'Installation du package' }
+      - { url: '/post-install-std', text: 'Post installation' }
+    admin:
+      - { url: '/acces', text: 'Accès' }
+      - { url: '/objet-geo', text: 'Objet géographique' }
+      - { url: '/geofiltre', text: 'Géofiltre' }
+      - { url: '/analytics', text: 'Analytics' }
+    user:
+      - { url: '/create-map', text: 'Créer une carte' }
+      - { url: '/interface-carto', text: 'Présentation' }
+      - { url: '/filtres', text: 'Filtres et Actions' }
+      - { url: '/planifier', text: 'Planifier des événements' }
+      - { url: '/analyses', text: 'Analyses' }
+      - { url: '/selection', text: 'Sélection' }
+      - { url: '/adresses', text: 'Recherche d adresses' }
+      - { url: '/fonds-de-plan', text: 'Fonds de plan' }
+  advanced:
+    install:
+      - { url: '/install-advanced', text: 'Installation du package' }
+      - { url: '/post-install-advanced', text: 'Post installation' }
+    admin:
+      - { url: '/enregistrement', text: 'Enregistrement' }
+      - { url: '/utilisateurs', text: 'Utilisateurs' }
+      - { url: '/secteurs', text: 'Secteurs' }
+    user:
+      - { url: '/presentation-adv', text: 'Présentation' }
+      - { url: '/projet-adv', text: 'Projets' }
+      - { url: '/visualisations-adv', text: 'Visualisations' }
+      - { url: '/territoires-adv', text: 'Conception de territoires' }
+      - { url: '/analyses-adv', text: 'Analyses' }
+      - { url: '/affectation-adv', text: 'Affectation' }
+en:
+  std:
+    install:
+      - { url: '/install-std-en', text: 'Package Installation' }
+      - { url: '/post-install-std-en', text: 'Post installation' }
+    admin:
+      - { url: '/access-en', text: 'Access' }
+      - { url: '/geo-object-en', text: 'Geographical Object' }
+      - { url: '/geofilters-en', text: 'Geofilters' }
+      - { url: '/analytics-en', text: 'Analytics' }
+    user:
+      - { url: '/create-map-en', text: 'Create a map' }
+      - { url: '/interface-en', text: 'Presentation' }
+      - { url: '/filters-en', text: 'Filters and Actions' }
+      - { url: '/plan-en', text: 'Visit planning' }
+      - { url: '/analysis-en', text: 'Analytics' }
+      - { url: '/selection-en', text: 'Selection' }
+      - { url: '/addresses-en', text: 'Address Lookup' }
+      - { url: '/basemaps', text: 'Basemaps' }
+  advanced:
+    install:
+      - { url: '/install-advanced-en', text: 'Package Installation' }
+      - { url: '/post-install-advanced-en', text: 'Post installation' }
+    admin:
+      - { url: '/register-en', text: 'Registering' }
+      - { url: '/users-en', text: 'Users' }
+      - { url: '/sectors-en', text: 'Sectors' }
+    user:
+      - { url: '/introduction-adv-en', text: 'Introduction' }
+      - { url: '/project-adv-en', text: 'Projects' }
+      - { url: '/visualisations-adv-en', text: 'Visualisations' }
+      - { url: '/territoires-adv-en', text: 'Territory Design' }
+      - { url: '/analytics-adv-en', text: 'Analytics' }
+      - { url: '/assignment-adv-en', text: 'Assignment' }
