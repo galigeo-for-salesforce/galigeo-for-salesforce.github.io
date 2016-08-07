@@ -1,90 +1,94 @@
 ---
 layout: sidebar
-title: Filtres et Actions
+title: Plan route and events
 categories: documentation
 permalink: /plan-en
 lang: en
 ref: planifier
 ---
 
-## Planifier des événements
+## Planning events
 
-### Ajouter un événement au calendrier Salesforce
+### Add an event to the Salesforce calendar
 
-Pour créer un événement, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) dans la liste d’actions de l’objet. Le formulaire de création d’un événement apparaît, complétez les champs obligatoires pour créer votre événement.
+Plan an event related to a record is very easy. In the list of actions available for a record,
+click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) icon. Fill the mandatory fields to create your event.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-066.png){:.img.img-responsive.img-center}
 
-Pour ouvrir le calendrier avancé, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-054.png). Le nouvel événement apparaît dans votre calendrier :
+Back to the map, click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-054.png) icon. A full week view is now available on the right. The calendar displays the information about the new event.
+
+All events time ranged events are directly editable from here by drag and drop them. Duration are also editable by dragging down the bottom of the event.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-069.png){:.img.img-responsive.img-center}
 
-Vous pouvez modifier les créneaux horaires et la durée de vos rendez-vous depuis cette vue.
-En cliquant sur une date du calendrier, vous filtrez la carte pour n’afficher que les objets pour lesquels il y a un rendez-vous à cette date. La carte sera centrée sur ces points (pour annuler la sélection cliquez à nouveau sur la date).
+A click on the date in the calendar will filter all records in the map and in the search record panel and the map is centered on them (click again on the date to see all records).
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-072.jpg){:.img.img-responsive.img-center}
 
-Vous pouvez savoir quels sont les objets associés à vos rendez-vous. Dans le centre du marqueur correspondant, une étoile s’affiche ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-074.png).
+You can know which objects are related to an event. In the center of the marker a star appears ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-074.png).
 
-Les rendez-vous pris en compte sont ceux des **30 derniers jours et des 60 jours à venir**.
+Supported events are those of **last 30 and next 60 days**.
 
-Pour voir le calendrier d’un collaborateur, cliquez sur « Changer » en haut du calendrier.
+If user wants to see the calendar of another user in its organization, click on the "Change" link at the top in the calendar.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-073.png){:.img.img-responsive.img-center}
 
-Sélectionnez un collaborateur en cliquant sur son nom. Un champ de recherche permet également de filtrer cette liste.
+Select a user from the list by click. It is even possible to filter this list by typing in the user input text field.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-075.png){:.img.img-responsive.img-center}
 
-Quand vous avez sélectionné un collaborateur, son calendrier apparaît.
+Once a user is selected, the calendar is refreshed with its events.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-078.png){:.img.img-responsive.img-center}
 
-Si vous avez les droits nécessaires, vous pouvez créer ou modifier les événements de ce calendrier.
+User can create/edit an event for other user if he has enough privileges. Otherwise, he be will informed of the error when he will try.
 
-### Ajouter plusieurs événements au calendrier Salesforce
+### Add several events to your Salesforce calendar at once
 
-Grâce à la planification d'itnéraires (ou de tournées), il est possible d'ajouter simultanément plusieurs événements au calendrier Salesforce.
+The visit planning (or itinerary) module lets you add several events to your Salesforce calendar in a single action.
 
-Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-084.png) dans la barre d’outils pour afficher le panneau d’itinéraire.
+Click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-084.png) icon of the toolbar to display the routing panel.
 
-Pour ajouter un point à votre itinéraire, vous pouvez :
+To add a waypoint, you can:
 
-- Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/icon.png) dans le panneau d'itinéraire pour sélectioner plusieurs objets à la suite en cliquant desssus.
-- Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-057.png) dans la liste d’actions pour ajouter un objet.
+- Click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/icon.png) icon in the itineray panel to select several waypoints you want to add to your route.
+- Click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-057.png) icon from the list of actions available for each object.
 
-Lorsqu’un objet est ajouté à l’itinéraire, un numéro est ajouté au centre du marqueur correspondant.
+When an object is added to a route, a number appears in the center of its marker.
 
-Plusieurs options de calcul sont proposées :
+Several options are available:
 
-- Vous pouvez choisir entre un itinéraire à pied ou en voiture
-- Itinéraire calculé uniquement entre les objets ou depuis le dernier emplacement (le dernier emplacement correspond au résultat d’une recherche d’adresse via le champ situé en haut à droite de la carte)
-- Choisissez de calculer un itinéraire optimisé (modifie l’ordre des points de passage) ou non optimisé (conserve l’ordre des points de passage).
+- Select a type of routing: by car or by walk
+- Route only between records or from the last position (the last position is either a lookup address find by using the address search tool or by a click on the localize button. Those two features are presented in [Address lookup]({{site.url}}/addresses-en))
+- Choose to compute an optimized route or not.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/itinerary1.png){:.img.img-responsive.img-center}
 
-Cliquez sur le bouton « Calculer » pour calculer l’itinéraire.
+Click the "Compute" button to compute the itinerary.
 
-Après calcul, l’itinéraire s’affiche sur la carte, un résumé du trajet apparaît en haut. 
+The itinerary shows on the map and a summary appears at the top. 
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-088.png){:.img.img-responsive.img-center}
 
-Cliquez sur « Voir détails » pour afficher les étapes de l’itinéraire.
+Click on the "Show details" link to display the step by step routing information.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-089.png){:.img.img-responsive.img-center}
 
-Pour ajouter l'ensemble des objets qui constituent votre itinéraire, cliquez sur "Ajouter au calendrier".
+At any time, user can remove a record from the list, click on the cross icon.
 
-Pour l'ensemble de vos rendez-vous, sélectionnez ensuite :
+To add all selected objects to your calendar, click "Add to calendar".
 
-- Une date
-- Un sujet (utilise les sujets définis dans votre calendrier Salesforce)
-- Une heure de premier rendez-vous
-- Une durée de rendez-vous
+For all selected events, select:
+
+- A date
+- A subject (Uses the suject defined in your Salesforce calendar)
+- A starting hour
+- The events' duration
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo_for_SFDC_release_-003.jpg){:.img.img-responsive.img-center}
 
-Votre journée de rendez-vous peut ainsi être planifiée en un instant !
+You just planned an entire day of meetings, congrats!
 
 
 

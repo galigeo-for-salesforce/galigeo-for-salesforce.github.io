@@ -51,12 +51,12 @@ Lorsqu’on crée/affiche une sélection, un tableau de données apparaît en b
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-114.png){:.img.img-responsive.img-center}
 
 {:.table.table-bordered}
-| ![notice]({{ site.url }}/assets/notice.png)  | Il est possible d’afficher des analyses statistiques des valeurs numériques. Cliquez
-sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-117.png) pour afficher un tableau statistique reprenant une série d’indicateurs résumant l’ensemble de données sélectionnées. |
+| ![notice]({{ site.url }}/assets/notice.png)  | Il est possible d’afficher des analyses statistiques des valeurs numériques. Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-117.png) pour afficher un tableau statistique reprenant une série d’indicateurs résumant l’ensemble de données sélectionnées. |
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-118.png){:.img.img-responsive.img-center}
 
-Sélectionnez une ligne pour afficher une analyse statistique détaillée.
+{:.table}
+|![feet]({{ site.url }}/assets/foot.png){:.img-center} | Sélectionnez une ligne pour afficher une analyse statistique détaillée. |
 
 Un histogramme est disponible sur la droite de l’écran. L’abscisse représente les différents objets sélectionnés, l’ordonnée la valeur de ces objets pour une dimension.
 

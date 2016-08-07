@@ -1,30 +1,30 @@
 ---
 layout: sidebar
-title: Analyser la performance de vos territoires
+title: Analyse your performance at a geographical level
 categories: documentation
 permalink: /analysis-en
 lang: en
 ref: analyses
 ---
 
-## Analyses
+## Analytics
 
-Si des analyses ont été ajoutées à la carte lors de sa configuration, l’icône « Analyses » ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png)
-et l’icône « Légende » ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-094.png) sont visibles. Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png) pour ouvrir le panneau d’analyses :
+If the user added some analytics to its document, the "Analytics" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png) icon and the "legend" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-094.png) icon will be available. A click on ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png) will open the Analytics panel:
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-092.png){:.img.img-responsive.img-center}
 
-Ce panneau liste les analyses associées à la carte. Elles sont groupées par sources de données.
-Pour afficher une analyse, cliquez sur le bouton on/off correspondant. La légende apparaît en haut à droite :
+This panel will show all available analytics for the current map grouped by the source they are built on.
+
+For each analytic, a toggle button allows to display the analytics on the map and legends are displayed in the panel at the top right of the page:
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-093.jpg){:.img.img-responsive.img-center}
 
-L’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-094.png) permet d’afficher/masquer la légende.
+The ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-094.png) icon in the toolbar allows to show/hide the legend panel at any time.
 
-En cliquant sur un élément de votre analyse, vous retrouvez un panneau d’informations comportant une synthèse des valeurs pour cette zone :
+A click on any graphic from an analytic will display an information in which all indicators from the Salesforce query are showed and those used by the analytics are underlined:
 
 {:.table}
 |   |    |
 |:-------------:|:-------------:|
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-095.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-096.png){:.img.img-responsive.img-center}|
-| *Panneau d’informations d’un camembert* | *Panneau d’informations d’un aplat de couleurs* |
+| *Pie chart information window* | *Choropleth information window* |

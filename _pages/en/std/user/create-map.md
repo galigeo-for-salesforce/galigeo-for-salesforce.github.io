@@ -1,109 +1,111 @@
 ---
 layout: sidebar
-title: Créer une carte
+title: Create a map
 categories: documentation
 permalink: /create-map-en
 lang: en
 ref: create-map
 ---
 
-## Créer une carte
+## Create a Map
 
+The main entry point for an end user is the Galigeo Tab.
+In this tab, a user manage (create/edit/delete) his owned map(s).
 
-Le point d’entrée de l’application est l’onglet Galigeo.
-A partir de cet onglet, un utilisateur peut gérer (créer/modifier/supprimer) une ou plusieurs cartes.
+### What is a Map?
 
-### Qu’est-ce qu’une « carte » ?
+A Map is a set of Map Objects and analytics defined by the application administrator. The user can choose between those objects to build his own map and can see them.
 
-Une « carte », dans le contexte de l’application, est un ensemble d’objets géographiques et d’analyses définies par l’administrateur de l’application. L’utilisateur peut construire ses propres cartes à partir de ces objets et les partager.
+### Creating a Map
 
-### Créer une carte
+When running the app for the first time, the content of the Galigeo tab is composed of a section with an empty list of maps.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new1.png){:.img.img-responsive.img-center}
 
-Cliquez sur le bouton **« Nouveau »** pour créer votre première carte.
+Click on the **"New"** button to go to the Visual Dataset creation page.
 
-La page de création se divise en trois parties :
+The creation page is divided in three parts:
 
-1. La section d’information de base : l’utilisateur est invité à donner un nom à sa carte,
-et à sélectionner s’il souhaite voir tous les objets auxquels il a accès ou seulement ceux dont il est propriétaire dans Salesforce.
-	L’option « Utiliser le calendrier avancé » permet à l’utilisateur de gérer les événements en affichant le calendrier par semaine. Cette fonctionnalité est détaillée dans [Planifier des événements](/planifier).
+1. Basic information section: user is invited to give a name to its Map and select if he
+wants to see all of the records or only those for whom he is the owner.
+
+	The "Use Full Calendar" option allows to the user to manager events with a week view of the calendar. This feature will be explained further in [Visit planning](/plan-en).
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-015.png){:.img.img-responsive.img-center}
 
-2. La section liste des objets géographiques associés : l’utilisateur sélectionne dans la liste des objets géographiques ceux qu’il souhaite visualiser sur sa carte.
+2. Linked Map Objects list section: user selects from the map objects list what he wants to add to the current Visual Dataset
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-016.png){:.img.img-responsive.img-center}
 
-3. La section des Analyses thématiques associées : l’utilisateur sélectionne des analyses définies par l’administrateur. Elles apparaîtront dans la section « Analyse » de sa carte.
+3. Linked analytics section: user selects from the list of analytics defined by the application administrator what he want to add to the current Visual Dataset
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-017.png){:.img.img-responsive.img-center}
 
-	Il est possible pour l’administrateur de classer les analyses par catégorie. Un champ de recherche permet de filtrer la liste d’analyses.
+	Available analytics are categorized. A quick find input field allows to filter the list of analytics for an easier lookup.
 
-Les deux listes à sélection multiple peuvent être utilisées comme décrit ci-dessous :
+For both Map Object section and Analytics section, the selection is as following:
 
-1. Sélectionnez une valeur que vous souhaitez ajouter
+1. Select a list of object user wants to add
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-018.png){:.img.img-responsive.img-center}
 
-2. Cliquez sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-019.png)
+2. Click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-019.png) icon
 
-3. La valeur sélectionnée apparaît dans la colonne de droite
+3. Result
 
 	![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-020.png){:.img.img-responsive.img-center}
 
-Pour supprimer un objet. Sélectionnez un objet du panneau de droite et cliquez sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-021.png)
+Removing objects is following the same workflow. Select objects on the right part and then click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-021.png) icon
 
-Vous pouvez désormais sauvegarder votre carte en cliquant sur « Enregistrer ».
+Once the user has selected his objects, click on the "Save" button.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-021.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-022.png){:.img.img-responsive.img-center}
 
-Une nouvelle carte apparaît maintenant dans votre liste de cartes, vous pouvez :
+Back to the Visual Dataset page, the newly created one is now available in the table with the following columns:
 
 1. Actions :
-	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-023.png) : cliquer pour modifier la carte
-	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png) : Partager la carte
-	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-024.png) : cliquer pour supprimer la carte
-	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-025.png) : Accéder à la carte
-2. Objets géographiques : la liste d’objets géographiques associés à la carte
-3. Analyses : la liste des analyses associées à la carte
-4. Voir le nom du propriétaire
+	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-023.png) : click on it to edit the Visual Dataset
+	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png) : Share it
+	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-024.png) : click on it to delete it.
+	- ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-025.png) : Go to the map
+2. Map Objects: The list of the map objects linked to the Visual Dataset
+3. Analytics: The list of the analytics linked to the Map
+4. Owner: see the owner's name
 
-### Partager une carte
+### Share a map
 
-L'écran accessible depuis l'onglet Galigeo prénsente les cartes auxquelles vous avez accès dans 2 sections :
+The first page in the Galigeo tab displays the maps you have access to in 2 sections:
 
-- Cartes partagées avec moi
-- Mes cartes
+- Maps shared with me
+- My maps
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new3.png){:.img.img-responsive.img-center}
 
-Voici les étapes à suivre pour partager une carte avec un ou plusieurs autres utilisateurs :
+You'll find below the steps to complete in order to share a map with one or more users:
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Cliquez sur l'icône de partage ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png)
+#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Click the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png) icon
 
-Sur l'écran de partage, cliquez sur le bouton "Ajouter".
+On the share screen, click the "Add" button.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/share1.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Sélectionnez le/les destinataire(s) du partage
+#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Select the users you want to share with
 
-Vous pouvez ajouter des utilisateurs :
+You can add users:
 
-- Par rôle : permet d'ajouter plusieurs utilisateurs à la fois. Les rôles correspondent à ceux définis dans votre hiérarchie des rôles Salesforce.
-- Par utilisateur : pour sélectionner le ou les nom(s) des personnes à qui vous souhaitez rendre la carte accessible
+- By role: allows to add several users at a time. Roles correspond to what has been defined in the Salesforce role hierarchy.
+- By user: Select one or several names of users who should be able to access the map
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/share2.png){:.img.img-responsive.img-center}
 
-Vous pouvez filtrer la liste des rôles ou des utilisateurs grâce au champ texte sur la droite. Pour ajouter un élément à la liste de droite, cliquez sur le nom ou le rôle puis sur ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-019.png). Il ne vous reste plus qu'à confimer en cliquant sur OK.
+You can filter the list of roles or users thanks to the search field located to the right. To add an element to the list on the right, click a role or a user and then click ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-019.png). You are good to go, confirm by clicking on OK.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/share3.png){:.img.img-responsive.img-center}
 
-La carte a bien été partagée. Le destinataire peut maintenant la consulter depuis la section "Cartes partagées avec moi".
+The map has been shared and the recipient(s) can access it from the "Maps shared with me" section.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/share5.png){:.img.img-responsive.img-center}
 
 {:.table.table-bordered}
-| ![notice]({{ site.url }}/assets/notice.png)  | Le destinataire d'une carte partagée peut la voir mais modification et suppression ne  peuvent être faites que par son propriétaire. |
+| ![notice]({{ site.url }}/assets/notice.png)  | The recipient of a shared map can access it but cannot edit nor delete it. |
 

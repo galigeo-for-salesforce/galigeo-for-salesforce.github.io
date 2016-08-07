@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: Filtres et Actions
+title: Optimisation d'itinéraire
 categories: documentation
 permalink: /planifier
 lang: fr

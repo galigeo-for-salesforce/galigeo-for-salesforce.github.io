@@ -1,31 +1,34 @@
 ---
 layout: sidebar
-title: Rechercher une adresse
+title: Search an address
 categories: documentation
 permalink: /addresses-en
 lang: en
 ref: adresses
 ---
 
-## Outil de recherche d’adresse
+## Search Address tool
 
-### Rechercher une adresse
+### Search an address
 
-Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-127.png) pour déplier/replier l’outil de recherche d’adresse en haut à droite de la carte.
-La fonctionnalité d’autocomplete vous aide à trouver l’adresse recherchée.
+A click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-127.png) icon will show/hide the address search tool at the top right (ahead the legend panel).
+
+This widget suggests with the help of auto complete, the address corresponding to the entered search and allows, after selecting a suggested address, the location on the map of the given address.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-128.png){:.img.img-responsive.img-center}
 
-Une fois l’adresse sélectionnée, la carte se centre dessus et un marqueur apparaît à l’adresse recherchée.
+When an address is selected, the map is centered to it and the position is represented with a pin.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-129.jpg){:.img.img-responsive.img-center}
 
 {:.table.table-bordered}
-| ![notice]({{ site.url }}/assets/notice.png)  | Cet emplacement est associé à l’option « depuis le dernier emplacement » du panneau d’itinéraire. |
+| ![notice]({{ site.url }}/assets/notice.png)  | This position will be set in the [routing panel]({{site.url}}/plan-en#add-several-events-to-your-salesforce-calendar-at-once) as the last known position. |
 
-### Me localiser
+### Locate me
 
-Si l’utilisateur clique sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-132.png) de la parte droite de l’outil de recherche d’adresse, l’application affichera sa position sur la carte.
+If the user click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-132.png) icon at the right in the search address tool, the application tries to locate the user and displays it position on the map. A reverse geocoding is also performed to fill the search input address.
+
+It uses the geo-location of the browser which can be different in function of the used browser and device (iPad, PC connected to the Internet). This functionality is pertinent for the mobile use.
 
 {:.table.table-bordered}
-| ![notice]({{ site.url }}/assets/notice.png)  | Cet emplacement est associé à l’option « depuis le dernier emplacement » du panneau d’itinéraire. |
+| ![notice]({{ site.url }}/assets/notice.png)  | This position will be set in the [routing panel]({{site.url}}/plan-en#add-several-events-to-your-salesforce-calendar-at-once) as the last known position. |

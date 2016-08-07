@@ -57,7 +57,7 @@ Pour supprimer un objet. Sélectionnez un objet du panneau de droite et cliquez 
 
 Vous pouvez désormais sauvegarder votre carte en cliquant sur « Enregistrer ».
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-021.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-022.png){:.img.img-responsive.img-center}
 
 Une nouvelle carte apparaît maintenant dans votre liste de cartes, vous pouvez :
 
