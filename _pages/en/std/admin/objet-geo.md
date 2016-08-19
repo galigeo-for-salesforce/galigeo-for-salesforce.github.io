@@ -15,7 +15,7 @@ When running the application for the first time, the Map Objects tab is empty.
 
 Click on the "New" button, select the option "Using the wizard for Salesforce Standard Object" and then click "OK" to be forwarded to the wizard page:
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-020.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj2.png){:.img.img-responsive.img-center}
 
 ### Create a Map Object using the creation wizard
 
@@ -29,7 +29,7 @@ The creation is in three steps:
 
 Enter a name for your configuration and click the "Next" button
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-023.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj3.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Choose a Salesforce Object & Location field
 
@@ -45,18 +45,18 @@ For the wizard, there are five options available:
   - Mailing Contact: use the mailing address
   - OtherContact : use the other address
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-026.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj4.png){:.img.img-responsive.img-center}
 
 Let's choose to use the "Billing Account" option.
 Then, user can see the address fields that will be used.
 
 Also, if there is any Geolocation field available on the selected object, user is invited to select the one that will be used to store the geocoding result. If there isn't such a field, click on the link "Create a new location field" to be fowarded to the Salesforce setup page to add a "Geolocation" field on the object (See the [Post installation section](/post-install-std-en#add-a-geolocation-field) to know how to add a custom field of type Geolocation to the Salesforce object).
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-027.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj5.png){:.img.img-responsive.img-center}
 
 Select a Geolocation field
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-028.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj6.png){:.img.img-responsive.img-center}
 
 And click "Next".
 
@@ -64,15 +64,15 @@ And click "Next".
 
 To build filters, the list shows all the fields of type PickList:
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-031.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj7.png){:.img.img-responsive.img-center}
 
 Let's build filters based on the values of the "Account Type" field:
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-032.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj8.png){:.img.img-responsive.img-center}
 
 And click "Save" to be redirect to the Map Object Details page:
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-033.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj9.png){:.img.img-responsive.img-center}
 
 The Map Object details page shows a resume of the configuration:
 
@@ -96,7 +96,7 @@ User can click on the "Back" button to go to the Admin page or on the "Delete" b
 
 From the **Galigeo Admin** page, click on the "New" button, choose the option "Using advanced mode (custom and standard objects)" and click "OK":
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-037.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj10.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Step 1: Map Object Information
 
@@ -108,7 +108,7 @@ Enter a name and select an object in the drop down list.
 
 Check the active option to allow it to be selected by an end user to build its map.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-042.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj11.png){:.img.img-responsive.img-center}
 
 Selecting the "Combine Filters" checkbox will combine filters using combination of logical operators (AND / OR) between filters. It will be explained in the Geo-Filter section.
 
@@ -124,7 +124,7 @@ Once Account object is selected, all drop down list of this section are populate
 
 We named this Map Object **"Shipping Account"**, so let's map the fields with the Shipping Address fields of the Account object. Let's use the field "galigeo__GeoLocation_Ship__c" to store the address geocoding result:
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-047.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj12.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Step 3: Visualization
 
@@ -133,7 +133,7 @@ Now you choose:
 - The abbreviation is the field used to be displayed in the map marker. The value will truncated to only one characters. The mark will be displayed on the map like the following image ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-050.png)
 - the fields, from the available fields list, that will be displayed in the information window:
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-051.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj13.png){:.img.img-responsive.img-center}
 
 Click on the "Save" button to save these information and be forwarded back to this newly Map object details page.
 

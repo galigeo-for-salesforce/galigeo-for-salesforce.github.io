@@ -27,7 +27,7 @@ To add a filter for a given map object, go to the map object details page, and c
 The name is only visible in the administration panel. Enter an easy name to find it in the lookup window.
 The label is used in the user interface.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-063.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter2.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Enter Geo-Filter properties
 
@@ -37,11 +37,11 @@ The symbology use to render the data on the map. Use the lookup icon to select a
 
 Click on the lookup icon to display the list of available symbols:
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-066.jpg){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter3.png){:.img.img-responsive.img-center}
 
 If there is no symbols available, click on the "Create" tab to create a new one.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-067.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter4.png){:.img.img-responsive.img-center}
 
 To define a Symbology, some properties are needed:
 
@@ -49,11 +49,11 @@ To define a Symbology, some properties are needed:
 - A color: by default the value is green
 - Optionally, an image
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-068.jpg){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter5.png){:.img.img-responsive.img-center}
 
 By clicking in the marker color input text, user can edit the color code in hexadecimal or pick a value in a popup.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-069.jpg){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter6.png){:.img.img-responsive.img-center}
 
 A symbology can also be an image.
 
@@ -79,7 +79,7 @@ There are two ways to define a symbology using images.
 
     c. Fill the details, check the option "Externally Available Image", select a file and click "Save" button.
   
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-072.png){:.img.img-responsive.img-center}
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter8.png){:.img.img-responsive.img-center}
 
       {:.table.table-bordered}
       | ![warning]({{ site.url }}/assets/warning.png)     | Only PNG image files are supported. |
@@ -94,7 +94,7 @@ There are two ways to define a symbology using images.
 
       Click the **"Save"** button to save this new symbol.
 
-      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-077.jpg){:.img.img-responsive.img-center}
+      ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter12.png){:.img.img-responsive.img-center}
 
       Back to the "Search" tab, the new symbology called "YELLOW" is now available. Click on it to assign it to the Geo-Filter.
     
@@ -103,22 +103,22 @@ There are two ways to define a symbology using images.
 - It's possible to define a hierarchy between Geo-Filter. In the case the Geo-Filter has a parent, select a previously created geo-filter by clicking on the lookup icon (See [Create hierarchical Geo-Filters](#create-hierarchical-geo-filters) for more details).
 - Select the "Active at startup" checkbox to define if the Geo-Filter will be executed at startup.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-079.jpg){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter14.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Step 3: Specify Geo-Filter criteria
 
 In this section, we define how to filter the data of the Map Object by adding some criteria. 
 For example, this Geo-Filter selects all Accounts where the BillingCountry field is not empty.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-082.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter15.png){:.img.img-responsive.img-center}
 
 It's possible to add different criteria by clicking on "Add criteria" link and filling the Filter Logic text field as in the image below.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-083.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter16.png){:.img.img-responsive.img-center}
 
 Select the "Full SOQL condition" checkbox to define your own query selection. Your selection must be made on an Id field like in the example below.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-084.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter17.png){:.img.img-responsive.img-center}
 
 The generated query will used this SOQL query as a subquery in the where clause in order to have a query like:
 
@@ -138,12 +138,12 @@ You can find more information on how to define a [Salesforce Object Query Langua
 
 At any moment, it is possible to test the Geo-Filter with a click on "Test Query" button. It shows the generated WHERE clause and how many records have matched the condition(s).
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-091.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter18.png){:.img.img-responsive.img-center}
 
 Click "Save" button to complete the Geo-Filter creation and get forwarded back to the Map Object details page.
 The filters section now contains the new filter.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-092.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter19.png){:.img.img-responsive.img-center}
 
 In the map interface, the user will see this filter with the data plot with the purple flag as in the image below.
 
@@ -163,34 +163,35 @@ Using the sample data above, let's build the following Geo-Filters Hierarchy:
     - Customer - Channel (Type='Customer - Channel)
   - Outside USA (BillingCouttry != 'USA')
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-099.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter22.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Step 1: Create "Inside USA" filter
 
 Follow the first steps used to create the first filter:
+
 - Give a name
 - Create and assign a new Symbology
 
 We need to define this filter as a child of the first one. Click on the Parent Filter lookup icon
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-102.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter23.png){:.img.img-responsive.img-center}
 
 The lookup window lists all filters already defined for the current map object.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-103.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter24.png){:.img.img-responsive.img-center}
 
 Click on the "ALL_ACCOUNTS" filter
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-104.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter25.png){:.img.img-responsive.img-center}
 
 Define condition to select only Accounts where the BillingCountry field equals 'USA'
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-105.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter26.png){:.img.img-responsive.img-center}
 
 Test the filter and click "Save".
 Back to the Map Object details page, in the filter panel, we have
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-106.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter27.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Step 2: Create "Inside USA" children filters
 
@@ -198,12 +199,12 @@ Follow the same procedure describe in step 1, and set the filter "Inside USA" as
 
 - Customer - Direct (Type='Customer - Direct')
 
-    ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-109.png){:.img.img-responsive.img-center}
+    ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter28.png){:.img.img-responsive.img-center}
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-110.png){:.img.img-responsive.img-center}
 
 - Customer - Channel (Type='Customer - Channel)
   
-    ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-111.png){:.img.img-responsive.img-center}
+    ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter29.png){:.img.img-responsive.img-center}
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-112.png){:.img.img-responsive.img-center}
 
 #### ![feet]({{ site.url }}/assets/foot.png) Step 3: Create "Outside USA" filter
@@ -211,14 +212,14 @@ Follow the same procedure describe in step 1, and set the filter "Inside USA" as
 Follow the procedure in step 1 to create the outside USA filter.
 Define the filter "All Accounts" as the parent filter. And set a condition to select Account where the BillingCountry field is not equals to "USA".
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-115.png){:.img.img-responsive.img-center}
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-116.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter31.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter32.png){:.img.img-responsive.img-center}
 
 Test the filter and click "Save".
 
 Back to the Map Object Details page, in the filter panel, there are all our filters displays in a tree structure.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-117.png){:.img.img-responsive.img-center}
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter33.png){:.img.img-responsive.img-center}
 
 Finally, in the user interface, this hierarchy like a tree view where each filter can be activated independently.
 
