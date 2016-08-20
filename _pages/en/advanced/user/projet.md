@@ -11,7 +11,7 @@ ref: projet-adv
 
 ### New project
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-005.jpg){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro1.png){:.img.img-responsive.img-center}
 
 
 The creation of a project is started by pressing the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-006.png)
@@ -32,7 +32,7 @@ Once the form is completed, a window asking for the name of the new project will
 
 ### Open/Delete a project
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-007.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro2.png){:.img.img-responsive.img-center}
 
 The opening of a project is done using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-008.png)
 
@@ -43,11 +43,11 @@ Also in this window one can delete a project using the button ![Galigeo for Sale
 
 ### Import a project
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-010.jpg){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro3.png){:.img.img-responsive.img-center}
 
 It is possible to create a project from a CSV or XLS file. The file has to contain a list of assignment of sectors/territories. The import of the file is done with the help of the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-011.png).
  
-In a CSV, the accepted delimiters are ";" or ",". Attention, the XLSX format is not accepted. If the selected file is valid, the following message will appear: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-012.png)
+In a CSV, the accepted delimiters are ";" or ",". Attention, the XLSX format is not accepted. If the selected file is valid, the following message will appear: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/provalid.png)
 
 Afterwards there are several fields that have to be entered:
 
@@ -59,11 +59,11 @@ Afterwards there are several fields that have to be entered:
 
 ### Merge projects
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-013.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro4.png){:.img.img-responsive.img-center}
 
 It is possible to merge two projects that share the same layer of sectors, i.e. to copy the content of a project (the source project) to another project (the target projects). 
 
-In order to do that, one has to click on the arrow at the right side of the target project, then click on the following button: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-014.png)
+In order to do that, one has to click on the arrow at the right side of the target project, then click on the following button: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/promerge.png)
 
 In the following window, it is enough to select the source project and to validate. To keep in mind that the projects list contains only compatible projects, i.e. projects that share the same layer as the target project.
 
@@ -78,7 +78,7 @@ In the bottom right of the projects list panel, the following button   allows us
 
 ### Activate project
 
-In order to edit a project, one has to click on the arrow down at the right hand side of the project, and then click on the following button: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-015.png).
+In order to edit a project, one has to click on the arrow down at the right hand side of the project, and then click on the following button: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/proactivate.png).
 
 A project that is about to be edited will display then in the window below. The project about to be edited is displayed highlighted in the projects list.
 
@@ -98,7 +98,7 @@ The exportation of a project is done using the button ![Galigeo for Salesforce I
 
 A window opens and allows to choose between two possible exportation options:
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-019.jpg){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro5.png){:.img.img-responsive.img-center}
 
 - A shapefile of the territories. The geometry of the territories is exported to a shapefile as well as their attributes: name, representative and aggregate indicators. The color of the territories is not exported.
 

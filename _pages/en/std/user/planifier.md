@@ -14,7 +14,7 @@ ref: planifier
 Plan an event related to a record is very easy. In the list of actions available for a record,
 click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) icon. Fill the mandatory fields to create your event.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-066.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/visit1.png){:.img.img-responsive.img-center}
 
 Back to the map, click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-054.png) icon. A full week view is now available on the right. The calendar displays the information about the new event.
 
@@ -63,17 +63,17 @@ Several options are available:
 - Route only between records or from the last position (the last position is either a lookup address find by using the address search tool or by a click on the localize button. Those two features are presented in [Address lookup]({{site.url}}/addresses-en))
 - Choose to compute an optimized route or not.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/itinerary1.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/visit6.png){:.img.img-responsive.img-center}
 
 Click the "Compute" button to compute the itinerary.
 
 The itinerary shows on the map and a summary appears at the top. 
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-088.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/visit7.png){:.img.img-responsive.img-center}
 
 Click on the "Show details" link to display the step by step routing information.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-089.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/visit8.png){:.img.img-responsive.img-center}
 
 At any time, user can remove a record from the list, click on the cross icon.
 
@@ -86,7 +86,7 @@ For all selected events, select:
 - A starting hour
 - The events' duration
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo_for_SFDC_release_-003.jpg){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/visit9.png){:.img.img-responsive.img-center}
 
 You just planned an entire day of meetings, congrats!
 

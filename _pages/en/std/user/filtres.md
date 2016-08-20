@@ -25,8 +25,8 @@ By activating the "Clients" filter, the user change the data visualization and s
 {:.table}
 |   |    |
 |:-------------:|:-------------:|
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/filtre1.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/filtre2.png){:.img.img-responsive.img-center}|
-| *"Type" filter activated* | *"Clients" filter activated* |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/filter1.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/filter2.png){:.img.img-responsive.img-center}|
+| *"Type" filter activated* | *"Client" filter activated* |
 
 #### With dynamic filters
 
@@ -38,7 +38,11 @@ Using them is simple:
 - Select a suggestion
 - Your map is filtered!
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/filtre3.png){:.img.img-responsive.img-center}
+{:.table}
+|   |    |     |
+|:-------------:|:-------------:|:-------------:|
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/dfilter1.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/dfilter2.png){:.img.img-responsive.img-center}| ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/dfilter3.png){:.img.img-responsive.img-center}|
+|*Search field*|*Enter a keyword and select a suggestion*|*Number of displayed objects went down*|
 
 ### Searching within records
 
@@ -52,14 +56,14 @@ By entering a text in the input field and hitting "Enter" on the keyboard, the l
 {:.table}
 |   |    |
 |:-------------:|:-------------:|
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-039.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-040.png){:.img.img-responsive.img-center}|
-| *List is not filtered* | *Filtered list with keyword " les "* |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/filter4.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/filter5.png){:.img.img-responsive.img-center}|
+| *List is not filtered* | *Filtered list with keyword " the "* |
 
 Under the search input text field, there two checkboxes:
 
 - Filter on extent: allows to filter the list with only the records visible in the map view
 
-- étiquettes : Display labels: if the administrator configure the map object to display some fields as
+- Display labels: if the administrator configure the map object to display some fields as
 label on the map, this option becomes available. When user activates it, a label window with the fields and its value is displayed closed to the marker on the map. Labels are displayed only if the marker is not within a cluster.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-043.jpg){:.img.img-responsive.img-center}

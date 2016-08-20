@@ -29,7 +29,7 @@ ref: territoires-adv
 
 	In order to update the selection, one has to enter the edition mode by clicking on the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-026.jpg). In order to exit that, one has to click again on the button or press the ESC key.
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-027.png){:.img.img-responsive.img-center}
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/td1.png){:.img.img-responsive.img-center}
 
 	This button has actually a double utilization. It serves also to display the actual drawing mode. The arrow close to the button allows the access to two drawing tools available: by circle or by free hand polygon.
 
@@ -49,7 +49,7 @@ Going from a selection, there are different actions possible on the territories:
 
 	When a selection is overlapping one or several existing territories, the following window will be displayed:
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-030.png){:.img.img-responsive.img-center}
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/td2.png){:.img.img-responsive.img-center}
 
 	There are two solutions suggested:
 
@@ -60,7 +60,7 @@ Going from a selection, there are different actions possible on the territories:
 
 	The actual selection is added to an existing territory. If only one territory exists, the selection will automatically added to that one. Otherwise, the following window will open:
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-032.png){:.img.img-responsive.img-center}
+	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/td3.png){:.img.img-responsive.img-center}
 
 
 	The drop down list contains all the existing not filtered territories. It allows to choose to which territory will be assigned the selection.
@@ -83,7 +83,7 @@ The following button ![Galigeo for Salesforce Installation]({{ site.url }}/asset
 
 The new territories can as well be created from an isochronic tool integrated to the Territory Management, and accessible by clicking on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-035.jpg) icon.
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-036.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/td4.png){:.img.img-responsive.img-center}
 
 The isochrony tool calculates one or several zones according to different criteria. Those zones are then intersected with the sectors in order to form territories. The parameters to be entered are the following:
 

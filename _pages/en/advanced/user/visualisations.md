@@ -57,7 +57,7 @@ The cartographic views, tabular and graphic, of the territories are connected.
 
 Regardless of the view, if it is clicked on a territory, this one will be displayed in the 3 views: highlighted with a yellow border on the map, with a gray line background on the table, darker bar on the chart.
 
-### Détails des secteurs
+### Territories' details
 
 As one selects a territory, the details of the sectors composing it are displayed in two different manners:
 

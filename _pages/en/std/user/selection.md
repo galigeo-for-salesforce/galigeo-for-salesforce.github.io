@@ -19,18 +19,18 @@ The user has powerful tools to select objects of interest on the map and to anal
 
 To access to the selection tool, click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-097.png) icon in the tool to open the panel.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-098.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/sel1.png){:.img.img-responsive.img-center}
 
 ### Create selection
 
 {:.table}
-|![feet]({{ site.url }}/assets/foot.png){:.img-center} | Choose from the dropdown list a layer on which the selection will be done.<br> Salesforce records layer is always available in the list.<br>![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-101.png){:.img.img-responsive.img-center} |
+|![feet]({{ site.url }}/assets/foot.png){:.img-center} | Choose from the dropdown list a layer on which the selection will be done.<br> Salesforce records layer is always available in the list.<br>![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/sel2.png){:.img.img-responsive.img-center} |
 
 {:.table}
-|![feet]({{ site.url }}/assets/foot.png){:.img-center} | Choose a selection tool from the displayed ones: <br> - Iso-distance <br> - Free hand<br> - Pointer<br>![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-104.png){:.img.img-responsive.img-center} |
+|![feet]({{ site.url }}/assets/foot.png){:.img-center} | Choose a selection tool from the displayed ones: <br> - Iso-distance <br> - Free hand<br> - Pointer<br>![Galigeo for Salesforce User]({{ site.url }}/assets//img-std-user-en/sel3.png){:.img.img-responsive.img-center} |
 
 {:.table}
-|![feet]({{ site.url }}/assets/foot.png){:.img-center} | Activate the option button according to the desired action: Add or Remove<br>![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-107.png){:.img.img-responsive.img-center} |
+|![feet]({{ site.url }}/assets/foot.png){:.img-center} | Activate the option button according to the desired action: Add or Remove<br>![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/sel4.png){:.img.img-responsive.img-center} |
 
 {:.table.table-bordered}
 | ![notice]({{ site.url }}/assets/notice.png)  | You can delete your selection with the help of the eraser ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-110.png) |
@@ -70,7 +70,7 @@ The graphic also displays the average line of the field values and the 90% of co
 
 The selection done can be saved by clicking on the "Add" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-125.png) button on the selection panel at the bottom right, after giving a name to the selection.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-123.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/sel9.png){:.img.img-responsive.img-center}
 
 The selection will appear in the Selection panel under Current Selections.
 
