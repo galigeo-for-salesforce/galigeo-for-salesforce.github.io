@@ -66,11 +66,12 @@ For both modes, let's define a datasource for which we want the sum of the annua
 - **Full SOQL Mode**:
   Select the "Full SOQL Query" checkbox to switch to the advanced mode. This mode allow the user to enter a SOQL query that will be used to get the data. The previous example can be defined in SOQL query as follow:
 
-  ```sql 
+  ```sql
   SELECT BillingPostalCode, SUM(AnnualRevenue) AnnualRevenue
   FROM Account 
   GROUP BY BillingPostalCode
   ```
+  
   You can find more informations on how to define a [Salesforce Object Query Language](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm) (SOQL) query.
 
   {:.table.table-bordered}
