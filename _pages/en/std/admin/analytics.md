@@ -29,8 +29,6 @@ Choose a name for your data source, select the type of the data source.
 
 At the first time, there isn't any geographic layer register as mentioned in red. Click on the ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-057.png) icon to register a new layer.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-138.png){:.img.img-responsive.img-center}
-
 Let select the "Zipcodes (USA) – SAMPLE" and click the "Save" button. 
 Now it is possible to choose a layer on which the result will be joined.
 
@@ -71,7 +69,7 @@ For both modes, let's define a datasource for which we want the sum of the annua
   FROM Account 
   GROUP BY BillingPostalCode
   ```
-  
+
   You can find more informations on how to define a [Salesforce Object Query Language](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm) (SOQL) query.
 
   {:.table.table-bordered}

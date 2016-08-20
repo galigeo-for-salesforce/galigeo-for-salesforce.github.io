@@ -33,8 +33,6 @@ Choisissez un nom pour votre source de données et sélectionnez un type de sour
 
 Initialement, aucune couche cartographique n’est sélectionnée. Cliquez sur l’icône ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-057.png) pour en choisir une.
 
-![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-138.png){:.img.img-responsive.img-center}
-
 Sélectionnons les « Zipcodes (USA) – SAMPLE » et cliquons sur le bouton « Enregistrer ». Il est désormais possible d’associer une source de données à cette couche cartographique.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-139.png){:.img.img-responsive.img-center}
