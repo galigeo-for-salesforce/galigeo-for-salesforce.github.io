@@ -144,10 +144,3 @@ aside {
 }
 
 .table-small {font-size: 12px;}
-
-
-
-.img-responsive {
-	@include img-responsive;
-	-ms-flex: 1 0 auto;
-}
