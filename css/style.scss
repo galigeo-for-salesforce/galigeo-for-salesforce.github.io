@@ -147,6 +147,7 @@ aside {
 
 
 
-
-
-
+.img-responsive {
+	@include img-responsive;
+	-ms-flex: 1 0 auto;
+}
