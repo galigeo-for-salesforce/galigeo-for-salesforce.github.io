@@ -144,3 +144,10 @@ aside {
 }
 
 .table-small {font-size: 12px;}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+/* IE10+ specific styles go here */
+.img-responsive {
+max-width : 100%!important;
+	}
+}
