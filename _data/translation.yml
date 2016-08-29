@@ -8,6 +8,12 @@ sidebar:
     admin_guide: "Guide Admnistrateur"
     user_guide: "Guide utilisateur"
 
+release:
+  en:
+    read_more: "Read more..."
+  fr:
+    read_more: "Lire plus..."
+
 footer:
   en:
     - {url: "http://www.galigeo.com/products-overview/territory-management-products/galigeo-salesforce/", text: "Product Page"}

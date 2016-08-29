@@ -9,10 +9,19 @@
           {% if page.type == 'collection' %}
             {% assign posts=site.posts | where:"lang", page.lang %}
             {% for post in posts %}
+
+              {% if post.lang == 'fr'  %}
+                {% assign read_more = site.data.translation.release.fr.read_more %}
+              {% endif %}
+
+              {% if post.lang == 'en'  %}
+                {% assign read_more = site.data.translation.release.en.read_more %}
+              {% endif %}
+
               {% if post.categories contains 'release'  %}
                 <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
                 {{post.lead_text}}
-                <a href="{{ post.url }}"> Lire plus...</a>
+                <a href="{{ post.url }}"> {{ read_more }}</a>
               {% endif %}
             {% endfor %}
           {% else %}
