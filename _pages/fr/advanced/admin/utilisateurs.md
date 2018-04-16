@@ -7,9 +7,9 @@ lang: fr
 ref: utilisateurs
 ---
 
-## Gestion des utilisateurs
+# Gestion des utilisateurs
 
-### Rôles
+## Rôles
 
 Trois profils d'utilisateur sont disponibles :
 
@@ -17,7 +17,7 @@ Trois profils d'utilisateur sont disponibles :
 - TM_Owner: ce rôle a les mêmes droits que le rôle TM_Admin, à l'exception du fait qu’il ne voit que ses propres projets.
 - TM_Stakeholder: n’a aucun droit. Ce rôle est utilisé pour déclarer un utilisateur qu'un Designer peut assigner à un territoire.
 
-### Ajouter un utilisateur
+## Ajouter un utilisateur
 
 Pour ajouter un utilisateur, cliquez sur le bouton « Add a user » :
 

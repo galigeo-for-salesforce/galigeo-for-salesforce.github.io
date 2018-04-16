@@ -26,17 +26,16 @@
 {% endif %}
 
 <div class="menu">
-<h4>STANDARD EDITION</h4>
+<h4>Standard Edition</h4>
 <h5>{{install_guide}}</h5>
 <ul>
 	{% for item in links_install %}
 	<li>
 		{% if page.url == item.url %}
-			<div class="arrow-container">
-				<span class="arrow-right"></span>
-			</div>
-		{% endif %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
 	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
 	</li>
 	{% endfor %}
 </ul>
@@ -46,11 +45,10 @@
 	{% for item in links_admin %}
 	<li>
 		{% if page.url == item.url %}
-			<div class="arrow-container">
-				<span class="arrow-right"></span>
-			</div>
-		{% endif %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
 	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
 	</li>
 	{% endfor %}
 </ul>
@@ -60,26 +58,24 @@
 	{% for item in links_user %}
 	<li>
 		{% if page.url == item.url %}
-			<div class="arrow-container">
-				<span class="arrow-right"></span>
-			</div>
-		{% endif %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
 	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
 	</li>
 	{% endfor %}
 </ul>
 
-<h4>ADVANCED EDITION</h4>
+<h4>Advanced Edition</h4>
 <h5>{{install_guide}}</h5>
 <ul>
 	{% for item in links_adv_install %}
 	<li>
 		{% if page.url == item.url %}
-			<div class="arrow-container">
-				<span class="arrow-right"></span>
-			</div>
-		{% endif %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
 	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
 	</li>
 	{% endfor %}
 </ul>
@@ -88,11 +84,10 @@
 	{% for item in links_adv_admin %}
 	<li>
 		{% if page.url == item.url %}
-			<div class="arrow-container">
-				<span class="arrow-right"></span>
-			</div>
-		{% endif %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
 	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
 	</li>
 	{% endfor %}
 </ul>
@@ -102,11 +97,10 @@
 	{% for item in links_adv_user %}
 	<li>
 		{% if page.url == item.url %}
-			<div class="arrow-container">
-				<span class="arrow-right"></span>
-			</div>
-		{% endif %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
 	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
 	</li>
 	{% endfor %}
 </ul>

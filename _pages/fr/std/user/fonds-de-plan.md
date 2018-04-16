@@ -7,7 +7,7 @@ lang: fr
 ref: basemap
 ---
 
-## Fonds de plan
+# Fonds de plan
 
 Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-135.png) de la barre d’outils pour afficher les fonds de plan disponibles.
 Ils apparaissent sous forme de vignettes et permettent de changer le type de carte utilisé pour supporter votre visualisation.

@@ -7,7 +7,7 @@ lang: fr
 ref: post-install-advanced
 ---
 
-## Etapes de post-installation
+# Etapes de post-installation
 
 Comme mentionné dans la [section d'installation](/install-advanced), ce package est une extension de l’application Galigeo Visit Planning.
 
@@ -16,7 +16,7 @@ Plusieurs étapes sont nécessaires pour terminer cette installation :
 - Modifiez le package de base pour inclure les nouveaux onglets
 - Assigner des autorisations
 
-### Modification du package de base
+## Modification du package de base
 
 Rendez-vous dans 
 **Configuration | Créer | Applications** et modifiez le **Galigeo Visit Planning** package.
@@ -33,11 +33,11 @@ Ajoutez ces onglets aux onglets déjà sélectionnés et cliquez sur « Enregist
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-048.png){:.img.img-responsive.img-center}
 
-### Accorder l’accès à l’aide des ensembles d’autorisations
+## Accorder l’accès à l’aide des ensembles d’autorisations
 
 Cette application étant une extension de Galigeo Standard édition, il est possible que l’accès soit déjà accordé.
 
-### Créer/Actualiser le profil d’utilisateur
+## Créer/Actualiser le profil d’utilisateur
 
 En fonction de la configuration des règles de sécurité de votre organisation, les administrateurs Salesforce vont donner des autorisations particulières à un profil donné. 
 

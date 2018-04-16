@@ -7,7 +7,7 @@ lang: fr
 ref: analytics
 ---
 
-## Analyse de données
+# Analyse de données
 
 Galigeo for Salesforce permet d’afficher vos données à travers les représentations suivantes :
 
@@ -17,7 +17,7 @@ Galigeo for Salesforce permet d’afficher vos données à travers les représen
 
 Pour afficher ces représentations, il faut définir une source de données et des « analyses » basées sur cette source de données.
 
-### Gérer les sources de données
+## Gérer les sources de données
 
 Dans l’onglet Galigeo Admin, cliquez sur « Analyses » pour accéder au panneau d’administration des sources de données.
 
@@ -25,7 +25,7 @@ Dans l’onglet Galigeo Admin, cliquez sur « Analyses » pour accéder au panne
 
 Cliquez sur le bouton « Nouveau » pour créer une source de données.
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Renseigner les propriétés de source de données
+### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Renseigner les propriétés de source de données
 
 Choisissez un nom pour votre source de données et sélectionnez un type de source de données.
 
@@ -37,7 +37,7 @@ Sélectionnons les « Zipcodes (USA) – SAMPLE » et cliquons sur le bouton « 
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-139.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les données
+### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les données
 
 Il y a deux façons de définir les données qui seront utilisées en tant que source de données :
 

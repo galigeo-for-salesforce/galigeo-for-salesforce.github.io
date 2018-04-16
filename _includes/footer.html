@@ -18,7 +18,7 @@
                         <li><a href="{{link.url}}"> {{link.text}}</a></li>
                         {% endfor %}
                     </ul>
-                    <p class="text-muted small">{{ site.data.global.footer_text }}</p>
+                    <p class="small">{{ site.data.global.footer_text }}</p>
                 </div>
             </div>
         </div>
@@ -30,6 +30,13 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="{{ site.data.global.url }}/js/power.js"></script>
     <script src="{{ site.data.global.url }}/js/app.js"></script>
-
+    <script src="{{ site.data.global.url }}/js/anchor.min.js"></script>
+    <script>
+      anchors.add();
+      anchors.remove('h1');
+      anchors.options = {
+        icon: '#'
+      };
+    </script>
     </body>
 </html>

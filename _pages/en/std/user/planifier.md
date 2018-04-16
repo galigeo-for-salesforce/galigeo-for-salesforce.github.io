@@ -7,9 +7,9 @@ lang: en
 ref: planifier
 ---
 
-## Planning events
+# Planning events
 
-### Add an event to the Salesforce calendar
+## Add an event to the Salesforce calendar
 
 Plan an event related to a record is very easy. In the list of actions available for a record,
 click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) icon. Fill the mandatory fields to create your event.
@@ -44,7 +44,7 @@ Once a user is selected, the calendar is refreshed with its events.
 
 User can create/edit an event for other user if he has enough privileges. Otherwise, he be will informed of the error when he will try.
 
-### Add several events to your Salesforce calendar at once
+## Add several events to your Salesforce calendar at once
 
 The visit planning (or itinerary) module lets you add several events to your Salesforce calendar in a single action.
 

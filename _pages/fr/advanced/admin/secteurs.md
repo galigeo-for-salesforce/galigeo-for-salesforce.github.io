@@ -7,7 +7,7 @@ lang: fr
 ref: secteurs
 ---
 
-## Secteurs
+# Secteurs
 
 Dans l’onglet « Galigeo Admin (full) » cliquez sur « Sectors » :
 
@@ -16,19 +16,19 @@ Dans l’onglet « Galigeo Admin (full) » cliquez sur « Sectors » :
 Cet onglet présente la liste des secteurs enregistrés. L’administrateur peut en créer, les modifier, les rafraîchir ou les supprimer.
 Un secteur correspond à l’unité géographique de base (par exemple : les codes postaux (ZIP) aux Etats-Unis) utilisée pour construire des territoires.
 
-### Créer un secteur
+## Créer un secteur
 
 Nous nous proposons ici de construire un secteur basé sur les métriques de l’objet Compte et les cartographier (ou les joindre) au ZipCode géographique.
 
 Pour créer un secteur, cliquez sur l’icône ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-040.png) pour accéder à la page de création.
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Définir les propriétés du secteur
+### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Définir les propriétés du secteur
 
 Donnez un nom à votre secteur et choisissez dans la liste la géométrie de base utilisée pour joindre les métriques Salesforce. Choisissons ici « zipcodes ».
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-045.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les métriques
+### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les métriques
 
 Sélectionnez un objet Salesforce dans la liste d’objets source. La liste affiche des objets custom et standard comme Compte, Contact, Piste et Opportunité (objets standard avec le champ zipcode). 
 
@@ -99,7 +99,7 @@ Cliquez sur le bouton « Save » pour enregistrer votre secteur et retourner à
 
 Après avoir enregistré, un processus de traitement par lots est planifié. Vous recevrez un e-mail lorsque le processus est terminé (en général, le processus dure moins de 5 minutes).
 
-### Gérer des secteurs
+## Gérer des secteurs
 
 Rendez-vous sur l’onglet « Galigeo Admin (full) » et sélectionnez « Sector ».
 

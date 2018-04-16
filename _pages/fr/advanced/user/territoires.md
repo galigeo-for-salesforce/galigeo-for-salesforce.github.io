@@ -7,10 +7,10 @@ lang: fr
 ref: territoires-adv
 ---
 
-## Conception de territoires
+# Conception de territoires
 
 
-### Sélection
+## Sélection
 
 - Définition
 	
@@ -40,7 +40,7 @@ ref: territoires-adv
 	
 	Cliquer sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg) de la barre d’outils permet de supprimer la sélection.
 
-### Actions
+## Actions
 
 À partir d’une sélection, plusieurs actions sur les territoires sont possibles :
 
@@ -79,11 +79,11 @@ À partir d’une sélection, plusieurs actions sur les territoires sont possi
 
 	Les secteurs contenus dans la sélection sont soustraits des territoires auxquels ils appartiennent. Un message de validation s’affiche pour confirmation.
 
-### Annuler une conception
+## Annuler une conception
 
 Le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-034.jpg) permet l’annulation du ou des derniers territoires créés. On peut aussi effectuer cette action à l’aide de la combinaison de touches CTRL-Z.
 
-### Isochronie
+## Isochronie
 
 Les nouveaux territoires peuvent aussi être créés à partir de l’outil d’isochronie accessible depuis l’icône ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-035.jpg).
 

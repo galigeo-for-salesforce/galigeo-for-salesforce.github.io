@@ -16,11 +16,11 @@ release:
 
 footer:
   en:
-    - {url: "http://www.galigeo.com/products-overview/territory-management-products/galigeo-salesforce/", text: "Product Page"}
-    - {url: "http://www.galigeo.com/company/about-galigeo/", text: "About Galigeo"}
+    - {url: "https://www.galigeo.com/location-intelligence-software-overview/galigeo-salesforce/", text: "Product Page"}
+    - {url: "https://www.galigeo.com/company/about-galigeo/", text: "About Galigeo"}
   fr:
-    - {url: "http://www.galigeo.com/fr/nos-produits/territory-management-products/galigeo-sell-where/", text: "Page produit"}
-    - {url: "http://www.galigeo.com/fr/societe/a-propos-de-galigeo/", text: "A propos de Galigeo"}
+    - {url: "https://www.galigeo.com/fr/cartographie-pour-salesforce-sap-et-ibm/cartographie-pour-salesforce/", text: "Page produit"}
+    - {url: "https://www.galigeo.com/fr/societe/apps-de-cartographie/", text: "A propos de Galigeo"}
 
 pagination:
   en:

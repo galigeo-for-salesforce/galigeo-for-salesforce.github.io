@@ -7,16 +7,16 @@ lang: en
 ref: filtres
 ---
 
-## Filters and Actions
+# Filters and Actions
 
 The tools on the top left allow to manage data by: 
 
 1. Filtering them according to predefined filters 
 2. Searching for an object on the map
 
-### Filter data
+## Filter data
 
-#### With predefined filters
+### With predefined filters
 
 Click on the "Filters" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-035.png) icon in the toolbar to display the filters panel on the left. Those filters are defined by the application administrator when he sets the Map object up.
 
@@ -28,7 +28,7 @@ By activating the "Clients" filter, the user change the data visualization and s
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/filter1.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/filter2.png){:.img.img-responsive.img-center}|
 | *"Type" filter activated* | *"Client" filter activated* |
 
-#### With dynamic filters
+### With dynamic filters
 
 Dynamic filters allow you to filter Salesforce objects on the map with a simple keyword.
 
@@ -44,7 +44,7 @@ Using them is simple:
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/dfilter1.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/dfilter2.png){:.img.img-responsive.img-center}| ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/dfilter3.png){:.img.img-responsive.img-center}|
 |*Search field*|*Enter a keyword and select a suggestion*|*Number of displayed objects went down*|
 
-### Searching within records
+## Searching within records
 
 
 Click on the records ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-038.png) icon in the toolbar to display the records panel on the left.
@@ -76,7 +76,7 @@ In the information, by default the name of the record is displayed in green. A c
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-045.jpg){:.img.img-responsive.img-center}
 
-### Actions on records
+## Actions on records
 
 For each record in the list and in its information window when it is opened, some actions are available by clicking on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-056.png) icon:
 

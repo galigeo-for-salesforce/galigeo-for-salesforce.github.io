@@ -7,7 +7,7 @@ lang: en
 ref: basemap
 ---
 
-## Base maps
+# Base maps
 
 Click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-135.png) icon in the toolbar to display the base map panel.
 A list of available base map is presented. Clicking on one of the thumbnails will change the look of the map.

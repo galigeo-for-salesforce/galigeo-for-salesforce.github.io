@@ -7,7 +7,7 @@ lang: fr
 ref: selection
 ---
 
-## Sélection
+# Sélection
 
 Pour sélectionner et analyser des objets présents sur une carte, plusieurs fonctionnalités s’offrent à vous :
 
@@ -21,7 +21,7 @@ Pour accéder à l’outil de sélection, cliquez sur l’icône ![Galigeo for S
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-098.png){:.img.img-responsive.img-center}
 
-### Créer une sélection
+## Créer une sélection
 
 {:.table}
 |![feet]({{ site.url }}/assets/foot.png){:.img-center} | Choisissez dans la liste déroulante la couche sur laquelle vous souhaiter effectuer la sélection.<br> La couche des objets Salesforce (appelée "Données" ci-dessous) est toujours disponible dans la liste.<br>![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-101.png){:.img.img-responsive.img-center} |
@@ -44,7 +44,7 @@ Vous pouvez aussi exporter les données de la sélection au format CSV.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-113.png){:.img.img-responsive.img-center}
 
-### Analyse statistique
+## Analyse statistique
 
 Lorsqu’on crée/affiche une sélection, un tableau de données apparaît en bas de la carte. Le tableau liste les valeurs associées aux objets sélectionnés.
 
@@ -66,7 +66,7 @@ Le graphique affiche aussi la moyenne des valeurs du champ et un intervalle de c
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-121.png){:.img.img-responsive.img-center}
 
-### Gérer la sélection
+## Gérer la sélection
 
 Pour sauvegarder une sélection, donnez-lui un nom et cliquez sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-125.png) en haut du panneau de sélection.
 

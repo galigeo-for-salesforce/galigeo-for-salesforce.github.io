@@ -7,7 +7,7 @@ lang: fr
 ref: filtres
 ---
 
-## Filtres et actions
+# Filtres et actions
 
 
 Les deux premières options de la barre d’outils permettent :
@@ -15,9 +15,9 @@ Les deux premières options de la barre d’outils permettent :
 1. De filtrer les données grâce aux filtres associés à la carte 
 2. De rechercher un objet sur la carte
 
-### Filtrer les données
+## Filtrer les données
 
-#### Avec les filtres pré-configurés
+### Avec les filtres pré-configurés
 
 Cliquez sur l’icône « Filtres » ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-035.png)  dans la barre d’outils pour afficher les filtres du panneau de gauche. Ces filtres ont été définis par l’administrateur de l’application lors de la configuration de l’objet géographique.
 
@@ -29,7 +29,7 @@ En activant le filtre « Clients », l’utilisateur réduit la quantité de don
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/filtre1.png){:.img.img-responsive.img-center} | ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/filtre2.png){:.img.img-responsive.img-center}|
 | *Filtre "Type" activé* | *Filtre "Clients" activé* |
 
-#### Avec les filtres dynamiques
+### Avec les filtres dynamiques
 
 Les filtres dynamiques vous permttent de filtrer les objets Salesforce présents sur la carte grâce à un simple mot clé.
 
@@ -41,7 +41,7 @@ Leur utilisation est très simple :
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/filtre3.png){:.img.img-responsive.img-center}
 
-### Faire une recherche
+## Faire une recherche
 
 Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-038.png) dans la barre d’outils pour afficher les options de recherche dans le panneau de gauche.
 
@@ -70,7 +70,7 @@ Dans la fiche d’informations, par défaut, le nom de l’objet est affiché en
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-045.jpg){:.img.img-responsive.img-center}
 
-### Actions sur les objets
+## Actions sur les objets
 
 La liste des cibles (dans la section données) et le panneau d’informations comportent l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-056.png). Elle permet d’accéder à des actions :
 

@@ -7,21 +7,21 @@ lang: fr
 ref: presentation-adv
 ---
 
-## Définitions
+# Définitions
 
-### Territoire
+## Territoire
 
 Un territoire est une zone géographique contenant un ensemble de secteurs. Un territoire peut être affecté à un collaborateur.
 
-### Secteur
+## Secteur
 
 Un secteur est une entité géographique. C’est l’unité de base d’un territoire. Un projet de Territory Design repose sur une couche de secteurs. Voici quelques exemples de couches de secteurs : les communes ou les IRIS en France, les codes postaux ou les counties aux Etats- Unis etc.
 
-### Collaborateur
+## Collaborateur
 
 Un collaborateur, au sens du Territory Management, est une personne physique ou une entité qui peut être affectée à un territoire. Les collaborateurs sont ajoutés par l’administrateur de l’application.
 
-## Interface
+# Interface
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-004.jpg){:.img.img-responsive.img-center}
 

@@ -7,7 +7,7 @@ lang: en
 ref: secteurs
 ---
 
-## Manage sectors
+# Manage sectors
 
 In the "Galigeo Admin (advanced)" tab, click on "Sectors":
 
@@ -16,19 +16,19 @@ In the "Galigeo Admin (advanced)" tab, click on "Sectors":
 This component presents the list of declared custom sectors and admin can create, refresh or delete them.
 A sector is the based geographical unit (for example: the zipcode in the USA) used to build territories.
 
-### Create a sector
+## Create a sector
 
 We propose here to build a sector based on metrics from the Account object and map (or join) them on the geographic ZipCode.
 
 To create a sector, click on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-040.png) icon to be forwarded to the creation page.
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Define sector properties
+### ![feet]({{ site.url }}/assets/foot.png) Step 1: Define sector properties
 
 Give a name to your sector and choose from the list the base geometry used to join the salesforce metrics. Here let's choose "zipcodes".
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-admin/Galigeo4SFDC_-_Administra-045.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Define metrics
+### ![feet]({{ site.url }}/assets/foot.png) Step 2: Define metrics
 
 Select a Salesforce object in the source object list. The list displays Custom object and Standard object like Account, Contact, Lead and Opportunity (standard objects with zipcode field). 
 
@@ -96,7 +96,7 @@ If the number of rows (without grouping by the field) is greater than 50000, a m
 
 And click "Save" button to save your sector and being forwarded to the Galigeo Admin page. When saving your sector, a batch process is scheduled and you will received a mail when the job is done.
 
-### Manage sectors
+## Manage sectors
 
 Go to the "Galigeo Admin (advanced)" tab and select "Sector".
 The list of custom sectors are displayed in a table with four columns:

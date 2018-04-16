@@ -7,7 +7,7 @@ lang: en
 ref: post-install-advanced
 ---
 
-## Post-Installation steps
+# Post-Installation steps
 
 As mentioned in the [Install section](/install-advanced-en), this package is an extension of Galigeo for Salesforce Standard Edition.
 
@@ -16,7 +16,7 @@ There severals steps to complete this installation:
 - Modify the base package to include the new tabs
 - Assign permissions
 
-### Base package modification
+## Base package modification
 
 Go to **Setup | Create | Apps** 
 and edit the Galigeo for Salesforce Standard Edition package.
@@ -33,11 +33,11 @@ Add these tabs the selected tabs for the app and click "Save":
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-048.png){:.img.img-responsive.img-center}
 
-### Give access using Permission Set
+## Give access using Permission Set
 
 As this application is an extension of the Galigeo Standard Edition, it is probably already done.
 
-### Create/Update user profile
+## Create/Update user profile
 
 Depending on your organization settings and security rules, SalesForce administrators would give special rule to a given profile.
 

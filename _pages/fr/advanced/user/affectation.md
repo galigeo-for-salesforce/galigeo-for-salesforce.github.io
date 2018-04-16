@@ -7,7 +7,7 @@ lang: fr
 ref: affectation-adv
 ---
 
-## Affectation des enregistrements
+# Affectation des enregistrements
 
 Cliquez sur l’onglet « Records Assignment » pour accéder à la page d’affectation des enregistrements en masse.
 
@@ -21,7 +21,7 @@ La page est divisée en deux parties :
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-056.png){:.img.img-responsive.img-center}
 
-### Sélection des enregistrements et du projet
+## Sélection des enregistrements et du projet
 
 Sélectionnez un objet géographique de la liste déroulante. Cette liste contient tous les objets géographiques présents dans la page d’administration de Galigeo Standard Edition. Sélectionnons l’objet géographique Accounts.
 
@@ -53,7 +53,7 @@ Cliquez ensuite sur le bouton « Test » pour rafraichir les données et la car
 
 106 enregistrements correspondent à ce critère.
 
-### Affectation des enregistrements
+## Affectation des enregistrements
 
 Une fois que vous avez sélectionné les comptes qui vous intéressent, cliquez sur le bouton « Assign ».
 

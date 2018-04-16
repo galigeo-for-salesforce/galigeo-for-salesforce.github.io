@@ -7,13 +7,13 @@ lang: en
 ref: analytics
 ---
 
-## Data Analysis
+# Data Analysis
 
 Galigeo for Salesforce allows to create analytics like Pie Chart, Proportional Symbol or Choropleth based on a data.
 
 To achieve this, a Galigeo Admin user need to define a data source and some analytics based on data sources.
 
-### Manage Data Sources
+## Manage Data Sources
 
 In the Galigeo Admin tab, click on **"Analytics"** to switch to the Data Sources Administration panel.
 
@@ -21,7 +21,7 @@ In the Galigeo Admin tab, click on **"Analytics"** to switch to the Data Sources
 
 Click on the "New" button to go the Data Source creation page.
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Fill Data Source Properties
+### ![feet]({{ site.url }}/assets/foot.png) Step 1: Fill Data Source Properties
 
 Choose a name for your data source, select the type of the data source.
 
@@ -34,7 +34,7 @@ Now it is possible to choose a layer on which the result will be joined.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-139.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Define Data
+### ![feet]({{ site.url }}/assets/foot.png) Step 2: Define Data
 
 There are two ways to define what data will be exposed from this datasource:
 
@@ -177,7 +177,7 @@ The Data Source details page has three main parts:
 
     
 
-### Clone a data source
+## Clone a data source
 
 Let's assume that a data source has been defined on the Accounts which Record Type is "Client". It uses the whereclause below:
 
@@ -205,7 +205,7 @@ Click the Edit button and change the whereclause so that it adresses only Accoun
 WHERE RecordType.Name = 'Prospect'
 ```
 
-### Manage Analytics
+## Manage Analytics
 
 Since we have our "Accounts by Zipcode" data source linked on the USA Zip Codes, it's time to create analytics.
 Click on the ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) icon in the Analytics panel to run the Analytic Wizard.
@@ -297,7 +297,7 @@ When an end user defined its visual dataset and add some analytics to it, the ma
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-192.jpg){:.img.img-responsive.img-center}
 
-### Clone an analytic
+## Clone an analytic
 
 Let's assume that a data source has been set up on the Accounts with the record Type est “Client” and with zipcodes starting with 59 or 62. Some analytics also have been set up on this object.
 

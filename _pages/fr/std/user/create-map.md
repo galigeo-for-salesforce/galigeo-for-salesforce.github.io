@@ -7,17 +7,17 @@ lang: fr
 ref: create-map
 ---
 
-## Créer une carte
+# Créer une carte
 
 
 Le point d’entrée de l’application est l’onglet Galigeo.
 A partir de cet onglet, un utilisateur peut gérer (créer/modifier/supprimer) une ou plusieurs cartes.
 
-### Qu’est-ce qu’une « carte » ?
+## Qu’est-ce qu’une « carte » ?
 
 Une « carte », dans le contexte de l’application, est un ensemble d’objets géographiques et d’analyses définies par l’administrateur de l’application. L’utilisateur peut construire ses propres cartes à partir de ces objets et les partager.
 
-### Créer une carte
+## Créer une carte
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new1.png){:.img.img-responsive.img-center}
 
@@ -70,7 +70,7 @@ Une nouvelle carte apparaît maintenant dans votre liste de cartes, vous pouvez
 3. Analyses : la liste des analyses associées à la carte
 4. Voir le nom du propriétaire
 
-### Partager une carte
+## Partager une carte
 
 L'écran accessible depuis l'onglet Galigeo prénsente les cartes auxquelles vous avez accès dans 2 sections :
 
@@ -81,13 +81,13 @@ L'écran accessible depuis l'onglet Galigeo prénsente les cartes auxquelles vou
 
 Voici les étapes à suivre pour partager une carte avec un ou plusieurs autres utilisateurs :
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Cliquez sur l'icône de partage ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png)
+### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Cliquez sur l'icône de partage ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png)
 
 Sur l'écran de partage, cliquez sur le bouton "Ajouter".
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/share1.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Sélectionnez le/les destinataire(s) du partage
+### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Sélectionnez le/les destinataire(s) du partage
 
 Vous pouvez ajouter des utilisateurs :
 

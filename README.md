@@ -1,6 +1,3 @@
-![Bootstrap 3 Jekyll](https://scotch.io/wp-content/uploads/2015/10/bootstrap-plus-jekyll.png)
+Galigeo for Salesforce documentation.
 
-
-
-
-
+https://www.galigeo.com/location-intelligence-software-overview/galigeo-salesforce/

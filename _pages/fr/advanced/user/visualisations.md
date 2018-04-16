@@ -7,13 +7,13 @@ lang: fr
 ref: visualisations-adv
 ---
 
-## Modes de visualisation
+# Modes de visualisation
 
-### Carte
+## Carte
 
 Les territoires sont représentés sur la carte dans la couleur qui leur a été assignée.
 
-### Tableaux/Graphiques
+## Tableaux/Graphiques
 
 En bas à gauche de l’interface, les territoires sont représentés d’une manière tabulaire ou graphique. Un switch permet le basculement entre les deux vues.
 
@@ -51,13 +51,13 @@ En bas à gauche de l’interface, les territoires sont représentés d’une
 
 	Sur l’axe des ordonnées le minimum et le maximum correspondent au minimum et maximum de tous les indicateurs sur tous les territoires. En conséquence, si les indicateurs sont affichés avec des unités différentes ou s’il y a des indicateurs avec des valeurs très éloignées, un problème d’échelle peut apparaître.
 
-### Interactions
+## Interactions
 
 Les vues cartographiques, tabulaires et graphiques des territoires sont interconnectées. 
 
 Si on clique sur un territoire dans l’une de ces 3 vues, son apparence sera modifiée : il apparaît en surbrillance avec une bordure jaune sur la carte, un arrière-plan grisé apparaît sur la ligne du tableau correspondante et sous la forme d’une barre plus foncée dans le diagramme.
 
-### Détails des secteurs
+## Détails des secteurs
 
 Si on sélectionne un territoire, les détails des secteurs le composant sont affichés de deux façons différentes :
 
@@ -66,7 +66,7 @@ Si on sélectionne un territoire, les détails des secteurs le composant sont 
 
 Ces deux affichages sont interconnectés. Si on clique sur un secteur sur la carte, celui- ci apparaît en surbrillance, dans le tableau le cadre de la ligne correspondante clignote et inversement.
 
-### Options d’affichage
+## Options d’affichage
 
 - Étiquettes
 
@@ -80,7 +80,7 @@ Ces deux affichages sont interconnectés. Si on clique sur un secteur sur la ca
 
   - Filtre d’étendue : il est actif lorsqu’on clique sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-025.png) de la barre d’outils. Il filtre les territoires pour n’afficher que les territoires visibles sur la carte au moment de l’activation.
 
-### Couches de ponctuels
+## Couches de ponctuels
 
 Si à la création du projet l’utilisateur a sélectionné une couche de ponctuels, elle apparaît sur la carte. Elle sera « clusterisée », c’est-à-dire les points proches du point de vue géographique sont regroupés afin de ne pas surcharger la carte.
 

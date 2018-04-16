@@ -7,7 +7,7 @@ lang: en
 ref: geofiltre
 ---
 
-## Define Geo-filter
+# Define Geo-filter
 
 A Geo-Filter is based on a Map Object and allows to filter data shown on the map by activating them or not.
 
@@ -20,16 +20,16 @@ To add a filter for a given map object, go to the map object details page, and c
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-060.png){:.img.img-responsive.img-center}
 
-### Create a Geo-Filter
+## Create a Geo-Filter
 
-#### ![feet]({{ site.url }}/assets/foot.png) Enter a Geo-Filter Name
+### ![feet]({{ site.url }}/assets/foot.png) Enter a Geo-Filter Name
 
 The name is only visible in the administration panel. Enter an easy name to find it in the lookup window.
 The label is used in the user interface.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter2.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Enter Geo-Filter properties
+### ![feet]({{ site.url }}/assets/foot.png) Enter Geo-Filter properties
 
 In this section, we define the Geo-Filter properties:
 
@@ -105,7 +105,7 @@ There are two ways to define a symbology using images.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter14.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 3: Specify Geo-Filter criteria
+### ![feet]({{ site.url }}/assets/foot.png) Step 3: Specify Geo-Filter criteria
 
 In this section, we define how to filter the data of the Map Object by adding some criteria. 
 For example, this Geo-Filter selects all Accounts where the BillingCountry field is not empty.
@@ -134,7 +134,7 @@ You can find more information on how to define a [Salesforce Object Query Langua
 | ![warning]({{ site.url }}/assets/warning.png)     | Query are subject to the [Salesforce Governors Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm). Be sure to make the more selective filter to do not reach those limits. |
 | ![warning]({{ site.url }}/assets/warning.png) | Using Full SoQL query, you must query Id on other Object. Don't do: `Select Id FROM Account WHERE {A_CONDITION}` Because the generated query will be like `Select Name FROM Account Where Id in (Select Id FROM Account WHERE {A_CONDITION})` That query statement is not supported by Salesforce. |
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 4: Test the filter with its conditions
+### ![feet]({{ site.url }}/assets/foot.png) Step 4: Test the filter with its conditions
 
 At any moment, it is possible to test the Geo-Filter with a click on "Test Query" button. It shows the generated WHERE clause and how many records have matched the condition(s).
 
@@ -149,7 +149,7 @@ In the map interface, the user will see this filter with the data plot with the 
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-095.jpg){:.img.img-responsive.img-center}
 
-### Create hierarchical Geo-Filters
+## Create hierarchical Geo-Filters
 
 We defined Geo-Filters to see all Accounts where the BillingCountry is not empty.
 
@@ -165,7 +165,7 @@ Using the sample data above, let's build the following Geo-Filters Hierarchy:
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter22.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Create "Inside USA" filter
+### ![feet]({{ site.url }}/assets/foot.png) Step 1: Create "Inside USA" filter
 
 Follow the first steps used to create the first filter:
 
@@ -193,7 +193,7 @@ Back to the Map Object details page, in the filter panel, we have
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter27.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Create "Inside USA" children filters
+### ![feet]({{ site.url }}/assets/foot.png) Step 2: Create "Inside USA" children filters
 
 Follow the same procedure describe in step 1, and set the filter "Inside USA" as the parent filter.
 
@@ -207,7 +207,7 @@ Follow the same procedure describe in step 1, and set the filter "Inside USA" as
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter29.png){:.img.img-responsive.img-center}
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-112.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 3: Create "Outside USA" filter
+### ![feet]({{ site.url }}/assets/foot.png) Step 3: Create "Outside USA" filter
 
 Follow the procedure in step 1 to create the outside USA filter.
 Define the filter "All Accounts" as the parent filter. And set a condition to select Account where the BillingCountry field is not equals to "USA".
@@ -227,7 +227,7 @@ Finally, in the user interface, this hierarchy like a tree view where each filte
 
 If a symbology is defined as an image, the marker displayed on the map will look like ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-119.png)
 
-### Combined Geo-Filter
+## Combined Geo-Filter
 
 Let assume we are working on the map object with the "Combine filters" checkbox selected and some hierarchical on the account defined as shown in the image below
 

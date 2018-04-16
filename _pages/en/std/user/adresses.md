@@ -7,9 +7,9 @@ lang: en
 ref: adresses
 ---
 
-## Search Address tool
+# Search Address tool
 
-### Search an address
+## Search an address
 
 A click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-127.png) icon will show/hide the address search tool at the top right (ahead the legend panel).
 
@@ -24,7 +24,7 @@ When an address is selected, the map is centered to it and the position is repre
 {:.table.table-bordered}
 | ![notice]({{ site.url }}/assets/notice.png)  | This position will be set in the [routing panel]({{site.url}}/plan-en#add-several-events-to-your-salesforce-calendar-at-once) as the last known position. |
 
-### Locate me
+## Locate me
 
 If the user click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-132.png) icon at the right in the search address tool, the application tries to locate the user and displays it position on the map. A reverse geocoding is also performed to fill the search input address.
 

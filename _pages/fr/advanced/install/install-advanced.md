@@ -7,9 +7,9 @@ lang: fr
 ref: install-advanced
 ---
 
-## Installation du package
+# Installation du package
 
-### Démarrer l’installation
+## Démarrer l’installation
 
 Galigeo Advanced Edition est un package d’extension pour Galigeo Visit Planning. Lors de l’installation, le processus vérifie si le package de base est installé avant de démarrer l’installation.
 
@@ -19,19 +19,19 @@ Rendez-vous sur la [page Galigeo de l’AppExchange](https://appexchange.salesfo
 
 Pour démarrer l’installation du package, cliquez sur **« Get It Now »** sur la droite.
 
-### Vous connecter
+## Vous connecter
 
 Connectez-vous en utilisant vos identifiants Salesforce ou en tant que visiteur.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-017.png){:.img.img-responsive.img-center}
 
-### Méthode d'installation
+## Méthode d'installation
 
 Choisissez si vous voulez installer l’application dans le système de production de votre organisation ou dans un système Sandbox.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-020.png){:.img.img-responsive.img-center}
 
-### Accepter les conditions d’utilisation
+## Accepter les conditions d’utilisation
 
 Une fenêtre affiche le détail des informations de la version de l’application Galigeo prête à être installée ainsi que le compte sur lequel elle sera installée.
 
@@ -41,13 +41,13 @@ La version du package est destinée à évoluer au fur et à mesure des amélior
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-023.png){:.img.img-responsive.img-center}
 
-### Détails d’installation du package
+## Détails d’installation du package
 
 Passez en revue les détails de l’installation du package et cliquez sur « Continue ».
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-028.png){:.img.img-responsive.img-center}
 
-### Acceptez l’accès de sites Web tiers
+## Acceptez l’accès de sites Web tiers
 
 Ce package a besoin d’accéder des services Web tiers pour interroger des ressources REST.
 
@@ -56,21 +56,21 @@ Ce package a besoin d’accéder des services Web tiers pour interroger des ress
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-031.png){:.img.img-responsive.img-center}
 
-### Acceptez l’accès Package API
+## Acceptez l’accès Package API
 
 1. Passez en revue les autorisations listées sur la page
 2. Cliquez sur « Next » pour continuer
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-034.png){:.img.img-responsive.img-center}
 
-### Niveau de sécurité
+## Niveau de sécurité
 
 1. Sélectionnez la configuration de sécurité désirée
 2. Cliquez sur « Next » pour continuer
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-037.png){:.img.img-responsive.img-center}
 
-### Installer le package
+## Installer le package
 
 Enfin, cliquez sur le bouton **« Install »** pour démarrer l’installation de Galigeo Advanced Edition.
 
@@ -80,7 +80,7 @@ Quelques minutes sont nécessaires pour installer le package dans votre organisa
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-install/Galigeo4SFDC_-_Installati-043.png){:.img.img-responsive.img-center}
 
-### Vérifier les packages installés
+## Vérifier les packages installés
 
 A réception de l’e-mail de confirmation, afin de vérifier si le package a été installé, rendez-vous sur : 
 **Configuration | Configuration de l’application | Packages installés**

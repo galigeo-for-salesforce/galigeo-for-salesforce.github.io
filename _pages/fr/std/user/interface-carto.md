@@ -7,9 +7,9 @@ lang: fr
 ref: interface-carto
 ---
 
-## Interface cartographique
+# Interface cartographique
 
-### Présentation générale
+## Présentation générale
 
 Dans le viewer cartographique l’utilisateur peut visualiser et analyser ses données :
 
@@ -20,12 +20,12 @@ Dans le viewer cartographique l’utilisateur peut visualiser et analyser ses do
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-026.jpg){:.img.img-responsive.img-center}
 
-### Barre d'outils
+## Barre d'outils
 
 {:.table}
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-027.png)|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-028.jpg)| La barre d’outils permet d’accéder aux différentes fonctionnalités de l’application. <br><br>A l’ouverture de la carte, la barre est repliée (voir l’illustration sur la gauche). Elle se déplie au survol du curseur. <br>L’utilisateur peut cliquer sur l’icône pour qu’elle reste ouverte. | 
 
-### Visualisation de données
+## Visualisation de données
 
 Par défaut, les objets visibles sur la carte sont regroupés en clusters. En fonction du niveau de zoom de la carte, le viewer groupe les points en clusters. Plus le zoom est important, plus la taille des clusters diminue jusqu’à ce qu’ils deviennent des marqueurs individuels. 
 

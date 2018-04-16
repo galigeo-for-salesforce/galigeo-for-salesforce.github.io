@@ -7,9 +7,9 @@ lang: en
 ref: utilisateurs
 ---
 
-## User management
+# User management
 
-### TM Role
+## TM Role
 
 The application used three different roles:
 
@@ -17,7 +17,7 @@ The application used three different roles:
 - TM_Owner: this role has the same capabilities than the TM_Admin role, except that it sees only its owned project.
 - TM_Stakeholder: has no right. This role is used to declared a user that a Designer can assign to a territory.
 
-### Add an user
+## Add an user
 
 To add a user to the Full Edition, click on the "Add a user" button:
 

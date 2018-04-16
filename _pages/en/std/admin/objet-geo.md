@@ -7,7 +7,7 @@ lang: en
 ref: objet-geo
 ---
 
-## Define a Map Object
+# Define a Map Object
 
 When running the application for the first time, the Map Objects tab is empty.
 
@@ -17,7 +17,7 @@ Click on the "New" button, select the option "Using the wizard for Salesforce St
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj2.png){:.img.img-responsive.img-center}
 
-### Create a Map Object using the creation wizard
+## Create a Map Object using the creation wizard
 
 The creation is in three steps:
 
@@ -25,13 +25,13 @@ The creation is in three steps:
 - Choose which object it is based on
 - Defined filters
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Map Object Name
+### ![feet]({{ site.url }}/assets/foot.png) Step 1: Map Object Name
 
 Enter a name for your configuration and click the "Next" button
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj3.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Choose a Salesforce Object & Location field
+### ![feet]({{ site.url }}/assets/foot.png) Choose a Salesforce Object & Location field
 
 Cette step allows to fill the geolocation field with latitude and longitude of a set of Salesforce Objects.
 
@@ -60,7 +60,7 @@ Select a Geolocation field
 
 And click "Next".
 
-#### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Build filters
+### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Build filters
 
 To build filters, the list shows all the fields of type PickList:
 
@@ -92,13 +92,13 @@ Click on the "Edit" button to modify the "Properties" and the "Display fields" c
 
 User can click on the "Back" button to go to the Admin page or on the "Delete" button if he wants to delete the current configuration.
 
-### Create a Map Object using the advanced mode
+## Create a Map Object using the advanced mode
 
 From the **Galigeo Admin** page, click on the "New" button, choose the option "Using advanced mode (custom and standard objects)" and click "OK":
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj10.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Map Object Information
+### ![feet]({{ site.url }}/assets/foot.png) Step 1: Map Object Information
 
 {:.table.table-bordered}
 | ![notice]({{ site.url }}/assets/notice.png)  |Note: Please refer to the [Post Installation]({{site.url}}/post-install-std-en#add-a-geolocation-field) section to add a custom field of type Geolocation in the Salesforce object before continuing |
@@ -118,7 +118,7 @@ A click on the **"Estimate"** button informs the number of records the map objec
 {:.table.table-bordered}
 | ![notice]({{ site.url }}/assets/notice.png)  |This feature is useful to segment account by regions for example. |
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Address and geolocation fields
+### ![feet]({{ site.url }}/assets/foot.png) Step 2: Address and geolocation fields
 
 Once Account object is selected, all drop down list of this section are populated with the Account fields.
 
@@ -126,7 +126,7 @@ We named this Map Object **"Shipping Account"**, so let's map the fields with th
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj12.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 3: Visualization
+### ![feet]({{ site.url }}/assets/foot.png) Step 3: Visualization
 
 Now you choose:
 
@@ -137,7 +137,7 @@ Now you choose:
 
 Click on the "Save" button to save these information and be forwarded back to this newly Map object details page.
 
-### Map Object tab description
+## Map Object tab description
 
 The Map Object tab in the Galigeo Admin page shows all Map Objects group by Salesforce Object.
 

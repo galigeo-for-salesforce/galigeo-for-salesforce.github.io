@@ -7,16 +7,16 @@ lang: en
 ref: create-map
 ---
 
-## Create a Map
+# Create a Map
 
 The main entry point for an end user is the Galigeo Tab.
 In this tab, a user manage (create/edit/delete) his owned map(s).
 
-### What is a Map?
+## What is a Map?
 
 A Map is a set of Map Objects and analytics defined by the application administrator. The user can choose between those objects to build his own map and can see them.
 
-### Creating a Map
+## Creating a Map
 
 When running the app for the first time, the content of the Galigeo tab is composed of a section with an empty list of maps.
 
@@ -72,7 +72,7 @@ Back to the Visual Dataset page, the newly created one is now available in the t
 3. Analytics: The list of the analytics linked to the Map
 4. Owner: see the owner's name
 
-### Share a map
+## Share a map
 
 The first page in the Galigeo tab displays the maps you have access to in 2 sections:
 
@@ -83,13 +83,13 @@ The first page in the Galigeo tab displays the maps you have access to in 2 sect
 
 You'll find below the steps to complete in order to share a map with one or more users:
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 1: Click the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png) icon
+### ![feet]({{ site.url }}/assets/foot.png) Step 1: Click the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/new2.png) icon
 
 On the share screen, click the "Add" button.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/create9.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) Step 2: Select the users you want to share with
+### ![feet]({{ site.url }}/assets/foot.png) Step 2: Select the users you want to share with
 
 You can add users:
 

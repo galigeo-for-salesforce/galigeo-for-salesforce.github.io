@@ -7,9 +7,9 @@ lang: en
 ref: install-std
 ---
 
-## Package Installation
+# Package Installation
 
-### Start Installation
+## Start Installation
 
 {:.table.table-bordered}
 | ![warning]({{ site.url }}/assets/warning.png)     | **Important** : For an upgrade from any version prior to **1.103**, you need to set the Sharing model to "Private" on the object **"Visual DataSet"** in your **"Organization Wide Default"** |
@@ -20,7 +20,7 @@ To start the package installation, click **"Get It Now"** on the right.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-018.jpg){:.img.img-responsive}
 
-### Sign In
+## Sign In
 
 Sign in using your Salesforce credentials or log in as a guest.
 
@@ -32,13 +32,13 @@ If you are not logged in yet to your production organization, you will be forwar
 
 Choosing a Guest account (available for 30 days) is the better way to discover quickly our Galigeo App: a demo is already installed ... and you can go directly to the [Check Installed Packages](#check-installed-packages) paragraph below.
 
-### Installation method
+## Installation method
 
 After be logged with your Salesforce credentials, choose if you want to install the application in your Production organization or in a Sandbox system:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-024.png){:.img.img-responsive.img-center}
 
-### Agree to Terms and conditions
+## Agree to Terms and conditions
 
 It is showing the details about the version of Galigeo App being installed and the account it will be installed on.
 
@@ -48,13 +48,13 @@ The package version might change due to its update.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-027.png){:.img.img-responsive.img-center}
 
-### Security Settings
+## Security Settings
 
 Select who will access to the application:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-028.png){:.img.img-responsive.img-center}
 
-### Approve Third-Party Access
+## Approve Third-Party Access
 
 This package need to access a Third-Party Web Service when a geocoding batch is scheduled.
 
@@ -63,7 +63,7 @@ This package need to access a Third-Party Web Service when a geocoding batch is 
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-029.png){:.img.img-responsive.img-center}
 
-### Installation Package in progress
+## Installation Package in progress
 
 Finally, the package is installing:
 
@@ -73,7 +73,7 @@ It may take a few minutes to install the package on your organization, the follo
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-031.png){:.img.img-responsive.img-center}
 
-### Check Installed Packages
+## Check Installed Packages
 
 Once you received the confirmation email, in order to check if the package is installed, go to: **Setup** / **App Setup** / **Installed Packages**
 

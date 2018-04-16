@@ -7,7 +7,7 @@ lang: en
 ref: affectation-adv
 ---
 
-## Records Assignment
+# Records Assignment
 
 Click on the "Records Assignment" tab to access to the mass records assignment page.
 
@@ -20,7 +20,7 @@ The page is divided in two part:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-056.png){:.img.img-responsive.img-center}
 
-### Records and project selection
+## Records and project selection
 
 Select a map object from the list. This list contains all the map objects defined by the SellWhere Visit Planning administration page where for an object the address fields are mapped and the geolocation (latitude/longitude) is defined. Let's select the Accounts map object.
 
@@ -52,7 +52,7 @@ Than click "Test" button to refresh the information and the map.
 
 There are 106 records that matched the criteria.
 
-### Records Assignment
+## Records Assignment
 
 Once you are satisfied with the criteria, click on the "Assign" button. 
 

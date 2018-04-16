@@ -7,13 +7,13 @@ lang: en
 ref: visualisations-adv
 ---
 
-## Visualization Modes
+# Visualization Modes
 
-### Map
+## Map
 
 The territories are represented on the map in the color assigned to them.
 
-### Tables/Graphics
+## Tables/Graphics
 
 At the left hand side of the interface, the territories are represented in a tabular or a graphical manner. A switch allows the toggling of the views.
 
@@ -51,13 +51,13 @@ At the left hand side of the interface, the territories are represented in a tab
 
 	On the X axis, that corresponds to the value of the indicators, the minimum and the maximum correspond to the minimum and maximum of all the indicators on all the territories. Accordingly, if indicators are displayed which unit is different, or if there are indicators that have very different values, a problem of scale can appear.
 
-### Interaction
+## Interaction
 
 The cartographic views, tabular and graphic, of the territories are connected. 
 
 Regardless of the view, if it is clicked on a territory, this one will be displayed in the 3 views: highlighted with a yellow border on the map, with a gray line background on the table, darker bar on the chart.
 
-### Territories' details
+## Territories' details
 
 As one selects a territory, the details of the sectors composing it are displayed in two different manners:
 
@@ -66,7 +66,7 @@ As one selects a territory, the details of the sectors composing it are displaye
 
 These two displaying manners are also connected. If one clicks on a sector on the map, that is highlighted on the table by a flashing frame, and if ones clicks on a sector on the table this will be highlighted on the map by a flashing sector.
 
-### Display options
+## Display options
 
 - Labels
 
@@ -80,7 +80,7 @@ These two displaying manners are also connected. If one clicks on a sector on th
 
   - Extent filter. It is becomes active by the user of the following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-025.png) available in the toolbar. It filters the territories according to the actual extent of the map at the moment of its activation. Thus will be kept only the territories visible on the screen.
 
-### Points Details
+## Points Details
 
 If at the creation of the project the user selected a layer of points, this one is then displayed on the map. It is “clustered”, i.e. the points that are close from the geographical point of view are regrouped in order not to overload the map.
 

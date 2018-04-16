@@ -7,7 +7,7 @@ lang: en
 ref: post-install-std
 ---
 
-## Post-installation steps
+# Post-installation steps
 
 One more step is needed to complete the installation:
 
@@ -20,11 +20,11 @@ One more step is needed to complete the installation:
 
 - Create a custom **Geolocation** field for each object that would be mapped
 
-### First Method: give rule access by creating a Permission Sets
+## First Method: give rule access by creating a Permission Sets
 
 Using Permissions Sets is a more flexible way to give access for users to specific feature in Salesforce (objects, pages, classes ...). We recommend to use this method.
 
-#### Clone Sample Permission sets
+### Clone Sample Permission sets
 
 The application gives two samples Permission Sets that can be used as stating. Go to the "Permission Sets" menu in the "Administration Setup/Manage Users" block (left bar navigation).
 
@@ -58,7 +58,7 @@ Because it's not possible to add an assigned app in a Permission Set added to a 
   - For Sandbox: enable the connected App "galigeo_sellwhere_sbx"
   - For Production: enable the connected App "galigeo_sellwhere"
 
-#### Create your own Permission sets
+### Create your own Permission sets
 
 Go to the “Permissions sets" menu in the “Administer/Manage Users” block (left bar). 
 
@@ -68,7 +68,7 @@ Create a « New » Permission Set:
 
 Now edit the Permission set properties.
 
-### For an end user
+## For an end user
 
 1. **Assigned App**
 
@@ -154,7 +154,7 @@ Now edit the Permission set properties.
    | galigeo.VisualDataSet |
    | galigeo.VizDataSetSharingRules |
 
-### For an admin user
+## For an admin user
 
 In addition to what an end user have access, an admin user should be able to create Map Objects, Symbologies, GeoFilters, Geographic Layers, Data Sources and Analytics. Here is what a permission sets for an admin user should contains.
 
@@ -244,7 +244,7 @@ In addition to what an end user have access, an admin user should be able to cre
    | galigeo.mapObjectDetails |
 
 
-### Second method: give rule access by modifying a profile
+## Second method: give rule access by modifying a profile
 
 Depending on your organization settings and security rules, SalesForce administrators would give special rule to a given profile. In this application, an end user doesn't need to see the "Galigeo Admin" tab but only the "Visit Planning" tab. Also, He can only modify his Visual Data Set.
 
@@ -254,7 +254,7 @@ To achieve this, suppose we already have a profile named "Galigeo end user". Go 
 
 Depending on the profile, apply rights access to the objects, pages and classes as defined in the previous section.
 
-### Add a Geolocation field
+## Add a Geolocation field
 
 The mapping process is based on latitude and longitude coordinates. To achieve this, a batch geocoding process is scheduled to geocode specified address fields for an object and the result is stored in a custom field of type Geolocation.
 

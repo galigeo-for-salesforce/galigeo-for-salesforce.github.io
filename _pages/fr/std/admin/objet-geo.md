@@ -7,7 +7,7 @@ lang: fr
 ref: objet-geo
 ---
 
-## Définir un Objet géographique
+# Définir un Objet géographique
 
 Lorsqu’on ouvre l’application pour la première fois, l’onglet « Objets géographiques » est vide.
 
@@ -17,7 +17,7 @@ Cliquez sur le bouton « Nouveau », sélectionnez l’option « Utilisez l’as
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-020.png){:.img.img-responsive.img-center}
 
-### Créer un objet géographique en utilisant l’assistant de création
+## Créer un objet géographique en utilisant l’assistant de création
 
 La création se déroule en trois étapes :
 
@@ -25,13 +25,13 @@ La création se déroule en trois étapes :
 - Choisir sur quel objet elle repose
 - Définir des filtres
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Nom de l’objet géographique
+### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Nom de l’objet géographique
 
 Entrer un nom et cliquez sur le bouton « Suivant »
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-023.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Choisir un objet Salesforce & un champ de géolocalisation
+### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Choisir un objet Salesforce & un champ de géolocalisation
 
 Cette étape permet de remplir le champ géolocalisation qui contient la latitude et la longitude d’un objet Salesforce.
 
@@ -59,7 +59,7 @@ Sélectionnez le champ de géolocalisation
 
 Et cliquez sur « Suivant ».
 
-#### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Créer des filtres
+### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Créer des filtres
 
 Vous pouvez créer des filtres à partir des champs de type Liste de sélection :
 
@@ -94,14 +94,14 @@ Cliquez sur le bouton « éditer » pour modifier les « Propriétés » et la c
 
 Cliquez sur le bouton « Retour » pour retourner à la page d’administration et sur le bouton « Supprimer » pour supprimer cet objet géographique.
 
-### Créer un Objet géographique en utilisant le mode avancé
+## Créer un Objet géographique en utilisant le mode avancé
 
 Dans la section **Galigeo Admin**, cliquez sur le bouton **« Nouveau »**, choisissez l’option
 « Utiliser le mode de création avancé (objets standard et customisés) et cliquez sur « OK » :
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-037.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Information sur l’objet géographique
+### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Information sur l’objet géographique
 
 {:.table.table-bordered}
 | ![notice]({{ site.url }}/assets/notice.png)  |Remarque : Si l’objet que vous souhaitez utiliser n’a pas encore de champ de type géolocalisation, veuillez consulter la section des étapes de post-installation dans le guide d’installation. |
@@ -120,14 +120,14 @@ Cliquez sur **« Estimer »** pour obtenir le nombre d’objets sur lequel l’o
 {:.table.table-bordered}
 | ![notice]({{ site.url }}/assets/notice.png)  |Grâce à cette fonctionnalité, vous pouvez, par exemple, segmenter vos Comptes en différentes régions. |
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Champs d’adresse et de géolocalisation
+### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Champs d’adresse et de géolocalisation
 
 Une fois l’objet Compte sélectionné, les listes déroulantes de cette section seront complétées à l’aide des champs d’adresse de l’objet Compte.
 Nous avons nommé cet objet géographique **« Compte - facturation »**, nous faisons correspondre ses champs avec les champs constituant l’adresse de facturation de l’objet Compte. Nous utilisons le champ **« bill__geoloc__c »** pour enregistrer les latitudes et longitudes résultant du géocodage des adresses :
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-047.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Visualisation
+### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Visualisation
 
 Choisissez maintenant :
 
@@ -141,7 +141,7 @@ marqueurs de sa carte:
 
 Cliquez sur le bouton **« Enregistrer »** pour sauvegarder ces informations.
 
-### L’onglet Objet géographique
+## L’onglet Objet géographique
 
 Dans l’onglet Galigeo Admin, la section Objets géographiques affiche tous les objets géographiques groupés par type d’objet Salesforce.
 

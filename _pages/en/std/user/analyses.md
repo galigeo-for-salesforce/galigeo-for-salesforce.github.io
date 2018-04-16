@@ -7,7 +7,7 @@ lang: en
 ref: analyses
 ---
 
-## Analytics
+# Analytics
 
 If the user added some analytics to its document, the "Analytics" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png) icon and the "legend" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-094.png) icon will be available. A click on ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png) will open the Analytics panel:
 

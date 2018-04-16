@@ -7,7 +7,7 @@ lang: en
 ref: acces
 ---
 
-## Access the module
+# Access the module
 
 Once the Galigeo is installed, select the application in the top right menu:
 

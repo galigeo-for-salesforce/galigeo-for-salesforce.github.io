@@ -7,9 +7,9 @@ lang: en
 ref: territoires-adv
 ---
 
-## Designing Territories
+# Designing Territories
 
-### Selection
+## Selection
 
 - Definition
 	
@@ -39,7 +39,7 @@ ref: territoires-adv
 	
 	Finally, clicking on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg) button in the toolbar allows the clearing of the selection.
 
-### Actions
+## Actions
 
 Going from a selection, there are different actions possible on the territories:
 
@@ -75,11 +75,11 @@ Going from a selection, there are different actions possible on the territories:
 
 	The sectors contained in the selection are removed from the existing territories. If a selection overlaps several territories, the sectors are removed from all those territories. A confirmation message will appear before performing the action.
 
-### Cancel a redesign
+## Cancel a redesign
 
 The following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-034.jpg), uniquely available as an action is about to be performed, allows canceling of the last redesign action of one or more territories. One can also perform the canceling by using the key combination CTRL-Z.
 
-### Isochrony
+## Isochrony
 
 The new territories can as well be created from an isochronic tool integrated to the Territory Management, and accessible by clicking on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-035.jpg) icon.
 

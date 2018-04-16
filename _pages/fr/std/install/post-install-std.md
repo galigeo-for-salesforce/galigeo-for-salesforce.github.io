@@ -7,7 +7,7 @@ lang: fr
 ref: post-install-std
 ---
 
-## Etapes de post-installation
+# Etapes de post-installation
 
 Pour terminer l’installation :
 
@@ -18,13 +18,13 @@ Pour terminer l’installation :
 {:.table.table-bordered}
 | ![warning]({{ site.url }}/assets/warning.png)     | Pour les utilisateurs avancés, qui ont accès à l’onglet « Galigeo Admin », l’assistant thématique est une application connectée (au sens de Salesforce) et hébergée sur Heroku. En suivant le workflow Java OAuth fourni par Salesforce, assurez-vous que l’option **« Afficher la configuration »** est activée dans les propriétés du profil ou dans les « ensembles d’autorisation ». |
 
-- Créez un champ custom Geolocation pour chaque objet destiné à être cartographié.
+- Créez un champ custom Geolocation pour chque objet destiné à être cartographié.
 
-### Première méthode : créer un droit d’accès grâce à un ensemble d’autorisations
+## Première méthode : créer un droit d’accès grâce à un ensemble d’autorisations
 
 Utiliser les ensembles de permissions est une façon flexible de donner aux utilisateurs Salesforce accès à des fonctionnalités spécifiques (objets, pages, classes ...). C’est la méthode que nous recommandons.
 
-#### Cloner des exemples d’ensembles d’autorisations
+### Cloner des exemples d’ensembles d’autorisations
 
 L’application fournit deux exemples d’ensemble d’autorisations. Ils peuvent être utilisés au début. Rendez-vous sur le menu « Ensembles d’autorisations » dans la section
 « Administrer/Gérer les utilisateurs » (via le panneau de gauche).
@@ -59,7 +59,7 @@ Cliquez sur « Enregistrer ».
   - Pour une Sandbox : activez l’application connectée « galigeo_sellwhere_sbx »
   - Pour un environnement de Production : activez l’application connectée « galigeo_sellwhere »
 
-#### Créer votre propre ensemble d’autorisations
+### Créer votre propre ensemble d’autorisations
 
 Rendez-vous dans le menu « Ensembles d’autorisations » dans la section « Administrer/Gérer les utilisateurs » (panneau de gauche).
 
@@ -69,7 +69,7 @@ Créez un « Nouveau » ensemble d’autorisations :
 
 Modifiez maintenant les propriétés de l’ensemble d’autorisations.
 
-### Pour un utilisateur final
+## Pour un utilisateur final
 
 1. **Application attribuée**
 
@@ -154,7 +154,7 @@ Modifiez maintenant les propriétés de l’ensemble d’autorisations.
    | galigeo.VisualDataSet |
    | galigeo.VizDataSetSharingRules |
 
-### Pour un administrateur
+## Pour un administrateur
 
 En plus des accès nécessaires à l’utilisateur final, l’administrateur doit être capable de créer des Map Objects, Symbologies, GeoFilters, Couches Géographiques, Sources de données et Analyses. Voici ce que doit contenir l’ensemble d’autorisations :
 
@@ -242,7 +242,7 @@ En plus des accès nécessaires à l’utilisateur final, l’administrateur doi
    | galigeo.mapObjectDetails |
 
 
-### Seconde méthode : établir des règles d’accès en modifiant un profil
+## Seconde méthode : établir des règles d’accès en modifiant un profil
 
 En fonction de la configuration votre organisation et des règles de sécurité, les administrateurs Salesforce peuvent attribuer des règles spéciales pour certains profils. Dans Galigeo for Salesfore, un utilisateur final n’a pas besoin de voir l’onglet « Galigeo Admin » mais uniquement l’onglet « Galigeo ». Il peut également modifier son Visual Data Set.
 Pour cela, supposons que nous avons déjà un profil intitulé « Utilisateur final Galigeo ».
@@ -253,7 +253,7 @@ Rendez-vous dans le menu Configuration (en haut à droite) et choisissez « Prof
 
 Appliquez les autorisations d’accès aux objets, pages et classes comme défini dans la section antérieure, en prenant en compte le profil concerné.
 
-### Ajouter un champ de géolocalisation
+## Ajouter un champ de géolocalisation
 
 Le processus cartographique repose sur les coordonnées géographiques: latitude et longitude. Pour ajouter ces coordonnées aux objets que vous souhaitez cartographier, il faut planifier un processus de géocodage par lot. Les champs d’adresse d’un objet seront transformés en coordonnées géographiques venant alimenter un champ custom du type Geolocation.
 

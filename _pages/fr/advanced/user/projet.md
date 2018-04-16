@@ -7,9 +7,9 @@ lang: fr
 ref: projet-adv
 ---
 
-## Gestion des projets
+# Gestion des projets
 
-### Créer un projet
+## Créer un projet
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-005.jpg){:.img.img-responsive.img-center}
 
@@ -30,7 +30,7 @@ La fenêtre de création de projet s’ouvre et offre deux options :
 
 	Pour terminer la création du projet, il faut saisir un nom dans la nouvelle fenêtre qui apparaît. A noter qu’il n’est pas possible de donner au nouveau projet le nom d’un projet déjà existant. Dans ce cas, un message d’erreur s’affiche.
 
-### Ouvrir/Supprimer un projet
+## Ouvrir/Supprimer un projet
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-007.png){:.img.img-responsive.img-center}
 
@@ -40,7 +40,7 @@ La liste des projets disponibles s’affiche, une barre de recherche permet de f
 
 Dans cette fenêtre, on peut également supprimer un projet à l’aide du bouton  ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-009.png).
 
-### Importer un projet
+## Importer un projet
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-010.jpg){:.img.img-responsive.img-center}
 
@@ -56,7 +56,7 @@ Ensuite, plusieurs informations doivent être renseignées :
 - Indiquer le nom du projet – obligatoire
 - Indiquer la couche que le secteur utilise. Cette couche doit correspondre aux secteurs contenus dans le fichier – obligatoire
 
-### Fusionner des projets
+## Fusionner des projets
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-013.png){:.img.img-responsive.img-center}
 
@@ -71,13 +71,13 @@ Pour que la fusion se fasse correctement, il faut qu’il n’y ait pas d’ambi
 - Les territoires des deux projets ne doivent pas se chevaucher (du point de vue géographique)
 - Les territoires des deux projets ne doivent pas avoir de noms identiques.
 
-### Activer un projet
+## Activer un projet
 
 Pour modifier un projet, il faut cliquer sur la flèche à droite du projet puis sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-015.png).
 
 Le projet destiné à être modifié s’affiche dans la fenêtre du bas. Le titre du projet devenu actif passe en vert dans la liste de projets.
 
-### Enregistrer un projet
+## Enregistrer un projet
 
 L’enregistrement d’un projet se fait à l’aide du bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-016.png) ou à l’aide de la combinaison de touches Ctrl-S.
 
@@ -85,7 +85,7 @@ Attention, si, au même moment, une autre personne modifie le projet, il n’est
 
 Attention, si le navigateur se ferme ou si la page est rechargée, les modifications seront perdues. Aussi pensez à sauvegarder régulièrement votre projet.
 
-### Exporter un projet
+## Exporter un projet
 
 L’exportation d’un projet se fait à l’aide du bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-018.png)
 

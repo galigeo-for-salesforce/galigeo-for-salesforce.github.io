@@ -1,9 +1,7 @@
 ---
 ---
-@import '../_sass/bootstrap';
-@import '../_sass/syntax-highlighting';
-
-
+@import "../_sass/bootstrap";
+@import "../_sass/syntax-highlighting";
 
 $blue-dark: #a6caec;
 $blue-light: #bed3ee;
@@ -12,48 +10,150 @@ $green-light: #a6e24f;
 
 .m-t-10 {margin-top: 10px;}
 
-body {font-size: 16px;}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
 
 * {
 	margin: 0;
 }
+
 html, body {
 	height: 100%;
 }
+
+a {
+    color: #337ab7;
+}
+
+a:hover, a:visited:hover {
+    color: #4face1;
+}
+
+p {
+	margin: 7px 0 16px;
+    line-height: 24px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 16px;
+}
+
+h1 {
+	font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+	font-weight: 500;
+    line-height: 1.4;
+}
+
+h2 {
+	font-size: 24px;
+	border-bottom: solid 1px rgba(125,134,140,0.2);
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
 	height: 100%;
 	margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
-	background: url(../assets/wave.jpg) repeat;
 }
+
+.row {
+    margin: 0;
+}
+
 .footer, .push {
 	height: 60px; /* .push must be the same height as .footer */
 }
 
 .footer {
-	background: #f5f5f5;
+	color: #fff;
+	background: #81b33a;
+	a {
+		color: #fff;
+	}
 	ul {
 		margin-bottom: 0;
 	}
+	p {
+		margin: 0;
+	}
 }
 
-.no-padding{padding: 0;}
+.no-padding {padding: 0;}
 
-.img-center{margin: 0 auto;}
+.img-center {margin: 0 auto;}
+
+.table-small {font-size: 12px;}
+
+.img-responsive {width : auto;}
 
 .navbar {margin-bottom: 0}
 
-.navbar-brand{font-size: 13px}
+.navbar-inverse {
+    background: none;
+    border-color: #dfdfdf;
+}
+
+.navbar-inverse .navbar-brand span,
+.navbar-inverse .navbar-brand:hover span,
+.navbar-inverse .navbar-brand:focus span {
+    font-size: 20px;
+    color: #333;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #6b9430;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border: #f1f1f1;
+   border-width: 2px;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #f9f9f9;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #666;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #666;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+	color: #666;
+	background-color: #f9f9f9;
+}
+
+.navbar-brand {
+	padding: 20px 30px;
+	>img {display: inline; margin-top: -10px;}
+	span {padding-left: 15px;}
+}
 
 @media (min-width: $screen-md-min) {
-.navbar-brand{font-size: 18px}
+.navbar-brand span {font-size: 18px}
 }
 
 .navbar .nav-pills {margin-top: 8px;
-	> li > a {color: darken($blue-dark,25);font-size: 13px; border-radius: 22px;
-	&.active{background: darken($blue-dark,5);color: white;border: none; }
-	&:hover {color: white;background: transparent;border: none;margin-left: 2px;}
+	> li > a {color: #337ab7; background: transparent; border: none; font-size: 15px; font-weight: 400; border-radius: 0; text-transform: initial;
+	&.active{color: #333; background: transparent;}
+	&:hover {color: #4face1; margin-left: 0;}
 	&:hover.active {@extend .active; margin-left: 0px;}
 	}
 }
@@ -63,26 +163,16 @@ html, body {
     color: white;
 }
 
-
-.container-doc{
-	padding: 30px 0;
-}
-
-
-
 .content-body {
 
 	min-height: 400px;
 
 	background: white;
-	padding: 15px 30px;
-
-	border-radius: 15px;
-	border: 2px solid $blue-dark;	
+	padding: 15px 80px 15px 40px;
 	
 	p.legend{font-size: 14px; @extend .text-muted;text-align: center;}
 
-	ul, ol{-webkit-padding-start: 19px;}
+	ul, ol{margin: 20px 0; -webkit-padding-start: 19px;}
 }
 
 @media (min-width: $screen-md-min) {
@@ -91,50 +181,57 @@ html, body {
 
 		border-radius: 0px;
 		border: none;
-
-		border-top-left-radius:15px;
-		border-bottom-left-radius:15px;
-
-		border-top: 2px solid $blue-dark;
-		border-bottom: 2px solid $blue-dark;
-		border-left: 2px solid $blue-dark;
-
 	}
     
 }
 
-.arrow-container {
-	position: relative;
-	left: -16px;
-	top: 2px;
-
-	.arrow-right {
-	position: absolute;
-  width: 0; 
-  height: 0;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  
-  border-left: 12px solid white;
-}
+.pager li>a {
+    color: #666;
+    font-size: 13px;
 }
 
+.pager li>a, .pager li>span {
+    background-color: #f8f8f8;
+    border: 0;
+    border-radius: 0;
+}
 
+.pager li>a:hover, .pager li>a:focus {
+    color: #333;
+    background-color: #f6f6f6;
+}
+
+.pager .disabled>a, .pager .disabled>a:hover, .pager .disabled>a:focus, .pager .disabled>span {
+    color: #DFD7CA;
+    background-color: #f8f8f8;
+}
 
 aside {
 
-	background: $blue-dark;
-	border-top-right-radius:15px;
-	border-bottom-right-radius:15px;
+	background: #f9f9f9;
+	border-right: 4px solid #f1f1f1;
 
-	h4,h5,h6 {color: $gray-lighter;}
+	h4,h5,h6 {color: #333;}
+	h4 {
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 1.4;
+			&:nth-child(2n) {margin-top: 30px;}
+		}
 	.menu{
-		padding: 35px 0 20px 14px;
+		padding: 35px 0 30px 15px;
 		ul {padding: 0;margin: 0;
-		li {list-style: none;
-			a{font-size: 14px;color: darken($blue-dark,25);
-				&:hover{text-decoration: none;color: darken($blue-dark,35)}
-			}
+		li {list-style: none; line-height: 24px; 
+			a{font-size: 14px;color: #337ab7;
+				&:hover{text-decoration: none;color: #4face1}
+				&.active {
+					    color: #333;
+					    background: #eee;
+					    padding: 5px 10px;
+					    margin-left: -10px;	
+				}
+			  }
+			::before {content: "›\00a0";}
 			}
 
 		}
@@ -143,8 +240,18 @@ aside {
 	
 }
 
-.table-small {font-size: 12px;}
 
-.img-responsive {
-	width : auto;
+/* Anchor.js | https://www.bryanbraun.com/anchorjs/
+https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using-jekyll/ */
+
+.anchorjs-link {
+  color: rgba(88,96,105,0.5) !important;
+  text-decoration: none !important; /* do not underline */
+}
+
+@media (max-width: 768px) {
+  /* Do not display AnchorJS icon on less than 768px view point */
+  .anchorjs-link {
+    display: none;
+  }
 }

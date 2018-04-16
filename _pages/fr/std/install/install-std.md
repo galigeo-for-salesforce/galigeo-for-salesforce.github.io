@@ -7,9 +7,9 @@ lang: fr
 ref: install-std
 ---
 
-## Installation du package
+# Installation du package
 
-### Démarrer l’installation
+## Démarrer l’installation
 
 {:.table.table-bordered}
 | ![warning]({{ site.url }}/assets/warning.png)     | **Important** : Pour toute mise à jour depuis une version antérieure à la version 1.103, il est nécessaire de définir un modèle de partage "privé" pour l'objet "Visual DataSet" dans les "Valeurs par défaut à l'échelle de l'organisation". |
@@ -21,7 +21,7 @@ Pour démarrer l’installation du package, cliquez sur **« Get It Now »** sur
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-018.jpg){:.img.img-responsive}
 
-### Vous connecter
+## Vous connecter
 
 Connectez-vous en utilisant vos identifiants Salesforce ou en tant que visiteur.
 
@@ -32,13 +32,13 @@ Si vous n’êtes pas connecté à votre compte Salesforce, vous serez redirigé
 
 Pour découvrir l’application Galigeo, nous vous recommandons d’utiliser un compte visiteur (valable pour 30 jours). Une démo est déjà installée ... Vous pouvez vous rendre directement au paragraphe [Vérifier les packages installés](#vrifier-les-packages-installs) de ce document.
 
-### Méthode d’installation
+## Méthode d’installation
 
 Après vous être connecté à l’aide de vos identifiants Salesforce, choisissez si vous voulez installer l’application dans votre environnement de production ou dans votre Sandbox :
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-024.png){:.img.img-responsive.img-center}
 
-### Accepter les conditions d’utilisation
+## Accepter les conditions d’utilisation
 
 Une fenêtre affiche le détail des informations de la version de l’application Galigeo prête à être installée ainsi que le compte sur lequel elle sera installée.
 
@@ -48,13 +48,13 @@ La version du package est destinée à évoluer au fur et à mesure des amélior
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-027.png){:.img.img-responsive.img-center}
 
-### Configuration de sécurité
+## Configuration de sécurité
 
 Sélectionnez qui va accéder à l’application :
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-028.png){:.img.img-responsive.img-center}
 
-### Approuver l’accès de sites Web tiers
+## Approuver l’accès de sites Web tiers
 
 Le package a besoin d’accéder à des services Web tiers pour les opérations de géocodage.
 
@@ -63,7 +63,7 @@ Le package a besoin d’accéder à des services Web tiers pour les opérations 
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-029.png){:.img.img-responsive.img-center}
 
-### Au cours de l’installation du package
+## Au cours de l’installation du package
 
 Le package débute son installation :
 
@@ -73,7 +73,7 @@ L’installation peut parfois prendre quelques minutes, auquel cas, l’écran s
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-std-install/Galigeo4SFDC_Installation-031.png){:.img.img-responsive.img-center}
 
-### Vérifier les packages installés
+## Vérifier les packages installés
 
 Après avoir reçu un email vous confirmant l’installation, pour vérifier si le package a été installé, allez à : **Configuration \| Packages Installés**.
 

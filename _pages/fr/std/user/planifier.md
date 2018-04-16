@@ -7,9 +7,9 @@ lang: fr
 ref: planifier
 ---
 
-## Planifier des événements
+# Planifier des événements
 
-### Ajouter un événement au calendrier Salesforce
+## Ajouter un événement au calendrier Salesforce
 
 Pour créer un événement, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) dans la liste d’actions de l’objet. Le formulaire de création d’un événement apparaît, complétez les champs obligatoires pour créer votre événement.
 
@@ -42,7 +42,7 @@ Quand vous avez sélectionné un collaborateur, son calendrier apparaît.
 
 Si vous avez les droits nécessaires, vous pouvez créer ou modifier les événements de ce calendrier.
 
-### Ajouter plusieurs événements au calendrier Salesforce
+## Ajouter plusieurs événements au calendrier Salesforce
 
 Grâce à la planification d'itnéraires (ou de tournées), il est possible d'ajouter simultanément plusieurs événements au calendrier Salesforce.
 

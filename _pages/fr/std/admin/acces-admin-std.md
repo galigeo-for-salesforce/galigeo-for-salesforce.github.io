@@ -7,7 +7,7 @@ lang: fr
 ref: acces
 ---
 
-## Accéder au module
+# Accéder au module
 
 Une fois Galigeo for Salesforce installé, sélectionnez l’application dans le menu situé en haut à droite :
 

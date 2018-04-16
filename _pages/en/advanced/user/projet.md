@@ -7,9 +7,9 @@ lang: en
 ref: projet-adv
 ---
 
-## Project Management
+# Project Management
 
-### New project
+## New project
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro1.png){:.img.img-responsive.img-center}
 
@@ -30,7 +30,7 @@ The project creation window is opening and is offering 2 solutions:
 
 Once the form is completed, a window asking for the name of the new project will appear. Note that it is not possible to give the new project the name of an already existing one. Otherwise, an error message will appear.
 
-### Open/Delete a project
+## Open/Delete a project
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro2.png){:.img.img-responsive.img-center}
 
@@ -41,7 +41,7 @@ the project name.
 
 Also in this window one can delete a project using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-009.png)
 
-### Import a project
+## Import a project
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro3.png){:.img.img-responsive.img-center}
 
@@ -57,7 +57,7 @@ Afterwards there are several fields that have to be entered:
 - Indicate the project name - mandatory
 - Indicate the layer that the sector used. Of course, this layer has to correspond to the type of sector contained in the file - mandatory
 
-### Merge projects
+## Merge projects
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro4.png){:.img.img-responsive.img-center}
 
@@ -72,18 +72,18 @@ In order that the merge works, it is necessary to avoid ambiguities between the 
 - The territories of the two projects have to not overlay (from the geographical point of view)
 - The territories of the two projects do not have common names.
 
-### Reorder layer
+## Reorder layer
 
 In the bottom right of the projects list panel, the following button   allows user to reorder layers. This ensures an optimum visibility of the map between the Territory Management’s data and the possible added business data. Concretely, this reorders the polygons layers under the lines layers, themselves under the points layers. No reorder is done within layers of the same type.
 
-### Activate project
+## Activate project
 
 In order to edit a project, one has to click on the arrow down at the right hand side of the project, and then click on the following button: ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/proactivate.png).
 
 A project that is about to be edited will display then in the window below. The project about to be edited is displayed highlighted in the projects list.
 
 
-### Save a project
+## Save a project
 
 The saving of a project is done using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-016.png) or by using the key combination Ctrl-S.
 
@@ -92,7 +92,7 @@ save it. In this case, the saving icon is grayed out and is displayed differentl
 
 Attention, if the Internet browser is closed or the page is changed, the application does not check if the project was previously saved, and the changes will be lost.
 
-### Export a project
+## Export a project
 
 The exportation of a project is done using the button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-018.png)
 

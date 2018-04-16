@@ -7,7 +7,7 @@ lang: fr
 ref: geofiltre
 ---
 
-## Définir un géofiltre
+# Définir un géofiltre
 
 Un géofiltre est un élément d’un objet géographique qui permet de filtrer les données affichées sur une carte.
 
@@ -20,15 +20,15 @@ Pour ajouter un géofiltre, accédez aux informations détaillées d’un objet 
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-060.png){:.img.img-responsive.img-center}
 
-### Créer un géofiltre
+## Créer un géofiltre
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Entrer le nom du géofiltre
+### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Entrer le nom du géofiltre
 
 Ce nom est seulement visible dans le panneau d’administration. Le libellé s’affichera dans l’interface utilisateur.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-063.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Entrer les propriétés du géofiltre
+### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Entrer les propriétés du géofiltre
 
 Dans cette étape nous allons définir les propriétés du géofiltre :
 
@@ -98,7 +98,7 @@ faire, cliquez sur le bouton « Choisir une image » et sélectionnez-en une.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-079.jpg){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Spécifier les critères du géofiltre
+### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Spécifier les critères du géofiltre
 
 Dans cette section nous définissons comment filtrer les données de l’objet géographique.
 Par exemple, le géofiltre ci-dessous sélectionne tous les comptes où le champ BillingCountry n’est pas vide.
@@ -127,7 +127,7 @@ Vous pouvez trouver plus d’informations sur comment définir une requête Sale
 | ![warning]({{ site.url }}/assets/warning.png)     | Les requêtes sont soumises aux [Salesforce Governors Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm). Assurez-vous de créer des filtres plus sélectifs afin de ne pas atteindre ces limites. |
 | ![warning]({{ site.url }}/assets/warning.png) | En utilisant une requête Full SoQL, on doit interroger l’ID de l’autre objet. Evitez une requête de type : `Select Id FROM Account WHERE {A_CONDITION}` Parce que la requête sera générée comme ci-dessous : `Select Name FROM Account Where Id in (Select Id FROM Account WHERE {A_CONDITION})` et ne sera pas supportée par Salesforce. |
 
-#### ![feet]({{ site.url }}/assets/foot.png) 4ème étape : Tester le filtre et ses conditions
+### ![feet]({{ site.url }}/assets/foot.png) 4ème étape : Tester le filtre et ses conditions
 
 Pour tester, cliquez sur « Tester la requête ». La clause WHERE ainsi que le nombre d’enregistrements satisfaisant la/les condition(s) s’afficheront
 
@@ -142,7 +142,7 @@ Dans l’interface cartographique, l’utilisateur retrouve ce filtre dont les d
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-095.jpg){:.img.img-responsive.img-center}
 
-### Créer des géofiltres hiérarchiques
+## Créer des géofiltres hiérarchiques
 
 Nous avons défini des géofiltres permettant d’afficher tous les comptes où le champ BillingCountry n’est pas vide.
 
@@ -158,7 +158,7 @@ Prenons l’exemple des Comptes ci-dessus pour mettre en place la hiérarchie de
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-099.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Filtre « Inside USA »
+### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Filtre « Inside USA »
 
 Suivez les étapes utilisées pour créer le premier filtre :
 - Nommez ce nouveau filtre
@@ -185,7 +185,7 @@ Le nouveau filtre est désormais disponible au sein de l’objet géographique :
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-106.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Créer des filtres enfants de « Inside USA »
+### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Créer des filtres enfants de « Inside USA »
 
 Suivez la procédure décrite dans la première étape et choisissez le filtre « Inside USA » en tant que filtre parent.
 
@@ -199,7 +199,7 @@ Suivez la procédure décrite dans la première étape et choisissez le filtre �
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-111.png){:.img.img-responsive.img-center}
     ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-112.png){:.img.img-responsive.img-center}
 
-#### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Créer le filtre « Outside USA »
+### ![feet]({{ site.url }}/assets/foot.png) 3ème étape : Créer le filtre « Outside USA »
 
 Suivez les instructions de la 1ère étape pour créer le filtre « Outside USA ».
 Définissez le filtre « All Accounts » en tant que filtre parent et ajoutez une condition pour sélectionner les comptes où le champ BillingCountry est égal à ‘USA’.
@@ -218,7 +218,7 @@ L’utilisateur final retrouve sur sa carte l’arborescence des filtres défini
 
 Si la symbologie a été définie à partir d’images, les marqueurs affichés sur la carte seront de ce type : ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-119.png)
 
-### Géofiltres combinés
+## Géofiltres combinés
 
 Faisons l’hypothèse que sur l’objet géographique avec lequel nous travaillons, l’option « Combine filters » est activée et que l’arborescence des filtres a été définie telle que ci- dessous :
 

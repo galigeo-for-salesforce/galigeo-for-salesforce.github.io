@@ -7,7 +7,7 @@ lang: en
 ref: selection
 ---
 
-## Selection
+# Selection
 
 The user has powerful tools to select objects of interest on the map and to analyze them:
 
@@ -21,7 +21,7 @@ To access to the selection tool, click on the ![Galigeo for Salesforce User]({{ 
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/sel1.png){:.img.img-responsive.img-center}
 
-### Create selection
+## Create selection
 
 {:.table}
 |![feet]({{ site.url }}/assets/foot.png){:.img-center} | Choose from the dropdown list a layer on which the selection will be done.<br> Salesforce records layer is always available in the list.<br>![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/sel2.png){:.img.img-responsive.img-center} |
@@ -44,7 +44,7 @@ You can also export the selection data to a CSV file format.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-113.png){:.img.img-responsive.img-center}
 
-### Statistical Analysis
+## Statistical Analysis
 
 While creating/displaying a selection, a datagrid is displayed on the bottom. The datagrid displays all values related to selected object.
 
@@ -66,7 +66,7 @@ The graphic also displays the average line of the field values and the 90% of co
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-121.png){:.img.img-responsive.img-center}
 
-### Managing selection
+## Managing selection
 
 The selection done can be saved by clicking on the "Add" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-125.png) button on the selection panel at the bottom right, after giving a name to the selection.
 

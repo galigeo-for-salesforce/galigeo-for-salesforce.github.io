@@ -7,7 +7,7 @@ lang: fr
 ref: analyses-adv
 ---
 
-## Analyses cartographiques Galigeo
+# Analyses cartographiques Galigeo
 
 Galigeo for Salesforce Advanced Edition est une extension de Galigeo for Salesforce Standard Edition. Il est possible d’afficher des cartes et leurs analyses issues de Galigeo Standard Edition dans l’application de Territory Design. (Voir le [guide utilisateur de Galigeo Standard Édition pour créer des analyses](/analytics))
 
