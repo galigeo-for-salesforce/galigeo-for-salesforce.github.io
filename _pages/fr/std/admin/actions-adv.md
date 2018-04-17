@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: Actions
+title: Actions personnalisée
 categories: documentation
 permalink: /actions-adv
 lang: fr

@@ -8,7 +8,7 @@ fr:
       - { url: '/objet-geo', text: 'Objet géographique', prev: '/objet-geo' , next: '/geofiltre' }
       - { url: '/geofiltre', text: 'Géofiltre', prev: '/acces' , next: '/analytics' }
       - { url: '/analytics', text: 'Analytics', prev: '/geofiltre' , next: '/actions-adv' }
-      - { url: '/actions-adv', text: 'Actions', prev: '/analytics' , next: '/create-map' }
+      - { url: '/actions-adv', text: 'Actions personnalisées', prev: '/analytics' , next: '/create-map' }
     user:
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-adv' , next: '/interface-carto' }
       - { url: '/interface-carto', text: 'Présentation', prev: '/create-map' , next: '/filtres' }
