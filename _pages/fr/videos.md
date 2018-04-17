@@ -8,7 +8,7 @@ ref: videos
 
 ## Présentation générale
 
-<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/A_sbjrJK18M" frameborder="0" allowfullscreen></iframe>
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/Xgkf6FGE9m8" frameborder="0" allowfullscreen></iframe>
 
 
 ## Commencer avec Galigeo for Salesforce
