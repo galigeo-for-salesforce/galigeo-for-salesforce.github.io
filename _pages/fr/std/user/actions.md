@@ -9,7 +9,6 @@ ref: actions
 
 # Actions
 
-
 Les Actions sont des tâches Salesforce ou externes déclenchées depuis un point de la carte. Il en existe deux sortes :
 
 1. [Standard](#actions-standard), définies par défaut
