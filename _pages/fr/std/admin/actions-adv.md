@@ -58,8 +58,7 @@ Les actions Salesforce sur un compte sont :
 |Nouveau partenaire |/opp/partneredit.jsp?id={!id} |
 |Ajouter à une campagne|/_ui/common/data/LookupPage?lkpr={!id}&lktp=701&enableScopes=1&addToCampaign=1 |
 
-{:.table.table-bordered}
-|Limitations : certains paramètres ne fonctionnent pas dans Lightning, les tâches s’ouvrant dans une fenêtre modale et non dans une page dédiée.|
+<div class="alert alert-info" role="alert"> <strong>Limitations :</strong>Certains paramètres ne fonctionnent pas dans Lightning, les tâches s’ouvrant dans une fenêtre modale et non dans une page dédiée.</div>
 
 Exemple de liens externes :
 
