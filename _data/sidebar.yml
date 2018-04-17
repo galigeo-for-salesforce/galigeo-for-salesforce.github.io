@@ -18,7 +18,7 @@ fr:
       - { url: '/selection', text: 'Sélection', prev: '/analyses' , next: '/adresses' }
       - { url: '/adresses', text: 'Recherche d adresses', prev: '/selection' , next: '/fonds-de-plan' }
       - { url: '/fonds-de-plan', text: 'Fonds de plan', prev: '/adresses' , next: '/actions' }
-      - { url: '/actions', text: 'Fonds de plan', prev: '/fonds-de-plan' }
+      - { url: '/actions', text: 'Actions', prev: '/fonds-de-plan' }
   advanced:
     install:
       - { url: '/install-advanced', text: 'Installation du package', next: '/post-install-advanced' }
