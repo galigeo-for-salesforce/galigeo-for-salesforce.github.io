@@ -43,4 +43,4 @@ Liste des actions disponibles :
 Page Visualforce personnalisée d'un flux Twitter :
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/actions-custom_twitter.png){:.img.img-responsive.img-center}
 
-Voir [Configuration des Actions personnalisées](/actions-adv).
+Voir la [configuration des Actions personnalisées](/actions-adv).

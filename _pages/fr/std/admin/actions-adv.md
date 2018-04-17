@@ -1,13 +1,13 @@
 ---
 layout: sidebar
-title: Actions personnalisée
+title: Actions personnalisées
 categories: documentation
 permalink: /actions-adv
 lang: fr
 ref: actions
 ---
 
-# Configuration des Actions personnalisées
+# Actions personnalisées
 
 Les actions sont définies pour un objet géographique et sont configurées à partir de la page de détails par un clic sur le l’icône ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/actions-custom_plus_icon.png).
 
