@@ -98,6 +98,11 @@ h3 {
 
 .table-small {font-size: 12px;}
 
+.table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
+    background: #f7f7f7;
+    border-bottom-width: 0;
+}
+
 .img-responsive {width : auto;}
 
 .navbar {margin-bottom: 0}
