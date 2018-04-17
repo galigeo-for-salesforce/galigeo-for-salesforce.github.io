@@ -2,7 +2,7 @@
 layout: sidebar
 title: Actions personnalisées
 categories: documentation
-permalink: /actions-adv
+permalink: /actions-admin
 lang: fr
 ref: actions
 ---
