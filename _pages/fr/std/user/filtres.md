@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: Filtres et Actions
+title: Filtres
 categories: documentation
 permalink: /filtres
 lang: fr
@@ -70,12 +70,3 @@ Dans la fiche d’informations, par défaut, le nom de l’objet est affiché en
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-045.jpg){:.img.img-responsive.img-center}
 
-## Actions sur les objets
-
-La liste des cibles (dans la section données) et le panneau d’informations comportent l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-056.png). Elle permet d’accéder à des actions :
-
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) Créer un événement en rapport avec l’objet
-
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-057.png) Ajouter l’objet à un itinéraire
-
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-049.png) Rechercher autour de l’objet avec un rayon donné
