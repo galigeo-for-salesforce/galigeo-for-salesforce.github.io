@@ -7,16 +7,18 @@ fr:
       - { url: '/acces', text: 'Accès', prev: '/post-install-std' , next: '/objet-geo' }
       - { url: '/objet-geo', text: 'Objet géographique', prev: '/objet-geo' , next: '/geofiltre' }
       - { url: '/geofiltre', text: 'Géofiltre', prev: '/acces' , next: '/analytics' }
-      - { url: '/analytics', text: 'Analytics', prev: '/geofiltre' , next: '/create-map' }
+      - { url: '/analytics', text: 'Analytics', prev: '/geofiltre' , next: '/actions-adv' }
+      - { url: '/actions-adv', text: 'Actions', prev: '/analytics' , next: '/create-map' }
     user:
-      - { url: '/create-map', text: 'Créer une carte', prev: '/analytics' , next: '/interface-carto' }
+      - { url: '/create-map', text: 'Créer une carte', prev: '/actions-adv' , next: '/interface-carto' }
       - { url: '/interface-carto', text: 'Présentation', prev: '/create-map' , next: '/filtres' }
-      - { url: '/filtres', text: 'Filtres et Actions', prev: '/interface-carto' , next: '/planifier' }
+      - { url: '/filtres', text: 'Filtres', prev: '/interface-carto' , next: '/planifier' }
       - { url: '/planifier', text: 'Planifier des événements', prev: '/filtres' , next: '/analyses' }
       - { url: '/analyses', text: 'Analyses', prev: '/planifier' , next: '/selection' }
       - { url: '/selection', text: 'Sélection', prev: '/analyses' , next: '/adresses' }
       - { url: '/adresses', text: 'Recherche d adresses', prev: '/selection' , next: '/fonds-de-plan' }
-      - { url: '/fonds-de-plan', text: 'Fonds de plan', prev: '/adresses' }
+      - { url: '/fonds-de-plan', text: 'Fonds de plan', prev: '/adresses' , next: '/actions' }
+      - { url: '/actions', text: 'Fonds de plan', prev: '/fonds-de-plan' }
   advanced:
     install:
       - { url: '/install-advanced', text: 'Installation du package', next: '/post-install-advanced' }
