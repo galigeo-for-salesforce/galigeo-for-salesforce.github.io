@@ -46,6 +46,7 @@ Les actions Salesforce sur un compte sont :
 
 {:.table.table-bordered}
 |**Action**|**URL** |
+| ------------- | ------------- |
 |Nouveau contact|/003/e?retURL=%2F{!id}&accid={!id} |
 |Nouvelle opportunité|/006/e?retURL=%2F{!id}&accid={!id} |
 |Nouveau case|/500/e?def_account_id={!id} |
@@ -64,6 +65,7 @@ Exemple de liens externes :
 
 {:.table.table-bordered}
 |**Action**|**URL** |
+| ------------- | ------------- |
 |Recherche Google à partir du nom de l’objet|https://www.google.fr/search?q={!name} |
 |Ajouter un RDV dans Google Calendar|http://www.google.com/calendar/event?ctext=+RDV+{!name}&action=TEMPLATE&pprop=HowCreated%3AQUICKADD |
 |Recherche Societe.com|http://www.societe.com/cgi-bin/search?champs={!name} |
