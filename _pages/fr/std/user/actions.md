@@ -38,8 +38,8 @@ Ces actions peuvent être des liens internes Salesforce, externes ou des pages V
 {:.table.table-bordered}
 | ![warning]({{ site.url }}/assets/warning.png)     | **Important** : Les liens internes de Salesforce, tels que par exemple les liens de création de tâches ou d'événements, ne peuvent être affichés dans une fenêtre modale mais obligatoirement dans une nouvelle. Cette restriction est imposée par Salesforce. |
 
+Liste des actions disponibles :
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/actions-std.png){:.img.img-responsive.img-center}
-<span class=".text-center">Liste des actions disponibles</span>
 
+Page Visualforce personnalisée d'un flux Twitter :
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/actions-std.png){:.img.img-responsive.img-center}
-<span class=".text-center">Page Visualforce personnalisée d'un flux Twitter</span>
