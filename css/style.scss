@@ -240,6 +240,20 @@ aside {
 	
 }
 
+.alert {
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+.alert-warning {
+   background-color: #fcf8e3;
+   color: #333;
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    color: #333;
+}
 
 /* Anchor.js | https://www.bryanbraun.com/anchorjs/
 https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using-jekyll/ */
