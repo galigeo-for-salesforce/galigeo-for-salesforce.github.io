@@ -11,7 +11,7 @@ ref: dashboards
 
 Les tableaux de bord permettent aux commerciaux et managers de visualiser des informations clés à partir des données d'objets Salesforce.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/dashboards-overview.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/dashboards-overview.jpg){:.img.img-responsive.img-center}
 
 Ils sont consultables depuis :
 
