@@ -37,7 +37,7 @@ Lors du paramétrage du tableau de bord l’utilisateur est invité à renseigne
 
 Vous pouvez trouver plus d’informations dans la documentation Salesforce sur comment définir une requête [Salesforce Object Query Language](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/) (SOQL).
 
-<div class="alert alert-info" role="alert">Les requêtes sont soumises aux [Salesforce Governors Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_limits_intro.htm). Assurez-vous de créer des filtres plus sélectifs afin de ne pas atteindre ces limites.</div>
+<div class="alert alert-warning" role="alert">Les requêtes sont soumises aux [Salesforce Governors Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_limits_intro.htm). Assurez-vous de créer des filtres plus sélectifs afin de ne pas atteindre ces limites.</div>
 
 ### Prévisualisation
 
