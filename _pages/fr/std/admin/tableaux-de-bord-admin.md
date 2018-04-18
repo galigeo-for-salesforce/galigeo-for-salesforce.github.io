@@ -1,17 +1,15 @@
 ---
 layout: sidebar
-title: Tableaux de bord
+title: Configuration des tableaux de bord
 categories: documentation
 permalink: /tableaux-de-bord-admin
 lang: fr
 ref: dashboards-admin
 ---
 
-# Tableaux de bord
+# Configuration des tableaux de bord
 
 Les tableaux de bord sont configurés à partir d’une requête SOQL pour laquelle on ajoute des éléments comme des graphes, une carte et/ou le tableau de données.
-
-## Configuration
 
 La liste des tableaux de bords disponibles est accessible à partir de l’onglet “Dashboards” de la page d’administration.
 
