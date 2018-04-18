@@ -4,7 +4,7 @@ title: Actions personnalisées
 categories: documentation
 permalink: /actions-admin
 lang: fr
-ref: actions
+ref: actions-admin
 ---
 
 # Actions personnalisées
