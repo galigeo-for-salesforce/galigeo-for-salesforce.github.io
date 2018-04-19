@@ -182,7 +182,16 @@ hr {
 /* DocSearch */
 .search {
 	display: inline;
-    vertical-align: middle;
+    height: 60px;
+    padding-top: 14px;
+}
+
+@media (min-width: $screen-md-min) {
+
+	.search {
+	display: none;
+	}
+    
 }
 
 .content-body {
