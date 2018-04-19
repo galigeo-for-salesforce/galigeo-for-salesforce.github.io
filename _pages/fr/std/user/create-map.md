@@ -9,8 +9,17 @@ ref: create-map
 
 # Créer une carte
 
+Une fois l'[objet géographique](objet-geo) configuré par l'admin Salesforce il est très simple de créer une carte.
+
+---
+
+## Dans cet article
+{:.no_toc}
+
 * Table Of Contents
 {:toc}
+
+---
 
 Le point d’entrée de l’application est l’onglet Galigeo.
 A partir de cet onglet, un utilisateur peut gérer (créer/modifier/supprimer) une ou plusieurs cartes.
