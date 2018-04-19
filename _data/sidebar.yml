@@ -14,7 +14,7 @@ fr:
     user:
       - { url: '/debuter', text: 'Débuter', prev: '/listes-associees-admin' , next: '/create-map' }
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
-      - { url: '/interface-carto', text: 'Présentation', prev: '/create-map' , next: '/filtres' }
+      - { url: '/interface-carto', text: 'Présentation de l'interface, prev: '/create-map' , next: '/filtres' }
       - { url: '/filtres', text: 'Filtres', prev: '/interface-carto' , next: '/planifier' }
       - { url: '/planifier', text: 'Planifier des événements', prev: '/filtres' , next: '/analyses' }
       - { url: '/analyses', text: 'Analyses', prev: '/planifier' , next: '/tableaux-de-bord' }
