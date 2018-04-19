@@ -14,6 +14,9 @@ A partir de cet onglet, un utilisateur peut gérer (créer/modifier/supprimer) u
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/create_map-liste_cartes.png){:.img.img-responsive.img-center}
 
+* TOC
+{:toc}
+
 ## Qu’est-ce qu’une « carte » ?
 
 Une « carte », dans le contexte de l’application, est un ensemble d’objets géographiques et d’analyses définies par l’administrateur de l’application. L’utilisateur peut construire ses propres cartes à partir de ces objets et les partager.
