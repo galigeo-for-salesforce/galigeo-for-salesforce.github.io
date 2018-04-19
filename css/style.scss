@@ -63,6 +63,10 @@ h3 {
 	font-size: 20px;
 }
 
+hr {
+    border-top: 1px solid #eeeeee;
+}
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
