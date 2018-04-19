@@ -9,7 +9,9 @@ ref: create-map
 
 # Créer une carte
 
-Une fois l'[objet géographique](objet-geo) configuré par l'admin Salesforce il est très simple de créer une carte.
+L'article vous montrera comment créer une carte qui sera partageable avec d'autres utilisateurs.
+
+<p class="note"><strong>Note:</strong> Nous supposons ici que toutes les étapes initiales ont été passées telle que la configuration de l'[objet géographique](objet-geo) par l'admin Salesforce.</p>
 
 ---
 
