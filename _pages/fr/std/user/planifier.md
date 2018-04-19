@@ -59,7 +59,7 @@ Lorsqu’un objet est ajouté à l’itinéraire, un numéro est ajouté au cent
 
 Plusieurs options de calcul sont proposées :
 
-- Vous pouvez choisir entre un itinéraire à pied ou en voiture
+- Vous pouvez choisir entre un itinéraire en voiture ou à pied (en option)
 - Itinéraire calculé uniquement entre les objets ou depuis le dernier emplacement (le dernier emplacement correspond au résultat d’une recherche d’adresse via le champ situé en haut à droite de la carte)
 - Choisissez de calculer un itinéraire optimisé (modifie l’ordre des points de passage) ou non optimisé (conserve l’ordre des points de passage).
 

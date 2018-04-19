@@ -61,7 +61,7 @@ When an object is added to a route, a number appears in the center of its marker
 
 Several options are available:
 
-- Select a type of routing: by car or by walk
+- Select a type of routing: by car or by walk (optional)
 - Route only between records or from the last position (the last position is either a lookup address find by using the address search tool or by a click on the localize button. Those two features are presented in [Address lookup]({{site.url}}/addresses-en))
 - Choose to compute an optimized route or not.
 

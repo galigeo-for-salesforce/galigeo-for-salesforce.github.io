@@ -32,7 +32,7 @@ En activant le filtre « Clients », l’utilisateur réduit la quantité de don
 
 ### Avec les filtres dynamiques
 
-Les filtres dynamiques vous permttent de filtrer les objets Salesforce présents sur la carte grâce à un simple mot clé.
+Les filtres dynamiques vous permettent de filtrer les objets Salesforce présents sur la carte grâce à un simple mot clé.
 
 Leur utilisation est très simple :
 
