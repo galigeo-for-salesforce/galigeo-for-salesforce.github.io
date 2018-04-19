@@ -67,6 +67,12 @@ hr {
     border-top: 1px solid #eeeeee;
 }
 
+.note {
+	font-size: 15px;
+	font-style: italic;
+    color: #666;
+}
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
