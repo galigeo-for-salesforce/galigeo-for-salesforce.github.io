@@ -9,6 +9,8 @@ ref: planifier
 
 # Planning events
 
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/lObRYU-E9CQ" frameborder="0" allowfullscreen></iframe>
+
 ## Add an event to the Salesforce calendar
 
 Plan an event related to a record is very easy. In the list of actions available for a record,

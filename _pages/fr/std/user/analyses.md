@@ -9,6 +9,8 @@ ref: analyses
 
 # Analyses
 
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/x-SzZ6xE9h0" frameborder="0" allowfullscreen></iframe>
+
 Si des analyses ont été ajoutées à la carte lors de sa configuration, l’icône « Analyses » ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png)
 et l’icône « Légende » ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-094.png) sont visibles. Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-090.png) pour ouvrir le panneau d’analyses :
 

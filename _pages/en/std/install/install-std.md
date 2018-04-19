@@ -9,6 +9,8 @@ ref: install-std
 
 # Package Installation
 
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/Bko-QyY0tjs" frameborder="0" allowfullscreen></iframe>
+
 ## Start Installation
 
 {:.table.table-bordered}

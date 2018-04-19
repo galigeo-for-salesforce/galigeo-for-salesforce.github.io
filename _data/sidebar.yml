@@ -19,7 +19,7 @@ fr:
       - { url: '/analyses', text: 'Analyses', prev: '/planifier' , next: '/tableaux-de-bord' }
       - { url: '/tableaux-de-bord', text: 'Tableaux de bord', prev: '/analyses' , next: '/selection' }
       - { url: '/selection', text: 'Sélection', prev: '/tableaux-de-bord' , next: '/adresses' }
-      - { url: '/adresses', text: 'Recherche d adresses', prev: '/selection' , next: '/fonds-de-plan' }
+      - { url: '/adresses', text: 'Recherche d''adresses', prev: '/selection' , next: '/fonds-de-plan' }
       - { url: '/fonds-de-plan', text: 'Fonds de plan', prev: '/adresses' , next: '/actions' }
       - { url: '/actions', text: 'Actions', prev: '/fonds-de-plan' , next: '/listes-associees' }
       - { url: '/listes-associees', text: 'Listes associées', prev: '/actions' }

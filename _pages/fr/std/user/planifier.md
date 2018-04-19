@@ -9,6 +9,8 @@ ref: planifier
 
 # Planifier des événements
 
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/lObRYU-E9CQ" frameborder="0" allowfullscreen></iframe>
+
 ## Ajouter un événement au calendrier Salesforce
 
 Pour créer un événement, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) dans la liste d’actions de l’objet. Le formulaire de création d’un événement apparaît, complétez les champs obligatoires pour créer votre événement.

@@ -14,6 +14,8 @@ The tools on the top left allow to manage data by:
 1. Filtering them according to predefined filters 
 2. Searching for an object on the map
 
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/IrB0PrFctS0" frameborder="0" allowfullscreen></iframe>
+
 ## Filter data
 
 ### With predefined filters

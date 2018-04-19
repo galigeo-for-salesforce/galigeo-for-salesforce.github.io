@@ -9,11 +9,12 @@ ref: filtres
 
 # Filtres et actions
 
-
 Les deux premières options de la barre d’outils permettent :
 
 1. De filtrer les données grâce aux filtres associés à la carte 
 2. De rechercher un objet sur la carte
+
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/IrB0PrFctS0" frameborder="0" allowfullscreen></iframe>
 
 ## Filtrer les données
 
