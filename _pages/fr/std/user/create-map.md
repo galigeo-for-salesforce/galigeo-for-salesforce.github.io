@@ -9,9 +9,10 @@ ref: create-map
 
 # Créer une carte
 
-
 Le point d’entrée de l’application est l’onglet Galigeo.
 A partir de cet onglet, un utilisateur peut gérer (créer/modifier/supprimer) une ou plusieurs cartes.
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/create_map-liste_cartes.png){:.img.img-responsive.img-center}
 
 ## Qu’est-ce qu’une « carte » ?
 

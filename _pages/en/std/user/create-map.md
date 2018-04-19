@@ -12,6 +12,8 @@ ref: create-map
 The main entry point for an end user is the Galigeo Tab.
 In this tab, a user manage (create/edit/delete) his owned map(s).
 
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/create_map-list_maps.png){:.img.img-responsive.img-center}
+
 ## What is a Map?
 
 A Map is a set of Map Objects and analytics defined by the application administrator. The user can choose between those objects to build his own map and can see them.
