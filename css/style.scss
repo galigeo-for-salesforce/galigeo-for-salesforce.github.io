@@ -261,9 +261,12 @@ aside {
     color: #333;
 }
 
-#markdown-toc {
-	img {display: none;}
-	li>ul {margin: 0}
+#markdown-toc img {
+	display: none;
+}
+
+#markdown-toc li>ul {
+	margin: 0
 }
 
 /* Anchor.js | https://www.bryanbraun.com/anchorjs/
