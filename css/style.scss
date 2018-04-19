@@ -261,6 +261,13 @@ aside {
     color: #333;
 }
 
+#markdown-toc {
+	img {
+	display: none;
+	}
+	li>ul {margin: 0}
+}
+
 /* Anchor.js | https://www.bryanbraun.com/anchorjs/
 https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using-jekyll/ */
 
