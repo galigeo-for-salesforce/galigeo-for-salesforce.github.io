@@ -10,8 +10,9 @@ fr:
       - { url: '/analytics', text: 'Analytics', prev: '/geofiltre' , next: '/tableaux-de-bord-admin' }
       - { url: '/tableaux-de-bord-admin', text: 'Tableaux de bord', prev: '/analytics' , next: '/actions-admin' }
       - { url: '/actions-admin', text: 'Actions personnalisées', prev: '/tableaux-de-bord-admin' , next: '/listes-associees-admin' }
-      - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/create-map' }
+      - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/debuter' }
     user:
+      - { url: '/debuter', text: 'Débuter', prev: '/listes-associees-admin' , next: '/create-map' }
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
       - { url: '/interface-carto', text: 'Présentation', prev: '/create-map' , next: '/filtres' }
       - { url: '/filtres', text: 'Filtres', prev: '/interface-carto' , next: '/planifier' }
@@ -47,8 +48,9 @@ en:
       - { url: '/access-en', text: 'Access', prev: '/post-install-std-en', next: '/geo-object-en' }
       - { url: '/geo-object-en', text: 'Geographical Object', prev: '/access-en', next: '/geofilters-en' }
       - { url: '/geofilters-en', text: 'Geofilters', prev: '/geo-object-en', next: '/analytics-en' }
-      - { url: '/analytics-en', text: 'Analytics', prev: '/geofilters-en', next: '/create-map-en' }
+      - { url: '/analytics-en', text: 'Analytics', prev: '/geofilters-en', next: '/getting-started' }
     user:
+      - { url: '/getting-started', text: 'Getting Started', prev: '/analytics-en', next: '/create-map-en' }
       - { url: '/create-map-en', text: 'Create a map', prev: '/analytics-en', next: '/interface-en' }
       - { url: '/interface-en', text: 'Presentation', prev: '/create-map-en', next: '/filters-en' }
       - { url: '/filters-en', text: 'Filters and Actions', prev: '/interface-en', next: '/plan-en' }
