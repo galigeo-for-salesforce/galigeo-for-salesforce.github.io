@@ -9,6 +9,20 @@ ref: create-map
 
 # Create a Map
 
+This article will show you how to create a map that will be shareable with other users.
+
+<p class="note"><strong>Note:</strong> We assume all the initial steps have been done such as the configuration of the <a href="/geo-object-en">map object</a> by the Salesforce admin.</p>
+
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 The main entry point for an end user is the Galigeo Tab.
 In this tab, a user manage (create/edit/delete) his owned map(s).
 
