@@ -8,6 +8,8 @@ ref: create-map
 ---
 
 # Créer une carte
+
+* Table Of Contents
 {:toc}
 
 Le point d’entrée de l’application est l’onglet Galigeo.
