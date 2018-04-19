@@ -186,7 +186,7 @@ hr {
     padding-top: 14px;
 }
 
-@media (min-width: $screen-md-min) {
+@media (max-width: $screen-md-min) {
 
 	.search {
 	display: none;
