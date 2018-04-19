@@ -269,6 +269,12 @@ aside {
 	margin: 0
 }
 
+h2.no_toc {
+	border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: -16px;
+}
+
 /* Anchor.js | https://www.bryanbraun.com/anchorjs/
 https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using-jekyll/ */
 
