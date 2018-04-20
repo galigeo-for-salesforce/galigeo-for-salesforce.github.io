@@ -52,6 +52,6 @@ La **barre horizontale** permet de redimensionner la fenêtre du bas ou de la c
 
 ## Etapes
 
-1. [Créer un projet](/projet-adv) de sectorisation
-2. [Concevoir des territoires](/territoires-adv) et les assigner à collaborateurs
-3. [Affecter des enregistrements en masse](/affectation-adv) à des utilisateurs Salesforce
+1. [Créez un projet](/projet-adv) de sectorisation
+2. [Concevez des territoires](/territoires-adv) et assignez-les à collaborateurs
+3. [Affectez des enregistrements en masse](/affectation-adv) à des utilisateurs Salesforce
