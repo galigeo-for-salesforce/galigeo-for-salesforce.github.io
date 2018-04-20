@@ -31,7 +31,7 @@ Un secteur est une entité géographique. C’est l’unité de base d’un t
 
 ### Collaborateur
 
-Un collaborateur, au sens du Territory Management, est une personne physique ou une entité qui peut être affectée à un territoire. Les collaborateurs sont ajoutés par l’administrateur de l’application.
+Un collaborateur, au sens du Territory Management, est une personne physique ou une entité qui peut être affectée à un territoire. Les collaborateurs sont [ajoutés par l’administrateur de l’application](/utilisateurs).
 
 ## Interface
 

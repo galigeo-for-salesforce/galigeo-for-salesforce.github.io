@@ -9,13 +9,13 @@ ref: utilisateurs
 
 # User management
 
-## TM Role
+## Roles
 
 The application used three different roles:
 
-- TM_Admin: this role can create a project, design territories, assign a territory to a user (whatever this user role). This role can see all the Territory Management Project for an organization.
-- TM_Owner: this role has the same capabilities than the TM_Admin role, except that it sees only its owned project.
-- TM_Stakeholder: has no right. This role is used to declared a user that a Designer can assign to a territory.
+- **TM_Admin**: this role can create a project, design territories, assign a territory to a user (whatever this user role). This role can see all the Territory Management Project for an organization.
+- **TM_Owner**: this role has the same capabilities than the TM_Admin role, except that it sees only its owned project.
+- **TM_Stakeholder**: has no right. This role is used to declared a user that a designer can assign to a territory.
 
 ## Add an user
 

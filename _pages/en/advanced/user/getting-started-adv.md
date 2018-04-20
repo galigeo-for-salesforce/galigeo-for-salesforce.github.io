@@ -31,7 +31,7 @@ A sector is a small geographical entity. It is the building stone of a territory
 
 ### Stakeholder
 
-A stakeholder, in the sense of Territory Management, is a physical person or an entity who can be assigned to a territory. The representatives are defined by the application administrator.
+A stakeholder, in the sense of Territory Management, is a physical person or an entity who can be assigned to a territory. The representatives are [defined by the application administrator](/users-en).
 
 ## User Interface
 

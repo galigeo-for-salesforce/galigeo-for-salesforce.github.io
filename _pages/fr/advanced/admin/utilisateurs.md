@@ -13,9 +13,9 @@ ref: utilisateurs
 
 Trois profils d'utilisateur sont disponibles :
 
-- TM_Admin: ce rôle peut créer un projet, concevoir des territoires, affecter un territoire à un utilisateur (quel que soit son rôle dans l'application). Ce rôle peut voir tous les projets de l'organisation.
-- TM_Owner: ce rôle a les mêmes droits que le rôle TM_Admin, à l'exception du fait qu’il ne voit que ses propres projets.
-- TM_Stakeholder: n’a aucun droit. Ce rôle est utilisé pour déclarer un utilisateur qu'un Designer peut assigner à un territoire.
+- **TM_Admin**: ce rôle peut créer un projet, concevoir des territoires, affecter un territoire à un utilisateur (quel que soit son rôle dans l'application). Ce rôle peut voir tous les projets de l'organisation.
+- **TM_Owner**: ce rôle a les mêmes droits que le rôle TM_Admin, à l'exception du fait qu’il ne voit que ses propres projets.
+- **TM_Stakeholder**: n’a aucun droit. Ce rôle est utilisé pour déclarer un utilisateur qu'un designer peut assigner à un territoire.
 
 ## Ajouter un utilisateur
 
