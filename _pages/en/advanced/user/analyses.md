@@ -9,7 +9,6 @@ ref: analyses-adv
 
 # Galigeo Map Analytics
 
-
 As the Galigeo for Salesforce Advanced Edition is an extension of the Galigeo for Salesforce Standard Edition, it is possible to display maps and their associated analytics defined in the Galigeo Standard Edition in the Territory Design App (Refer to [Galigeo Standard Edition User Guide](/create-map-en) for map creation).
 
 In the toolbar, click on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-040.png) icon to load the SFDC Map widget.

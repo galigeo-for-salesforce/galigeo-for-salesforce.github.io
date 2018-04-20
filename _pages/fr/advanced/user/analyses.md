@@ -26,12 +26,9 @@ Un clic sur un graphique permet d’afficher la fiche d’informations. Les attr
 {:.table}
 |![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-047.jpg){:.img.img-responsive.img-center}|![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-048.jpg){:.img.img-responsive.img-center}|
 
-
-
 L’utilisateur peut ajouter les analyses de plusieurs cartes. Cliquez sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-050.png), pour en ajouter une autre
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-053.jpg){:.img.img-responsive.img-center}
-
 
 Pour chaque carte :
 

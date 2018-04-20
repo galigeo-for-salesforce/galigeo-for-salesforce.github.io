@@ -21,72 +21,78 @@ ref: territoires-adv
 
 ## Sélection
 
-- Définition
+### Définition
 	
-	Pour créer un territoire on doit sélectionner un ensemble de secteurs. Cette sélection apparaît d’abord comme territoire « virtuel » :
+Pour créer un territoire on doit sélectionner un ensemble de secteurs. Cette sélection apparaît d’abord comme territoire « virtuel » :
 
-	- Il apparaît sur la carte (par défaut en bleu), le détail des secteurs est affiché o Il est affiché dans le tableau de territoires, sur la première ligne
-	- Il est affiché dans la vue graphique
-	- Le détail par secteur apparaît dans le tableau en bas à droite.
+- Il apparaît sur la carte (par défaut en bleu), le détail des secteurs est affiché dans le tableau de territoires, sur la première ligne
+- Il est affiché dans la vue graphique
+- Le détail par secteur apparaît dans le tableau en bas à droite.
 
-	<br>Ses différences notables par rapport à un territoire classique :
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-adv-user/tm-sectors_selected.png){:.img.img-responsive.img-center}
 
-	- Il peut chevaucher d’autres territoires
-	- Aucun collaborateur ne peut être affecté à ce territoire 
-	- Il ne peut pas être supprimé
+Ses différences notables par rapport à un territoire classique :
 
-- Manipulation
+- Il peut chevaucher d’autres territoires
+- Aucun collaborateur ne peut être affecté à ce territoire 
+- Il ne peut pas être supprimé
 
-	Pour modifier une sélection, on doit entrer en mode édition en cliquant sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-026.jpg). On peut quitter l’outil en cliquant à nouveau sur ce bouton ou en appuyant sur ESC.
+### Manipulation
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-027.png){:.img.img-responsive.img-center}
+Pour modifier une sélection, on doit entrer en mode édition en cliquant sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-026.jpg). On peut quitter l’outil en cliquant à nouveau sur ce bouton ou en appuyant sur ESC.
 
-	A partir du bouton de sélection, on accède aux 3 outils de dessin disponibles : le point, le cercle et le polygone libre.
-	
-	Les secteurs contenus dans le cercle, le polygone ou le point tracé forment la sélection. En maintenant la touche CTRL appuyée durant le dessin, les secteurs seront ajoutés à la sélection. En maintenant la touche MAJ appuyée, ils seront soustraits de la sélection.
-	
-	Les secteurs peuvent également être sélectionnés depuis le tableau des secteurs. En mode édition, les lignes du tableau peuvent être sélectionnées. La sélection se fait de la même manière que dans un tableau classique : un clic permet de sélectionner une ligne, en maintenant la touche CTRL enfoncée on peut ajouter d’autres lignes, en maintenant la touche MAJ enfoncée on peut sélectionner une plage de lignes, CTRL-A permet de tout sélectionner.
-	
-	Cliquer sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg) de la barre d’outils permet de supprimer la sélection.
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-027.png){:.img.img-responsive.img-center}
+
+A partir du bouton de sélection, on accède aux 3 outils de dessin disponibles : le point, le cercle et le polygone libre.
+
+Les secteurs contenus dans le cercle, le polygone ou le point tracé forment la sélection. En maintenant la touche CTRL appuyée durant le dessin, les secteurs seront ajoutés à la sélection. En maintenant la touche MAJ appuyée, ils seront soustraits de la sélection.
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-adv-user/tm-selection_pen.png){:.img.img-responsive.img-center}
+
+Les secteurs peuvent également être sélectionnés depuis le tableau des secteurs. En mode édition, les lignes du tableau peuvent être sélectionnées. La sélection se fait de la même manière que dans un tableau classique : un clic permet de sélectionner une ligne, en maintenant la touche CTRL enfoncée on peut ajouter d’autres lignes, en maintenant la touche MAJ enfoncée on peut sélectionner une plage de lignes, CTRL-A permet de tout sélectionner.
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-adv-user/tm-selection_table.png){:.img.img-responsive.img-center}
+
+Cliquer sur le bouton ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-022.jpg) de la barre d’outils permet de supprimer la sélection.
 
 ## Actions
 
-À partir d’une sélection, plusieurs actions sur les territoires sont possibles :
+À partir d’une sélection, plusieurs actions sur les territoires sont possibles depuis la barre d'outils :
 
-- Créer un territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-029.jpg)
+### Créer un territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-029.jpg)
 
-	Un nouveau territoire se crée à partir d’une sélection. Il apparaît ainsi sur la carte, dans le tableau et sur le graphique.Par défaut, sa couleur est aléatoire. Le nom par défaut est « Territoire n », où n est le nombre de territoires au sein du projet. Ces deux paramètres peuvent être modifiés.
+Un nouveau territoire se crée à partir d’une sélection. Il apparaît ainsi sur la carte, dans le tableau et sur le graphique. Par défaut, sa couleur est aléatoire. Le nom par défaut est « Territoire n », où *n* est le nombre de territoires au sein du projet. Ces deux paramètres peuvent être modifiés.
 
-	Lorsqu’une sélection chevauche un ou plusieurs territoires, la fenêtre ci-dessous s’affiche :
+Lorsqu’une sélection chevauche un ou plusieurs territoires, la fenêtre ci-dessous s’affiche :
 
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-030.png){:.img.img-responsive.img-center}
-
-
-	Deux possibilités :
-
-	- Utiliser toutes les geounits : le nouveau territoire est créé à partir de tous les secteurs contenus dans la sélection. Les secteurs qui appartiennent à un autre territoire seront soustraits à ce territoire (territoires filtrés inclus).
-	- Utiliser seulement les geounits non assignées : les secteurs qui ne sont pas assignés à un territoire existant seront utilisés pour créer le nouveau territoire. Les territoires existants ne sont pas modifiés (territoires filtrés inclus).
-
-- Assigner la sélection à un territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-031.jpg)
-
-	La sélection s’ajoute à un territoire existant. S’il n’y a qu’un territoire, la sélection sera automatiquement ajoutée à celui-ci. Dans le cas contraire, la fenêtre ci-dessous apparaît :
-
-	![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-032.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-030.png){:.img.img-responsive.img-center}
 
 
-	La liste déroulante contient tous les territoires existants non filtrés. Elle permet de choisir à quel territoire la sélection sera assignée.
+Deux possibilités :
 
-	Deux options possibles :
+- Utiliser toutes les geounits : le nouveau territoire est créé à partir de tous les secteurs contenus dans la sélection. Les secteurs qui appartiennent à un autre territoire seront soustraits à ce territoire (territoires filtrés inclus).
+- Utiliser seulement les geounits non assignées : les secteurs qui ne sont pas assignés à un territoire existant seront utilisés pour créer le nouveau territoire. Les territoires existants ne sont pas modifiés (territoires filtrés inclus).
 
-	- Utiliser toutes les geounits : le nouveau territoire est créé des tous les secteurs contenus dans la sélection. Les secteurs qui appartiennent à un autre territoire seront soustraits à ce territoire (territoires filtrés inclus).
-      
-	- Utiliser seulement les geounits non assignées : Seuls les secteurs qui ne sont pas assignés à un territoire existant seront utilisés pour créer le nouveau territoire. Les territoires existants ne sont pas modifiés (incluant les territoires filtrés).
+### Assigner la sélection à un territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-031.jpg)
 
-	Cette action peut aussi être effectuée par glisser déposer avec la souris DEPUIS les secteurs sélectionnés sur la carte ou via le tableau de secteurs VERS un territoire affiché sur la carte, une ligne du tableau de territoires ou une barre de la vue graphique.
+La sélection s’ajoute à un territoire existant. S’il n’y a qu’un territoire, la sélection sera automatiquement ajoutée à celui-ci. Dans le cas contraire, la fenêtre ci-dessous apparaît :
 
-- Annuler la sélection de territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-033.jpg)
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-032.png){:.img.img-responsive.img-center}
 
-	Les secteurs contenus dans la sélection sont soustraits des territoires auxquels ils appartiennent. Un message de validation s’affiche pour confirmation.
+
+La liste déroulante contient tous les territoires existants non filtrés. Elle permet de choisir à quel territoire la sélection sera assignée.
+
+Deux options possibles :
+
+- Utiliser toutes les geounits : le nouveau territoire est créé des tous les secteurs contenus dans la sélection. Les secteurs qui appartiennent à un autre territoire seront soustraits à ce territoire (territoires filtrés inclus).
+  
+- Utiliser seulement les geounits non assignées : Seuls les secteurs qui ne sont pas assignés à un territoire existant seront utilisés pour créer le nouveau territoire. Les territoires existants ne sont pas modifiés (incluant les territoires filtrés).
+
+Cette action peut aussi être effectuée par glisser déposer avec la souris DEPUIS les secteurs sélectionnés sur la carte ou via le tableau de secteurs VERS un territoire affiché sur la carte, une ligne du tableau de territoires ou une barre de la vue graphique.
+
+### Annuler la sélection de territoire ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-033.jpg)
+
+Les secteurs contenus dans la sélection sont soustraits des territoires auxquels ils appartiennent. Un message de validation s’affiche pour confirmation.
 
 ## Annuler une conception
 

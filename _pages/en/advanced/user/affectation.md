@@ -11,14 +11,14 @@ ref: affectation-adv
 
 Click on the "Records Assignment" tab to access to the mass records assignment page.
 
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-056.png){:.img.img-responsive.img-center}
+
 The goal of this page is to do a mass records assign for some object. The owner assignment is based on a Territory project and the user assign to a territory.
 
 The page is divided in two part:
 
 - logic: where the user choose some object, select a territory project and optionally define some filter
 - map: a map visualization where the records and the territories of a project are plotted.
-
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-056.png){:.img.img-responsive.img-center}
 
 ## Records and project selection
 

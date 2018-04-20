@@ -11,15 +11,15 @@ ref: affectation-adv
 
 Cliquez sur l’onglet « Records Assignment » pour accéder à la page d’affectation des enregistrements en masse.
 
-Cette page permet d’affecter en masse des enregistrements à des utilisateurs Salesforce. L’affectation à un propriétaire se base sur un projet de territory management où des collaborateurs ont été assignés à des territoires.
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-056.png){:.img.img-responsive.img-center}
+
+Cette page permet d’affecter en masse des enregistrements à des utilisateurs Salesforce. L’affectation à un propriétaire se base sur un projet de sectorisation où des collaborateurs ont été assignés à des territoires.
 
 La page est divisée en deux parties :
 
 - Règles d’affectation : l’utilisateur choisit un objet, sélectionne un projet de territoire et définit, s’il le souhaite, un filtre pour limiter les enregistrements à affecter
 
 - Carte : Affiche une visualisation des enregistrements et des territoires concernés par l’opération.
-
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-056.png){:.img.img-responsive.img-center}
 
 ## Sélection des enregistrements et du projet
 
