@@ -32,7 +32,7 @@ Dans le cas où le type d’action serait une URL, seule l’adresse internet do
 Actuellement seuls deux champs de fusion (merge fields) sont dynamiquement pris en compte dans les différentes URL :
 
 - L’identifiant Salesforce : <code>{!id}</code>
-- Le nom de l’objet : <code>{!name</code>
+- Le nom de l’objet : <code>{!name}</code>
 
 Par exemple, en utilisant l’id, l’URL pour créer une nouvelle tâche associée à un compte est:
 
