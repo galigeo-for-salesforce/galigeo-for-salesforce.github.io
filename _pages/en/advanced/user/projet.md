@@ -110,9 +110,9 @@ A window opens and allows to choose between two possible exportation options:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro5.png){:.img.img-responsive.img-center}
 
-- A **shapefile of the territories**. The geometry of the territories is exported to a shapefile as well as their attributes: name, representative and aggregate indicators. The color of the territories is not exported.
+- A *shapefile of the territories*. The geometry of the territories is exported to a shapefile as well as their attributes: name, representative and aggregate indicators. The color of the territories is not exported.
 
-- A **CSV file of the assignments of the sector**. A CSV is generated, and each line corresponds to a sector. All the sectors assigned to a territory in the project are exported. Every line contains all the available information on that sector (the equivalent of the sector table at the right hand side of the application). It is also added the name of the territory to which the sector belongs as well as the representative assigned to the territory.
+- A *CSV file of the assignments of the sector*. A CSV is generated, and each line corresponds to a sector. All the sectors assigned to a territory in the project are exported. Every line contains all the available information on that sector (the equivalent of the sector table at the right hand side of the application). It is also added the name of the territory to which the sector belongs as well as the representative assigned to the territory.
 
 <p class="note"><strong>Note:</strong> To be taken in the consideration is the fact that only the territories that are not filtered are exported for these two types of export (see chapter [« Visualisations »](/visualisations-adv-en) for more information).</p>
 

@@ -103,8 +103,8 @@ Une fenêtre s’ouvre et permet de choisir entre deux options d’exportation 
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-019.jpg){:.img.img-responsive.img-center}
 
-- Un **shapefile des territoires**. La géométrie des territoires et leurs attributs (nom du territoire, collaborateur, indicateurs) sont exportés en tant shapefile. Seule la couleur des territoires n’est pas exportée.
+- Un *shapefile des territoires*. La géométrie des territoires et leurs attributs (nom du territoire, collaborateur, indicateurs) sont exportés en tant shapefile. Seule la couleur des territoires n’est pas exportée.
 
-- Un **fichier CSV**. Chaque ligne correspond à un secteur. Tous les secteurs assignés à un territoire dans le projet sont exportés. Chaque ligne contient toutes les informations disponibles sur ce secteur (l’équivalent du tableau de secteurs situé en bas à droite de l’interface).
+- Un *fichier CSV*. Chaque ligne correspond à un secteur. Tous les secteurs assignés à un territoire dans le projet sont exportés. Chaque ligne contient toutes les informations disponibles sur ce secteur (l’équivalent du tableau de secteurs situé en bas à droite de l’interface).
 
 <p class="note"><strong>Note:</strong> Seuls les territoires non filtrés sont pris en compte lors de l’exportation (voir la section [« Visualisations »](/visualisations-adv) pour plus d’informations).</p>
