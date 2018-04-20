@@ -15,7 +15,7 @@ Galigeo for Salesforce s’intègre directement à votre CRM, pour permettre aux
 
 ## Etapes
 
-1. [Créer une carte](/create-map), passez cette étape si cela a déjà été fait
+1. [Créez une carte](/create-map), passez cette étape si cela a déjà été fait
 2. Familiarisez-vous avec l'[interface](/interface-carto)
 3. Apprenez à utiliser les [Filtres](/filtres)
 
