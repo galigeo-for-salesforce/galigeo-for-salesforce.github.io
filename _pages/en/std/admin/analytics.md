@@ -13,6 +13,16 @@ Galigeo for Salesforce allows to create analytics like Pie Chart, Proportional S
 
 To achieve this, a Galigeo Admin user need to define a data source and some analytics based on data sources.
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Manage Data Sources
 
 In the Galigeo Admin tab, click on **"Analytics"** to switch to the Data Sources Administration panel.

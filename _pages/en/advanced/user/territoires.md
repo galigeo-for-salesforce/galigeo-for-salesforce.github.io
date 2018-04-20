@@ -9,6 +9,16 @@ ref: territoires-adv
 
 # Designing Territories
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Selection
 
 - Definition

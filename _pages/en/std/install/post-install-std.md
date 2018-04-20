@@ -20,6 +20,16 @@ One more step is needed to complete the installation:
 
 - Create a custom **Geolocation** field for each object that would be mapped
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## First Method: give rule access by creating a Permission Sets
 
 Using Permissions Sets is a more flexible way to give access for users to specific feature in Salesforce (objects, pages, classes ...). We recommend to use this method.

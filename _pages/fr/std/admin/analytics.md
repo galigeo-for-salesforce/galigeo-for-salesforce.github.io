@@ -17,6 +17,16 @@ Galigeo for Salesforce permet d’afficher vos données à travers les représen
 
 Pour afficher ces représentations, il faut définir une source de données et des « analyses » basées sur cette source de données.
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Gérer les sources de données
 
 Dans l’onglet Galigeo Admin, cliquez sur « Analyses » pour accéder au panneau d’administration des sources de données.

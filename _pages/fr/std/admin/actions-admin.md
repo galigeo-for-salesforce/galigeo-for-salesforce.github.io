@@ -15,6 +15,16 @@ Les actions sont définies pour un objet géographique et sont configurées à p
 
 La page de configuration permet de définir le nom de l’action, son type et des paramètres qui dépendent du type.
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## URL
 
 Dans le cas où le type d’action serait une URL, seule l’adresse internet doit obligatoirement être renseignée.

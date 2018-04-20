@@ -9,6 +9,16 @@ ref: install-advanced
 
 # Package Installation
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Start Installation
 
 The Galigeo Advanced Edition is an extension package of Galigeo Standard Edition. At the installation, the process check if the base package is installed before starting the installation.

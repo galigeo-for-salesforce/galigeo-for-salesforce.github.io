@@ -9,6 +9,15 @@ ref: territoires-adv
 
 # Conception de territoires
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
 
 ## Sélection
 

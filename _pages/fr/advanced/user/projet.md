@@ -9,6 +9,16 @@ ref: projet-adv
 
 # Gestion des projets
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Créer un projet
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-005.jpg){:.img.img-responsive.img-center}

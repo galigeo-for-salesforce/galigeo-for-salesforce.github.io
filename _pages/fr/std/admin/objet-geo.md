@@ -17,6 +17,16 @@ Cliquez sur le bouton « Nouveau », sélectionnez l’option « Utilisez l’as
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-020.png){:.img.img-responsive.img-center}
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Créer un objet géographique en utilisant l’assistant de création
 
 La création se déroule en trois étapes :

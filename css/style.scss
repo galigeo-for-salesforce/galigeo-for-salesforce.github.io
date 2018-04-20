@@ -171,6 +171,7 @@ hr {
 	&.active{color: #333; background: transparent;}
 	&:hover {color: #4face1; margin-left: 0;}
 	&:hover.active {@extend .active; margin-left: 0px;}
+	&.en, &.fr {text-transform: uppercase;}
 	}
 }
 

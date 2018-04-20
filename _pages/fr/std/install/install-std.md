@@ -11,6 +11,16 @@ ref: install-std
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/Bko-QyY0tjs" frameborder="0" allowfullscreen></iframe>
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Démarrer l’installation
 
 {:.table.table-bordered}

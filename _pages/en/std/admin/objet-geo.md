@@ -17,6 +17,16 @@ Click on the "New" button, select the option "Using the wizard for Salesforce St
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/obj2.png){:.img.img-responsive.img-center}
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Create a Map Object using the creation wizard
 
 The creation is in three steps:

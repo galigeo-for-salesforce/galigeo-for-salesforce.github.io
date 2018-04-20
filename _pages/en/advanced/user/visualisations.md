@@ -9,6 +9,16 @@ ref: visualisations-adv
 
 # Visualization Modes
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Map
 
 The territories are represented on the map in the color assigned to them.

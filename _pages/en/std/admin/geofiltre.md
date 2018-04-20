@@ -11,14 +11,19 @@ ref: geofiltre
 
 A Geo-Filter is based on a Map Object and allows to filter data shown on the map by activating them or not.
 
-In this chapter, we will see how to:
-
-1. Create a Geo-Filter
-2. Create a Hierarchical Geo-Filters list
-
 To add a filter for a given map object, go to the map object details page, and click on the ![config ggo for salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) icon in the "Filters" section to go the filter creation page.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-060.png){:.img.img-responsive.img-center}
+
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
 
 ## Create a Geo-Filter
 

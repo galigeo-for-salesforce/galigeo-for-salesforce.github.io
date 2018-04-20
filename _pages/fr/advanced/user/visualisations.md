@@ -9,6 +9,16 @@ ref: visualisations-adv
 
 # Modes de visualisation
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Carte
 
 Les territoires sont représentés sur la carte dans la couleur qui leur a été assignée.

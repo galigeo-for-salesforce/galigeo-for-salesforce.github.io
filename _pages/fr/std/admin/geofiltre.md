@@ -11,14 +11,19 @@ ref: geofiltre
 
 Un géofiltre est un élément d’un objet géographique qui permet de filtrer les données affichées sur une carte.
 
-Dans ce chapitre nous allons voir comment :
-
-1. Créer un géofiltre
-2. Créer une liste hiérarchique de géofiltres
-
 Pour ajouter un géofiltre, accédez aux informations détaillées d’un objet géographique et cliquez sur le bouton   dans la section « Filtres ».
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-060.png){:.img.img-responsive.img-center}
+
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
 
 ## Créer un géofiltre
 

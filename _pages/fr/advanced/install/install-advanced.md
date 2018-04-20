@@ -9,6 +9,16 @@ ref: install-advanced
 
 # Installation du package
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Démarrer l’installation
 
 Galigeo Advanced Edition est un package d’extension pour Galigeo Visit Planning. Lors de l’installation, le processus vérifie si le package de base est installé avant de démarrer l’installation.

@@ -9,6 +9,16 @@ ref: projet-adv
 
 # Project Management
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## New project
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/pro1.png){:.img.img-responsive.img-center}

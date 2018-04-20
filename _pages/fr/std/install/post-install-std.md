@@ -20,6 +20,16 @@ Pour terminer l’installation :
 
 - Créez un champ custom Geolocation pour chque objet destiné à être cartographié.
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Première méthode : créer un droit d’accès grâce à un ensemble d’autorisations
 
 Utiliser les ensembles de permissions est une façon flexible de donner aux utilisateurs Salesforce accès à des fonctionnalités spécifiques (objets, pages, classes ...). C’est la méthode que nous recommandons.
