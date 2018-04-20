@@ -7,7 +7,7 @@ lang: fr
 ref: getting-started-adv
 ---
 
-# Débuter avec l'application de Territory Management
+# Débuter avec l'application de sectorisation commerciale
 
 Galigeo for Salesforce Advanced vous permet de gérer votre sectorisation commerciale :
 
