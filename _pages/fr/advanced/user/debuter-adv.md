@@ -9,7 +9,7 @@ ref: getting-started-adv
 
 # Débuter avec l'application de sectorisation commerciale
 
-Galigeo for Salesforce Advanced vous permet de gérer votre sectorisation commerciale :
+[Galigeo for Salesforce Advanced](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4tg3EAB) vous permet de gérer votre sectorisation commerciale :
 
 - Analysez les secteurs à partir d'indicateurs Salesforce
 - Redessinez-les à partir d'unité géographiques standards ou personnalisées
@@ -18,6 +18,8 @@ Galigeo for Salesforce Advanced vous permet de gérer votre sectorisation commer
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-adv-user/tm-getting_started_overview.gif){:.img.img-responsive.img-center}
 
 ## Définitions
+
+Tout au long de la documentation vous rencontrerez les termes ci-dessous :
 
 ### Territoire
 
@@ -33,9 +35,7 @@ Un collaborateur, au sens du Territory Management, est une personne physique ou 
 
 ## Interface
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-004.jpg){:.img.img-responsive.img-center}
-
-L’interface générale du Territory Management se présente comme ci-dessus :
+L’interface générale se présente comme ci-dessous avec :
 
 1. Liste des projets
 2. Vue cartographique
@@ -44,6 +44,8 @@ L’interface générale du Territory Management se présente comme ci-dessus
 5. Bouton pour basculer entre vue tabulaire et graphique
 6. Vue des secteurs
 
-La barre horizontale verte permet de redimensionner la fenêtre du bas ou de la cacher en cliquant sur le bouton du milieu.
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-004.jpg){:.img.img-responsive.img-center}
 
-La barre verticale placée entre les deux tableaux, permet de modifier la taille des vues territoires et secteurs.
+La barre verticale, placée entre les deux tableaux, permet de modifier la taille des vues territoires et secteurs.
+
+La barre horizontale verte permet de redimensionner la fenêtre du bas ou de la cacher en cliquant sur le bouton du milieu.
