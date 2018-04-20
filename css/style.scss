@@ -81,10 +81,8 @@ pre {
 	margin: 0;
 	border: 0;
 	color: rgb(75, 126, 0);
-}
-
-pre.highlight {
-	padding: 0;
+	&.lineno {display: 0;}
+	&.highlight {padding: 0;}
 }
 
 .note {
