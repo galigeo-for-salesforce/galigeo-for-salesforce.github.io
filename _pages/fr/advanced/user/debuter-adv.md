@@ -46,9 +46,9 @@ L’interface générale se présente comme ci-dessous avec :
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-004.jpg){:.img.img-responsive.img-center}
 
-La *barre verticale verte*, placée entre les deux tableaux, permet de modifier la taille des vues territoires et secteurs.
+La barre verticale verte, placée entre les deux tableaux, permet de modifier la taille des vues territoires et secteurs.
 
-La *barre horizontale* permet de redimensionner la fenêtre du bas ou de la cacher en cliquant sur le bouton du milieu.
+La barre horizontale permet de redimensionner la fenêtre du bas ou de la cacher en cliquant sur le bouton du milieu.
 
 ## Etapes
 

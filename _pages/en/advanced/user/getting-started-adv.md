@@ -46,9 +46,9 @@ The general interface looks like in the figure bellow with:
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-004.jpg){:.img.img-responsive.img-center}
 
-The *green vertical bar*, placed between the two tables, modifies the size of the territory and sector view.
+The green vertical bar, placed between the two tables, modifies the size of the territory and sector view.
 
-The *horizontal bar* allows to resize the application, or to hide it if the button in the middle of it is pressed.
+The horizontal bar allows to resize the application, or to hide it if the button in the middle of it is pressed.
 
 ## Steps
 
