@@ -57,17 +57,17 @@ Les actions Salesforce sur un compte sont :
 {:.table.table-bordered}
 |Action|URL |
 | ------------- | ------------- |
-|Nouveau contact|/003/e?retURL=%2F{!id}&accid={!id} |
-|Nouvelle opportunité|/006/e?retURL=%2F{!id}&accid={!id} |
-|Nouveau case|/500/e?def_account_id={!id} |
-|Nouvelle tâche|/00T/e?who_id={!id}&what_id={!id} |
-|Nouvel évènement|/00U/e?who_id={!id}&what_id={!id} |
-|Consigner un appel|/00T/e?title=Call&who_id={!id}&what_id={!Id}&followup=1&tsk5=Call |
-|Envoyer un email|/_ui/core/email/author/EmailAuthor?p3_lkid={!id} |
-|Nouvelle note|/002/e?parent_id={!id} |
-|Joindre un fichier|/p/attach/NoteAttach?pid={!id}&parentname={!name} |
-|Nouveau partenaire |/opp/partneredit.jsp?id={!id} |
-|Ajouter à une campagne|/_ui/common/data/LookupPage?lkpr={!id}&lktp=701&enableScopes=1&addToCampaign=1 |
+|Nouveau contact|<code>/003/e?retURL=%2F{!id}&accid={!id}</code> |
+|Nouvelle opportunité|<code>/006/e?retURL=%2F{!id}&accid={!id}</code> |
+|Nouveau case|<code>/500/e?def_account_id={!id}</code> |
+|Nouvelle tâche|<code>/00T/e?who_id={!id}&what_id={!id}</code> |
+|Nouvel évènement|<code>/00U/e?who_id={!id}&what_id={!id}</code> |
+|Consigner un appel|<code>/00T/e?title=Call&who_id={!id}&what_id={!Id}&followup=1&tsk5=Call</code> |
+|Envoyer un email|<code>/_ui/core/email/author/EmailAuthor?p3_lkid={!id}</code> |
+|Nouvelle note|<code>/002/e?parent_id={!id}</code> |
+|Joindre un fichier|<code>/p/attach/NoteAttach?pid={!id}&parentname={!name}</code> |
+|Nouveau partenaire |<code>/opp/partneredit.jsp?id={!id}</code> |
+|Ajouter à une campagne|<code>/_ui/common/data/LookupPage?lkpr={!id}&lktp=701&enableScopes=1&addToCampaign=1</code> |
 
 <div class="alert alert-info" role="alert"> <strong>Limitations :</strong> Certains paramètres ne fonctionnent pas dans Lightning, les tâches s’ouvrant dans une fenêtre modale et non dans une page dédiée.</div>
 
@@ -76,10 +76,10 @@ Exemple de liens externes :
 {:.table.table-bordered}
 |Action|URL |
 | ------------- | ------------- |
-|Recherche Google à partir du nom de l’objet|https://www.google.fr/search?q={!name} |
-|Ajouter un RDV dans Google Calendar|http://www.google.com/calendar/event?ctext=+RDV+{!name}&action=TEMPLATE&pprop=HowCreated%3AQUICKADD |
-|Recherche Societe.com|http://www.societe.com/cgi-bin/search?champs={!name} |
-|Recherche LinkedIn|https://www.linkedin.com/search/results/index/?keywords={!name}&page=1 |
+|Recherche Google à partir du nom de l’objet|<code>https://www.google.fr/search?q={!name}</code> |
+|Ajouter un RDV dans Google Calendar|<code>http://www.google.com/calendar/event?ctext=+RDV+{!name}&action=TEMPLATE&pprop=HowCreated%3AQUICKADD</code> |
+|Recherche Societe.com|<code>http://www.societe.com/cgi-bin/search?champs={!name}</code> |
+|Recherche LinkedIn|<code>https://www.linkedin.com/search/results/index/?keywords={!name}&page=1</code> |
 
 ## Page VisualForce personnalisée
 
