@@ -142,6 +142,12 @@ pre.highlight {
 
 .navbar {margin-bottom: 0}
 
+#content-body nav {
+	border-top: 1px solid #eee;
+	margin-top: 32px;
+    padding-top: 8px;
+}
+
 .navbar-inverse {
     background: none;
     border-color: #dfdfdf;
