@@ -34,7 +34,7 @@ La fenêtre de création de projet s’ouvre et offre deux options :
 
 	Les couches de points sont définies dans le module d’administration (onglet Galigeo Admin).
 
-- Créer une copie d’un projet existant.
+- Créer une copie d’un projet existant
 
 	Une barre de recherche permet de filtrer par nom la liste des projets disponibles.
 
@@ -60,11 +60,11 @@ Pour les fichiers CSV, les délimiteurs acceptés sont « ; » ou « , ». Atten
 
 Ensuite, plusieurs informations doivent être renseignées :
 
-- Indiquer la colonne contenant les identifiants de secteurs (code INSEE pour les communes, codes postaux, etc.) - obligatoire
-- Indiquer la colonne contenant les noms de territoires auxquels appartiennent les secteurs - obligatoire
-- Indiquer la colonne contenant les noms des collaborateurs assignés aux territoires - facultatif
-- Indiquer le nom du projet – obligatoire
-- Indiquer la couche que le secteur utilise. Cette couche doit correspondre aux secteurs contenus dans le fichier – obligatoire
+- La colonne contenant les identifiants de secteurs (code INSEE pour les communes, codes postaux, etc.) - obligatoire
+- La colonne contenant les noms de territoires auxquels appartiennent les secteurs - obligatoire
+- La colonne contenant les noms des collaborateurs assignés aux territoires - facultatif
+- Le nom du projet – obligatoire
+- La couche que le secteur utilise. Cette couche doit correspondre aux secteurs contenus dans le fichier – obligatoire
 
 ## Fusionner des projets
 
@@ -76,10 +76,10 @@ Pour ce faire, dans la liste des projets, l’utilisateur doit cliquer sur la fl
 
 Dans la fenêtre qui suit, il faut sélectionner le projet source et valider la sélection. La liste des projets affichés ne contient que les projets compatibles qui partagent la même couche de secteurs que le projet cible.
 
-Pour que la fusion se fasse correctement, il faut qu’il n’y ait pas d’ambiguïté entre les deux projets :
+Pour que la fusion se fasse correctement, il faut qu’il n’y ait pas d’ambiguïté entre les deux projets, leurs territoires ne doivent donc pas :
 
-- Les territoires des deux projets ne doivent pas se chevaucher (du point de vue géographique)
-- Les territoires des deux projets ne doivent pas avoir de noms identiques.
+- Se chevaucher (du point de vue géographique)
+- Avoir de noms identiques
 
 ## Activer un projet
 
@@ -103,9 +103,8 @@ Une fenêtre s’ouvre et permet de choisir entre deux options d’exportation 
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-019.jpg){:.img.img-responsive.img-center}
 
-- Un shapefile des territoires. La géométrie des territoires et leurs attributs (nom du territoire, collaborateur, indicateurs) sont exportés en tant shapefile. Seule la couleur des territoires n’est pas exportée.
+- Un **shapefile des territoires**. La géométrie des territoires et leurs attributs (nom du territoire, collaborateur, indicateurs) sont exportés en tant shapefile. Seule la couleur des territoires n’est pas exportée.
 
-- Un fichier CSV. Chaque ligne correspond à un secteur. Tous les secteurs assignés à un territoire dans le projet sont exportés. Chaque ligne contient toutes les informations disponibles sur ce secteur (l’équivalent du tableau de secteurs situé en bas à droite de l’interface).
+- Un **fichier CSV**. Chaque ligne correspond à un secteur. Tous les secteurs assignés à un territoire dans le projet sont exportés. Chaque ligne contient toutes les informations disponibles sur ce secteur (l’équivalent du tableau de secteurs situé en bas à droite de l’interface).
 
-- À noter que seuls les territoires non filtrés sont pris en compte lors de l’exportation (voir la section [« Visualisations »](/visualisations-adv) pour plus d’informations).
-
+<p class="note"><strong>Note:</strong> Seuls les territoires non filtrés sont pris en compte lors de l’exportation (voir la section [« Visualisations »](/visualisations-adv) pour plus d’informations).</p>
