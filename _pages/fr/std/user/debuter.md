@@ -19,10 +19,10 @@ Galigeo for Salesforce s’intègre directement à votre CRM, pour permettre aux
 2. Familiarisez-vous avec l'[interface](/interface-carto)
 3. Apprenez à utiliser les [Filtres](/filtres)
 
-Egalement :
+Ensuite :
 
-- [Planifier des événements](/planifier)
-- [Analyses](/analyses)
+- [Planifiez des événements](/planifier)
+- Utilisez les [analyses](/analyses)
 - [Tableaux de bord](/tableaux-de-bord)
 - [Actions](/actions)
 - [Listes associées](/listes-associees)

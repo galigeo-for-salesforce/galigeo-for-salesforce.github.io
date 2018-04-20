@@ -19,7 +19,7 @@ Galigeo for Salesforce directly integrates into your CRM, allowing field forces 
 2. Familiarize yourself with the [interface](/interface-en)
 3. Learn to use [filters](/filters-en)
 
-Also :
+Then :
 
-- [Planning events](/plan-en)
-- [Analytics](/analysis-en)
+- [Plan events](/plan-en)
+- Use [analytics](/analysis-en)
