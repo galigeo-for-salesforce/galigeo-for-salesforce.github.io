@@ -1,11 +1,21 @@
 ---
 layout: sidebar
-title: Introduction to the Territory Management App
+title: Getting Started with the Territory Management App
 categories: documentation
-permalink: /introduction-adv-en
+permalink: /getting-started-adv
 lang: en
-ref: presentation-adv
+ref: getting-started-adv
 ---
+
+# Getting Started with the Territory Management App
+
+Galigeo for Salesforce Advanced allows you to manage your sales territories :
+
+- Analyze Territories based on Salesforce metrics
+- Redesign Territories based on standard or custom geounits
+- Re-assign records following sales organizational changes
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-adv-user/tm-getting_started_overview.gif){:.img.img-responsive.img-center}
 
 ## Definitions
 

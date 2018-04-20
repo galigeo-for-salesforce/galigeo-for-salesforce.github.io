@@ -1,23 +1,33 @@
 ---
 layout: sidebar
-title: Présentation application Territory Management
+title: Débuter avec l'application de sectorisation commerciale
 categories: documentation
-permalink: /presentation-adv
+permalink: /debuter-adv
 lang: fr
-ref: presentation-adv
+ref: getting-started-adv
 ---
 
-# Définitions
+# Débuter avec l'application de Territory Management
 
-## Territoire
+Galigeo for Salesforce Advanced vous permet de gérer votre sectorisation commerciale :
+
+- Analysez les secteurs à partir d'indicateurs Salesforce
+- Redessinez-les à partir d'unité géographiques standards ou personnalisées
+- Ré-affectez en masse les comptes suite à une réorganisation de vos équipes commerciales
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-adv-user/tm-getting_started_overview.gif){:.img.img-responsive.img-center}
+
+## Définitions
+
+### Territoire
 
 Un territoire est une zone géographique contenant un ensemble de secteurs. Un territoire peut être affecté à un collaborateur.
 
-## Secteur
+### Secteur
 
 Un secteur est une entité géographique. C’est l’unité de base d’un territoire. Un projet de Territory Design repose sur une couche de secteurs. Voici quelques exemples de couches de secteurs : les communes ou les IRIS en France, les codes postaux ou les counties aux Etats- Unis etc.
 
-## Collaborateur
+### Collaborateur
 
 Un collaborateur, au sens du Territory Management, est une personne physique ou une entité qui peut être affectée à un territoire. Les collaborateurs sont ajoutés par l’administrateur de l’application.
 
