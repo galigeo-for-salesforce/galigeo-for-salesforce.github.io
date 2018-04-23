@@ -21,7 +21,7 @@ ref: install-advanced
 
 ## Démarrer l’installation
 
-Galigeo Advanced Edition est un package d’extension pour Galigeo Visit Planning. Lors de l’installation, le processus vérifie si le package de base est installé avant de démarrer l’installation.
+Galigeo Advanced Edition est un package d’extension pour l'application Galigeo Standard. Lors de l’installation, le processus vérifie si le package de base est installé avant de démarrer l’installation.
 
 Rendez-vous sur la [page Galigeo de l’AppExchange](https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B4tg3EAB) de cette application.
 

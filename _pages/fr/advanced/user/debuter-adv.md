@@ -7,9 +7,9 @@ lang: fr
 ref: getting-started-adv
 ---
 
-# Débuter avec l'application de sectorisation commerciale
+# Débuter avec l'application de Territory Management
 
-[Galigeo for Salesforce Advanced](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4tg3EAB) vous permet de gérer votre sectorisation commerciale :
+[Galigeo for Salesforce Advanced](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4tg3EAB) vous permet de gérer votre Territory Management :
 
 - Analysez les secteurs à partir d'indicateurs Salesforce
 - Redessinez-les à partir d'unité géographiques standards ou personnalisées

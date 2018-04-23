@@ -11,7 +11,7 @@ ref: related-lists
 
 ## Vues de liste
 
-<div class="alert alert-warning" role="alert"> <strong>Important :</strong> La seule manière de récupérer la liste des vues définies pour un objet données ainsi que leurs descriptions (requête SoQL, liste des champs, etc…) est d’utiliser l’API Metadata interrogeable en REST. Pour cela, il est nécessaire de déclarer votre organisation dans la liste des sites distants avec une URL de la forme :<br>
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> La seule manière de récupérer la liste des vues définies pour un objet ainsi que leurs descriptions (requête SoQL, liste des champs, etc…) est d’utiliser l’API Metadata interrogeable en REST. Pour cela, il est nécessaire de déclarer votre organisation dans la liste des sites distants avec une URL de la forme :<br>
 https://MYSFINSTANCE.visual.force.com<br>
 où MYSFINSTANCE correspond à votre instance Salesforce</div>
 
