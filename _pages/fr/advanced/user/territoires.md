@@ -106,24 +106,36 @@ Les nouveaux territoires peuvent aussi être créés à partir de l’outil 
 
 L’outil d’isochronie calcule une ou plusieurs zones en fonction de différents critères. Ces zones sont alors intersectées avec les secteurs afin de former des territoires. Voici les paramètres à saisir :
 
-- Placer un point : peut être fait manuellement en cliquant sur la carte à l’endroit souhaité. Si une adresse à été antérieurement recherchée, il est possible de placer le point à cet endroit.
+### Placer un point
 
-- Méthode de calcul : trois méthodes sont disponibles :
+Peut être fait manuellement en cliquant sur la carte à l’endroit souhaité. Si une adresse à été antérieurement recherchée, il est possible de placer le point à cet endroit.
 
-  - Isodistance : c’est un calcul géométrique simple. Les rayons des cercles ont les valeurs indiquées pour chaque zone.
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/territory-isochrone_point.png){:.img.img-responsive.img-center}
 
-  - Sectorisation utilisant isochronie (temps de transport en voiture) : sont sélectionnés les secteurs accessibles en voiture dans le temps imparti à partir du point de départ indiqué
+### Méthode de calcul
 
-  - Sectorisation utilisant isodistance en voiture : sont sélectionnés les secteurs accessibles en voiture à une distance égale ou inférieure aux valeurs indiquée à partir du point de départ indiqué
+Trois méthodes sont disponibles :
 
-- Zones : le tableau permet de définir la méthode utilisée pour calculer les zones.
+- Isodistance : c’est un calcul géométrique simple. Les rayons des cercles ont les valeurs indiquées pour chaque zone.
 
-	Par défaut, il y a deux zones. Il est possible d’ajouter ou d’éliminer une zone à l’aide des ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-037.jpg) et ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-038.jpg). On peut modifier les couleurs et les noms. Ces noms et couleurs sont utilisés pour créer les territoires. Ces paramètres peuvent être modifiés par la suite. On doit spécifie une valeur pour chaque zone. Pour les deux méthodes d’isodistance les valeurs sont en kilomètres. Pour la méthode d’isochronie les valeurs sont en minutes.
+- Sectorisation utilisant isochronie (temps de transport en voiture) : sont sélectionnés les secteurs accessibles en voiture dans le temps imparti à partir du point de départ indiqué
 
-- Utiliser seulement des secteurs non assignés. Si cette case est cochée, les territoires sont créés en utilisant les secteurs qui n’appartiennent à aucun territoire. Les territoires existants ne sont pas modifiés. Si elle n’est pas cochée, tous les secteurs seront utilisés. S’ils appartiennent à des territoires existants, ils seront soustraits à ces territoires.
+- Sectorisation utilisant isodistance en voiture : sont sélectionnés les secteurs accessibles en voiture à une distance égale ou inférieure aux valeurs indiquée à partir du point de départ indiqué
+
+### Zones
+
+Le tableau permet de définir la méthode utilisée pour calculer les zones.
+
+Par défaut, il y a deux zones. Il est possible d’ajouter ou d’éliminer une zone à l’aide des ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-037.jpg) et ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-038.jpg). On peut modifier les couleurs et les noms. Ces noms et couleurs sont utilisés pour créer les territoires. Ces paramètres peuvent être modifiés par la suite. On doit spécifie une valeur pour chaque zone. Pour les deux méthodes d’isodistance les valeurs sont en kilomètres. Pour la méthode d’isochronie les valeurs sont en minutes.
+
+### Utiliser seulement des secteurs non assignés
+
+Si cette case est cochée, les territoires sont créés en utilisant les secteurs qui n’appartiennent à aucun territoire. Les territoires existants ne sont pas modifiés. Si elle n’est pas cochée, tous les secteurs seront utilisés. S’ils appartiennent à des territoires existants, ils seront soustraits à ces territoires.
 
 Une fois les paramètres saisis, le bouton « Simuler » lance un calcul sans créer de territoire. Le résultat s’affiche sur la carte avec une symbologie différente des territoires existants (tous les secteurs sont visibles et les bordures sont plus épaisses). On peut effectuer autant de simulations que nécessaire.
 
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/territory-isochrone_simulation.png){:.img.img-responsive.img-center}
+
 Les territoires sont effectivement créés après avoir cliqué sur le bouton « Valider ».
 
-
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/territory-isochrone_creation.png){:.img.img-responsive.img-center}

@@ -95,28 +95,44 @@ The sectors contained in the selection are removed from the existing territories
 
 The following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-034.jpg), uniquely available as an action is about to be performed, allows canceling of the last redesign action of one or more territories. One can also perform the canceling by using the key combination CTRL-Z.
 
-## Isochrony
+## Isochrone
 
-The new territories can as well be created from an isochronic tool integrated to the Territory Management, and accessible by clicking on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-035.jpg) icon.
+The new territories can as well be created from an isochrone tool integrated to the Territory Management, and accessible by clicking on the ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-035.jpg) icon.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user-en/td4.png){:.img.img-responsive.img-center}
 
-The isochrony tool calculates one or several zones according to different criteria. Those zones are then intersected with the sectors in order to form territories. The parameters to be entered are the following:
+The isochrone tool calculates one or several zones according to different criteria. Those zones are then intersected with the sectors in order to form territories. The parameters to be entered are the following:
 
-- Place a point. That can be done manually: clicking once with the mouse on the map is enough to place the point. If an address was previously searched, it is also possible to place the button exactly on it.
-- Method. There are three available methods:
-  - Iso-distance : is a simple geometrical calculation. A circle is calculated from a point and the radius is equal to the values indicated for each zone.
-  - Sectorization using drive time: these are the sectors accessible by car from the point placed and in the necessary time indicated for each zone
-  - Sectorization using drive distance: these are the sectors accessible by car from the indicated point to a distance smaller or equal to the values indicated for each zone.
-- Zones. The table allows to define the calculation zones. 
+### Place a point
 
-	By default, there are three zones. It is possible to add or extract using the buttons ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-037.jpg) and ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-038.jpg). One can change their color and name. This name and this color are then used to create the territory, and these parameters can be modified later on in TM. Finally, one has to specify the value for each zone.
+That can be done manually: clicking once with the mouse on the map is enough to place the point. If an address was previously searched, it is also possible to place the button exactly on it.
 
-For the two iso-distance methods, this value is in kilometers. For the isochrony method, this value is in
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/territory-isochrone_point.png){:.img.img-responsive.img-center}
+
+### Method
+
+There are three available methods:
+- Iso-distance : is a simple geometrical calculation. A circle is calculated from a point and the radius is equal to the values indicated for each zone.
+- Sectorization using drive time: these are the sectors accessible by car from the point placed and in the necessary time indicated for each zone
+- Sectorization using drive distance: these are the sectors accessible by car from the indicated point to a distance smaller or equal to the values indicated for each zone.
+
+### Zones
+
+The table allows to define the calculation zones. 
+
+By default, there are three zones. It is possible to add or extract using the buttons ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-037.jpg) and ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-038.jpg). One can change their color and name. This name and this color are then used to create the territory, and these parameters can be modified later on in TM. Finally, one has to specify the value for each zone.
+
+For the two iso-distance methods, this value is in kilometers. For the isochrone method, this value is in
 minutes.
 
-- Use only not assigned sectors. If this box is checked, the territories are created only by using the sectors that do not belong to any territory. The existent territories are not modified. If it is not checked, all the sectors will be used. If they belong already to existing territories, they will be previously removed from those territories.
+### Use only not assigned sectors
+
+If this box is checked, the territories are created only by using the sectors that do not belong to any territory. The existent territories are not modified. If it is not checked, all the sectors will be used. If they belong already to existing territories, they will be previously removed from those territories.
 
 Once all these parameters entered, the button "Simulate" will start a calculation without creating territories. The results are displayed on the map with a symbology slightly different then the existent territories (all sectors are visible and the borders are thicker). One can perform as many simulations as possible.
 
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/territory-isochrone_simulation.png){:.img.img-responsive.img-center}
+
 As the result is satisfying, the territories are effectively created by clicking on the button "Validate".
+
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/territory-isochrone_creation.png){:.img.img-responsive.img-center}
