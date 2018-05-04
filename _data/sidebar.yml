@@ -7,12 +7,13 @@ fr:
       - { url: '/acces', text: 'Accès', prev: '/post-install-std' , next: '/objet-geo' }
       - { url: '/objet-geo', text: 'Objet géographique', prev: '/objet-geo' , next: '/geofiltre' }
       - { url: '/geofiltre', text: 'Géofiltre', prev: '/acces' , next: '/analyses-admin' }
-      - { url: '/analyses-admin', text: 'Analytics', prev: '/geofiltre' , next: '/tableaux-de-bord-admin' }
+      - { url: '/analyses-admin', text: 'Analyses', prev: '/geofiltre' , next: '/tableaux-de-bord-admin' }
       - { url: '/tableaux-de-bord-admin', text: 'Tableaux de bord', prev: '/analyses-admin' , next: '/actions-admin' }
       - { url: '/actions-admin', text: 'Actions personnalisées', prev: '/tableaux-de-bord-admin' , next: '/listes-associees-admin' }
-      - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/debuter' }
+      - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/statistiques' }
+      - { url: '/statistiques', text: 'Statistiques' , prev: '/listes-associees-admin' , next: '/debuter' }
     user:
-      - { url: '/debuter', text: 'Débuter', prev: '/listes-associees-admin' , next: '/create-map' }
+      - { url: '/debuter', text: 'Débuter', prev: '/statistiques' , next: '/create-map' }
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
       - { url: '/interface-carto', text: 'Présentation de l''interface', prev: '/create-map' , next: '/filtres' }
       - { url: '/filtres', text: 'Filtres', prev: '/interface-carto' , next: '/planifier' }
