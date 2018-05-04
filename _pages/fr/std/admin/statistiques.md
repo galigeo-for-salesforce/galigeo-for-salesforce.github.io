@@ -18,11 +18,11 @@ Dans la dernière section « Statistiques » de la page de configuration d’un 
 
 ## Indicateurs statistiques de base
 
-Cliquer sur l’icone "+" pour choisir les fonctions parmi les fonctions standard telles que le nombre, le min, le max, la moyenne, la médiane et la somme.
+Cliquer sur l’icône "+" pour choisir les fonctions parmi les fonctions standard telles que le nombre, le min, le max, la moyenne, la médiane et la somme.
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/statistics-add_std_function.png){:.img.img-responsive.img-center}
 
-Il est possible de les ordonner en DnD sur les points verticaux.
+Il est possible de les ordonner par glisser-déposer grâce aux points verticaux.
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/statistics-std_function_order.png){:.img.img-responsive.img-center}
 
@@ -36,9 +36,9 @@ Cliquer sur l’icône "+" pour créer une nouvelle formule.
 
 Une fenêtre modale s’affiche invitant l’utilisateur à:
 
-- Renseigner un nom,
+- Renseigner un nom
 - Choisir des champs et insérer un opération (+,-,/,*)
-- Modifier la formule générer
+- Modifier la formule générée
 - Définir le format : libellé (#val sera remplacée par le résultat de l’évaluation de la formule), nombre de chiffres après la virgule
 
 Pour rajouter plusieurs fois un même champ, il suffit de cliquer sur le champ voulu dans la liste des champs déjà sélectionnés.
@@ -47,7 +47,7 @@ Parmi les champs disponibles seuls les champs numériques sont disponibles.
 
 Cliquer sur le bouton « Test » pour évaluer l’expression.
 
-<div class="alert alert-info" role="alert"><strong>Note :</strong> l’expression est évaluée avec une valeur égale à 1 pour tous les champs.</div>
+<div class="alert alert-info" role="alert"><strong>Note :</strong> L’expression est évaluée avec une valeur égale à 1 pour tous les champs.</div>
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/statistics-custom_formula_definition.png){:.img.img-responsive.img-center}
 

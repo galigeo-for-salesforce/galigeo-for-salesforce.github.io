@@ -52,9 +52,10 @@ en:
       - { url: '/analytics-admin', text: 'Analytics', prev: '/geofilters-en', next: '/actions-admin-en' }
       - { url: '/actions-admin-en', text: 'Custom actions', prev: '/analytics-admin', next: '/dashboards-admin' }
       - { url: '/dashboards-admin', text: 'Dashboards configuration', prev: '/actions-admin-en', next: '/related-lists-admin' }
-      - { url: '/related-lists-admin', text: 'Related lists', prev: '/dashboards-admin', next: '/getting-started' }
+      - { url: '/related-lists-admin', text: 'Related lists', prev: '/dashboards-admin', next: '/statistics' }
+      - { url: '/statistics', text: 'Statistics', prev: '/related-lists-admin', next: '/getting-started' }
     user:
-      - { url: '/getting-started', text: 'Getting Started', prev: '/related-lists-admin', next: '/create-map-en' }
+      - { url: '/getting-started', text: 'Getting Started', prev: '/statistics', next: '/create-map-en' }
       - { url: '/create-map-en', text: 'Create a map', prev: '/analytics-en', next: '/interface-en' }
       - { url: '/interface-en', text: 'Interface presentation', prev: '/create-map-en', next: '/filters-en' }
       - { url: '/filters-en', text: 'Filters and Actions', prev: '/interface-en', next: '/plan-en' }
