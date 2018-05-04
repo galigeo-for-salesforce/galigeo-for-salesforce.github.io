@@ -2,9 +2,9 @@
 layout: sidebar
 title: Analyse your performance at a geographical level
 categories: documentation
-permalink: /analysis-en
+permalink: /analytics
 lang: en
-ref: analyses
+ref: analytics
 ---
 
 # Analytics

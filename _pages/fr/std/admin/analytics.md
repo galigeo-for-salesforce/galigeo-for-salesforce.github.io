@@ -2,9 +2,9 @@
 layout: sidebar
 title: Analyse de données
 categories: documentation
-permalink: /analytics
+permalink: /analyses-admin
 lang: fr
-ref: analytics
+ref: analytics-admin
 ---
 
 # Analyse de données

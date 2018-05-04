@@ -6,9 +6,9 @@ fr:
     admin:
       - { url: '/acces', text: 'Accès', prev: '/post-install-std' , next: '/objet-geo' }
       - { url: '/objet-geo', text: 'Objet géographique', prev: '/objet-geo' , next: '/geofiltre' }
-      - { url: '/geofiltre', text: 'Géofiltre', prev: '/acces' , next: '/analytics' }
-      - { url: '/analytics', text: 'Analytics', prev: '/geofiltre' , next: '/tableaux-de-bord-admin' }
-      - { url: '/tableaux-de-bord-admin', text: 'Tableaux de bord', prev: '/analytics' , next: '/actions-admin' }
+      - { url: '/geofiltre', text: 'Géofiltre', prev: '/acces' , next: '/analyses-admin' }
+      - { url: '/analyses-admin', text: 'Analytics', prev: '/geofiltre' , next: '/tableaux-de-bord-admin' }
+      - { url: '/tableaux-de-bord-admin', text: 'Tableaux de bord', prev: '/analyses-admin' , next: '/actions-admin' }
       - { url: '/actions-admin', text: 'Actions personnalisées', prev: '/tableaux-de-bord-admin' , next: '/listes-associees-admin' }
       - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/debuter' }
     user:
@@ -47,18 +47,24 @@ en:
     admin:
       - { url: '/access-en', text: 'Access', prev: '/post-install-std-en', next: '/geo-object-en' }
       - { url: '/geo-object-en', text: 'Geographical Object', prev: '/access-en', next: '/geofilters-en' }
-      - { url: '/geofilters-en', text: 'Geofilters', prev: '/geo-object-en', next: '/analytics-en' }
-      - { url: '/analytics-en', text: 'Analytics', prev: '/geofilters-en', next: '/getting-started' }
+      - { url: '/geofilters-en', text: 'Geofilters', prev: '/geo-object-en', next: '/analytics-admin' }
+      - { url: '/analytics-admin', text: 'Analytics', prev: '/geofilters-en', next: '/actions-admin-en' }
+      - { url: '/actions-admin-en', text: 'Custom actions', prev: '/analytics-admin', next: '/dashboards-admin' }
+      - { url: '/dashboards-admin', text: 'Dashboards configuration', prev: '/actions-admin-en', next: '/related-lists-admin' }
+      - { url: '/related-lists-admin', text: 'Related lists', prev: '/dashboards-admin', next: '/getting-started' }
     user:
-      - { url: '/getting-started', text: 'Getting Started', prev: '/analytics-en', next: '/create-map-en' }
+      - { url: '/getting-started', text: 'Getting Started', prev: '/related-lists-admin', next: '/create-map-en' }
       - { url: '/create-map-en', text: 'Create a map', prev: '/analytics-en', next: '/interface-en' }
       - { url: '/interface-en', text: 'Interface presentation', prev: '/create-map-en', next: '/filters-en' }
       - { url: '/filters-en', text: 'Filters and Actions', prev: '/interface-en', next: '/plan-en' }
-      - { url: '/plan-en', text: 'Visit planning', prev: '/filters-en', next: '/analysis-en' }
-      - { url: '/analysis-en', text: 'Analytics', prev: '/plan-en', next: '/selection-en' }
-      - { url: '/selection-en', text: 'Selection', prev: '/analysis-en', next: '/addresses-en' }
+      - { url: '/plan-en', text: 'Visit planning', prev: '/filters-en', next: '/analytics' }
+      - { url: '/analytics', text: 'Analytics', prev: '/plan-en', next: '/dashboards' }
+      - { url: '/dashboards', text: 'Dashboards', prev: '/analytics', next: '/selection-en' }
+      - { url: '/selection-en', text: 'Selection', prev: '/dashboards', next: '/addresses-en' }
       - { url: '/addresses-en', text: 'Address Lookup', prev: '/selection-en' , next: '/basemaps' }
-      - { url: '/basemaps', text: 'Basemaps', prev: '/addresses-en' }
+      - { url: '/basemaps', text: 'Basemaps', prev: '/addresses-en' , next: '/actions-en' }
+      - { url: '/actions-en', text: 'Actions', prev: '/basemaps' , next: '/related-lists' }
+      - { url: '/related-lists', text: 'Related lists', prev: '/actions-en' }
   advanced:
     install:
       - { url: '/install-advanced-en', text: 'Package Installation', next: '/post-install-advanced-en' }

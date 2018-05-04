@@ -4,7 +4,7 @@ title: Analyser la performance de vos territoires
 categories: documentation
 permalink: /analyses
 lang: fr
-ref: analyses
+ref: analytics
 ---
 
 # Analyses
