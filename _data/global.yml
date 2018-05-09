@@ -1,11 +1,10 @@
 # Site Settings
-title: 'Galigeo for Salesforce Documentation'
+title: 'Galigeo for Salesforce Docs'
 description: 'Apprenez comment Galigeo for Salesforce fonctionne'
 #url: 'http://127.0.0.1:4000'
 url: 'https://galigeo-for-salesforce.github.io' # the base hostname & protocol for your site
-footer_text: '© Galigeo 2018 - ® Tous droits réservés'
+footer_text: '© Galigeo 2018 - Tous droits réservés'
 
 # Admin Settings
 admin_name: 'Ulrich Egouy'
 admin_email: 'uegouy@galigeo.com'
-

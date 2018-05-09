@@ -1,11 +1,13 @@
 fr:
   - { url: '/', text: 'Documentation', type: 'documentation' }
+  - { url: '/faq', text: 'FAQ', type: 'faqs' }
   - { url: '/releases', text: 'Releases', type: 'release' }
   - { url: '/videos', text: 'Vidéos', type: 'video' }
   - { url: 'mailto:support@galigeo.com', text: 'Contact', type: contact }
 
 en:
   - { url: '/en', text: 'Documentation', type: 'documentation' }
+  - { url: '/faqs', text: 'FAQs', type: 'faqs' }
   - { url: '/releases-en', text: 'Releases', type: 'release' }
   - { url: '/videos-en', text: 'Videos', type: 'video' }
   - { url: 'mailto:support@galigeo.com', text: 'Contact', type: contact }
