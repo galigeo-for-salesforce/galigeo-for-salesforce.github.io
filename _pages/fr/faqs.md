@@ -7,6 +7,4 @@ lang: fr
 ref: faqs
 ---
 
-# Foire aux questions
-
-- [Accès en Lightning](/acces-lightning)
+- [Accéder à l'onglet Galigeo en Lightning](/acces-lightning)

@@ -7,7 +7,7 @@ lang: en
 ref: lightning-access
 ---
 
-# Galigeo access in Lightning
+# Access Galigeo in Lightning
 
 The first time you log into Salesforce, the Galigeo tab is missing.
 
