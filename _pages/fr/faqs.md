@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: sidebar
 title: Foire aux questions
 type: faqs
 permalink: /faq

@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: sidebar
 title: Frequently Asked Questions
 type: faqs
 permalink: /faqs
