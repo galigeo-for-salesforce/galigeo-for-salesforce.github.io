@@ -7,4 +7,6 @@ lang: en
 ref: faqs
 ---
 
+# Frequently Asked Questions
+
 - [Access the Galigeo tab in Lightning](/lightning-access)
