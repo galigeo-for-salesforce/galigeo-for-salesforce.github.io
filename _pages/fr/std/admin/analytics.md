@@ -35,7 +35,7 @@ Dans l’onglet Galigeo Admin, cliquez sur « Analyses » pour accéder au panne
 
 Cliquez sur le bouton « Nouveau » pour créer une source de données.
 
-### ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Renseigner les propriétés de source de données
+## ![feet]({{ site.url }}/assets/foot.png) 1ère étape : Renseigner les propriétés de source de données
 
 Choisissez un nom pour votre source de données et sélectionnez un type de source de données.
 
@@ -47,19 +47,19 @@ Sélectionnons les « Zipcodes (USA) – SAMPLE » et cliquons sur le bouton « 
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-139.png){:.img.img-responsive.img-center}
 
-### ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les données
+## ![feet]({{ site.url }}/assets/foot.png) 2ème étape : Définir les données
 
 Il y a deux façons de définir les données qui seront utilisées en tant que source de données :
 
 1. Mode Simple : Choisir les champs d’un objet (standard ou custom)
-2. Mode avancée : écrire une requête complète SoQL
+2. Mode avancé : écrire une requête complète SoQL
 
 Dans l’exemple ci-dessous, nous désirons obtenir le chiffre d’affaires annuel des comptes par code postal (ZIP code).
 
 - **Mode simple** :
   Nous sélectionnons l’objet Compte en tant qu’objet source.
   Tous les champs de l’objet Compte apparaissent dans les champs disponibles. Nous choisissons BillingPostalCode (code postal de facturation) et AnnualRevenue (chiffre d’affaires annuel) et cliquons sur le bouton contenant une flèche vers la droite.
-  Nous choisissons de grouper nos données par code postal de facturation. Il faut maintenant préciser une fonction d’agrégation de .
+  Nous choisissons de grouper nos données par code postal de facturation. Il faut maintenant préciser une fonction d’agrégation.
   Sélectionnons la fonction « SUM » pour le champ « AnnualRevenue ».
 
   ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-142.jpg){:.img.img-responsive.img-center}
@@ -187,7 +187,7 @@ La source de données est présentée en 3 parties :
 
     
 
-### Cloner une source de données
+## Cloner une source de données
 
 Supposons qu’une source de données a été définie sur les Comptes dont le Record Type est "Client". Elle utilise la where clause ci-dessous :
 
@@ -215,7 +215,7 @@ Cliquez sur le bouton modifier et changez la whereclause pour qu’elle ne renvo
 WHERE RecordType.Name = 'Prospect'
 ```
 
-### Gérer les analyses
+## Gérer les analyses
 
 Avec notre source de données « Comptes par code ZIP » connectée aux « USA Zip Codes », nous pouvons à présent créer des analyses.
 Cliquez sur l’icône ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-036.png) dans le panneau des analyses pour démarrer l’assistant d’analyses.
@@ -307,7 +307,7 @@ L'utilisateur final, à partir de l’interface de la carte peut désormais ajou
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-192.jpg){:.img.img-responsive.img-center}
 
-### Cloner une analyse
+## Cloner une analyse
 
 Supposons qu’une source de données a été définie sur les comptes dont le record Type est “Client” et dont le code postal commence par 59 ou 62. Des analyses ont aussi été définies pour cette objet.
 

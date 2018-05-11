@@ -31,7 +31,7 @@ In the Galigeo Admin tab, click on **"Analytics"** to switch to the Data Sources
 
 Click on the "New" button to go the Data Source creation page.
 
-### ![feet]({{ site.url }}/assets/foot.png) Step 1: Fill Data Source Properties
+## ![feet]({{ site.url }}/assets/foot.png) Step 1: Fill Data Source Properties
 
 Choose a name for your data source, select the type of the data source.
 
@@ -44,7 +44,7 @@ Now it is possible to choose a layer on which the result will be joined.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-139.png){:.img.img-responsive.img-center}
 
-### ![feet]({{ site.url }}/assets/foot.png) Step 2: Define Data
+## ![feet]({{ site.url }}/assets/foot.png) Step 2: Define Data
 
 There are two ways to define what data will be exposed from this datasource:
 
