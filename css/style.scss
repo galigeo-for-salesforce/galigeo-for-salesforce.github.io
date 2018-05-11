@@ -133,6 +133,8 @@ pre.highlight {
 
 .img-center {margin: 0 auto;}
 
+.img-bordered {border: 1px solid #DFD7CA;}
+
 .table-small {font-size: 12px;}
 
 .table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
@@ -306,17 +308,21 @@ aside {
 
 .alert {
     border-radius: 0;
+    border-left-width: .5rem;
+    border-left-style: solid;
     a {color: #337ab7;}
 }
 
 .alert-warning {
    background-color: #fcf8e3;
    color: #333;
+   border-left-color: #e7c000;
 }
 
 .alert-info {
     background-color: #d9edf7;
     color: #333;
+    border-left-color: #337ab7;
 }
 
 #markdown-toc img {
