@@ -1,13 +1,13 @@
 ---
 layout: sidebar
-title: Define a filter
+title: Creating filters
 categories: documentation
 permalink: /filters-admin
 lang: en
 ref: filters-admin
 ---
 
-# Define Geo-filter
+# Creating filters
 
 A Geo-Filter is based on a Map Object and allows to filter data shown on the map by activating them or not.
 

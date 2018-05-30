@@ -1,13 +1,13 @@
 ---
 layout: sidebar
-title: Définir un filtre
+title: Création de filtres
 categories: documentation
 permalink: /filtres-admin
 lang: fr
 ref: filters-admin
 ---
 
-# Définir un géofiltre
+# Création de filtres
 
 Un géofiltre est un élément d’un objet géographique qui permet de filtrer les données affichées sur une carte.
 
