@@ -2,12 +2,12 @@ fr:
   std:
     install:
       - { url: '/install-std', text: 'Installation du package', next: '/post-install-std' }
-      - { url: '/post-install-std', text: 'Post installation', prev: '/install-std' , next: '/acces' }
+      - { url: '/post-install-std', text: 'Post-installation', prev: '/install-std' , next: '/acces' }
     admin:
       - { url: '/acces', text: 'Accès', prev: '/post-install-std' , next: '/objet-geo' }
-      - { url: '/objet-geo', text: 'Objet géographique', prev: '/objet-geo' , next: '/geofiltre' }
-      - { url: '/geofiltre', text: 'Géofiltre', prev: '/acces' , next: '/analyses-admin' }
-      - { url: '/analyses-admin', text: 'Analyses', prev: '/geofiltre' , next: '/tableaux-de-bord-admin' }
+      - { url: '/objet-geo', text: 'Objet géographique', prev: '/objet-geo' , next: '/filtres-admin' }
+      - { url: '/filtres-admin', text: 'Filtres', prev: '/acces' , next: '/analyses-admin' }
+      - { url: '/analyses-admin', text: 'Analyses', prev: '/filtres-admin' , next: '/tableaux-de-bord-admin' }
       - { url: '/tableaux-de-bord-admin', text: 'Tableaux de bord', prev: '/analyses-admin' , next: '/actions-admin' }
       - { url: '/actions-admin', text: 'Actions personnalisées', prev: '/tableaux-de-bord-admin' , next: '/listes-associees-admin' }
       - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/statistiques' }
@@ -47,9 +47,9 @@ en:
       - { url: '/post-install-std-en', text: 'Post installation', prev: '/install-std-en', next: '/access-en' }
     admin:
       - { url: '/access-en', text: 'Access', prev: '/post-install-std-en', next: '/geo-object-en' }
-      - { url: '/geo-object-en', text: 'Geographical Object', prev: '/access-en', next: '/geofilters-en' }
-      - { url: '/geofilters-en', text: 'Geofilters', prev: '/geo-object-en', next: '/analytics-admin' }
-      - { url: '/analytics-admin', text: 'Analytics', prev: '/geofilters-en', next: '/actions-admin-en' }
+      - { url: '/geo-object-en', text: 'Geographical Object', prev: '/access-en', next: '/filters-admin' }
+      - { url: '/filters-admin', text: 'Filters', prev: '/geo-object-en', next: '/analytics-admin' }
+      - { url: '/analytics-admin', text: 'Analytics', prev: '/filters-admin', next: '/actions-admin-en' }
       - { url: '/actions-admin-en', text: 'Custom actions', prev: '/analytics-admin', next: '/dashboards-admin' }
       - { url: '/dashboards-admin', text: 'Dashboards configuration', prev: '/actions-admin-en', next: '/related-lists-admin' }
       - { url: '/related-lists-admin', text: 'Related lists', prev: '/dashboards-admin', next: '/statistics' }

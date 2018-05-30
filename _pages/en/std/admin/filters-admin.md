@@ -1,10 +1,10 @@
 ---
 layout: sidebar
-title: Define a Geo-Filter
+title: Define a filter
 categories: documentation
-permalink: /geofilters-en
+permalink: /filters-admin
 lang: en
-ref: geofiltre
+ref: filters-admin
 ---
 
 # Define Geo-filter

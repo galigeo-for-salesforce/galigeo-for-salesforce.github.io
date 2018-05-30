@@ -1,10 +1,10 @@
 ---
 layout: sidebar
-title: Définir un géofiltre
+title: Définir un filtre
 categories: documentation
-permalink: /geofiltre
+permalink: /filtres-admin
 lang: fr
-ref: geofiltre
+ref: filters-admin
 ---
 
 # Définir un géofiltre
