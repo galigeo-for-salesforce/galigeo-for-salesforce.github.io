@@ -4,7 +4,7 @@ title: Related lists
 categories: documentation
 permalink: /related-lists-admin
 lang: en
-ref: related-lists
+ref: related-lists-admin
 ---
 
 # Related lists

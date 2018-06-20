@@ -4,7 +4,7 @@ title: Listes associées
 categories: documentation
 permalink: /listes-associees-admin
 lang: fr
-ref: related-lists
+ref: related-lists-admin
 ---
 
 # Listes associées
