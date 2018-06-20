@@ -11,6 +11,16 @@ ref: planifier
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/lObRYU-E9CQ" frameborder="0" allowfullscreen></iframe>
 
+---
+
+## In this article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Adding an event to Salesforce calendar
 
 To plan an event related to a record, click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) icon in the list of [actions](/actions-en) available for a record.
@@ -41,7 +51,7 @@ Several itinerary options are available:
 - Route only between records or from the last know position via geolocation
 - Optimized route (changes the order of waypoints for the most efficient) or not (keeps the order)
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-itinerary_points-en.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-itinerary_points-en.png){:.img.img-responsive.img-center.img-bordered}
 
 Click the "Compute" button to compute the itinerary. It is shown on the map and a summary appears at the top. 
 
@@ -53,7 +63,7 @@ Click on the "Show details" link to display the step by step routing information
 
 At any time, user can remove a record from the list, click on the cross next to the object name.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-remove_object.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-remove_object.png){:.img.img-responsive.img-center.img-bordered}
 
 ### Add itinerary events to the calendar
 
@@ -100,17 +110,17 @@ A click on the link "[Latest date]" automatically calculates this date by taking
 
 In the Galigeo calendar, recurring events can be identified thanks to the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_icon.png) icon (same in the mobile app).
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal-en.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal-en.png){:.img.img-responsive.img-center.img-bordered}
 
 Same in the Salesforce calendar.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal_sf-en.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal_sf-en.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Manage events in the calendar
 
 To open the calendar, click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-054.png) icon. A full week view is now available on the right of the window and events previously created are displayed:
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal-en.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal-en.png){:.img.img-responsive.img-center.img-bordered}
 
 <div class="alert alert-info" role="alert"> <strong>Note :</strong> Only events within a certain date range are visible in the calendar. It is 30 days in the past, 60 in the future by default, and can be changed in the options of the admin page.</div>
 
@@ -118,14 +128,14 @@ All events are directly movable from there by drag and drop. Their duration is a
 
 A click on a date in the calendar filters all records on the map and in the search record panel and the map centers on them (click again on the date to see all records).
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_itinerary-en.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_itinerary-en.png){:.img.img-responsive.img-center.img-bordered}
 
 You can know which objects have events. A star ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-marker_event.png) at the center of the marker indicates if there is an event related to it.
 Supported events are those of **last 30 and next 60 days**.
 
 If user wants to see the calendar of another user in its organization, click on the "Change" link at the top in the calendar.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_change_collab-en.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_change_collab-en.png){:.img.img-responsive.img-center.img-bordered}
 
 Click to select a user from the list to display their calendar. It is even possible to filter this list by typing in the user input text field.
 

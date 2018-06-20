@@ -11,6 +11,16 @@ ref: planifier
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/lObRYU-E9CQ" frameborder="0" allowfullscreen></iframe>
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Ajouter un événement au calendrier Salesforce
 
 Pour créer un événement, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) dans la liste d’[actions](/actions) de l’objet.
@@ -40,7 +50,7 @@ Différentes options de calcul d'itinéraire sont proposées :
 - Calculé uniquement entre les objets ou depuis le dernier emplacement connu via géolocalisation
 - Optimisé (modifie l’ordre des points de passage pour le chemin le plus efficient) ou non optimisé (conserve l’ordre des points de passage)
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-itinerary_points-fr.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-itinerary_points-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 Cliquez sur le bouton « Calculer » pour calculer l’itinéraire. L’itinéraire s’affiche sur la carte et un résumé du trajet apparaît en haut. 
 
@@ -52,7 +62,7 @@ Cliquez sur « Voir détails » pour afficher les étapes de l’itinéraire.
 
 Vous pouvez à tout moment retirer un point de l'itinéraire en cliquant sur la croix à droite du nom de l'objet.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-remove_object.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-remove_object.png){:.img.img-responsive.img-center.img-bordered}
 
 ### Ajouter les événements d'itinéraire au calendrier
 
@@ -99,17 +109,17 @@ Un clic sur le lien "[Date de fin]" permet de calculer automatiquement cette dat
 
 Dans le calendrier Galigeo les RDVs récurrents sont identifiables grâce à l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_icon.png) (idem dans l'application mobile).
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal-fr.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 De même dans le calendrier Salesforce.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal_sf-fr.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal_sf-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Gérer les événements dans le calendrier
 
 Pour ouvrir le calendrier, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-054.png). Une vue complète de la semaine est disponible sur la droite de la fenêtre et les événements précédemment créés y apparaissent :
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal-fr.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 <div class="alert alert-info" role="alert"> <strong>Note :</strong> Seuls les événements dans une certaine plage de date apparaissent dans le calendrier. Celle-ci est de 30 jours dans le passé, 60 jours dans le futur par défaut, et peut être modifiée dans les options de la page d'administration.</div>
 
@@ -117,14 +127,14 @@ Tous les événements y sont directement déplaçables par glisser-déposer. Leu
 
 En cliquant sur une date du calendrier, vous filtrez la carte pour n’afficher que les objets pour lesquels il y a un rendez-vous à cette date. La carte sera centrée sur ces points (pour annuler la sélection cliquez à nouveau sur la date).
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_itinerary-fr.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_itinerary-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 Vous pouvez savoir quels sont les objets ayant des rendez-vous. Une étoile ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-marker_event.png) dans le centre du marqueur indique si un événement y est associé.
 Les événements pris en compte sont ceux des **30 derniers jours et des 60 jours à venir**.
 
 Pour voir le calendrier d’un collaborateur, cliquez sur « Changer » en haut du calendrier.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_change_collab-fr.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-cal_change_collab-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 Sélectionnez un collaborateur en cliquant sur son nom, pour faire apparaître son calendrier. Un champ de recherche permet également de filtrer cette liste.
 
