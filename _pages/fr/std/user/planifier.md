@@ -1,13 +1,15 @@
 ---
 layout: sidebar
-title: Optimisation d'itinéraire
+title: Plans de visite et itinéraires optimisés
 categories: documentation
 permalink: /planifier
 lang: fr
 ref: planifier
 ---
 
-# Planifier des événements
+# Plans de visite et itinéraires optimisés
+
+L'article vous montrera comment ajouter des objets à un plan de visite, générer un itinéraire optimisé et créer des [événements](https://help.salesforce.com/articleView?id=events_and_calendars.htm) dans le calendrier Salesforce depuis l'application.
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/lObRYU-E9CQ" frameborder="0" allowfullscreen></iframe>
 
@@ -27,13 +29,11 @@ Pour créer un événement, cliquez sur l’icône ![Galigeo for Salesforce User
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-new_event_action-fr.png){:.img.img-responsive.img-center}
 
-Lorsque le formulaire de création d’un événement apparaît, complétez les champs obligatoires pour créer votre événement.
+Le formulaire de création d’un événement apparaît, complétez alors les [champs obligatoires](https://help.salesforce.com/articleView?id=event_fields_lex.htm) pour créer votre événement dans Salesforce.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-new_event_modal-fr.png){:.img.img-responsive.img-center}
 
-## Ajouter plusieurs événements au calendrier Salesforce
-
-### Planifier un itinéraire
+## Planifier un itinéraire optimisé
 
 Grâce à la planification d'itinéraires il est possible d'ajouter simultanément plusieurs événements au calendrier Salesforce.
 
@@ -64,13 +64,13 @@ Vous pouvez à tout moment retirer un point de l'itinéraire en cliquant sur la 
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-remove_object.png){:.img.img-responsive.img-center.img-bordered}
 
-### Ajouter les événements d'itinéraire au calendrier
+## Ajouter plusieurs événements au calendrier
 
 Pour ajouter l'ensemble des objets qui constituent votre itinéraire, cliquez sur "Ajouter au calendrier".
 
 Pour l'ensemble de vos rendez-vous, sélectionnez ensuite :
 - Date
-- Sujet (la liste est définie dans votre calendrier Salesforce)
+- Sujet (la liste de types d'enregistrement d'événement est [gérable dans Salesforce](https://help.salesforce.com/articleView?id=event_fields_lex.htm))
 - Heure de premier rendez-vous
 - Fin du RDV
 
@@ -82,18 +82,20 @@ A noter que :
 - Le temps de trajet entre deux RDVs est arrondi au quart d'heure supérieur pour prendre en compte l'heure de début du prochain
 - Un changement de l'heure de fin d'un RDV change automatiquement l'heure de début des suivants
 
-### Evénements récurrents
+## Créer des événements récurrents
 
 Cliquer sur "Répéter la série d'événements" permet de rendre les événements récurrents selon une fréquence :
 
-**Hebdomadaire**
+### Hebdomadaire
+
 Choisissez :
 - La fréquence à laquelle ils vont se répéter en semaines
 - Quels jours de la semaine du Lundi au Dimanche (plusieurs choix possibles)
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_weekly-fr.png){:.img.img-responsive.img-center}
 
-**Mensuelle**
+### Mensuelle
+
 Choisissez :
 - La fréquence à laquelle ils vont se répéter en mois
 - Quel jour de la semaine du Lundi au Dimanche (un seul choix possible)
@@ -115,7 +117,7 @@ De même dans le calendrier Salesforce.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal_sf-fr.png){:.img.img-responsive.img-center.img-bordered}
 
-## Gérer les événements dans le calendrier
+## Gérer les événements
 
 Pour ouvrir le calendrier, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-054.png). Une vue complète de la semaine est disponible sur la droite de la fenêtre et les événements précédemment créés y apparaissent :
 

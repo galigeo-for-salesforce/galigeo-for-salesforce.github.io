@@ -1,13 +1,15 @@
 ---
 layout: sidebar
-title: Plan route and events
+title: Visit planning and optimized routes
 categories: documentation
 permalink: /plan-en
 lang: en
 ref: planifier
 ---
 
-# Planning events
+# Visit planning and optimized routes
+
+This article will show you how to add objects to a visit plan, generate an optimized itinerary and create [events](https://help.salesforce.com/articleView?id=events_and_calendars.htm) in the Salesforce calendar from the app.
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/lObRYU-E9CQ" frameborder="0" allowfullscreen></iframe>
 
@@ -21,19 +23,17 @@ ref: planifier
 
 ---
 
-## Adding an event to Salesforce calendar
+## Adding an event to the Salesforce calendar
 
 To plan an event related to a record, click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-047.png) icon in the list of [actions](/actions-en) available for a record.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-new_event_action-en.png){:.img.img-responsive.img-center}
 
-When the event creation form appears in a modal window, fill in the mandatory fields to create your event.
+The event creation form appears in a modal window, fill in the [mandatory fields](https://help.salesforce.com/articleView?id=event_fields_lex.htm) to create your event in Salesforce.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-new_event_modal-en.png){:.img.img-responsive.img-center}
 
-## Add several events to your Salesforce calendar at once
-
-### Plan an itinerary
+## Planning an optimized route
 
 The visit planning module lets you add several events to your Salesforce calendar in a single action.
 
@@ -46,7 +46,6 @@ To add a waypoint, you can:
 When an object is added to a route, a number appears in the center of its marker.
 
 Several itinerary options are available:
-
 - By car or by walk (optional)
 - Route only between records or from the last know position via geolocation
 - Optimized route (changes the order of waypoints for the most efficient) or not (keeps the order)
@@ -65,13 +64,13 @@ At any time, user can remove a record from the list, click on the cross next to 
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-remove_object.png){:.img.img-responsive.img-center.img-bordered}
 
-### Add itinerary events to the calendar
+## Adding multiple events to the calendar at once
 
 To add all selected objects to your calendar, click "Add to calendar".
 
 In the modal window choose for the series of events:
 - Date
-- Subject (the list is defined in your Salesforce calendar)
+- Subject (the list of event record types is [managed in Salesforce](https://help.salesforce.com/articleView?id=event_fields_lex.htm))
 - Start time
 - End time
 
@@ -83,18 +82,20 @@ Please note that:
 - The travel time between two events is rounded up to 15 minutes to take into account the start time of the next one
 - A change in the end time of an event automatically changes the start time of the following ones
 
-### Recurring events
+## Creating recurring events
 
 Clicking on "Repeat series of events" allows to make them recurring with a frequency:
 
-**Weekly**
+### Weekly
+
 Choose:
 - How frequently they will repeat in weeks
 - Which days of the week from Monday to Sunday (several choices possible)
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_weekly-en.png){:.img.img-responsive.img-center}
 
-**Monthly**
+### Monthly
+
 Choose:
 - How frequently they will repeat in months
 - Which day of the week from Monday to Sunday (single choice)
@@ -116,7 +117,7 @@ Same in the Salesforce calendar.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_cal_sf-en.png){:.img.img-responsive.img-center.img-bordered}
 
-## Manage events in the calendar
+## Managing events
 
 To open the calendar, click on the ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-054.png) icon. A full week view is now available on the right of the window and events previously created are displayed:
 

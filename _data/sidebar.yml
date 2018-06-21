@@ -17,7 +17,7 @@ fr:
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
       - { url: '/interface-carto', text: 'Présentation de l''interface', prev: '/create-map' , next: '/filtres' }
       - { url: '/filtres', text: 'Filtres', prev: '/interface-carto' , next: '/planifier' }
-      - { url: '/planifier', text: 'Planifier des événements', prev: '/filtres' , next: '/analyses' }
+      - { url: '/planifier', text: 'Plans de visite', prev: '/filtres' , next: '/analyses' }
       - { url: '/analyses', text: 'Analyses', prev: '/planifier' , next: '/tableaux-de-bord' }
       - { url: '/tableaux-de-bord', text: 'Tableaux de bord', prev: '/analyses' , next: '/selection' }
       - { url: '/selection', text: 'Sélection', prev: '/tableaux-de-bord' , next: '/adresses' }
