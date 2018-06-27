@@ -22,4 +22,7 @@ Galigeo for Salesforce directly integrates into your CRM, allowing field forces 
 Then :
 
 - [Plan events](/plan-en)
-- Use [analytics](/analysis-en)
+- [Analytics](/analysis-en)
+- [Dashboards](/dashboards)
+- [Actions](/actions-en)
+- [Related lists](/related-lists)

@@ -22,8 +22,7 @@ ref: getting-started
 Ensuite :
 
 - [Planifiez des événements](/planifier)
-- Utilisez les [analyses](/analyses)
+- [Analyses](/analyses)
 - [Tableaux de bord](/tableaux-de-bord)
 - [Actions](/actions)
 - [Listes associées](/listes-associees)
-
