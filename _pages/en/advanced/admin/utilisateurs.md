@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: User management in Galigeo Territory Management
 categories: documentation
 permalink: /users-en

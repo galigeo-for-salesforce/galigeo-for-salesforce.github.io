@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Package Post installation
 categories: documentation
 permalink: /post-install-advanced-en

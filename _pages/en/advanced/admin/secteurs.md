@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Manage sectors
 categories: documentation
 permalink: /sectors-en

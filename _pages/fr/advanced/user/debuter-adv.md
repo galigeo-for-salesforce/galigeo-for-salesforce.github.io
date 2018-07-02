@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Débuter avec l'application de sectorisation commerciale
 categories: documentation
 permalink: /debuter-adv

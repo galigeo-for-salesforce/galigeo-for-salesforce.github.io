@@ -1,0 +1,63 @@
+
+{% if page.lang == 'en' %}
+	{% assign links_starter_install = site.data.sidebar.en.starter.install %}
+	{% assign links_starter_admin = site.data.sidebar.en.starter.admin %}
+	{% assign links_starter_user = site.data.sidebar.en.starter.user %}
+
+	{% assign user_guide = site.data.translation.sidebar.en.user_guide %}
+	{% assign admin_guide = site.data.translation.sidebar.en.admin_guide %}
+	{% assign install_guide = site.data.translation.sidebar.en.install_guide %}
+
+{% else %}
+	{% assign links_starter_install = site.data.sidebar.fr.starter.install %}
+	{% assign links_starter_admin = site.data.sidebar.fr.starter.admin %}
+	{% assign links_starter_user = site.data.sidebar.fr.starter.user %}
+
+	{% assign user_guide = site.data.translation.sidebar.fr.user_guide %}
+	{% assign admin_guide = site.data.translation.sidebar.fr.admin_guide %}
+	{% assign install_guide = site.data.translation.sidebar.fr.install_guide %}
+
+{% endif %}
+
+<div class="menu">
+<h4>Starter Edition</h4>
+<h5>{{install_guide}}</h5>
+<ul>
+	{% for item in links_starter_install %}
+	<li>
+		{% if page.url == item.url %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
+	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
+	</li>
+	{% endfor %}
+</ul>
+
+<h5>{{admin_guide}}</h5>
+<ul>
+	{% for item in links_starter_admin %}
+	<li>
+		{% if page.url == item.url %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
+	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
+	</li>
+	{% endfor %}
+</ul>
+
+<h5>{{user_guide}}</h5>
+<ul>
+	{% for item in links_starter_user %}
+	<li>
+		{% if page.url == item.url %}
+	  <a class= "active" href="{{ item.url }}">{{ item.text }}</a>
+		{% else %}
+	  <a href="{{ item.url }}">{{ item.text }}</a>
+	    {% endif %}
+	</li>
+	{% endfor %}
+</ul>
+
+</div>

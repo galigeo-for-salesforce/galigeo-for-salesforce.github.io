@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Territory Management Projects
 categories: documentation
 permalink: /project-adv-en

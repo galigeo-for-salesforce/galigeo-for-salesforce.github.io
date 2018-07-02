@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Register the app
 categories: documentation
 permalink: /register-en

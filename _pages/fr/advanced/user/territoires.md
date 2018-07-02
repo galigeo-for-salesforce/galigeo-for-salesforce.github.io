@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Concevoir une sectorisation commerciale
 categories: documentation
 permalink: /territoires-adv

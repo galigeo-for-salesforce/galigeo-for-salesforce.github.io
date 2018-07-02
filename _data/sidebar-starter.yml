@@ -1,0 +1,24 @@
+fr:
+  starter:
+    install:
+      - { url: '/install-geocodage', text: 'Installation du module', next: '/config-composants' }
+    admin:
+      - { url: '/config-composants', text: 'Configuration des composants', prev: '/install-geocodage' , next: '/config-app-mobile' }
+      - { url: '/config-app-mobile', text: 'Configuration de l''app mobile', prev: '/config-composants' , next: '/config-autorisations' }
+      - { url: '/config-autorisations', text: 'Configuration des autorisations', prev: '/config-app-mobile' , next: '/debuter-geocodage' }
+    user:
+      - { url: '/debuter-geocodage', text: 'Débuter', prev: '/config-autorisations' , next: '/geocodage' }
+      - { url: '/geocodage', text: 'Géocodage', prev: '/debuter-geocodage' , next: '/geocodage-app-mobile' }
+      - { url: '/geocodage-app-mobile', text: 'Géocodage sur mobile', prev: '/geocodage' }
+en:
+  starter:
+    install:
+      - { url: '/install-geocoding', text: 'Package installation', next: '/config-components' }
+    admin:
+      - { url: '/config-components', text: 'Components configuration', prev: '/install-geocoding', next: '/config-mobile-app' }
+      - { url: '/config-mobile-app', text: 'Mobile app configuration', prev: '/config-components', next: '/config-perm-sets' }
+      - { url: '/config-perm-sets', text: 'Permission sets configuration', prev: '/config-mobile-app', next: '/getting-started-geocoding' }
+    user:
+      - { url: '/getting-started-geocoding', text: 'Getting Started', prev: '/config-perm-sets', next: '/create-map-en' }
+      - { url: '/geocoding', text: 'Geocoding', prev: '/getting-started-geocoding', next: '/geocoding-mobile-app' }
+      - { url: '/geocoding-mobile-app', text: 'Geocoding on mobile', prev: '/geocoding' }

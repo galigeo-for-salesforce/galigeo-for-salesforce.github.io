@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Geographical analytics and territory management
 categories: documentation
 permalink: /analytics-adv-en

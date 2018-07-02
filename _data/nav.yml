@@ -1,11 +1,15 @@
 fr:
-  - { url: '/', text: 'Accueil', type: 'documentation' }
+  - { url: '/debuter', text: 'Standard', type: 'documentation' }
+  - { url: '/debuter-adv', text: 'Advanced', type: 'documentation' }
+  - { url: '/debuter-geocodage', text: 'Starter', type: 'documentation' }
   - { url: '/faq', text: 'FAQ', type: 'faqs' }
   - { url: '/releases', text: 'Releases', type: 'release' }
-  - { url: '/videos', text: 'Vidéos', type: 'video' }
+# - { url: '/videos', text: 'Vidéos', type: 'video' }
 
 en:
-  - { url: '/en', text: 'Home', type: 'documentation' }
+  - { url: '/getting-started', text: 'Standard', type: 'documentation' }
+  - { url: '/getting-started-adv', text: 'Advanced', type: 'documentation' }
+  - { url: '/getting-started-geocoding', text: 'Starter', type: 'documentation' }
   - { url: '/faqs', text: 'FAQs', type: 'faqs' }
   - { url: '/releases-en', text: 'Releases', type: 'release' }
-  - { url: '/videos-en', text: 'Videos', type: 'video' }
+# - { url: '/videos-en', text: 'Videos', type: 'video' }

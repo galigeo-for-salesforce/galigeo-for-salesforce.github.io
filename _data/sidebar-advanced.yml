@@ -1,0 +1,32 @@
+fr:
+  advanced:
+    install:
+      - { url: '/install-advanced', text: 'Installation du package', next: '/post-install-advanced' }
+      - { url: '/post-install-advanced', text: 'Post installation', prev: '/install-advanced' , next: '/enregistrement' }
+    admin:
+      - { url: '/enregistrement', text: 'Enregistrement', prev: '/post-install-advanced' , next: '/utilisateurs' }
+      - { url: '/utilisateurs', text: 'Utilisateurs', prev: '/enregistrement' , next: '/secteurs' }
+      - { url: '/secteurs', text: 'Secteurs', prev: '/utilisateurs' , next: '/debuter-adv' }
+    user:
+      - { url: '/debuter-adv', text: 'Débuter', prev: '/secteurs' , next: '/projet-adv' }
+      - { url: '/projet-adv', text: 'Projets', prev: '/debuter-adv' , next: '/visualisations-adv' }
+      - { url: '/visualisations-adv', text: 'Visualisations', prev: '/projet-adv' , next: '/territoires-adv' }
+      - { url: '/territoires-adv', text: 'Conception de territoires', prev: '/visualisations-adv' , next: '/analyses-adv' }
+      - { url: '/analyses-adv', text: 'Analyses', prev: '/territoires-adv' , next: '/affectation-adv' }
+      - { url: '/affectation-adv', text: 'Affectation', prev: '/analyses-adv' }
+en:
+  advanced:
+    install:
+      - { url: '/install-advanced-en', text: 'Package Installation', next: '/post-install-advanced-en' }
+      - { url: '/post-install-advanced-en', text: 'Post installation', prev: '/install-advanced-en' , next: '/register-en' }
+    admin:
+      - { url: '/register-en', text: 'Registering', prev: '/post-install-advanced-en' , next: '/users-en' }
+      - { url: '/users-en', text: 'Users', prev: '/register-en' , next: '/sectors-en' }
+      - { url: '/sectors-en', text: 'Sectors', prev: '/users-en' , next: '/getting-started-adv' }
+    user:
+      - { url: '/getting-started-adv', text: 'Getting Started', prev: '/sectors-en' , next: '/project-adv-en' }
+      - { url: '/project-adv-en', text: 'Projects', prev: '/getting-started-adv' , next: '/visualisations-adv-en' }
+      - { url: '/visualisations-adv-en', text: 'Visualisations', prev: '/project-adv-en' , next: '/territoires-adv-en' }
+      - { url: '/territoires-adv-en', text: 'Territory Design', prev: '/visualisations-adv-en' , next: '/analytics-adv-en' }
+      - { url: '/analytics-adv-en', text: 'Analytics', prev: '/territoires-adv-en' , next: '/assignment-adv-en' }
+      - { url: '/assignment-adv-en', text: 'Assignment', prev: '/analytics-adv-en' }

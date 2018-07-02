@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Getting Started with the Territory Management App
 categories: documentation
 permalink: /getting-started-adv

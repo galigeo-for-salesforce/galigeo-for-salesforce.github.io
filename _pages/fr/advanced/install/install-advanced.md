@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Installation du package
 categories: documentation
 permalink: /install-advanced

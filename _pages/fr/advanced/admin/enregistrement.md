@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-advanced
 title: Enregistrement de l'application
 categories: documentation
 permalink: /enregistrement
