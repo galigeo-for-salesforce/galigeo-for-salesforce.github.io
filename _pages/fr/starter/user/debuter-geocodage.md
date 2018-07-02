@@ -14,14 +14,20 @@ Dans le cadre de ce guide, nous utiliserons un objet personnalisé nommé "**PDV
 
 ## Présentation du module de géocodage
 
-Le module de géocodage présente une interface simple avec:
-- A gauche, des outils permettant diverses actions :
+Le module de géocodage présente une interface simple avec :
+
+### Actions
+
+A gauche, des outils permettant diverses actions :
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-actions.png){:.img.img-responsive.img-center.img-bordered}
 
-	- Afficher la localisation 
-	- Réaliser ou corriger le géocodage 
-	- Effectuer une recherche de proximité
-- En bas à droite, les boutons du contrôle de zoom de la carte (les actions de zoom peuvent aussi être contrôlées par la molette de la souris) ainsi que le contrôle de fond de plan (en haut à droite)
+- Afficher la localisation 
+- Réaliser ou corriger le géocodage 
+- Effectuer une recherche de proximité
+
+### Contrôles
+
+En bas à droite, les boutons du contrôle de zoom de la carte (les actions de zoom peuvent aussi être contrôlées par la molette de la souris) ainsi que le contrôle de fond de plan (en haut à droite)
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-controle.png){:.img.img-responsive.img-center.img-bordered}
