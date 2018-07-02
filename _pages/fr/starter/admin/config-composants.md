@@ -42,6 +42,7 @@ Pour réaliser cela, nous allons utiliser le composant Visualforce **GeocodeComp
 
 {:.table.table-bordered}
 | Attributs      | Requis | Informations |
+|:--------------------|:------|
 | recId          | oui    | id de l'objet Salesforce | Attributs d'adresse |
 | recType        | oui    | Type de l'objet Salesforce | Attributs d'adresse |
 | street         | oui    | Champ d'adresse où se trouve la rue | Attributs d'adresse |

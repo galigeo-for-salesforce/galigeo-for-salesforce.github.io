@@ -9,7 +9,7 @@ ref: config-perm-sets
 
 # Configuration des autorisations
 
-Dans le chapitre précédent, nous avons mis en place les différents éléments dont trois pages Visualforce:
+Dans le chapitre précédent, nous avons mis en place les différents éléments dont trois pages Visualforce :
 - GeocodePDV
 - GeocodePDVLocationSF1
 - GeocodePDVQuickActionSF1
@@ -26,8 +26,8 @@ Pour éviter qu'un message d'erreur indiquant que l'utilisateur ne possède pas 
 	- Pour la version mobile: sélectionner les pages " GeocodePDVLocationSF1" et "GeocodePDVQuickActionSF1"
 7.	Cliquer sur le bouton "Enregistrer"
 
-
 Maintenant que l'ensemble d'autorisations est paramétré, il faut attribuer aux utilisateurs adéquats cet ensemble.
+
 1.	Dans **Configuration > Gérer les utilisateurs > Utilisateurs**, cliquer sur un utilisateur
 2.	Dans la section "Attributions d'ensemble d'autorisations", cliquer sur le bouton "Modifier les attributions"
 3.	Parmi la liste, activer l'ensemble " Geocode Permissions set "

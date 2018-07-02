@@ -19,11 +19,12 @@ Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentLocationSF1
 
 {:.table.table-bordered}
 | Attributs      | Requis | Informations | |
+| ------------- | ------------- | ------------- |
 | recType        | oui    | Type de l'objet Salesforce | |
 | geoLoc         | oui    | Champ contenant les coordonnées | |
 | displayFields  |        | Liste de champs à afficher dans la fiche d'information | Visualisation |
-| maxResults     |        | Nombre de résultats max lors de la recherche de proximité. Par défaut la valeur est 10. | Visualisation |
-| nearbyDistance |        | Distance de recherche de proximité par défaut. Par défaut la valeur est 10. | Visualisation |
+| maxResults     |        | Nombre de résultats max lors de la recherche de proximité. Par défaut la valeur est 10 | Visualisation |
+| nearbyDistance |        | Distance de recherche de proximité par défaut. Par défaut la valeur est 10 | Visualisation |
 
 ## Création de la page Visualforce
 
@@ -85,6 +86,7 @@ Le dernier composant est adapté aux supports mobiles. Il est peut être intégr
 Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentQuickActionSF1** qui possède les attributs suivants :
 
 | Attributs      | Requis | Informations|
+| ------------- | ------------- | ------------- |
 | recId          | oui    | id de l'objet Salesforce| Attributs d'adresse |
 | recType        | oui    | Type de l'objet Salesforce| Attributs d'adresse |
 | street         | oui    | Champ d'adresse où se trouve la rue| Attributs d'adresse |
