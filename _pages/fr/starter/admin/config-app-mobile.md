@@ -16,6 +16,18 @@ Nous allons mettre en place une page accessible à partir du menu de l'applicati
 <img src="/assets/img-str-admin/geocoding_mobile_app-map.png" class="img img-bordered">
 </p>
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
+## Composant mobile
+
 Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentLocationSF1** qui possède les attributs suivants :
 
 {:.table.table-bordered}
@@ -27,7 +39,7 @@ Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentLocationSF1
 | maxResults     |        | Nombre de résultats max lors de la recherche de proximité. Par défaut la valeur est 10 | Visualisation |
 | nearbyDistance |        | Distance de recherche de proximité par défaut. Par défaut la valeur est 10 | Visualisation |
 
-## Création de la page Visualforce
+### Création de la page Visualforce
 
 Créons la page Visualforce qui intègre le composant **GeocodeComponentLocationSF1** :
 1.	Dans **Configuration > Développer > Pages**
@@ -52,7 +64,7 @@ Créons la page Visualforce qui intègre le composant **GeocodeComponentLocation
 
 6.	Cliquer sur le bouton "Enregistrer" pour sauvegarder la page.
 
-## Intégration au menu de l'application mobile
+### Intégration au menu de l'application mobile
 
 Dans un premier temps, il est nécessaire de créer un onglet pour la page créée précédemment :
 1.	Dans **Configuration > Créer**, cliquer sur le lien "Onglets". 
