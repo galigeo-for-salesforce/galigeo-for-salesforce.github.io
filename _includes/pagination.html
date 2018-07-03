@@ -4,13 +4,8 @@
   {% assign next_page = site.data.translation.pagination.en.next %}
   {% assign prev_page = site.data.translation.pagination.en.prev %}
 {% else %}
-  {% if page.categories == 'starter' %}
-    {% assign links = site.data.sidebar-starter.fr %}
-  {% elseif page.categories == 'advanced' %}
-    {% assign links = site.data.sidebar-advanced.fr %}
-  {% else %}
-    {% assign links = site.data.sidebar.fr %}
-  {% endif %}
+
+  {% assign links = site.data.sidebar.fr %}
 
   {% assign next_page = site.data.translation.pagination.fr.next %}
   {% assign prev_page = site.data.translation.pagination.fr.prev %}
