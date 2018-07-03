@@ -46,14 +46,14 @@ Pour réaliser cela, nous utilisons le composant Visualforce **GeocodeComponent*
 {:.table.table-bordered}
 | Attributs      | Requis | Informations |
 |:--------------------|:------|
-| recId          | oui    | id de l'objet Salesforce | Attributs d'adresse |
-| recType        | oui    | Type de l'objet Salesforce | Attributs d'adresse |
-| street         | oui    | Champ d'adresse où se trouve la rue | Attributs d'adresse |
-| city           | oui    | Champ d'adresse où se trouve la ville | Attributs d'adresse |
-| postalCode     | oui    | Champ d'adresse où se trouve le  code postal | Attributs d'adresse |
-| state          | oui    | Champ d'adresse où se trouve l'état (ou département) | Attributs d'adresse |
-| country        | oui    | Champ d'adresse où se trouve le pays | Attributs d'adresse |
-| geoLoc         | oui    | Champ contenant les coordonnées ||
+| recId          | Oui    | id de l'objet Salesforce | Attributs d'adresse |
+| recType        | Oui    | Type de l'objet Salesforce | Attributs d'adresse |
+| street         | Oui    | Champ d'adresse où se trouve la rue | Attributs d'adresse |
+| city           | Oui    | Champ d'adresse où se trouve la ville | Attributs d'adresse |
+| postalCode     | Oui    | Champ d'adresse où se trouve le  code postal | Attributs d'adresse |
+| state          | Oui    | Champ d'adresse où se trouve l'état (ou département) | Attributs d'adresse |
+| country        | Oui    | Champ d'adresse où se trouve le pays | Attributs d'adresse |
+| geoLoc         | Oui    | Champ contenant les coordonnées ||
 | normStreet     |        | Champ où sera sauvegardée la rue | Attributs d'adresse normalisée |
 | normCity       |        | Champ où sera sauvegardée la ville | Attributs d'adresse normalisée |
 | normPostalCode |        | Champ où sera sauvegardé le code postal | Attributs d'adresse normalisée |
