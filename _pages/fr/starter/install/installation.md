@@ -1,7 +1,7 @@
 ---
 layout: sidebar-starter
 title: Installation du module de géocodage
-categories: documentation
+categories: starter
 permalink: /install-geocodage
 lang: fr
 ref: install-geocoding
