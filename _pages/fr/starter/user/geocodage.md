@@ -1,7 +1,7 @@
 ---
 layout: sidebar-starter
 title: Géocodage
-categories: documentation
+categories: starter
 permalink: /geocodage
 lang: fr
 ref: geocoding

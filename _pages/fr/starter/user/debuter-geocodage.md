@@ -1,7 +1,7 @@
 ---
 layout: sidebar-starter
 title: Débuter avec le géocodage
-categories: documentation
+categories: starter
 permalink: /debuter-geocodage
 lang: fr
 ref: getting-started-geocoding

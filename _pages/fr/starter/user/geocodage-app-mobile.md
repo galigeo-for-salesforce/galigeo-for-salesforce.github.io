@@ -1,7 +1,7 @@
 ---
 layout: sidebar-starter
 title: Géocodage sur mobile
-categories: documentation
+categories: starter
 permalink: /geocodage-app-mobile
 lang: fr
 ref: geocoding-mobile-app
