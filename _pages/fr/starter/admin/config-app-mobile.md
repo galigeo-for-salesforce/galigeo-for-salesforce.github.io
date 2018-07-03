@@ -11,8 +11,10 @@ ref: geocoding-mobile-app
 
 Nous allons mettre en place une page accessible à partir du menu de l'application mobile (anciennement Salesforce1). Le composant utilisé permet à un commercial sur le terrain de visualiser des objets qui se trouvent à proximité.
 
-<img src="/assets/img-str-admin/geocoding_mobile_app-pdv.png" class="img img-responsive">
-<img src="/assets/img-str-admin/geocoding_mobile_app-map.png" class="img img-responsive">
+<p class="text-center">
+<img src="/assets/img-str-admin/geocoding_mobile_app-pdv.png" class="img img-bordered">
+<img src="/assets/img-str-admin/geocoding_mobile_app-map.png" class="img img-bordered">
+</p>
 
 Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentLocationSF1** qui possède les attributs suivants :
 
@@ -78,12 +80,14 @@ Il ne reste plus qu'à l'ajouter au menu de l'application Salesforce1 :
 
 Le dernier composant est adapté aux supports mobiles. Il est peut être intégré à une page Visualforce qui sera utilisée pour une action rapide.
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-quick_action.png){:.img.img-responsive.img-center.img-bordered}
+<p class="text-center">
+<img src="/assets/img-str-admin/geocoding_mobile_app-quick_action.png" class="img img-bordered">
+<img src="/assets/img-str-admin/geocoding_mobile_app-quick_action2.png" class="img img-bordered">
+</p>
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-quick_action2.png){:.img.img-responsive.img-center.img-bordered}
+Pour réaliser ceci, nous utilisons le composant **GeocodeComponentQuickActionSF1** qui possède les attributs suivants :
 
-Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentQuickActionSF1** qui possède les attributs suivants :
-
+{:.table.table-bordered}
 | Attributs      | Requis | Informations|
 | ------------- | ------------- | ------------- |
 | recId          | Oui    | id de l'objet Salesforce| Attributs d'adresse |
@@ -103,8 +107,7 @@ Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentQuickAction
 | maxResults     |        | Nombre de résultats max lors de la recherche de proximité. Par défaut la valeur est 10.| Visualisation |
 | nearbyDistance |        | Distance de recherche de proximité par défaut. Par défaut la valeur est 10.| Visualisation |
 
-Les attributs sont les mêmes que ceux du composant **GeocodeComponent** utilisé précédemment.
-Ce composant se configure de la même manière que le composant **GeocodeComponent**.
+Les attributs sont les mêmes que ceux du composant **GeocodeComponent** utilisé précédemment, et ce composant se configure de la même manière.
 
 ### Création de la page Visualforce
 
@@ -115,25 +118,25 @@ Nous allons créer une page Visualforce qui intègre le composant "**GeocodeComp
 4.	Cocher la case "Disponible pour les applications mobiles Salesforce".
 5.	Dans le code de la page, mettons ce qui suit :
 
-```
-<apex:page showHeader="false" sidebar="false" standardController="PDV__c" docType="html-5.0">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-</head>
-<body>
-  <ggo:GeocodeComponentQuickActionSF1 recId="{!PDV__c.id}" recType="PDV__c" 
-    street="BillingStreet" city="BillingCity" 
-    postalCode="BillingPostalCode" state="BillingState" 
-    country="BillingCountry" 
-    geoLoc="geoLoc__c"  
-    displayfields=""  
-    normStreet="Normalized_Street__c" normCity="Normalized_City__c"
-    normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
-    normCountry="Normalized_Country__c"  
-    maxResults="50" nearbyDistance="0.4"/>
-</body>
-</apex:page>
-```
+    ```
+    <apex:page showHeader="false" sidebar="false" standardController="PDV__c" docType="html-5.0">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+      <ggo:GeocodeComponentQuickActionSF1 recId="{!PDV__c.id}" recType="PDV__c" 
+        street="BillingStreet" city="BillingCity" 
+        postalCode="BillingPostalCode" state="BillingState" 
+        country="BillingCountry" 
+        geoLoc="geoLoc__c"  
+        displayfields=""  
+        normStreet="Normalized_Street__c" normCity="Normalized_City__c"
+        normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
+        normCountry="Normalized_Country__c"  
+        maxResults="50" nearbyDistance="0.4"/>
+    </body>
+    </apex:page>
+    ```
 
 6.	Cliquer sur le bouton "Enregistrer" pour sauvegarder la page.
 
@@ -148,7 +151,7 @@ Dans un premier temps, il faut créer une action qui référence la page Visualf
 5.	Dans la zone de saisie de l'étiquette, entrer "Localisation"
 6.	Cliquer sur le bouton "Enregistrer".
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-quick_action_sf1.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-quick_action_sf1.png){:.img.img-responsive.img-center.img-bordered}
 
 Maintenant que l'action personnalisée est créée, il ne reste plus qu'à l'ajouter à la page de présentation des Account.
 
@@ -158,6 +161,6 @@ Maintenant que l'action personnalisée est créée, il ne reste plus qu'à l'ajo
 4.	Dans la section "Actions dans l'éditeur", cliquer sur "**remplacer la présentation d'éditeur globale**".
 5.	Insérer l'action "Localisation" dans la section "Actions dans l'éditeur"
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-page_layout.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-page_layout.png){:.img.img-responsive.img-center.img-bordered}
 
 6.	Cliquer sur le bouton "Enregistrer"
