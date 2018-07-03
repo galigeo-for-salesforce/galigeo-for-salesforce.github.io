@@ -1,7 +1,7 @@
 ---
 layout: sidebar-starter
 title: Configuration de l'app mobile
-categories: documentation
+categories: starter
 permalink: /config-app-mobile
 lang: fr
 ref: geocoding-mobile-app
@@ -9,11 +9,10 @@ ref: geocoding-mobile-app
 
 # Configuration de l'app mobile
 
-Nous allons mettre en place une page accessible à partir du menu de l'application Salesforce1. Le composant utilisé permet à un commercial sur le terrain de visualiser des objets qui se trouvent à proximité.
+Nous allons mettre en place une page accessible à partir du menu de l'application mobile (anciennement Salesforce1). Le composant utilisé permet à un commercial sur le terrain de visualiser des objets qui se trouvent à proximité.
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-pdv.png){:.img.img-responsive.img-center}
-
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-map.png){:.img.img-responsive.img-center}
+<img src="/assets/img-str-admin/geocoding_mobile_app-pdv.png" class="img img-responsive">
+<img src="/assets/img-str-admin/geocoding_mobile_app-map.png" class="img img-responsive">
 
 Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentLocationSF1** qui possède les attributs suivants :
 
