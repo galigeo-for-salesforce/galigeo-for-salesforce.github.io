@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: sidebar-starter
 title: Débuter avec le géocodage
 categories: documentation
 permalink: /debuter-geocodage
