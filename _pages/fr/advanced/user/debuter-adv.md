@@ -1,13 +1,13 @@
 ---
 layout: sidebar-advanced
-title: Débuter avec l'application de sectorisation commerciale
+title: Débuter avec l'app de sectorisation commerciale
 categories: advanced
 permalink: /debuter-adv
 lang: fr
 ref: getting-started-adv
 ---
 
-# Débuter avec l'application de Territory Management
+# Débuter avec l'app de Territory Management
 
 [Galigeo for Salesforce Advanced](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4tg3EAB) vous permet de gérer votre Territory Management :
 
