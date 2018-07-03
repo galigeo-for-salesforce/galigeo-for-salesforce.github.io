@@ -1,11 +1,16 @@
 {% if page.lang == 'en' %}
-  {% assign links = site.data.sidebar.en or assign links = site.data.sidebar-advanced.en %}
+  {% assign links = site.data.sidebar.en %}
 
   {% assign next_page = site.data.translation.pagination.en.next %}
   {% assign prev_page = site.data.translation.pagination.en.prev %}
 {% else %}
-
-  {% assign links = site.data.sidebar.fr or assign links = site.data.sidebar-advanced.fr %}
+  {% if page.categories == 'starter' %}
+    {% assign links = site.data.sidebar-starter.fr %}
+  {% elseif page.categories == 'advanced' %}
+    {% assign links = site.data.sidebar-advanced.fr %}
+  {% else %}
+    {% assign links = site.data.sidebar.fr %}
+  {% endif %}
 
   {% assign next_page = site.data.translation.pagination.fr.next %}
   {% assign prev_page = site.data.translation.pagination.fr.prev %}
