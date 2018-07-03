@@ -11,36 +11,45 @@ ref: geocoding-mobile-app
 
 Cet article décrit les fonctionnalités du composant de géocodage  pour l'application mobile (anciennement Salesforce1 ou SF1).
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Recherche à proximité
 
-En fonction du paramétrage effectué du composant de géocodage et la mise à disposition de l'application Salesforce1, un utilisateur peut accéder à une application qui permet d'afficher dans un périmètre donné une liste de PDV. 
-Supposons que nous soyons un utilisateur ayant accès à Salesforce1 et qu'une application nommée "**My PDV**" ait été paramétrée.
+En fonction du paramétrage effectué du composant de géocodage et la mise à disposition de l'application Salesforce, un utilisateur peut accéder à une application qui permet d'afficher dans un périmètre donné une liste de PDV. 
 
-L'utilisateur aurait dans son menu Salesforce1 :
+Supposons que nous soyons un utilisateur ayant accès à Salesforce et qu'une application nommée "**My PDV**" ait été paramétrée. L'utilisateur aurait dans son menu Salesforce :
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-pdv.png){:.img.img-responsive.img-center.img-bordered}
 
-Au lancement de l'application, l'utilisateur est géolocalisé et une recherche des **PDV** à proximité est automatiquement lancée avec des paramètres par défauts dépendants du paramétrage du composant par l'administrateur Salesforce.
+Au lancement de l'application, l'utilisateur est géolocalisé et une recherche des **PDV** à proximité est automatiquement lancée avec des paramètres par défauts dépendants du paramétrage du composant par l'administrateur Salesforce.  
 La position courante de l'utilisateur est matérialisée par un cercle bleu. Le résultat est affiché sur la carte. 
 
-### Géocodage à partir d'une adresse
+## Géocodage à partir d'une adresse
 
-L'application Salesforce1 étant destinée à une utilisation sur appareil mobile, lorsque l'utilisateur lance le composant de géocodage, la position courante de celui-ci est matérialisée par un cercle bleu.
+L'application Salesforce étant destinée à une utilisation sur appareil mobile, lorsque l'utilisateur lance le composant de géocodage, la position courante de celui-ci est matérialisée par un cercle bleu.  
 La zone au-dessus de la carte présente les informations d'adresse renseignées pour le PDV courant.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-proximite.png){:.img.img-responsive.img-center.img-bordered}
+<p class="text-center">
+<img src="/assets/img-str-user/geocoding_mobile_app-proximite.png" class="img img-bordered">
+<img src="/assets/img-str-user/geocoding_mobile_app-proximite2.png" class="img img-bordered">
+</p>
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-proximite2.png){:.img.img-responsive.img-center.img-bordered}
-
-Un clic sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-proximite_icone.png)affiche la liste des résultats de la recherche ainsi que la distance de recherche.
-Les paramètres sont les mêmes que ceux pour la version sur un poste fixe.
+Un clic sur le bouton ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-proximite_icone.png)affiche la liste des résultats de la recherche ainsi que la distance de recherche. Les paramètres sont les mêmes que ceux pour la version sur un poste fixe.  
 Il est possible de changer la distance et de relancer une recherche.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-proximite_liste.png){:.img.img-responsive.img-center.img-bordered}
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-proximite_fiche_info.png){:.img.img-responsive.img-center.img-bordered}
 
-Un clic sur un élément de la liste ou un objet sur la carte permet de sélectionner cet objet er d’afficher sa fiche d'information. 
+Un clic sur un élément de la liste ou un objet sur la carte permet de sélectionner cet objet er d’afficher sa fiche d'information.  
 En cliquant sur le nom de l'objet dans la fiche d'information, l'utilisation peut visualiser sa fiche de présentation SF1.
 
 ## Géocodage
@@ -90,8 +99,6 @@ En cliquant sur le bouton "**Utiliser ma position**", la position courante de l'
 L'accès à la modification manuelle de la position est identique à celui pour géolocaliser un **PDV**, i.e. à partir de l'action rapide paramétrée. A la différence que cette fois-ci, l'utilisateur clique sur le bouton "**Corriger**" pour effectuer la modification.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-correction_position.png){:.img.img-responsive.img-center.img-bordered}
-
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-correction_position2.png){:.img.img-responsive.img-center.img-bordered}
 
 Afin de corriger la position du PDV, l'utilisateur peut:
 - Déplacer le marqueur sur la carte pour corriger la position et obtenir les informations de l'adresse normalisée.
