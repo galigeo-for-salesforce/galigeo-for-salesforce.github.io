@@ -7,7 +7,7 @@ lang: fr
 ref: install-geocoding
 ---
 
-## Installation du module de géocodage
+# Installation du module de géocodage
 
 L'installation du module de géocodage est une installation classique d'application Salesforce à partir d'une URL, qu'il suffit de lancer dans le navigateur ou directement depuis l’[AppExchange de Salesforce](https://appexchange.salesforce.com).
 

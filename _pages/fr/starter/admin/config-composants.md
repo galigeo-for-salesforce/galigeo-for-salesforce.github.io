@@ -9,7 +9,10 @@ ref: config-components
 
 # Configuration des composants de géocodage
 
-Le package de géocodage comporte principalement trois composants Visualforce génériques qui peuvent être intégrés dans des pages Visualforce afin d'être ajoutés à une page de présentation d'un objet (accessible depuis un navigateur web), être ajoutés en tant qu'application Salesforce1 ou encore être utilisés comme action rapide depuis une page de présentation Salesforce1 d'un objet.
+Le package de géocodage contient principalement trois composants Visualforce génériques. Ils peuvent être intégrés dans des pages Visualforce, afin d'être ajoutés :
+- A une page de présentation d'un objet
+- En tant qu'application mobile Salesforce (anciennement Salesforce1)
+- Ou encore être utilisés comme [action rapide](https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/actions_about.htm) depuis une page de présentation Salesforce d'un objet sur mobile
 
 Les composants peuvent être configurés pour des objets standards Salesforce et des objets personnalisés.
 
