@@ -30,12 +30,7 @@ Supposons que nous soyons un utilisateur ayant accès à Salesforce et qu'une ap
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-pdv.png){:.img.img-responsive.img-center.img-bordered}
 
 Au lancement de l'application, l'utilisateur est géolocalisé et une recherche des **PDV** à proximité est automatiquement lancée avec des paramètres par défauts dépendants du paramétrage du composant par l'administrateur Salesforce.  
-La position courante de l'utilisateur est matérialisée par un cercle bleu. Le résultat est affiché sur la carte. 
-
-## Géocodage à partir d'une adresse
-
-L'application Salesforce étant destinée à une utilisation sur appareil mobile, lorsque l'utilisateur lance le composant de géocodage, la position courante de celui-ci est matérialisée par un cercle bleu.  
-La zone au-dessus de la carte présente les informations d'adresse renseignées pour le PDV courant.
+La position courante de l'utilisateur est matérialisée par un cercle bleu. Le résultat est affiché sur la carte.
 
 <p class="text-center">
 <img src="/assets/img-str-user/geocoding_mobile_app-proximite.png" class="img img-bordered">
@@ -74,7 +69,11 @@ Le composant cherche à localiser l'objet à partir de l'adresse existante. Troi
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-adresse2.png){:.img.img-responsive.img-center.img-bordered}
 
+<p class="text-center small">Une adresse trouvée</p>
+
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-adresse3.png){:.img.img-responsive.img-center.img-bordered}
+
+<p class="text-center small">Plusieurs adresses possibles</p>
 
 Lorsqu'une adresse candidate est choisie par l'utilisateur, un marqueur est ajouté à la carte et la carte est centrée sur cette position. Les valeurs de l'adresse normalisée sont alors automatiquement renseignées.
 
