@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Territory Management Projects
-categories: documentation
+categories: advanced
 permalink: /project-adv-en
 lang: en
 ref: projet-adv

@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Drawing Sales Territoritories
-categories: documentation
+categories: advanced
 permalink: /territoires-adv-en
 lang: en
 ref: territoires-adv

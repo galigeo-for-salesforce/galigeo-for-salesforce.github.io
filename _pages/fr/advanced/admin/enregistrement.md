@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Enregistrement de l'application
-categories: documentation
+categories: advanced
 permalink: /enregistrement
 lang: fr
 ref: enregistrement

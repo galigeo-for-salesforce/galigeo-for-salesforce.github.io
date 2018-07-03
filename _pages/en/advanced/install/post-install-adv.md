@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Package Post installation
-categories: documentation
+categories: advanced
 permalink: /post-install-advanced-en
 lang: en
 ref: post-install-advanced

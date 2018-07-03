@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Concevoir une sectorisation commerciale
-categories: documentation
+categories: advanced
 permalink: /territoires-adv
 lang: fr
 ref: territoires-adv

@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Visualization Modes
-categories: documentation
+categories: advanced
 permalink: /visualisations-adv-en
 lang: en
 ref: visualisations-adv

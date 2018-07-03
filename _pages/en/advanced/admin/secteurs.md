@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Manage sectors
-categories: documentation
+categories: advanced
 permalink: /sectors-en
 lang: en
 ref: secteurs

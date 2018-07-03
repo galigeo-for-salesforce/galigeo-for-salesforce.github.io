@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Analyses géographiques et territory management
-categories: documentation
+categories: advanced
 permalink: /analyses-adv
 lang: fr
 ref: analyses-adv

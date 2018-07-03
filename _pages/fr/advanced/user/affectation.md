@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Affectation par secteur des objets Salesforce (Comptes...)
-categories: documentation
+categories: advanced
 permalink: /affectation-adv
 lang: fr
 ref: affectation-adv

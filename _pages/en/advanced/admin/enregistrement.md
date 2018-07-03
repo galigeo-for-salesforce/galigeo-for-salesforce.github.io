@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Register the app
-categories: documentation
+categories: advanced
 permalink: /register-en
 lang: en
 ref: enregistrement

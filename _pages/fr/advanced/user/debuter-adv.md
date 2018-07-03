@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Débuter avec l'application de sectorisation commerciale
-categories: documentation
+categories: advanced
 permalink: /debuter-adv
 lang: fr
 ref: getting-started-adv

@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: User management in Galigeo Territory Management
-categories: documentation
+categories: advanced
 permalink: /users-en
 lang: en
 ref: utilisateurs

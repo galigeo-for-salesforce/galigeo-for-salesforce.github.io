@@ -1,7 +1,7 @@
 ---
 layout: sidebar-advanced
 title: Sectorisation à partir de vos données Salesforce
-categories: documentation
+categories: advanced
 permalink: /secteurs
 lang: fr
 ref: secteurs
