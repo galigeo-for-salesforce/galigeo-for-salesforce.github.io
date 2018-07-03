@@ -1,14 +1,16 @@
-{% if page.lang == 'en' and page.categories == 'documentation' %}
-  {% assign links = site.data.sidebar.en %}
+{% if page.categories == 'documentation' %}
+  {% if page.lang == 'en' %}
+    {% assign links = site.data.sidebar.en %}
 
-  {% assign next_page = site.data.translation.pagination.en.next %}
-  {% assign prev_page = site.data.translation.pagination.en.prev %}
-{% else %}
+    {% assign next_page = site.data.translation.pagination.en.next %}
+    {% assign prev_page = site.data.translation.pagination.en.prev %}
+  {% else %}
 
-  {% assign links = site.data.sidebar.fr %}
+    {% assign links = site.data.sidebar.fr %}
 
-  {% assign next_page = site.data.translation.pagination.fr.next %}
-  {% assign prev_page = site.data.translation.pagination.fr.prev %}
+    {% assign next_page = site.data.translation.pagination.fr.next %}
+    {% assign prev_page = site.data.translation.pagination.fr.prev %}
+  {% endif %}
 {% endif %}
 
 {% for edition in links %}
