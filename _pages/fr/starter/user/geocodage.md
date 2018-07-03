@@ -9,18 +9,29 @@ ref: geocoding
 
 # Géocodage
 
+---
+
+## Dans cet article
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+---
+
 ## Géocodage à partir d'une adresse
 
 Etant positionné sur la fiche de présentation d'un PDV, l'utilisateur peut lancer le géocodage en cliquant sur l'icône    pour faire apparaître l'interface et cliquer sur le bouton "Géocoder". Le composant cherche à localiser l'objet à partir de l'adresse existante.
 
-Trois cas se présentent:
-- Soit le géocodage ne trouve pas l'adresse: l'utilisateur est invité à corriger les informations
-- Soit le géocodage trouve une adresse: la carte se positionne automatiquement sur l'adresse trouvée et les champs de l'adresse normalisée sont remplis
-- Soit plusieurs adresses sont trouvées: elles sont affichées dans une liste d'adresses candidates pour laisser le soin à l'utilisateur de choisir celle qui lui convient.
+Trois cas se présentent :
+1. Le géocodage ne trouve pas l'adresse : l'utilisateur est invité à corriger les informations
+2. Le géocodage trouve une adresse : la carte se positionne automatiquement sur l'adresse trouvée et les champs de l'adresse normalisée sont remplis
+3. Plusieurs adresses sont trouvées : elles sont affichées dans une liste d'adresses candidates pour laisser le soin à l'utilisateur de choisir celle qui lui convient.
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-adresse.png){:.img.img-responsive.img-center.img-bordered}
-
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-adresse2.png){:.img.img-responsive.img-center.img-bordered}
+<p class="text-center">
+<img src="/assets/img-str-user/geocodage-adresse.png" class="img img-bordered">
+<img src="/assets/img-str-user/geocodage-adresse2.png" class="img img-bordered">
+</p>
 
 Lorsqu'une adresse candidate est choisie par l'utilisateur, un marqueur est ajouté à la carte et la carte est centrée sur cette position. Les valeurs de l'adresse normalisée sont alors automatiquement renseignées.
 
@@ -62,7 +73,7 @@ Lorsqu'un utilisateur est dans une page de présentation d'un **PDV** déjà loc
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-correction_position.png){:.img.img-responsive.img-center.img-bordered}
 
-Afin de corriger la position du PDV, l'utilisateur peut:
+Afin de corriger la position du PDV, l'utilisateur peut :
 - Déplacer le marqueur sur la carte. Les informations de l'adresse normalisée sont alors mises à jour
 - Entrer manuellement une adresse tel que c'est décrit précédemment
 - Utiliser sa position courante en cliquant sur le bouton   
@@ -82,8 +93,8 @@ L'interface est composée de :
 - Une zone de saisie du rayon de recherche. Une valeur par défaut a été paramétrée. 
 - L'unité de distance présentée sous forme de liste
 - Deux boutons:
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-proximite_icone_recherche.png) Effectue la recherche avec les paramètres renseignés
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-proximite_icone_annule_recherche.png) Annule la recherche: vide la liste des éléments à proximité et supprime de la carte ces éléments
+    - ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-proximite_icone_recherche.png) Effectue la recherche avec les paramètres renseignés
+    - ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-proximite_icone_annule_recherche.png) Annule la recherche: vide la liste des éléments à proximité et supprime de la carte ces éléments
 
 Le résultat de la recherche de voisins est affiché dans une liste et sur la carte. L'utilisateur est informé du nombre d'éléments se trouvant dans le voisinage. Une limite du nombre maximal d'éléments à renvoyer dans le résultat est paramétrée dans le composant. 
 
