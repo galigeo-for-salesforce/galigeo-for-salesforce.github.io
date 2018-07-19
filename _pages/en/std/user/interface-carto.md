@@ -23,7 +23,7 @@ The map viewer offers a powerful and a great user experience to visualize and an
 ## Toolbar
 
 {:.table}
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-027.png)|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-028.jpg)| The toolbar contains the links to all functionalities available in the application. <br><br>At the opening, the tool is collapsed (see picture on the left). When user moves his mouse over it, the toolbar expands and collapses on mouse out. <br>To stick the toolbar opened, user only needs to click on the toolbar icon. | 
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/interface-navigation_closed.png)|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/interface-navigation_open.png)| The toolbar contains the links to all functionalities available in the application. <br><br>At the opening, the tool is collapsed (see picture on the left). When user moves his mouse over it, the toolbar expands and collapses on mouse out. <br>To stick the toolbar opened, user only needs to click on the toolbar icon. | 
 
 ## Map Visualization
 

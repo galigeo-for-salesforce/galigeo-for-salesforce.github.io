@@ -23,7 +23,7 @@ Dans le viewer cartographique l’utilisateur peut visualiser et analyser ses do
 ## Barre d'outils
 
 {:.table}
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-027.png)|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/Galigeo4SFDC_UserGuide_St-028.jpg)| La barre d’outils permet d’accéder aux différentes fonctionnalités de l’application. <br><br>A l’ouverture de la carte, la barre est repliée (voir l’illustration sur la gauche). Elle se déplie au survol du curseur. <br>L’utilisateur peut cliquer sur l’icône pour qu’elle reste ouverte. | 
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/interface-navigation_closed.png)|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/interface-navigation_open.png)| La barre d’outils permet d’accéder aux différentes fonctionnalités de l’application. <br><br>A l’ouverture de la carte, la barre est repliée (voir l’illustration sur la gauche). Elle se déplie au survol du curseur. <br>L’utilisateur peut cliquer sur l’icône pour qu’elle reste ouverte. | 
 
 ## Visualisation de données
 
