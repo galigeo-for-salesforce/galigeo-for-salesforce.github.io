@@ -44,8 +44,8 @@ Il est possible de changer la distance et de relancer une recherche.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding_mobile_app-proximite_fiche_info.png){:.img.img-responsive.img-center.img-bordered}
 
-Un clic sur un élément de la liste ou un objet sur la carte permet de sélectionner cet objet er d’afficher sa fiche d'information.  
-En cliquant sur le nom de l'objet dans la fiche d'information, l'utilisation peut visualiser sa fiche de présentation SF1.
+Un clic sur un élément de la liste ou un objet sur la carte permet de sélectionner cet objet et d’afficher sa fiche d'information.  
+En cliquant sur le nom de l'objet dans la fiche d'information, l'utilisateur peut visualiser sa fiche de présentation SF1.
 
 ## Géocodage
 
@@ -115,4 +115,4 @@ En fonction des droits qu'il possède sur l'objet Salesforce et de ces champs, l
 En cliquant sur le bouton "**Enregistrer**", l'utilisateur valide la position du **PDV**. Les coordonnées géographiques (latitude et longitude) sont automatiquement prises en compte. Seul le choix d'enregistrer l'adresse normalisée est laissé à l'appréciation de l'utilisateur. 
 Si l'enregistrement ne rencontre aucun problème, l'utilisateur est renvoyé vers la fiche de présentation du **PDV**.
 
-En cliquant sur le bouton "**Annuler**", l'utilisation revient à la fiche de présentation du PDV.
+En cliquant sur le bouton "**Annuler**", l'utilisateur revient à la fiche de présentation du PDV.

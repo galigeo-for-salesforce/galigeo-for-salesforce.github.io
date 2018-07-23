@@ -4,7 +4,7 @@ title: Configuration de l'app mobile
 categories: starter
 permalink: /config-app-mobile
 lang: fr
-ref: geocoding-mobile-app
+ref: config-mobile-app
 ---
 
 # Configuration de l'app mobile
@@ -90,7 +90,7 @@ Il ne reste plus qu'à l'ajouter au menu de l'application Salesforce1 :
 
 ## Configuration d'action rapide de Salesforce1
 
-Le dernier composant est adapté aux supports mobiles. Il est peut être intégré à une page Visualforce qui sera utilisée pour une action rapide.
+Le dernier composant est adapté aux supports mobiles. Il peut être intégré à une page Visualforce qui sera utilisée pour une action rapide.
 
 <p class="text-center">
 <img src="/assets/img-str-admin/geocoding_mobile_app-quick_action.png" class="img img-bordered">

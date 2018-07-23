@@ -21,7 +21,7 @@ ref: geocoding
 
 ## Géocodage à partir d'une adresse
 
-Etant positionné sur la fiche de présentation d'un PDV, l'utilisateur peut lancer le géocodage en cliquant sur l'icône    pour faire apparaître l'interface et cliquer sur le bouton "Géocoder". Le composant cherche à localiser l'objet à partir de l'adresse existante.
+Etant positionné sur la fiche de présentation d'un PDV, l'utilisateur peut lancer le géocodage en cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-icone.png) pour faire apparaître l'interface et cliquer sur le bouton "Géocoder". Le composant cherche à localiser l'objet à partir de l'adresse existante.
 
 Trois cas se présentent :
 1. Le géocodage ne trouve pas l'adresse : l'utilisateur est invité à corriger les informations
@@ -84,7 +84,7 @@ Pour chacune de ces actions, les informations de l'adresse normalisée sont mise
 
 ## Recherche à proximité
 
-Lorsqu'un utilisateur est dans une page de présentation d'un **PDV** et qu'une position courante est définie (soit parce que le PDV est déjà localisé, soit après une recherche d'adresse ou soit par localisation de l'utilisateur), il est possible de rechercher des PDV se trouvant à une certaines distances. 
+Lorsqu'un utilisateur est dans une page de présentation d'un **PDV** et qu'une position courante est définie (soit parce que le PDV est déjà localisé, soit après une recherche d'adresse ou soit par localisation de l'utilisateur), il est possible de rechercher des PDV se trouvant à une certaine distance. 
 L'utilisateur accède à l'interface de recherche de proximité en cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-proximite_icone.png) pour faire afficher l'interface.
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-proximite.png){:.img.img-responsive.img-center.img-bordered}
