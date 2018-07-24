@@ -28,4 +28,4 @@ On the left, tools allow various actions:
 
 At the bottom right, buttons to zoom on the map (can also be controlled by the mouse wheel) and basemap selection (top right).
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-controle.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-controls.png){:.img.img-responsive.img-center.img-bordered}

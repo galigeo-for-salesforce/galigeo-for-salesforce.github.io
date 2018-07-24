@@ -18,7 +18,7 @@ Le module de géocodage présente une interface simple avec :
 
 A gauche, des outils permettant diverses actions :
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-actions.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-actions-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 - Afficher la localisation 
 - Réaliser ou corriger le géocodage 
@@ -28,4 +28,4 @@ A gauche, des outils permettant diverses actions :
 
 En bas à droite, les boutons du contrôle de zoom de la carte (les actions de zoom peuvent aussi être contrôlées par la molette de la souris) ainsi que le contrôle de fond de plan (en haut à droite)
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-controle.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-controls-fr.png){:.img.img-responsive.img-center.img-bordered}

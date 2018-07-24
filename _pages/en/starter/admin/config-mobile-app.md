@@ -24,7 +24,7 @@ ref: config-mobile-app
 We will set up a page accessible from the menu of the mobile application (formerly Salesforce1). The component allows a sales rep in the field to view objects that are nearby.
 
 <p class="text-center">
-<img src="/assets/img-str-admin/geocoding_mobile_app-pdv.png" class="img img-bordered">
+<img src="/assets/img-str-admin/geocoding_mobile_app-my_accounts.png" class="img img-bordered">
 <img src="/assets/img-str-admin/geocoding_mobile_app-map.png" class="img img-bordered">
 </p>
 
@@ -69,10 +69,10 @@ Let's create the Visualforce page that integrates the **GeocodeComponentLocation
 First, it is necessary to create a tab for the previously created page:
 1.	In **Setup > Create**, click on the "Tabs" link. 
 2.	In the "Visualforce Tabs" section, click the "New" button. 
-3.	Choose the Visualforce page previously created, put "My POS" as a label for example (the field name will be filled in automatically),
+3.	Choose the Visualforce page previously created, put "My Accounts" as a label for example (the field name will be filled in automatically),
 4.	Choose a tab style and click the "Next" button.
 
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-pdv_menu.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-accounts_tab.png){:.img.img-responsive.img-center.img-bordered}
 
 5.	Choose for which profile this tab will be available and click on the "Next" button.
 6.	Disable insertion of this tab for all existing applications
@@ -81,9 +81,9 @@ First, it is necessary to create a tab for the previously created page:
     ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-vf_tab.png){:.img.img-responsive.img-center.img-bordered}
 
 All that's left is to add it to the menu of the Salesforce1 app:
-1.	Go to **Setup > Mobile administration**, 
+1.	Go to **Setup > Mobile Apps > Salesforce navigation**, 
 2.	Click on the link "Mobile navigation".
-3.	Add the "My POS" tab to the navigation menu items
+3.	Add the "My Accounts" tab to the navigation menu items
 4.	Click on the "Save" button.
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-config.png){:.img.img-responsive.img-center.img-bordered}
@@ -156,11 +156,11 @@ We will create a Visualforce page which integrates the "**GeocodeComponentQuickA
 
 First, we must create an action that references the previously created Visualforce page.
 
-1.	In **Setup > Customize > Accounts > Buttons, Links and Actions**
+1.	In **Setup > Object Manager > Accounts > Buttons, Links and Actions**
 2.	In the "Buttons, Links and Actions" section, click on "New Action"
 3.	In the dropdown list of action type, pick "Custom Visualforce"
 4.	In the dropdown list of Visualforce pages, choose the page "**GeocodePDVQuickActionSF1**"
-5.	In the label input, enter "Location"
+5.	In the label input, enter "Geolocation"
 6.	Click on the "Save" button.
 
     ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-quick_action_sf1.png){:.img.img-responsive.img-center.img-bordered}

@@ -39,7 +39,7 @@ Le Champ <code>geoloc__c</code> est un champ de type "Géolocalisation" paramét
 
 Nous allons configurer le composant pour l'intégrer à la page de présentation d'un objet de type Account dans une section nommée "**Géocodage**".
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_presentation.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 Pour réaliser cela, nous utilisons le composant Visualforce **GeocodeComponent** qui possède les attributs suivants :
 
@@ -70,11 +70,11 @@ Les attributs de l'adresse normalisée sont utilisés pour la sauvegarde de l'ad
 
 La liste de champ de l'attribut "displayFields" est utilisée pour afficher les valeurs dans la fiche d'information lorsque l'utilisateur clique sur un marqueur de la carte.
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-fiche_info_obj_courant.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-infowindow_current_obj-fr.png){:.img.img-responsive.img-center}
 
 <p class="text-center small">Fiche d'information de l'objet courant</p>
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-fiche_info_autre_obj.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-infowindow_other_obj-fr.png){:.img.img-responsive.img-center}
 
 <p class="text-center small">Fiche d'information d'un autre objet</p>
 

@@ -25,7 +25,7 @@ Nous allons mettre en place une page accessible à partir du menu de l'applicati
 
 <p class="text-center">
 <img src="/assets/img-str-admin/geocoding_mobile_app-pdv.png" class="img img-bordered">
-<img src="/assets/img-str-admin/geocoding_mobile_app-map.png" class="img img-bordered">
+<img src="/assets/img-str-admin/geocoding_mobile_app-map-fr.png" class="img img-bordered">
 </p>
 
 Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentLocationSF1** qui possède les attributs suivants :
@@ -78,7 +78,7 @@ Dans un premier temps, il est nécessaire de créer un onglet pour la page cré�
 6.	Désactiver l'insertion de cet onglet pour toutes les applications existantes
 7.	Cliquer sur le bouton "Enregistrer".
 
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-vf_tab.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-vf_tab-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 Il ne reste plus qu'à l'ajouter au menu de l'application Salesforce1 :
 1.	Aller dans **Configuration > Administration mobile**, 
@@ -86,15 +86,15 @@ Il ne reste plus qu'à l'ajouter au menu de l'application Salesforce1 :
 3.	Ajouter l'onglet "My PDV" aux éléments du menu de navigation
 4.	Cliquer sur le bouton "Enregistrer".
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-config.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-config-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Configuration d'action rapide de Salesforce1
 
 Le dernier composant est adapté aux supports mobiles. Il peut être intégré à une page Visualforce qui sera utilisée pour une action rapide.
 
 <p class="text-center">
-<img src="/assets/img-str-admin/geocoding_mobile_app-quick_action.png" class="img img-bordered">
-<img src="/assets/img-str-admin/geocoding_mobile_app-quick_action2.png" class="img img-bordered">
+<img src="/assets/img-str-admin/geocoding_mobile_app-quick_action-fr.png" class="img img-bordered">
+<img src="/assets/img-str-admin/geocoding_mobile_app-quick_action2-fr.png" class="img img-bordered">
 </p>
 
 Pour réaliser ceci, nous utilisons le composant **GeocodeComponentQuickActionSF1** qui possède les attributs suivants :
@@ -163,7 +163,7 @@ Dans un premier temps, il faut créer une action qui référence la page Visualf
 5.	Dans la zone de saisie de l'étiquette, entrer "Localisation"
 6.	Cliquer sur le bouton "Enregistrer".
 
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-quick_action_sf1.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-quick_action_sf1-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 Maintenant que l'action personnalisée est créée, il ne reste plus qu'à l'ajouter à la page de présentation des Account.
 
@@ -173,6 +173,6 @@ Maintenant que l'action personnalisée est créée, il ne reste plus qu'à l'ajo
 4.	Dans la section "Actions dans l'éditeur", cliquer sur "**remplacer la présentation d'éditeur globale**".
 5.	Insérer l'action "Localisation" dans la section "Actions dans l'éditeur"
 
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-page_layout.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-page_layout-fr.png){:.img.img-responsive.img-center.img-bordered}
 
 6.	Cliquer sur le bouton "Enregistrer"

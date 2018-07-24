@@ -39,7 +39,7 @@ The <code>geoloc__c</code> field is of the "Geolocation" type configured with 8 
 
 We will now configure the component to integrate it on the layout page of an object of the Account type in a section named "**Geocoding**".
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_presentation.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout.png){:.img.img-responsive.img-center.img-bordered}
 
 To do this, we use the Visualforce **GeocodeComponent** component, which has the following attributes:
 
@@ -70,11 +70,11 @@ The attributes of the nomalized address are used to save the address coming from
 
 The list of fields of the "displayFields" attribute is used to display the values in the infowindow when the user clicks on a map marker.
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-fiche_info_obj_courant.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-infowindow_current_obj.png){:.img.img-responsive.img-center}
 
 <p class="text-center small">Infowindow of the current object</p>
 
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-fiche_info_autre_obj.png){:.img.img-responsive.img-center}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-infowindow_other_obj.png){:.img.img-responsive.img-center}
 
 <p class="text-center small">Infowindow of another object</p>
 
@@ -84,7 +84,7 @@ We will create a Visualforce page which integrates the **GeocodeComponent** comp
 
 1.	In **Setup > Develop > Pages**
 2.	Click on the "New" button to create a new page
-3. In the label input, enter the value "**GeocodePDV**"
+3. In the label input, enter the value "**GeocodeAccount**"
 4. In the page code, put the following:
 
     ```
@@ -109,15 +109,15 @@ We will create a Visualforce page which integrates the **GeocodeComponent** comp
 
 ## Integration into the page layout of an Account
 
-1.	In **Setup > Customize > Accounts > Page layouts**
+1.	In **Setup > Object Manager > Accounts > Page layouts**
 2.	In the "Page layouts" section, click on "Edit" in front of the desired layout.
 
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_pres_page.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_page_layout.png){:.img.img-responsive.img-center.img-bordered}
 
 3.	In the layout editing page, click on "**Visualforce Pages**", insert a section that we will name "**Geocoding**", displayed on 1 column.
-Insert a "**GeocodePDV**" page in this new section.
+Insert a "**GeocodeAccount**" page in this new section.
 
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_vf.png){:.img.img-responsive.img-center.img-bordered}
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-vf_page.png){:.img.img-responsive.img-center.img-bordered}
 
     For a nicer display of the component, change its size and give it a height of 450px.
 

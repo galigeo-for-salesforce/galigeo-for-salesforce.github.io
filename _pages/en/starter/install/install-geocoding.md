@@ -17,4 +17,4 @@ For installation steps, refer to the [Salesforce documentation](https://develope
 
 To verify that the installation has been successfully completed, go to **Setup > Installed Packages**.
 
-![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-str-install/install_geocodage-package.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-str-install/install_geocoding-package.png){:.img.img-responsive.img-center.img-bordered}
