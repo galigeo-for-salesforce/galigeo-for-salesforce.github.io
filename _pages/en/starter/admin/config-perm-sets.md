@@ -10,9 +10,9 @@ ref: config-perm-sets
 # Permission sets configuration
 
 In the previous articles, we have implemented various elements including three Visualforce pages:
-- GeocodePDV
-- GeocodePDVLocationSF1
-- GeocodePDVQuickActionSF1
+- GeocodeAccount
+- GeocodeAccountLocationSF1
+- GeocodeAccountQuickActionSF1
 
 To avoid an error message stating that the user does not have sufficient rights to view the different components, we need to set up a set of permissions.
 
@@ -23,7 +23,7 @@ To avoid an error message stating that the user does not have sufficient rights 
 5.	Click on the "Edit" button
 6.	Enable Visualforce pages according to your needs:
 	- For the classic version: select the "GeocodePDV" page
-	- For the mobile version: select the pages "GeocodePDVLocationSF1" and "GeocodePDVQuickActionSF1"
+	- For the mobile version: select the pages "GeocodeAccountLocationSF1" and "GeocodeAccountQuickActionSF1"
 7.	Click on the "Save" button
 
 Now that the permission set is configured, it must be assigned to the appropriate users.

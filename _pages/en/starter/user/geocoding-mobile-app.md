@@ -25,7 +25,7 @@ This article describes the features of the geocoding component for the mobile ap
 
 Depending on the setup of the geocoding component and if the Salesforce application is made available, a user can access an application that displays a list of POS within a perimeter.
 
-Let suppose we are a user with access to Salesforce and that an application named "**My POS**" has been set up. The user would have in his menu Salesforce:
+Let suppose we are a user with access to Salesforce and that an application named "**My Accounts**" has been set up. The user would have in his menu Salesforce:
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-admin/geocoding_mobile_app-my_accounts.png){:.img.img-responsive.img-center.img-bordered}
 

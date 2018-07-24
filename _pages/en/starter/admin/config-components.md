@@ -101,7 +101,7 @@ We will create a Visualforce page which integrates the **GeocodeComponent** comp
     </apex:page>
     ```
 
-    In order for the page to be integrated into the page layout of an object of the Account type, it is necessary that the standard controller of this page is "**Account **".
+    In order for the page to be integrated into the page layout of an object of the Account type, it is necessary that the standard controller of this page is "**Account**".
 
      It is important to enter the fields API names and not their labels.
 

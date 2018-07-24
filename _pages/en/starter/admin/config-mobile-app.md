@@ -127,7 +127,7 @@ We will create a Visualforce page which integrates the "**GeocodeComponentQuickA
 
 1.  In **Setup > Develop > Pages**
 2.  Click on the "New" button to create a new page
-3. In the label input, enter the value "**GeocodePDVQuickActionSF1**"
+3. In the label input, enter the value "**GeocodeAccountQuickActionSF1**"
 4. In the page code, put the following:
 
     ```
@@ -159,7 +159,7 @@ First, we must create an action that references the previously created Visualfor
 1.	In **Setup > Object Manager > Accounts > Buttons, Links and Actions**
 2.	In the "Buttons, Links and Actions" section, click on "New Action"
 3.	In the dropdown list of action type, pick "Custom Visualforce"
-4.	In the dropdown list of Visualforce pages, choose the page "**GeocodePDVQuickActionSF1**"
+4.	In the dropdown list of Visualforce pages, choose the page "**GeocodeAccountQuickActionSF1**"
 5.	In the label input, enter "Geolocation"
 6.	Click on the "Save" button.
 
