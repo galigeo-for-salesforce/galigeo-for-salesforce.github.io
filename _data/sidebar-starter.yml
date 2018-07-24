@@ -19,6 +19,6 @@ en:
       - { url: '/config-mobile-app', text: 'Mobile app configuration', prev: '/config-components', next: '/config-perm-sets' }
       - { url: '/config-perm-sets', text: 'Permission sets configuration', prev: '/config-mobile-app', next: '/getting-started-geocoding' }
     user:
-      - { url: '/getting-started-geocoding', text: 'Getting Started', prev: '/config-perm-sets', next: '/create-map-en' }
+      - { url: '/getting-started-geocoding', text: 'Getting Started', prev: '/config-perm-sets', next: '/geocoding' }
       - { url: '/geocoding', text: 'Geocoding', prev: '/getting-started-geocoding', next: '/geocoding-mobile-app' }
       - { url: '/geocoding-mobile-app', text: 'Geocoding on mobile', prev: '/geocoding' }
