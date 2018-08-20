@@ -52,3 +52,5 @@ en:
       - { url: '/basemaps', text: 'Basemaps', prev: '/addresses-en' , next: '/actions-en' }
       - { url: '/actions-en', text: 'Actions', prev: '/basemaps' , next: '/related-lists' }
       - { url: '/related-lists', text: 'Related lists', prev: '/actions-en' }
+    faqs:
+      - { url: '/faqs', text: 'FAQs' }

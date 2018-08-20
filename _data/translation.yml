@@ -3,10 +3,12 @@ sidebar:
     install_guide: "Installation Guide"
     admin_guide: "Admin Guide"
     user_guide: "User Guide"
+    faqs: "Frequently Asked Questions"
   fr:
     install_guide: "Guide d\'installation"
     admin_guide: "Guide Administrateur"
     user_guide: "Guide utilisateur"
+    faqs: "Foire Aux Questions"
 
 release:
   en:

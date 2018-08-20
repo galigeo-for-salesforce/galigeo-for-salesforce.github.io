@@ -1,13 +1,13 @@
 ---
 layout: sidebar
-title: Galigeo access in Lightning
+title: Accessing Galigeo in Lightning
 categories: faqs
 permalink: /lightning-access
 lang: en
 ref: lightning-access
 ---
 
-# Access Galigeo in Lightning
+# Accessing Galigeo in Lightning
 
 The first time you log into Salesforce, the Galigeo tab is missing.
 
