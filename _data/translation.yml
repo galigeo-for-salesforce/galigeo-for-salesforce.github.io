@@ -5,9 +5,9 @@ sidebar:
     user_guide: "User Guide"
     faqs_guide: "Frequently Asked Questions"
   fr:
-    install_guide: "Guide d\'installation"
+    install_guide: "Guide d\'Installation"
     admin_guide: "Guide Administrateur"
-    user_guide: "Guide utilisateur"
+    user_guide: "Guide Utilisateur"
     faqs_guide: "Foire Aux Questions"
 
 release:
