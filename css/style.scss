@@ -279,10 +279,13 @@ aside {
 
 	h4,h5,h6 {color: #333;}
 	h4 {
-		font-size: 22px;
+		font-size: 16px;
 		font-weight: 400;
 		line-height: 1.4;
+		margin-top: 20px;
+		margin-bottom: 5px;
 			&:nth-child(2n) {margin-top: 30px;}
+			&:first-of-type {margin-top: 10px;}
 		}
 	.menu{
 		padding: 35px 0 30px 15px;
