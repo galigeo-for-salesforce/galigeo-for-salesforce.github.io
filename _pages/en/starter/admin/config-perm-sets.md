@@ -22,7 +22,7 @@ To avoid an error message stating that the user does not have sufficient rights 
 4.	In the "Application" section, click on "Acces Visualforce page"
 5.	Click on the "Edit" button
 6.	Enable Visualforce pages according to your needs:
-	- For the classic version: select the "GeocodePDV" page
+	- For the regular version: select the "GeocodePDV" page
 	- For the mobile version: select the pages "GeocodeAccountLocationSF1" and "GeocodeAccountQuickActionSF1"
 7.	Click on the "Save" button
 

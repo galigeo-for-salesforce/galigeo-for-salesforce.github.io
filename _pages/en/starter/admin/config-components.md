@@ -1,22 +1,20 @@
 ---
 layout: sidebar-starter
-title: Configuration of the geocoding module components
+title: Configuration of the geocoding components
 categories: starter
 permalink: /config-components
 lang: en
 ref: config-components
 ---
 
-# Configuration of the geocoding module components
+# Configuration of the geocoding components
 
-The geocoding package contains mainly three generic Visualforce components. They can be integrated in Visualforce pages, in order to be added to:
-- The page layout of an object
-- As a Salesforce mobile application (formerly Salesforce1)
-- Or be used as a [quick action](https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/actions_about.htm) in the page layout of an object on mobile
+The geocoding package mainly contains three Visualforce components which can be integrated in Visualforce pages. They can then be:
+- Added to the [page layout of an object](#integration-into-the-page-layout-of-an-account)
+- Used as a [Salesforce mobile application](/config-mobile-app#mobile-component) (formerly known as Salesforce1)
+- Used as a [quick action in the page layout of an object on mobile](/config-mobile-app#salesforce1-quick-action-configuration)
 
-Components can be configured for Salesforce standard and custom objects.
-
-In this article, we will configure the various components for the Salesforce Standard object "Account", with the following subset of fields:
+Components can be configured for standard and custom Salesforce objects. In this article, we will configure the various components for the object "Account", with the following subset of fields:
 
 {:.table.table-bordered}
 | Label | API name | Type | Information |
@@ -33,11 +31,11 @@ In this article, we will configure the various components for the Salesforce Sta
 | Country (Normalized)     | Normalized_Country__c     | Text           | Normalized address |
 | geoloc                   | geoloc__c                 | Geolocation    | latitude/longitude |
 
-The <code>geoloc__c</code> field is of the "Geolocation" type configured with 8 digits for the decimals.
+The <code>geoloc__c</code> field is of the "Geolocation" type, configured with 8 digits after decimals.
 
 ## Configuration of the geocoding component
 
-We will now configure the component to integrate it on the layout page of an object of the Account type in a section named "**Geocoding**".
+We will now configure the component to integrate it to the page layout of an Account object in a section named "**Geocoding**".
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout.png){:.img.img-responsive.img-center.img-bordered}
 
@@ -63,10 +61,10 @@ To do this, we use the Visualforce **GeocodeComponent** component, which has the
 | maxResults     |        | Maximum number of results when searching by proximity. The value is 10 by default. | Visualization |
 | nearbyDistance |        | Default distance of proximity search. The value is 10 by default. | Visualization |
 
-It is mandatory to enter attributes to define an address even with an empty string. However, it is necessary that the value of the "street" attribute matches at least one existing field of the object. If not an error message will inform the user to check the configuration of the component.
-The values of the object fields corresponding to these attributes are used to perform the geocoding.
+You have to add attributes that define an address, even with empty strings. However the value of the "street" attribute needs to match at least one existing field of the object. If not, an error message will inform the user to check the configuration of the component.
+The values of the fields of the object corresponding to these attributes are used to perform the geocoding.
 
-The attributes of the nomalized address are used to save the address coming from the geocoder. It is of course possible that the values of these attributes are the same as those used for the address.
+The attributes of what we call the nomalized address are used to save the address coming from the geocoder. It is of course possible that the values of these attributes are the same as those used for the address.
 
 The list of fields of the "displayFields" attribute is used to display the values in the infowindow when the user clicks on a map marker.
 
@@ -101,7 +99,7 @@ We will create a Visualforce page which integrates the **GeocodeComponent** comp
     </apex:page>
     ```
 
-    In order for the page to be integrated into the page layout of an object of the Account type, it is necessary that the standard controller of this page is "**Account**".
+    In order for the page to be integrated into the page layout of an Account object, the standard controller of this page has to be "**Account**".
 
      It is important to enter the fields API names and not their labels.
 

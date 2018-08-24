@@ -90,7 +90,7 @@ All that's left is to add it to the menu of the Salesforce1 app:
 
 ## Salesforce1 Quick Action configuration
 
-The last component is appropriate for mobile usage. It can be integrated with a Visualforce page that will be used for a Quick Action.
+The last component is appropriate for mobile usage. It can be integrated with a Visualforce page that will be used for a [Quick Action](https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/actions_about.htm).
 
 <p class="text-center">
 <img src="/assets/img-str-admin/geocoding_mobile_app-quick_action.png" class="img img-bordered">
