@@ -9,12 +9,63 @@ ref: config-components
 
 # Configuration of the geocoding components
 
-The geocoding package mainly contains three Visualforce components which can be integrated in Visualforce pages. They can then be:
-- Added to the [page layout of an object](#integration-into-the-page-layout-of-an-account)
-- Used as a [Salesforce mobile application](/config-mobile-app#mobile-component) (formerly known as Salesforce1)
-- Used as a [quick action in the page layout of an object on mobile](/config-mobile-app#salesforce1-quick-action-configuration)
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo" frameborder="0" allowfullscreen></iframe>
 
-Components can be configured for standard and custom Salesforce objects. In this article, we will configure the various components for the object "Account", with the following subset of fields:
+We will configure the geocoding component to integrate it to the page layout of an Account object in a section named "**Geocoding**".
+
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout.png){:.img.img-responsive.img-center.img-bordered}
+
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> if not already the case, you need to create a Geolocation custom field, configured with 8 digits after decimals. In this article we named it <code>geoloc__c</code>.</div>
+
+## Creating the Visualforce page
+
+First we create a Visualforce page which integrates the **GeocodeComponent** component.
+
+1.	Go to **Setup > Platform tools > Visualforce Pages** (Salesforce Lightning) or **Setup > Develop > Pages** (Salesforce Classic)
+2.	Click on the "New" button to create a new page
+3. In the label input, enter the value "**GeocodeAccount**"
+4. In the Visualforce markup input area, copy-paste the following code:
+
+    ```
+    <apex:page showHeader="false" sidebar="false" standardController="Account" docType="html-5.0">
+        <ggo:GeocodeComponent recId="{!Account.id}" recType="Account" 
+            street="BillingStreet" city="BillingCity" 
+            postalCode="BillingPostalCode" state="BillingState" 
+            country="BillingCountry" 
+            geoLoc=" GeoLoc__c"  displayfields="Potentiel_Total__c,Potentiel__c" 
+            normStreet="Normalized_Street__c" normCity="Normalized_City__c" 
+            normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
+            normCountry="Normalized_Country__c"  
+            maxResults="50" nearbyDistance="0.4"/>
+    </apex:page>
+    ```
+
+    <div class="alert alert-info" role="alert">In order for the page to be integrated into the page layout of an Account object, the standard controller of this page has to be "**Account**".<br/><br/>
+    It is important to enter the fields API names and not their labels.</div>
+
+5.	Click on the "Save" button to save the page.
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-vf_markup.png){:.img.img-responsive.img-center.img-bordered}
+
+## Integration into the page layout of an Account
+
+1.	Go to **Setup > Objects and Fields > Object Manager > Account > Page layouts** (Salesforce Lightning)
+2.	In the "Page layouts" section, click on "Edit" in front of the desired layout.
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_page_layout.png){:.img.img-responsive.img-center.img-bordered}
+
+3.	In the layout editing page, click on "**Visualforce Pages**", insert a section that we will name "**Map**", displayed on 1 column.
+Insert a "**GeocodeAccount**" page in this new section.
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-vf_page.png){:.img.img-responsive.img-center.img-bordered}
+
+    For a nicer display of the component, change its size and give it a height of 450px.
+
+4.	Click on the "**Save**" button to save the modifications of the page layout of objects of the Account type.
+
+## Technical notes
+
+The **Account** object has the following subset of fields:
 
 {:.table.table-bordered}
 | Label | API name | Type | Information |
@@ -31,15 +82,7 @@ Components can be configured for standard and custom Salesforce objects. In this
 | Country (Normalized)     | Normalized_Country__c     | Text           | Normalized address |
 | geoloc                   | geoloc__c                 | Geolocation    | latitude/longitude |
 
-The <code>geoloc__c</code> field is of the "Geolocation" type, configured with 8 digits after decimals.
-
-## Configuration of the geocoding component
-
-We will now configure the component to integrate it to the page layout of an Account object in a section named "**Geocoding**".
-
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout.png){:.img.img-responsive.img-center.img-bordered}
-
-To do this, we use the Visualforce **GeocodeComponent** component, which has the following attributes:
+The Visualforce **GeocodeComponent** component has the following attributes:
 
 {:.table.table-bordered}
 | Attributes      | Required | Information |
@@ -75,48 +118,3 @@ The list of fields of the "displayFields" attribute is used to display the value
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-infowindow_other_obj.png){:.img.img-responsive.img-center}
 
 <p class="text-center small">Infowindow of another object</p>
-
-## Creating the Visualforce page
-
-We will create a Visualforce page which integrates the **GeocodeComponent** component.
-
-1.	In **Setup > Develop > Pages**
-2.	Click on the "New" button to create a new page
-3. In the label input, enter the value "**GeocodeAccount**"
-4. In the page code, put the following:
-
-    ```
-    <apex:page showHeader="false" sidebar="false" standardController="Account" docType="html-5.0">
-        <ggo:GeocodeComponent recId="{!Account.id}" recType="Account" 
-            street="BillingStreet" city="BillingCity" 
-            postalCode="BillingPostalCode" state="BillingState" 
-            country="BillingCountry" 
-            geoLoc=" GeoLoc__c"  displayfields="Potentiel_Total__c,Potentiel__c" 
-            normStreet="Normalized_Street__c" normCity="Normalized_City__c" 
-            normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
-            normCountry="Normalized_Country__c"  
-            maxResults="50" nearbyDistance="0.4"/>
-    </apex:page>
-    ```
-
-    In order for the page to be integrated into the page layout of an Account object, the standard controller of this page has to be "**Account**".
-
-     It is important to enter the fields API names and not their labels.
-
-5.	Click on the "Save" button to save the page.
-
-## Integration into the page layout of an Account
-
-1.	In **Setup > Object Manager > Accounts > Page layouts**
-2.	In the "Page layouts" section, click on "Edit" in front of the desired layout.
-
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_page_layout.png){:.img.img-responsive.img-center.img-bordered}
-
-3.	In the layout editing page, click on "**Visualforce Pages**", insert a section that we will name "**Geocoding**", displayed on 1 column.
-Insert a "**GeocodeAccount**" page in this new section.
-
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-vf_page.png){:.img.img-responsive.img-center.img-bordered}
-
-    For a nicer display of the component, change its size and give it a height of 450px.
-
-4.	Click on the "**Save**" button to save the modifications of the page layout of objects of the Account type.

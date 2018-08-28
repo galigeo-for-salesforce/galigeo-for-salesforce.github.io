@@ -1,22 +1,70 @@
 ---
 layout: sidebar-starter
-title: Configuration des composants du module de géocodage
+title: Configuration des composants de géocodage
 categories: starter
 permalink: /config-composants
 lang: fr
 ref: config-components
 ---
 
-# Configuration des composants du module de géocodage
+# Configuration des composants de géocodage
 
-Le package de géocodage contient principalement trois composants Visualforce génériques. Ils peuvent être intégrés dans des pages Visualforce, afin d'être ajoutés :
-- A une page de présentation d'un objet
-- En tant qu'application mobile Salesforce (anciennement Salesforce1)
-- Ou encore être utilisés comme [action rapide](https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/actions_about.htm) depuis une page de présentation Salesforce d'un objet sur mobile
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo" frameborder="0" allowfullscreen></iframe>
 
-Les composants peuvent être configurés pour des objets standards Salesforce et des objets personnalisés.
+Nous allons configurer le composant pour l'intégrer à la page de présentation d'un objet de type Account dans une section nommée "**Géocodage**".
 
-Dans cet article, nous allons configurer les différents composants pour l'objet Compte (« Account ») standard de Salesforce possédant le sous-ensemble suivant de champs :
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout-fr.png){:.img.img-responsive.img-center.img-bordered}
+
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> si ce n'est pas déjà le cas, vous devez créer un champ personnalisé de géolocalisation, paramétré en Décimal avec 8 chiffres pour les décimales. Dans cet article nous l'appelerons <code>geoloc__c</code>.</div>
+
+## Création de la page Visualforce
+
+Nous allons créer une page Visualforce qui intègre le composant **GeocodeComponent**.
+
+1.	Dans **Configuration > Développer > Pages**
+2.	Cliquer sur le bouton "Nouveau" pour créer une nouvelle page
+3.	Dans la zone de saisie de l'étiquette, entrer la valeur "**GeocodePDV**"
+4.	Dans le code de la page, mettons ce qui suit :
+
+    ```
+    <apex:page showHeader="false" sidebar="false" standardController="Account" docType="html-5.0">
+        <ggo:GeocodeComponent recId="{!Account.id}" recType="Account" 
+            street="BillingStreet" city="BillingCity" 
+            postalCode="BillingPostalCode" state="BillingState" 
+            country="BillingCountry" 
+            geoLoc=" GeoLoc__c"  displayfields="Potentiel_Total__c,Potentiel__c" 
+            normStreet="Normalized_Street__c" normCity="Normalized_City__c" 
+            normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
+            normCountry="Normalized_Country__c"  
+            maxResults="50" nearbyDistance="0.4"/>
+    </apex:page>
+    ```
+
+    <div class="alert alert-info" role="alert">Afin que la page puisse être intégrée à une page de présentation d'un objet de type Account, il est nécessaire que le contrôleur standard de cette page soit "**Account**".<br/><br/>
+    Dans cette exemple, l'attribut "state" reste vide, car l'objet Account ne possède pas de champ dans lequel on peut trouver la valeur du département.<br/>
+    Il est important d'indiquer les noms API des champs et non leur libellé.</div>
+
+5.	Cliquer sur le bouton "Enregistrer" pour sauvegarder la page.
+
+## Intégration à la page de présentation d'un Account
+
+1.	Dans **Configuration > Personnaliser > Comptes > Présentation de page**
+2.	Dans la section "Présentations de page", cliquer sur "Modifier" devant la présentation souhaitée.
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_pres_page.png){:.img.img-responsive.img-center.img-bordered}
+
+3.	Dans la page d'édition de la présentation, cliquer sur "**Pages Visualforce**", insérer une section que l'on nommera "**Géocodage**", présentée sur 1 colonne.
+Insérer la page "**GeocodePDV**" dans cette nouvelle section.
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_vf.png){:.img.img-responsive.img-center.img-bordered}
+
+    Pour un rendu plus agréable du composant, modifier sa taille pour donner une hauteur de 450px. 
+
+4.	Cliquer sur le bouton "**Enregistrer**" pour sauvegarde la modification de la page de présentation des objets de type Account.
+
+## Notes techniques
+
+L'objet Compte possède le sous-ensemble de champs suivant :
 
 {:.table.table-bordered}
 | Etiquette | Nom d'API | Type | Information |
@@ -33,15 +81,7 @@ Dans cet article, nous allons configurer les différents composants pour l'objet
 | Pays (Normalisée)       | Normalized_Country__c     | Texte           | Adresse normalisée |
 | geoloc                  | geoloc__c                 | Géolocalisation | latitude/longitude |
 
-Le Champ <code>geoloc__c</code> est un champ de type "Géolocalisation" paramétré en Décimal avec 8 chiffres pour les décimales.
-
-## Configuration du composant de géocodage
-
-Nous allons configurer le composant pour l'intégrer à la page de présentation d'un objet de type Account dans une section nommée "**Géocodage**".
-
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout-fr.png){:.img.img-responsive.img-center.img-bordered}
-
-Pour réaliser cela, nous utilisons le composant Visualforce **GeocodeComponent** qui possède les attributs suivants :
+Le composant Visualforce **GeocodeComponent** possède les attributs suivants :
 
 {:.table.table-bordered}
 | Attributs      | Requis | Informations |
@@ -77,49 +117,3 @@ La liste de champ de l'attribut "displayFields" est utilisée pour afficher les 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-infowindow_other_obj-fr.png){:.img.img-responsive.img-center}
 
 <p class="text-center small">Fiche d'information d'un autre objet</p>
-
-## Création de la page Visualforce
-
-Nous allons créer une page Visualforce qui intègre le composant **GeocodeComponent**.
-
-1.	Dans **Configuration > Développer > Pages**
-2.	Cliquer sur le bouton "Nouveau" pour créer une nouvelle page
-3.	Dans la zone de saisie de l'étiquette, entrer la valeur "**GeocodePDV**"
-4.	Dans le code de la page, mettons ce qui suit :
-
-    ```
-    <apex:page showHeader="false" sidebar="false" standardController="Account" docType="html-5.0">
-        <ggo:GeocodeComponent recId="{!Account.id}" recType="Account" 
-            street="BillingStreet" city="BillingCity" 
-            postalCode="BillingPostalCode" state="BillingState" 
-            country="BillingCountry" 
-            geoLoc=" GeoLoc__c"  displayfields="Potentiel_Total__c,Potentiel__c" 
-            normStreet="Normalized_Street__c" normCity="Normalized_City__c" 
-            normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
-            normCountry="Normalized_Country__c"  
-            maxResults="50" nearbyDistance="0.4"/>
-    </apex:page>
-    ```
-
-    Afin que la page puisse être intégrée à une page de présentation d'un objet de type Account, il est nécessaire que le contrôleur standard de cette page soit "**Account**".
-
-    Dans cette exemple, l'attribut "state" reste vide, car l'objet Account ne possède pas de champ dans lequel on peut trouver la valeur du département.
-    Il est important d'indiquer les noms API des champs et non leur libellé. 
-
-5.	Cliquer sur le bouton "Enregistrer" pour sauvegarder la page.
-
-## Intégration à la page de présentation d'un Account
-
-1.	Dans **Configuration > Personnaliser > Comptes > Présentation de page**
-2.	Dans la section "Présentations de page", cliquer sur "Modifier" devant la présentation souhaitée.
-
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_pres_page.png){:.img.img-responsive.img-center.img-bordered}
-
-3.	Dans la page d'édition de la présentation, cliquer sur "**Pages Visualforce**", insérer une section que l'on nommera "**Géocodage**", présentée sur 1 colonne.
-Insérer la page "**GeocodePDV**" dans cette nouvelle section.
-
-    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_vf.png){:.img.img-responsive.img-center.img-bordered}
-
-    Pour un rendu plus agréable du composant, modifier sa taille pour donner une hauteur de 450px. 
-
-4.	Cliquer sur le bouton "**Enregistrer**" pour sauvegarde la modification de la page de présentation des objets de type Account.

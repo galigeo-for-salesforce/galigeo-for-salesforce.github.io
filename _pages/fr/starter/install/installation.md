@@ -18,3 +18,12 @@ Pour les étapes d’installation, se référer à la [documentation Salesforce]
 Pour vérifier que l'installation s'est bien faite, rendez-vous dans **Configuration > Packages Installés**.
 
 ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-str-install/install_geocoding-package-fr.png){:.img.img-responsive.img-center.img-bordered}
+
+## Configuration des composants
+
+Le package de géocodage contient principalement trois composants Visualforce qui peuvent être intégrés à :
+- une page de présentation d'un objet
+- en tant qu'application mobile Salesforce (anciennement Salesforce1)
+- ou encore être utilisés comme [action rapide](https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/actions_about.htm) depuis une page de présentation Salesforce d'un objet sur mobile
+
+Les composants peuvent être configurés pour des objets standards Salesforce et des objets personnalisés. Dans les articles à suivants nous allons configurer les différents composants pour l'objet Compte (« Account »).
