@@ -41,7 +41,7 @@ First we create a Visualforce page which integrates the **GeocodeComponent** com
     </apex:page>
     ```
 
-    <br/><br/>
+    <br/>
     <div class="alert alert-info" role="alert">In order for the page to be integrated into the page layout of an Account object, the standard controller of this page has to be "<strong>Account</strong>".<br/><br/>
     It is important to enter the fields API names and not their labels.</div>
 
