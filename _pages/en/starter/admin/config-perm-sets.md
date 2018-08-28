@@ -10,6 +10,7 @@ ref: config-perm-sets
 # Permission sets configuration
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/ZzB3Q2XV9xA" frameborder="0" allowfullscreen></iframe>
+<br/>
 
 In the previous articles, we have implemented various elements including three Visualforce pages:
 - GeocodeAccount

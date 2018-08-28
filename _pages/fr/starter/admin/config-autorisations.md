@@ -10,6 +10,7 @@ ref: config-perm-sets
 # Configuration des autorisations
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/ZzB3Q2XV9xA" frameborder="0" allowfullscreen></iframe>
+<br/>
 
 Dans les articles précédents, nous avons mis en place différents éléments dont trois pages Visualforce :
 - GeocodePDV

@@ -10,6 +10,7 @@ ref: config-components
 # Configuration des composants de géocodage
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo" frameborder="0" allowfullscreen></iframe>
+<br/>
 
 Nous allons configurer le composant pour l'intégrer à la page de présentation d'un objet de type Account dans une section nommée "**Géocodage**".
 
@@ -40,7 +41,8 @@ Nous allons créer une page Visualforce qui intègre le composant **GeocodeCompo
     </apex:page>
     ```
 
-    <div class="alert alert-info" role="alert">Afin que la page puisse être intégrée à une page de présentation d'un objet de type Account, il est nécessaire que le contrôleur standard de cette page soit "**Account**".<br/><br/>
+    <br/><br/>
+    <div class="alert alert-info" role="alert">Afin que la page puisse être intégrée à une page de présentation d'un objet de type Account, il est nécessaire que le contrôleur standard de cette page soit "<strong>Account</strong>".<br/><br/>
     Dans cette exemple, l'attribut "state" reste vide, car l'objet Account ne possède pas de champ dans lequel on peut trouver la valeur du département.<br/>
     Il est important d'indiquer les noms API des champs et non leur libellé.</div>
 

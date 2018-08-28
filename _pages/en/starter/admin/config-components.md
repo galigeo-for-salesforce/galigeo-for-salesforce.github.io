@@ -10,6 +10,7 @@ ref: config-components
 # Configuration of the geocoding components
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo" frameborder="0" allowfullscreen></iframe>
+<br/>
 
 We will configure the geocoding component to integrate it to the page layout of an Account object in a section named "**Geocoding**".
 
@@ -40,7 +41,8 @@ First we create a Visualforce page which integrates the **GeocodeComponent** com
     </apex:page>
     ```
 
-    <div class="alert alert-info" role="alert">In order for the page to be integrated into the page layout of an Account object, the standard controller of this page has to be "**Account**".<br/><br/>
+    <br/><br/>
+    <div class="alert alert-info" role="alert">In order for the page to be integrated into the page layout of an Account object, the standard controller of this page has to be "<strong>Account</strong>".<br/><br/>
     It is important to enter the fields API names and not their labels.</div>
 
 5.	Click on the "Save" button to save the page.
