@@ -90,7 +90,7 @@ These two displaying manners are also connected. If one clicks on a sector on th
 
 ### Labels
 
-	The names of territories can be displayed on the map using the following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-023.png).
+The names of territories can be displayed on the map using the following button ![Galigeo for Salesforce Installation]({{ site.url }}/assets/img-adv-user/Galigeo4SFDC_-_UserGuide_-023.png).
 
 ### Filters
 

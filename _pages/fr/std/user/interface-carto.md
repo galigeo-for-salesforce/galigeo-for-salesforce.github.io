@@ -48,3 +48,14 @@ Galigeo for Salesforce offre la possibilité de désactiver ce clusters pour vis
 
 {:.table.table-bordered}
 | ![warning]({{ site.url }}/assets/warning.png)     | L'utilisation des clusters améliore les performances d'affichage. <br><br> Le mode détaillé est déconseillé pour afficher plus de 1000 points. |
+
+## Fiche d'information
+
+La fiche d'information contient :
+- Un lien vers la fiche Salesforce de l'objet
+- Des informations essentielles sur l'objet [provenant de champs standards ou personnalisés](/fiche-info-etiquettes-admin)
+- Des [Actions personnalisées](/actions-admin)
+- Des [Actions standard](/actions#actions-standard)
+- Une liste déroulante des [tableaux de bord](/tableaux-de-bord#a-partir-dun-objet)
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user/interface_carto-fiche_info.png){:.img.img-responsive.img-center}

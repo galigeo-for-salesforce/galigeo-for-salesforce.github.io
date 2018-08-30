@@ -46,3 +46,14 @@ Galigeo for Salesforce offers the option to de-activate clusters in order to vis
 
 {:.table.table-bordered}
 | ![warning]({{ site.url }}/assets/warning.png)     | Using clusters improves the application performance.<br><br> When displaying more than 1000 markers, we strongly advice to stick with the cluster mode. |
+
+## Information window
+
+The information window has:
+- A link to the Salesforce page of the object
+- Main info about the object [from standard or custom fields](/infowindow-labels-admin)
+- [Custom Actions](/actions-admin-en)
+- [Standard Actions](/actions-en#standard-actions)
+- A dropdown list of [dashboards](/dashboards#from-an-object)
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-user-en/interface_carto-infowindow.png){:.img.img-responsive.img-center}
