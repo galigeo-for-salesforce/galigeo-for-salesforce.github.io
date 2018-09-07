@@ -33,7 +33,7 @@ Nous allons créer une page Visualforce qui intègre le composant **GeocodeCompo
             street="BillingStreet" city="BillingCity" 
             postalCode="BillingPostalCode" state="BillingState" 
             country="BillingCountry" 
-            geoLoc="GeoLoc__c"  displayfields="Potentiel_Total__c,Potentiel__c" 
+            geoLoc="GeoLoc__c"  displayfields="Phone" 
             normStreet="Normalized_Street__c" normCity="Normalized_City__c" 
             normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
             normCountry="Normalized_Country__c"  
