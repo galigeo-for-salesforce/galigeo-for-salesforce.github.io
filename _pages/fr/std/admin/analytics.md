@@ -62,7 +62,7 @@ Dans l’exemple ci-dessous, nous désirons obtenir le chiffre d’affaires annu
   Nous choisissons de grouper nos données par code postal de facturation. Il faut maintenant préciser une fonction d’agrégation.
   Sélectionnons la fonction « SUM » pour le champ « AnnualRevenue ».
 
-  ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-142.jpg){:.img.img-responsive.img-center}
+  ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/analyses_admin-propriete_requete.png){:.img.img-responsive.img-center}
 
   Pour chaque champ sélectionné, les icônes suivantes permettent des actions suivantes :
 
