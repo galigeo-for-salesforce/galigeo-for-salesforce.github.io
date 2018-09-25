@@ -15,7 +15,7 @@ ref: getting-started-adv
 - Redessinez-les à partir d'unité géographiques standards ou personnalisées
 - Ré-affectez en masse les comptes suite à une réorganisation de vos équipes commerciales
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-adv-user/tm-getting_started_overview.gif){:.img.img-responsive.img-center}
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/h4ia7BfP8IQ" frameborder="0" allowfullscreen></iframe>
 
 ## Définitions
 
