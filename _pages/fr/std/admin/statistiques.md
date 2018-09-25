@@ -9,16 +9,20 @@ ref: statistics
 
 # Statistiques
 
-Dans la dernière section « Statistiques » de la page de configuration d’un objet géographique, il est possible de :
+La section « Statistiques » de la page de configuration d’un objet géographique vous donne la possibilité de :
 
-1. Choisir les statistiques de bases à faire apparaître dans le tableau de sélection
+1. Choisir les fonctions standard à faire apparaître dans le tableau de sélection
 2. Définir un ensemble de formules personnalisées
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/statistics-admin.png){:.img.img-responsive.img-center}
 
-## Indicateurs statistiques de base
+Pour y accéder, cliquez sur le bouton de modification de l'objet géographique : 
 
-Cliquer sur l’icône "+" pour choisir les fonctions parmi les fonctions standard telles que le nombre, le min, le max, la moyenne, la médiane et la somme.
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/fiche_info_etiquettes-modifier.png){:.img.img-responsive.img-center.img-bordered}
+
+## Fonctions standard
+
+Cliquer sur l’icône "+" pour choisir des fonctions telles que le nombre, le min, le max, la moyenne, la médiane et la somme.
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/statistics-add_std_function.png){:.img.img-responsive.img-center}
 

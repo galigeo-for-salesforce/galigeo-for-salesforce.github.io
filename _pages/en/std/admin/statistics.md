@@ -9,14 +9,18 @@ ref: statistics
 
 # Statistics
 
-In the last section "Statistics" of the configuration page of a map object, it's possible to:
+In the "Statistics" section of the configuration page of a map object, it's possible to:
 
-1. Choose the standard statistics that are displayed in the data table after a selection
+1. Choose the standard functions that are displayed in the data table after a selection
 2. Define a set of custom formulas
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/statistics-admin.png){:.img.img-responsive.img-center}
 
-## Standard statistics
+To access it, click on the Edit button: 
+
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/infowindow_labels-edit.png){:.img.img-responsive.img-center.img-bordered}
+
+## Standard functions
 
 Click on the "+" icon to choose functions among the standard functions such as number, min, max, average, median and sum.
 
