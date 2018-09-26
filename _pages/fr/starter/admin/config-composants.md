@@ -1,10 +1,10 @@
 ---
 layout: sidebar-starter
-title: Configuration des composants de géocodage
+title: Intégration et configuration des composants de géocodage
 categories: starter
-permalink: /config-composants
+permalink: /integration-composants
 lang: fr
-ref: config-components
+ref: components-integration
 ---
 
 # Configuration des composants de géocodage
