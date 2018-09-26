@@ -19,11 +19,9 @@ ref: config-components
 
 ---
 
-Nous allons intégrer le composant de géocodage à la page de présentation d'un Compte, Contact, ou Piste dans une section nommée "**Géocodage**".
+Nous allons intégrer le composant de géocodage à la page de présentation d'un Compte, Contact, ou Piste dans une section nommée "**Carte**".
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout-fr.png){:.img.img-responsive.img-center.img-bordered}
-
-## Composants prêts à l'emploi
 
 5 composants ont été préconfigurés en se basant sur les adresses standards Salesforce des objets :
 
@@ -38,6 +36,7 @@ Nous allons intégrer le composant de géocodage à la page de présentation d'u
 
 ## Intégration à la page de présentation d'un Compte
 
+<br/>
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo?start=33" frameborder="0" allowfullscreen></iframe>
 <br/>
 
@@ -59,13 +58,11 @@ Insérer la page "**GeocodeAccountBilling**" dans cette nouvelle section.
 
 Répéter les mêmes étapes pour intégrer d'autres composants et adresses présentés dans le tableau ci-dessus.
 
-## Configuration avancée des composants
+## Configuration avancée par la création de pages Visualforce
 
 Vous pouvez personnaliser les composants avant de les intégrer dans une page.
 
 <div class="alert alert-warning" role="alert"> <strong>Important :</strong> si ce n'est pas déjà le cas, vous devez créer un champ personnalisé de géolocalisation, paramétré en Décimal avec 8 chiffres pour les décimales. Dans cet article nous l'appelerons <code>geoloc__c</code>.</div>
-
-### Création de la page Visualforce
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo" frameborder="0" allowfullscreen></iframe>
 <br/>

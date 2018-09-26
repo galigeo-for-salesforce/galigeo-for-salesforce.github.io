@@ -19,11 +19,9 @@ ref: config-components
 
 ---
 
-We will integrate the geocoding component to the page layout of an Account, Contact or Lead in a section named "**Geocoding**".
+We will integrate the geocoding component to the page layout of an Account, Contact or Lead in a section named "**Map**".
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout.png){:.img.img-responsive.img-center.img-bordered}
-
-## Ready-to-use components
 
 5 components have been preconfigured based on Salesforce standard addresses of objects:
 
@@ -38,6 +36,7 @@ We will integrate the geocoding component to the page layout of an Account, Cont
 
 ## Integration into the page layout of an Account
 
+<br/>
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo?start=33" frameborder="0" allowfullscreen></iframe>
 <br/>
 
@@ -57,13 +56,11 @@ Insert a "**GeocodeAccount**" page in this new section.
 
 4.	Click on the "**Save**" button to save the modifications of the page layout of objects of the Account type.
 
-## Advanced components configuration
+## Advanced configuration by creating Visualforce pages
 
 You can customize the components before integrating them into a page.
 
 <div class="alert alert-warning" role="alert"> <strong>Important :</strong> if not already the case, you need to create a Geolocation custom field, configured with 8 digits after decimals. In this article we named it <code>geoloc__c</code>.</div>
-
-### Creating the Visualforce page
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo" frameborder="0" allowfullscreen></iframe>
 <br/>
