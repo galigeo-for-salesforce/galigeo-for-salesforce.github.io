@@ -42,7 +42,7 @@ Nous allons intégrer le composant de géocodage à la page de présentation d'u
 
 Nous allons utiliser l'adresse de facturation d'un compte pour le géocoder et afficher une carte dans la page de présentation. Nous allons donc intégrer la page GeocodeAccountBilling en suivants les étapes ci-dessous :
 
-1.	Dans **Configuration > Objets et champs > Gestionnaire d'objets > Compte > Présentation de page**
+1.	Se rendre dans **Configuration > Objets et champs > Gestionnaire d'objets > Compte > Présentation de page**
 2.	Dans la section "Présentations de page", cliquer sur "Modifier" devant la présentation souhaitée.
 
     ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_pres_page.png){:.img.img-responsive.img-center.img-bordered}
@@ -52,7 +52,9 @@ Insérer la page "**GeocodeAccountBilling**" dans cette nouvelle section.
 
     ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_vf.png){:.img.img-responsive.img-center.img-bordered}
 
-    Pour un rendu plus agréable du composant, modifier sa taille pour donner une hauteur de 450px. 
+    Pour un rendu plus agréable du composant, modifier sa taille pour lui donner une hauteur de 450px (double-cliquer sur la zone bleue ou cliquer sur l'icône Propriétés à droite).
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_vf_taille.png){:.img.img-responsive.img-center.img-bordered}
 
 4.	Cliquer sur le bouton "**Enregistrer**" pour sauvegarde la modification de la page de présentation des objets de type Account.
 

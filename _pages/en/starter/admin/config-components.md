@@ -52,7 +52,9 @@ Insert a "**GeocodeAccount**" page in this new section.
 
     ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-vf_page.png){:.img.img-responsive.img-center.img-bordered}
 
-    For a nicer display of the component, change its size and give it a height of 450px.
+    For a nicer display of the component, change its size and give it a height of 450px (double click on the blue area or click on the Properties icon on the right).
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_vf_size.png){:.img.img-responsive.img-center.img-bordered}
 
 4.	Click on the "**Save**" button to save the modifications of the page layout of objects of the Account type.
 
