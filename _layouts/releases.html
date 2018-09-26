@@ -1,9 +1,10 @@
 {% include header.html %}
 
-<main>
+<div class="container-doc">
   <div class="container">
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row">        
+      <div class="col-md-10 col-md-offset-1">
+        <div class="content-body">
 
           <p>Il y a 3 ou 4 versions principales par an, avec des mises à jour en arrière-plan selon un cycle de sortie :</p>
           <ol>
@@ -11,19 +12,34 @@
             <li>Disponibilité sur l'AppExchange</li>
             <li>Mise à jour en Production</li>
           </ol>
+          
+          {% if page.type == 'collection' %}
+            {% assign posts=site.posts | where:"lang", page.lang %}
+            {% for post in posts %}
 
-          {% for post in site.posts %}
-            {{post.categories}}
-            {% if post.categories contains 'release' and post.lang == 'fr' %}
-              {{post.title}}
-              {{post.lead_text}}
-              <a href="{{ post.url }}"> En savoir plus →</a>
-            {% endif %}
-          {% endfor %}
+              {% if post.lang == 'fr'  %}
+                {% assign read_more = site.data.translation.release.fr.read_more %}
+              {% endif %}
 
+              {% if post.lang == 'en'  %}
+                {% assign read_more = site.data.translation.release.en.read_more %}
+              {% endif %}
+
+              {% if post.categories contains 'release'  %}
+                <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
+                {{post.lead_text}}
+                <a href="{{ post.url }}"> {{ read_more }}</a>
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+          {% endif %}
+
+                </div>
+            </div>
         </div>
     </div>
-  </div>
-</main>
+    </div>
 
 {% include footer.html %}
