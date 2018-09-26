@@ -4,6 +4,14 @@
   <div class="container">
     <div class="row">
         <div class="col-md-12">
+
+          <p>There are 3-4 main releases per year, with updates occuring silently in background as per a release cycle schedule:</p>
+          <ol>
+            <li>Email announcement with release notes</li>
+            <li>AppExchange availability</li>
+            <li>Production systems update</li>
+          </ol>
+
           {% for post in site.posts %}
             {{post.lead_text}}
             {% if post.categories contains 'release' and post.lang contains 'en' %}
@@ -12,6 +20,7 @@
               <a href="{{ post.url }}">Learn more →</a>
             {% endif %}
           {% endfor %}
+
         </div>
     </div>
   </div>
