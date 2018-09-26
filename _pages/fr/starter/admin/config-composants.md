@@ -7,7 +7,7 @@ lang: fr
 ref: components-integration
 ---
 
-# Configuration des composants de géocodage
+# Intégration et configuration des composants de géocodage
 
 ---
 
