@@ -33,11 +33,12 @@ Pour réaliser ceci, nous utiliserons le composant **GeocodeComponentLocationSF1
 {:.table.table-bordered}
 | Attributs      | Requis | Informations | |
 | ------------- | ------------- | ------------- |
-| recType        | Oui    | Type de l'objet Salesforce | |
-| geoLoc         | Oui    | Champ contenant les coordonnées | |
-| displayFields  |        | Liste de champs à afficher dans la fiche d'information | Visualisation |
-| maxResults     |        | Nombre de résultats max lors de la recherche de proximité. Par défaut la valeur est 10 | Visualisation |
-| nearbyDistance |        | Distance de recherche de proximité par défaut. Par défaut la valeur est 10 | Visualisation |
+| recType                | Oui | Type de l'objet Salesforce | |
+| standardAddress        |     | Champ d'adresse standard à utiliser (pour Compte, Contact et Piste) | |
+| geoLoc                 |     | Champ contenant les coordonnées | |
+| displayFields          |     | Liste de champs à afficher dans la fiche d'information | Visualisation |
+| maxResults             |     | Nombre de résultats max lors de la recherche de proximité. Par défaut la valeur est 10 | Visualisation |
+| nearbyDistance         |     | Distance de recherche de proximité par défaut. Par défaut la valeur est 10 | Visualisation |
 
 ### Création de la page Visualforce
 

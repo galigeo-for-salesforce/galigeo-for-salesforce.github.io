@@ -33,11 +33,12 @@ To achieve this, we will use the **GeocodeComponentLocationSF1** component which
 {:.table.table-bordered}
 | Attributes      | Required | Information | |
 | ------------- | ------------- | ------------- |
-| recType        | Yes    | Salesforce object type | |
-| geoLoc         | Yes    | Field containing the coordinates | |
-| displayFields  |        | List of fields to display in the infowindow | Visualization |
-| maxResults     |        | Number of max results when searching nearby. The value is 10 by default | Visualization |
-| nearbyDistance |        | Nearby search default distance. The value is 10 by default | Visualization |
+| recType           | Yes | Salesforce object type | |
+| standardAddress   |     | Standard Address field to use (for Account, Contact and Lead) | |
+| geoLoc            |     | Field containing the coordinates | |
+| displayFields     |     | List of fields to display in the infowindow | Visualization |
+| maxResults        |     | Number of max results when searching nearby. The value is 10 by default | Visualization |
+| nearbyDistance    |     | Nearby search default distance. The value is 10 by default | Visualization |
 
 ### Creating the Visualforce page
 
