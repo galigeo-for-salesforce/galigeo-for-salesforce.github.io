@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: releases
 title: Releases
 type: collection
 permalink: /releases
