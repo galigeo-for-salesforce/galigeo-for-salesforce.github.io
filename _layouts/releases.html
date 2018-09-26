@@ -6,12 +6,16 @@
       <div class="col-md-10 col-md-offset-1">
         <div class="content-body">
 
-          <p>Il y a 3 ou 4 versions principales par an, avec des mises à jour en arrière-plan selon un cycle de sortie :</p>
+          <h1>Notes de versions</h1>
+
+          <p>Il y a 3 ou 4 versions principales par an, avec des mises à jour en arrière-plan selon le cycle de sortie suivant :</p>
           <ol>
             <li>Annonce par e-mail avec notes de version</li>
             <li>Disponibilité sur l'AppExchange</li>
             <li>Mise à jour en Production</li>
           </ol>
+
+          Les dernières mises à jour sont ci-dessous :
           
           {% if page.type == 'collection' %}
             {% assign posts=site.posts | where:"lang", page.lang %}

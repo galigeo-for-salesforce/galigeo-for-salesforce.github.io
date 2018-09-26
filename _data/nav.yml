@@ -3,7 +3,7 @@ fr:
   - { url: '/debuter-adv', text: 'Advanced', type: 'advanced' }
   - { url: '/debuter-geocodage', text: 'Starter', type: 'starter' }
 #  - { url: '/faq', text: 'FAQ', type: 'faqs' }
-  - { url: '/releases', text: 'Releases', type: 'release' }
+  - { url: '/versions', text: 'Versions', type: 'release' }
 # - { url: '/videos', text: 'Vidéos', type: 'video' }
 
 en:
@@ -11,5 +11,5 @@ en:
   - { url: '/getting-started-adv', text: 'Advanced', type: 'advanced' }
   - { url: '/getting-started-geocoding', text: 'Starter', type: 'starter' }
 #  - { url: '/faqs', text: 'FAQs', type: 'faqs' }
-  - { url: '/releases-en', text: 'Releases', type: 'release' }
+  - { url: '/releases', text: 'Releases', type: 'release' }
 # - { url: '/videos-en', text: 'Videos', type: 'video' }
