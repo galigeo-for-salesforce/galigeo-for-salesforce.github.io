@@ -29,6 +29,8 @@ Cliquez sur le bouton « Nouveau », sélectionnez l’option « Utilisez l’as
 
 ## Créer un objet géographique en utilisant l’assistant de création
 
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/jFFYVItd7E8" frameborder="0" allowfullscreen></iframe>
+
 La création se déroule en trois étapes :
 
 - Donner un nom à la configuration
@@ -105,6 +107,8 @@ Cliquez sur le bouton « éditer » pour modifier les « Propriétés » et la c
 Cliquez sur le bouton « Retour » pour retourner à la page d’administration et sur le bouton « Supprimer » pour supprimer cet objet géographique.
 
 ## Créer un Objet géographique en utilisant le mode avancé
+
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/xJtxNy23vv0" frameborder="0" allowfullscreen></iframe>
 
 Dans la section **Galigeo Admin**, cliquez sur le bouton **« Nouveau »**, choisissez l’option
 « Utiliser le mode de création avancé (objets standard et customisés) et cliquez sur « OK » :

@@ -29,6 +29,8 @@ Click on the "New" button, select the option "Using the wizard for Salesforce St
 
 ## Create a Map Object using the creation wizard
 
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/RT8hfLS9t6o" frameborder="0" allowfullscreen></iframe>
+
 The creation is in three steps:
 
 - Define a name for the configuration
@@ -103,6 +105,8 @@ Click on the "Edit" button to modify the "Properties" and the "Display fields" c
 User can click on the "Back" button to go to the Admin page or on the "Delete" button if he wants to delete the current configuration.
 
 ## Create a Map Object using the advanced mode
+
+<iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/RutM55T50N4" frameborder="0" allowfullscreen></iframe>
 
 From the **Galigeo Admin** page, click on the "New" button, choose the option "Using advanced mode (custom and standard objects)" and click "OK":
 
