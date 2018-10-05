@@ -20,17 +20,16 @@ A gauche, des outils permettant diverses actions :
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-actions-fr.png){:.img.img-responsive.img-center.img-bordered}
 
-Afficher la localisation
-
+1. Afficher la localisation
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-fr.png){:.img.img-responsive.img-center.img-bordered}
 
-[Réaliser ou corriger le géocodage](/geocodage#géocodage-à-partir-dune-adresse)
-
+2. Réaliser ou corriger le géocodage
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-adresse2.png){:.img.img-responsive.img-center.img-bordered}
+[En savoir plus](/geocodage#géocodage-à-partir-dune-adresse)
 
-[Effectuer une recherche de proximité](/geocodage#recherche-à-proximité)
-
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding-nearby_search_results.png){:.img.img-responsive.img-center.img-bordered}
+3. Effectuer une recherche de proximité
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-proximite_resultat_recherche-small.png){:.img.img-responsive.img-center.img-bordered}
+[En savoir plus](/geocodage#recherche-à-proximité)
 
 ## Contrôles
 

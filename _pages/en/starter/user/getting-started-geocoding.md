@@ -20,17 +20,16 @@ On the left, tools allow various actions:
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-actions.png){:.img.img-responsive.img-center.img-bordered}
 
-Show location
-
+1. Show location
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-en.png){:.img.img-responsive.img-center.img-bordered}
 
-[Start the geocoding or correct it](/geocoding#geocoding-from-an-address)
-
+2. Start the geocoding or correct it
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding-address2.png){:.img.img-responsive.img-center.img-bordered}
+[More info](/geocoding#geocoding-from-an-address)
 
-[Search nearby](/geocoding#nearby-search)
-
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-en.png){:.img.img-responsive.img-center.img-bordered}
+3. Search nearby
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding-nearby_search_results-small.png){:.img.img-responsive.img-center.img-bordered}
+[More info](/geocoding#nearby-search)
 
 ## Controls
 
