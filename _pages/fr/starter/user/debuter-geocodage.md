@@ -20,8 +20,10 @@ A gauche, des outils permettant diverses actions :
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-actions-fr.png){:.img.img-responsive.img-center.img-bordered}
 
+<p>
 <span class="text-center">Afficher la localisation</span>
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-fr.png){:.img.img-responsive.img-center.img-bordered}
+<img src="/assets/img-str-user/getting_started_geocoding-location-fr.png" class=".img.img-responsive.img-center.img-bordered">
+</p>
 
 <span class="text-center"><a href="/geocodage#géocodage-à-partir-dune-adresse">Réaliser ou corriger le géocodage</a></span>
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-adresse2.png){:.img.img-responsive.img-center.img-bordered}
