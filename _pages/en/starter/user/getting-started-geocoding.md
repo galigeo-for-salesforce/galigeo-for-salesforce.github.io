@@ -18,11 +18,19 @@ The geocoding component has a simple interface with:
 
 On the left, tools allow various actions:
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-actions.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-actions.png){:.img.img-responsive.img-center.img-bordered}
 
-- Show location
-- Start the geocoding or correct it
-- Search nearby
+Show location
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-en.png){:.img.img-responsive.img-center.img-bordered}
+
+[Start the geocoding or correct it](/geocoding#geocoding-from-an-address)
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding-address2.png){:.img.img-responsive.img-center.img-bordered}
+
+[Search nearby](/geocoding#nearby-search)
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-en.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Controls
 

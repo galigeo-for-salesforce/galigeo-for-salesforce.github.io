@@ -18,11 +18,19 @@ Le module de géocodage présente une interface simple avec :
 
 A gauche, des outils permettant diverses actions :
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started-geocoding-actions-fr.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-actions-fr.png){:.img.img-responsive.img-center.img-bordered}
 
-- Afficher la localisation 
-- Réaliser ou corriger le géocodage 
-- Effectuer une recherche de proximité
+Afficher la localisation
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-fr.png){:.img.img-responsive.img-center.img-bordered}
+
+[Réaliser ou corriger le géocodage](/geocodage#géocodage-à-partir-dune-adresse)
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocodage-adresse2.png){:.img.img-responsive.img-center.img-bordered}
+
+[Effectuer une recherche de proximité](/geocodage#recherche-à-proximité)
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding-nearby_search_results.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Contrôles
 
