@@ -20,14 +20,20 @@ On the left, tools allow various actions:
 
 ![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-actions.png){:.img.img-responsive.img-center.img-bordered}
 
-<span class="text-center">Show location</span>
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/getting_started_geocoding-location-en.png){:.img.img-responsive.img-center.img-bordered}
+<p class="text-center">
+<span>Show location</span>
+<img src="/assets/img-str-user/getting_started_geocoding-location-en.png" class="img img-responsive img-center img-bordered">
+</p>
 
-<span class="text-center"><a href="/geocoding#geocoding-from-an-address">Start the geocoding or correct it</a></span>
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding-address2.png){:.img.img-responsive.img-center.img-bordered}
+<p class="text-center">
+<span><a href="/geocoding#geocoding-from-an-address">Start the geocoding or correct it</a></span>
+<img src="/assets/img-str-user/geocoding-address2.png" class="img img-responsive img-center img-bordered">
+</p>
 
-<span class="text-center"><a href="/geocoding#nearby-search">Search nearby</a></span>
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-str-user/geocoding-nearby_search_results-small.png){:.img.img-responsive.img-center.img-bordered}
+<p class="text-center">
+<span><a href="/geocoding#nearby-search">Search nearby</a></span>
+<img src="/assets/img-str-user/geocoding-nearby_search_results-small.png" class="img img-responsive img-center img-bordered">
+</p>
 
 ## Controls
 
