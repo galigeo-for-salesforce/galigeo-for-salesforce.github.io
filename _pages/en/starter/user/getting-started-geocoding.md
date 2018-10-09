@@ -10,7 +10,7 @@ ref: getting-started-geocoding
 # Getting Started
 
 This article describes the features of the geocoding component, integrated into the page layout of a Salesforce object (Standard or Custom). As part of this guide, we will use a custom object named "**POS**".
-We assume that the [configuration and integration of the geocoding component](config-components) was done beforehand by a Salesforce administrator.
+We assume that the [configuration and integration of the geocoding component](/components-integration) was done beforehand by a Salesforce administrator.
 
 The geocoding component has a simple interface with:
 
