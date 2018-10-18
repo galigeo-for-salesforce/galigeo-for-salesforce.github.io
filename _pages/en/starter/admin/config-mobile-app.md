@@ -132,12 +132,12 @@ We will create a Visualforce page which integrates the "**GeocodeComponentQuickA
 4. In the page code, put the following:
 
     ```
-    <apex:page showHeader="false" sidebar="false" standardController="PDV__c" docType="html-5.0">
+    <apex:page showHeader="false" sidebar="false" standardController="Account" docType="html-5.0">
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     </head>
     <body>
-      <ggo:GeocodeComponentQuickActionSF1 recId="{!PDV__c.id}" recType="PDV__c" 
+      <ggo:GeocodeComponentQuickActionSF1 recId="{!Account.id}" recType="Account" 
         street="BillingStreet" city="BillingCity" 
         postalCode="BillingPostalCode" state="BillingState" 
         country="BillingCountry" 
