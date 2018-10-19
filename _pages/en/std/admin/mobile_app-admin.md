@@ -15,8 +15,5 @@ In order for Galigeo to be displayed in the navigation of the Salesforce mobile 
 2. Select "Galigeo SF1" and move it in the Selected list using the add button
 3. Save
 
-<p class="text-center">
-<img src="/assets/img-std-admin-en/mobile_app_admin-add.png" class="img img-bordered">
-<img src="/assets/img-std-admin-en/mobile_app_admin-added.png" class="img img-bordered">
-</p>
-
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin-en/mobile_app_admin-add.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin-en/mobile_app_admin-added.png){:.img.img-responsive.img-center.img-bordered}
