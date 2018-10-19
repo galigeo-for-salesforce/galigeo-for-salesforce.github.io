@@ -57,7 +57,7 @@ Let's create the Visualforce page that integrates the **GeocodeComponentLocation
     <body>
       <ggo:GeocodeComponentLocationSF1 recType="Account" 
         geoLoc="GeoLoc__c"  
-        displayfields=" " 
+        displayfields="Phone" 
         maxResults="50" nearbyDistance="0.4"/>    
     </body>
     </apex:page>
