@@ -57,7 +57,7 @@ Let's create the Visualforce page that integrates the **GeocodeComponentLocation
     <body>
       <ggo:GeocodeComponentLocationSF1 recType="Account" 
         geoLoc="GeoLoc__c"  
-        displayfields=" " 
+        displayfields="Phone" 
         maxResults="50" nearbyDistance="0.4"/>    
     </body>
     </apex:page>
@@ -132,17 +132,17 @@ We will create a Visualforce page which integrates the "**GeocodeComponentQuickA
 4. In the page code, put the following:
 
     ```
-    <apex:page showHeader="false" sidebar="false" standardController="PDV__c" docType="html-5.0">
+    <apex:page showHeader="false" sidebar="false" standardController="Account" docType="html-5.0">
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     </head>
     <body>
-      <ggo:GeocodeComponentQuickActionSF1 recId="{!PDV__c.id}" recType="PDV__c" 
+      <ggo:GeocodeComponentQuickActionSF1 recId="{!Account.id}" recType="Account" 
         street="BillingStreet" city="BillingCity" 
         postalCode="BillingPostalCode" state="BillingState" 
         country="BillingCountry" 
         geoLoc="geoLoc__c"  
-        displayfields=""  
+        displayfields="Phone"  
         normStreet="Normalized_Street__c" normCity="Normalized_City__c"
         normPostalCode="Normalized_Postal_Code__c" normState="Normalized_State__c" 
         normCountry="Normalized_Country__c"  
