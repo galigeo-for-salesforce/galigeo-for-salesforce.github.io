@@ -16,4 +16,5 @@ Pour afficher Galigeo dans le menu de l'application mobile Salesforce :
 3. Sauvegardez
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/app_mobile_admin-ajout.png){:.img.img-responsive.img-center.img-bordered}
+
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin/app_mobile_admin-ajoute.png){:.img.img-responsive.img-center.img-bordered}

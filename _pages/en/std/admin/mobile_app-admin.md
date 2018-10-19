@@ -16,4 +16,5 @@ In order for Galigeo to be displayed in the navigation of the Salesforce mobile 
 3. Save
 
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin-en/mobile_app_admin-add.png){:.img.img-responsive.img-center.img-bordered}
+
 ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-std-admin-en/mobile_app_admin-added.png){:.img.img-responsive.img-center.img-bordered}
