@@ -13,7 +13,7 @@ fr:
       - { url: '/actions-admin', text: 'Actions personnalisées', prev: '/tableaux-de-bord-admin' , next: '/listes-associees-admin' }
       - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/statistiques' }
       - { url: '/statistiques', text: 'Statistiques' , prev: '/listes-associees-admin' , next: '/app-mobile-admin' }
-      - { url: '/app-mobile-admin', text: 'Configuration de l'app mobile' , prev: '/statistiques' , next: '/debuter' }
+      - { url: '/app-mobile-admin', text: 'Configuration de l''app mobile' , prev: '/statistiques' , next: '/debuter' }
     user:
       - { url: '/debuter', text: 'Débuter', prev: '/app-mobile-admin' , next: '/create-map' }
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
