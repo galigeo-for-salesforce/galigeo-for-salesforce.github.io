@@ -41,6 +41,9 @@ We will integrate the geocoding component to the page layout of an Account, Cont
 We will use the billing address of an account to geocode it and display a map on the layout page. We will integrate the GeocodeAccountBilling page by following the steps below:
 
 1.	Go to **Setup > Objects and Fields > Object Manager > Account > Page layouts** (Salesforce Lightning)
+
+    ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_object_manager.png){:.img.img-responsive.img-center.img-bordered}
+
 2.	In the "Page layouts" section, click on "Edit" in front of the desired layout.
 
     ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-config_page_layout.png){:.img.img-responsive.img-center.img-bordered}
