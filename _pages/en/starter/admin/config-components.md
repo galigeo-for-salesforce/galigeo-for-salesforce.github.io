@@ -19,9 +19,7 @@ ref: components-integration
 
 ---
 
-We will integrate the geocoding component to the page layout of an Account, Contact or Lead in a section named "**Map**".
-
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout.png){:.img.img-responsive.img-center.img-bordered}
+We will integrate the geocoding component to the page layout of an Account, Contact or Lead.
 
 5 components have been preconfigured based on Salesforce standard addresses of objects:
 
@@ -57,6 +55,10 @@ Insert a "**GeocodeAccount**" page in this new section.
     ![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_vf_size.png){:.img.img-responsive.img-center.img-bordered}
 
 4.	Click on the "**Save**" button to save the modifications of the page layout of objects of the Account type.
+
+You will now see a map in the page layout of an Account for example, in a section named "**Map**":
+
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Advanced configuration by creating Visualforce pages
 

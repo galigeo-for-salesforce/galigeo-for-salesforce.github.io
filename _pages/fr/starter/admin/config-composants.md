@@ -19,9 +19,7 @@ ref: components-integration
 
 ---
 
-Nous allons intégrer le composant de géocodage à la page de présentation d'un Compte, Contact, ou Piste dans une section nommée "**Carte**".
-
-![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout-fr.png){:.img.img-responsive.img-center.img-bordered}
+Nous allons intégrer le composant de géocodage à la page de présentation d'un Compte, Contact, ou Piste.
 
 5 composants ont été préconfigurés en se basant sur les adresses standards Salesforce des objets :
 
@@ -40,7 +38,7 @@ Nous allons intégrer le composant de géocodage à la page de présentation d'u
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo?start=33" frameborder="0" allowfullscreen></iframe>
 <br/>
 
-Nous allons utiliser l'adresse de facturation d'un compte pour le géocoder et afficher une carte dans la page de présentation. Nous allons donc intégrer la page GeocodeAccountBilling en suivants les étapes ci-dessous :
+Nous allons utiliser l'adresse de facturation d'un compte pour le géocoder et afficher une carte dans la page de présentation. Nous allons donc intégrer la page GeocodeAccountBilling en suivant les étapes ci-dessous :
 
 1.	Se rendre dans **Configuration > Objets et champs > Gestionnaire d'objets > Compte > Présentation de page**
 2.	Dans la section "Présentations de page", cliquer sur "Modifier" devant la présentation souhaitée.
@@ -60,20 +58,24 @@ Insérer la page "**GeocodeAccountBilling**" dans cette nouvelle section.
 
 Répéter les mêmes étapes pour intégrer d'autres composants et adresses présentés dans le tableau ci-dessus.
 
+Vous devriez désormais voir une carte dans la page de présentation d'un Compte par exemple, dans une section nommée "**Carte**" :
+
+![Galigeo for Salesforce Admin]({{ site.url }}/assets/img-str-admin/config_components-page_layout-fr.png){:.img.img-responsive.img-center.img-bordered}
+
 ## Configuration avancée par la création de pages Visualforce
 
 Vous pouvez personnaliser les composants avant de les intégrer dans une page.
 
-<div class="alert alert-warning" role="alert"> <strong>Important :</strong> si ce n'est pas déjà le cas, vous devez créer un champ personnalisé de géolocalisation, paramétré en Décimal avec 8 chiffres pour les décimales. Dans cet article nous l'appelerons <code>geoloc__c</code>.</div>
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> si ce n'est pas déjà le cas, vous devez créer un champ personnalisé de géolocalisation, paramétré en Décimal avec 8 chiffres pour les décimales. Dans cet article nous l'appellerons <code>geoloc__c</code>.</div>
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/m-p-FMbgYLo" frameborder="0" allowfullscreen></iframe>
 <br/>
 
 Nous allons créer une page Visualforce qui intègre le composant **GeocodeComponent**.
 
-1.  Dans **Configuration > Développer > Pages**
+1.  Dans **Configuration > Code personnalisé > Pages Visualforce** (Salesforce Lightning) ou **Configuration > Développer > Pages** (Salesforce Classic)
 2.  Cliquer sur le bouton "Nouveau" pour créer une nouvelle page
-3.  Dans la zone de saisie de l'étiquette, entrer la valeur "**GeocodePDV**"
+3.  Dans la zone de saisie de l'étiquette, entrer la valeur "**GeocodeAccount**"
 4.  Dans le code de la page, mettons ce qui suit :
 
     ```
