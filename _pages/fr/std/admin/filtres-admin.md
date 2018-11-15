@@ -143,6 +143,8 @@ Le nouveau filtre apparaît désormais dans la section des filtres.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-092.png){:.img.img-responsive.img-center}
 
+### Tester tous les filtres
+
 Cliquez sur le bouton « Test » pour tester l'ensemble des filtres.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/filtres_admin-test_filtres.png){:.img.img-responsive.img-center.img-bordered}

@@ -150,6 +150,8 @@ The filters section now contains the new filter.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter19.png){:.img.img-responsive.img-center}
 
+### Testing all filters
+
 Click the "Test" button to test all filters.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filters_admin-testing_filters.png){:.img.img-responsive.img-center}
