@@ -145,10 +145,18 @@ At any moment, it is possible to test the Geo-Filter with a click on "Test Query
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter18.png){:.img.img-responsive.img-center}
 
-Click "Save" button to complete the Geo-Filter creation and get forwarded back to the Map Object details page.
+Click the "Save" button to complete the Geo-Filter creation and get forwarded back to the Map Object details page.
 The filters section now contains the new filter.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filter19.png){:.img.img-responsive.img-center}
+
+Click the "Test" button to test all filters.
+
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filters_admin-testing_filters.png){:.img.img-responsive.img-center}
+
+A message indicates if the test was passed or failed.
+
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin-en/filters_admin-testing_filters_ok.png){:.img.img-responsive.img-center}
 
 In the map interface, the user will see this filter with the data plot with the purple flag as in the image below.
 

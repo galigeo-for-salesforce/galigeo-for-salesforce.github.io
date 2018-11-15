@@ -143,6 +143,14 @@ Le nouveau filtre apparaît désormais dans la section des filtres.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-092.png){:.img.img-responsive.img-center}
 
+Cliquez sur le bouton « Test » pour tester l'ensemble des filtres.
+
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/filtres_admin-test_filtres.png){:.img.img-responsive.img-center.img-bordered}
+
+Un message indique la réussite ou l'échec du test.
+
+![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/filtres_admin-test_filtres_ok.png){:.img.img-responsive.img-center.img-bordered}
+
 Dans l’interface cartographique, l’utilisateur retrouve ce filtre dont les données sont représentées par un marqueur jaune.
 
 ![Configuration Galigeo for Salesforce]({{ site.url }}/assets/img-std-admin/Galigeo4SFDC_Administrati-095.jpg){:.img.img-responsive.img-center}
