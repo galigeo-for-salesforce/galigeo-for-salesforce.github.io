@@ -13,9 +13,10 @@ fr:
       - { url: '/actions-admin', text: 'Actions personnalisées', prev: '/tableaux-de-bord-admin' , next: '/listes-associees-admin' }
       - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/statistiques' }
       - { url: '/statistiques', text: 'Statistiques' , prev: '/listes-associees-admin' , next: '/app-mobile-admin' }
-      - { url: '/app-mobile-admin', text: 'Configuration de l''app mobile' , prev: '/statistiques' , next: '/debuter' }
+      - { url: '/app-mobile-admin', text: 'Configuration de l''app mobile' , prev: '/statistiques' , next: '/options-admin' }
+      - { url: '/options-admin', text: 'Options' , prev: '/app-mobile-admin' , next: '/debuter' }
     user:
-      - { url: '/debuter', text: 'Débuter', prev: '/app-mobile-admin' , next: '/create-map' }
+      - { url: '/debuter', text: 'Débuter', prev: '/options-admin' , next: '/create-map' }
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
       - { url: '/interface-carto', text: 'Présentation de l''interface', prev: '/create-map' , next: '/filtres' }
       - { url: '/filtres', text: 'Filtres', prev: '/interface-carto' , next: '/planifier' }
@@ -45,9 +46,10 @@ en:
       - { url: '/dashboards-admin', text: 'Dashboards configuration', prev: '/actions-admin-en', next: '/related-lists-admin' }
       - { url: '/related-lists-admin', text: 'Related lists', prev: '/dashboards-admin', next: '/statistics' }
       - { url: '/statistics', text: 'Statistics', prev: '/related-lists-admin', next: '/mobile-app-admin' }
-      - { url: '/mobile-app-admin', text: 'Mobile app configuration', prev: '/statistics', next: '/getting-started' }
+      - { url: '/mobile-app-admin', text: 'Mobile app configuration', prev: '/statistics', next: '/admin-options' }
+      - { url: '/admin-options', text: 'Options', prev: '/mobile-app-admin', next: '/getting-started' }
     user:
-      - { url: '/getting-started', text: 'Getting Started', prev: '/mobile-app-admin', next: '/create-map-en' }
+      - { url: '/getting-started', text: 'Getting Started', prev: '/admin-options', next: '/create-map-en' }
       - { url: '/create-map-en', text: 'Create a map', prev: '/analytics-en', next: '/interface-en' }
       - { url: '/interface-en', text: 'Interface presentation', prev: '/create-map-en', next: '/filters-en' }
       - { url: '/filters-en', text: 'Filters and Actions', prev: '/interface-en', next: '/plan-en' }
