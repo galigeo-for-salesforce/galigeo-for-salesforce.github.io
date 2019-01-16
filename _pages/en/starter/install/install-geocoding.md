@@ -7,6 +7,9 @@ lang: en
 ref: install-geocoding
 ---
 
+{:.table.table-bordered}
+| ![notice]({{ site.url }}/assets/warning.png)  | Aucun support ne sera apporté pour ce composant mis gratuitement à disposition |
+
 # Package installation
 
 The geocoding app is, like any typical Salesforce application, installed from a URL, which can be launched in the browser or directly from the [Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000000q66zEAA).
