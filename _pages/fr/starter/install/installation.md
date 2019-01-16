@@ -7,7 +7,7 @@ lang: fr
 ref: install-geocoding
 ---
 
-{:.table.table-bordered}
+{:.table}
 | ![notice]({{ site.url }}/assets/warning.png){:height="40px" width="40px"}  | Aucun support ne sera apporté pour ce composant mis gratuitement à disposition. |
 
 # Installation du module de géocodage
