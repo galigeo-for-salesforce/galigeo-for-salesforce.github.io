@@ -8,7 +8,7 @@ ref: install-geocoding
 ---
 
 {:.table.table-bordered}
-| ![notice]({{ site.url }}/assets/warning.png)  | Aucun support ne sera apporté pour ce composant mis gratuitement à disposition |
+| ![notice]({{ site.url }}/assets/warning.png){:height="40px" width="40px"}  | No support provided for this free app. |
 
 # Package installation
 

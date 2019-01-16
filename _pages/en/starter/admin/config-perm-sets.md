@@ -7,6 +7,9 @@ lang: en
 ref: config-perm-sets
 ---
 
+{:.table.table-bordered}
+| ![notice]({{ site.url }}/assets/warning.png){:height="40px" width="40px"}  | No support provided for this free app. |
+
 # Permission sets configuration
 
 <iframe style="display:block;" class="img-center" width="560" height="315" src="https://www.youtube.com/embed/ZzB3Q2XV9xA" frameborder="0" allowfullscreen></iframe>

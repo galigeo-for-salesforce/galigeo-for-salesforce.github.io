@@ -11,6 +11,9 @@ ref: config-mobile-app
 
 ---
 
+{:.table.table-bordered}
+| ![notice]({{ site.url }}/assets/warning.png){:height="40px" width="40px"}  | Aucun support ne sera apporté pour ce composant mis gratuitement à disposition. |
+
 ## Dans cet article
 {:.no_toc}
 
