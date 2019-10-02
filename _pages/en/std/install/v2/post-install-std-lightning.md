@@ -2,9 +2,9 @@
 layout: sidebar
 title: Post installation du package
 categories: documentation
-permalink: /post-install-std-v2-en
+permalink: /post-install-std-lightning-en
 lang: fr
-ref: post-install-std-v2
+ref: post-install-std-lightning
 ---
 
 # Post-installation steps
