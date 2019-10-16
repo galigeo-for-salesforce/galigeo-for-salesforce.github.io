@@ -131,10 +131,6 @@ pre.highlight {
 
 .no-padding {padding: 0;}
 
-.img-center {margin: 0 auto;}
-
-.img-bordered {border: 1px solid #eaecef;}
-
 .table-small {font-size: 12px;}
 
 .table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
@@ -145,6 +141,11 @@ pre.highlight {
 .table-noheader th, .table-noheader td {
 	display: none !important;
 }
+
+
+.img-center {margin: 0 auto; }
+
+.img-bordered {border: 1px solid #eaecef;}
 
 .img-responsive {width : auto;}
 

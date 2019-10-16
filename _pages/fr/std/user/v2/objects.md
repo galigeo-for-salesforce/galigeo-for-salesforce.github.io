@@ -6,7 +6,9 @@ permalink: /lightning/objects
 lang: fr
 ref: lightning-objects
 ---
-
+<style>
+  .table-noheader th { display:none;}
+</style>
 # Cartes et couches
 
 À l'ouverture de l'application, le menu "Couches" est automatiquement ouvert et présente trois onglets:
@@ -92,7 +94,7 @@ Les filtres dynamiques permettent de filtrer les enregistrements par mot clé en
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
 | *Proposition de filtrage* | *Filtrage dynamique sur la ville de "Villeurbanne* |
 
-### Depuis le tableau de données
+## Fitlrage depuis le tableau de données
 
 Pour chacune des couches ouvertes, le tableau de données permet:
 
@@ -101,7 +103,9 @@ Pour chacune des couches ouvertes, le tableau de données permet:
 
 L'activation de ces filtres modifie l'affichage des objets sur la carte.
 
-#### filtrage par mot clé sur le noùm
+### Filtrage par mot clé sur le nom
+
+Une zone de saisie permet de filtrer dynamiquement les enregistrements sur leur nom.
 
 {:.table.table-noheader}
 |               |               |
@@ -110,11 +114,11 @@ L'activation de ces filtres modifie l'affichage des objets sur la carte.
 | *Tableau de données* | *Fitrage par le nom contenant "cafe"* |
 
 
-#### Filtrage des colonnes
+### Filtrage des colonnes
 
 Pour chacune des colonnes (de type liste de valeur le nombre, devises, date/dateime), il est possible de définir un filtre en cliquant sur l'icône filtre de la colonne. 
 
-##### Listes de valeur
+#### Listes de valeur
 
 {:.table.table-noheader}
 |               |               |
@@ -128,11 +132,12 @@ Pour chacune des colonnes (de type liste de valeur le nombre, devises, date/date
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_result.png){:.img.img-responsive.img-center}|
 | *Résultat* |
 
-##### Nombres et Devises
+#### Nombres et Devises
+
 Le filtrage sur des champs de type numériques ou devises se définit de la même manière:
 
-1. Définir un (des) critère(s): en choisissant un opérateur et une valeur
-2. Appliquer le filtre
+    1. Définir un (des) critère(s): en choisissant un opérateur et une valeur
+    2. Appliquer le filtre
 
 {:.table.table-noheader}
 |               |               |               |
@@ -146,7 +151,7 @@ Le filtrage sur des champs de type numériques ou devises se définit de la mêm
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
 |  *Résultat*   |
 
-##### Dates
+#### Dates
 
 Le filtrage sur les champs de type Date ou DateTime est réalisé en choisisant un opérateur et une période pré-définie. 
 
