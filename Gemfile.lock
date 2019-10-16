@@ -8,6 +8,7 @@ GEM
     colorator (0.1)
     execjs (2.7.0)
     ffi (1.9.6)
+    ffi (1.9.6-x64-mingw32)
     jekyll (3.1.6)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -39,8 +40,12 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll
   jekyll-coffeescript
   jekyll-paginate
+
+BUNDLED WITH
+   1.16.2

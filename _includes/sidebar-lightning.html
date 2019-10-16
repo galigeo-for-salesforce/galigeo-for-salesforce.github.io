@@ -15,7 +15,6 @@
 	{% assign links_install = site.data.sidebar.fr.std.install %}
 	{% assign links_admin = site.data.sidebar.fr.std.admin %}
 	{% assign links_lightning_user = site.data.sidebar.fr.std.lightning_user %}
-	{% assign links_user = site.data.sidebar.fr.std.user %}
 	{% assign links_faqs = site.data.sidebar.fr.std.faqs %}
 
 	{% assign faqs_guide = site.data.translation.sidebar.fr.faqs_guide %}
@@ -55,20 +54,6 @@
 <h4>{{user_guide}} Lightning</h4>
 <ul>
 	{% for item in links_lightning_user %}
-	<li>
-		{% if page.url == item.url %}
-		<a class= "active" href="{{ item.url }}">{{ item.text }}</a>
-		{% else %}
-		<a href="{{ item.url }}">{{ item.text }}</a>
-		{% endif %}
-	</li>
-	{% endfor %}
-</ul>
-
-
-<h4>{{user_guide}}</h4>
-<ul>
-	{% for item in links_user %}
 	<li>
 		{% if page.url == item.url %}
 		<a class= "active" href="{{ item.url }}">{{ item.text }}</a>
