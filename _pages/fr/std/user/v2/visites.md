@@ -1,0 +1,134 @@
+---
+layout: sidebar-lightning
+title: Plan de visite et Itinéraire optimisé
+categories: documentation
+permalink: /lightning/visites
+lang: fr
+ref: lightning-visites
+---
+<style>
+  .table-noheader th { display:none;}
+</style>
+
+# Plans de visite et itinéraires optimisés
+
+L'article vous montrera comment ajouter des objets à un plan de visite, générer un itinéraire optimisé et créer des [événements](https://help.salesforce.com/articleView?id=events_and_calendars.htm) dans le calendrier Salesforce depuis l'application.
+
+## Ajouter un événement au calendrier Salesforce
+
+Pour créer un événement sur un objet spécifique, cliquez sur l'action "Ajouter au calendrier" depuis la fiche d'information
+![Planning]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_actions.png){:.img.img-responsive.img-center.img-bordered}
+
+Le formation de création d'un événement apparaît, complétez alors les champs obligatoires pour créer votre événement dans Salesforce. 
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/evt_create_popup_record.png){:.img.img-responsive.img-center.img-bordered}
+
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> Cette option n'est disponible uniquement pour Lightning ou dans l'application Salesforce Mobile</div>
+
+## Plannifier un itinéraire optimisé
+
+Grâce à la planification d'itinéraires il est possible d'ajouter simultanément plusieurs événements au calendrier Salesforce.
+
+Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_route.png) dans la barre d’outils pour afficher le panneau d’itinéraire.
+
+Pour ajouter un point à votre itinéraire, vous pouvez :
+
+- Cliquer sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_addbyclick.png) dans le panneau d'itinéraire pour sélectioner plusieurs objets à la suite en cliquant desssus (il devient alors actif et bleu)
+- Cliquer sur l'action "Ajouter à l'itinéraire" depuis la ficher d'information d'un objet
+- ou encore ajouter une liste d'objet à partir d'une [couche de travail](/lightning/working-layer)
+
+Lorsqu’un objet est ajouté à l’itinéraire, un numéro est ajouté au centre du marqueur correspondant et un aperçu indique la distance à vol d'oiseau.
+
+Différentes options de calcul d'itinéraire sont proposées :
+
+- En voiture ou à pied (optionnel)
+- Calculé uniquement entre les objets ou depuis le dernier emplacement connu via géolocalisation, recherche d'adresse ou déplacement de l'icône vert ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_currentlocation.png) indiquant la localisation courante
+- Optimisé (modifie l’ordre des points de passage pour le chemin le plus efficient) ou non optimisé (conserve l’ordre des points de passage)
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/selected_records.png){:.img.img-responsive.img-center.img-bordered}
+
+Cliquez sur le bouton « Calculer » pour calculer l’itinéraire. L’itinéraire s’affiche sur la carte et un résumé du trajet apparaît en haut. 
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/computed_route.png){:.img.img-responsive.img-center.img-bordered}
+
+Vous pouvez à tout moment retirer un point de l'itinéraire en cliquant sur la croix à droite du nom de l'objet.
+
+![PLanning]({{ site.url }}/assets/img-std-v2/user/planning/remove_record.png){:.img.img-responsive.img-center.img-bordered}
+
+## Ajouter plusieurs événements au calendrier
+
+Pour ajouter l'ensemble des objets qui constituent votre itinéraire, cliquez sur "Ajouter au calendrier".
+
+Pour l'ensemble de vos rendez-vous, sélectionnez ensuite :
+
+- Date
+- Sujet (la liste de types d'enregistrement d'événement est [gérable dans Salesforce](https://help.salesforce.com/articleView?id=event_fields_lex.htm))
+- Heure de premier rendez-vous
+- Fin du RDV
+
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/planning/create_events_popup.png){:.img.img-responsive.img-center.img-bordered}
+
+A noter que :
+
+- Le premier RDV débute à 8h par défaut
+- La durée des RDVs est de 60 min par défaut
+- Le temps de trajet entre deux RDVs est arrondi au quart d'heure supérieur pour prendre en compte l'heure de début du prochain
+- Un changement de l'heure de fin d'un RDV change automatiquement l'heure de début des suivants
+
+## Créer des événements récurrents
+
+Cliquer sur "Répéter la série d'événements" permet de rendre les événements récurrents selon une fréquence :
+
+### Hebdomadaire
+
+Choisissez :
+
+- La fréquence à laquelle ils vont se répéter en semaines
+- Quels jours de la semaine du Lundi au Dimanche (plusieurs choix possibles)
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/create_events_popup_recurrent_weekly.png){:.img.img-responsive.img-center.img-bordered}
+
+### Mensuelle
+
+Choisissez :
+
+- La fréquence à laquelle ils vont se répéter en mois
+- Quel jour de la semaine du Lundi au Dimanche (un seul choix possible)
+- Pour le jour de la semaine, si il s'agit du 1er, 2nd, 3ème, 4ème ou dernier du mois
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/create_events_popup_recurrent_monthly.png){:.img.img-responsive.img-center.img-bordered}
+
+Un clic sur le lien "[Date de fin]" permet de calculer automatiquement cette date en prenant compte les contraintes suivantes:
+
+- Hebdomaire : Date de fin = (Date Courante) + 52 * intervalle (en semaines)
+- Mensuelle : Date de fin = (Date Courante) + 60 * intervalle (en mois)
+
+<div class="alert alert-info" role="alert"> <strong>Note :</strong> La date maximale de fin dépend du type de récurrence et est un paramètre imposé par Salesforce car il n'est pas possible de créer des événements récurrents sans fin.</div>
+
+Dans le calendrier Galigeo les RDVs récurrents sont identifiables grâce à l'icône ![Loop icon]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_icon.png).
+
+![PLanning]({{ site.url }}/assets/img-std-v2/user/planning/created_events_recurrent.png){:.img.img-responsive.img-center.img-bordered}
+
+## Gérer les événements
+
+Pour ouvrir le calendrier, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_calendar.png). Une vue complète de la semaine est disponible sur la droite de la fenêtre et les événements précédemment créés y apparaissent :
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar.png){:.img.img-responsive.img-center.img-bordered}
+
+<div class="alert alert-info" role="alert"> <strong>Note :</strong> Seuls les événements dans une certaine plage de date apparaissent dans le calendrier. Celle-ci est de 30 jours dans le passé, 60 jours dans le futur par défaut, et peut être modifiée dans les options de la page d'administration.</div>
+
+Tous les événements y sont directement déplaçables par glisser-déposer. Leur durée est également modifiable en tirant le bas d'un événement.
+
+En cliquant sur une date du calendrier, vous filtrez la carte pour n’afficher que les objets pour lesquels il y a un rendez-vous à cette date. La carte sera centrée sur ces points (pour annuler la sélection cliquez à nouveau sur la date) et un résumé de la tournée s'affiche.
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar_datefiltered.png){:.img.img-responsive.img-center.img-bordered}
+
+Pour voir le calendrier d’un collaborateur, cliquez sur « Changer » en haut du calendrier.
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar_changeuser.png){:.img.img-responsive.img-center.img-bordered}
+
+Sélectionnez un collaborateur en cliquant sur son nom, pour faire apparaître son calendrier. Un champ de recherche permet également de filtrer cette liste.
+
+![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar_userpopup.png){:.img.img-responsive.img-center.img-bordered}
+
+Si vous avez les droits nécessaires, vous pouvez créer ou modifier les événements de ce calendrier.
+

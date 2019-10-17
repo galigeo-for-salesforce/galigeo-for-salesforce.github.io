@@ -18,7 +18,9 @@ fr:
     lightning_user:
       - { url: '/lightning/presentation', text: 'Présentation', next: '/lightning/objects' }
       - { url: '/lightning/interface', text: 'Interface', prev: '/lightning/presentation', next: '/lightning/objects' }
-      - { url: '/lightning/objects', text: 'Objets', prev: '/lightning/interface' }
+      - { url: '/lightning/objects', text: 'Objets', prev: '/lightning/interface', next: '/lightning/zone-interet' }
+      - { url: '/lightning/zone-interet', text: 'Zone Intérêt', prev: '/lightning/objects', next: '/lightning/working-layer' }
+      - { url: '/lightning/working-layer', text: 'Couche de travail', prev: '/lightning/zone-interet' }
     faqs:
       - { url: '/faq', text: 'FAQ' }
 en:

@@ -16,10 +16,15 @@ fr:
       - { url: '/app-mobile-admin', text: 'Configuration de l''app mobile' , prev: '/statistiques' , next: '/options-admin' }
       - { url: '/options-admin', text: 'Options' , prev: '/app-mobile-admin' , next: '/debuter' }
     lightning_user:
-      - { url: '/lightning/presentation', text: 'Présentation', next: '/lightning/objects' }
+      - { url: '/lightning/presentation', text: 'Présentation', next: '/lightning/interface' }
       - { url: '/lightning/interface', text: 'Interface', prev: '/lightning/presentation', next: '/lightning/objects' }
-      - { url: '/lightning/objects', text: 'Objets', prev: '/lightning/interface' }
-
+      - { url: '/lightning/objects', text: 'Objets', prev: '/lightning/interface', next: '/lightning/visites' }
+      - { url: '/lightning/visites', text: 'Plan de visite', prev: '/lightning/objects', next: '/lightning/listes-associees' }
+      - { url: '/lightning/listes-associees', text: 'Listes associées',  prev: '/lightning/visites', next: '/lightning/zone-interet' }
+      - { url: '/lightning/zone-interet', text: 'Zone Intérêt', prev: '/lightning/listes-associees', next: '/lightning/working-layer' }
+      - { url: '/lightning/working-layer', text: 'Couche de travail', prev: '/lightning/zone-interet', next: '/lightning/data-explorer' }
+      - { url: '/lightning/data-explorer', text: 'Exploration de données', prev: '/lightning/working-layer', next: '/lightning/create-record' }
+      - { url: '/lightning/create-record', text: 'Création de données', prev: '/lightning/data-explorer' }
     user:
       - { url: '/debuter', text: 'Débuter', prev: '/options-admin' , next: '/create-map' }
       - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
