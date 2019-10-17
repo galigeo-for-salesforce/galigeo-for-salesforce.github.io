@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Création d'objet
+title: Création d'objets
 categories: documentation
 permalink: /lightning/create-record
 lang: fr
@@ -10,9 +10,9 @@ ref: lightning-createrecord
   .table-noheader th { display:none;}
 </style>
 
-# Création d'objet
+# Création d'objets
 
-<div class="alert alert-warning" role="alert"> <strong>Important :</strong> La fonctionnalité de création d'objet est uniquement disponible dans un context Lightning de Salesforce ou dans l'Application Salesforce Mobile.</div>
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> La fonctionnalité de création d'objets est uniquement disponible dans un context Lightning de Salesforce ou dans l'Application Salesforce Mobile.</div>
 
 ## Depuis la carte
 
