@@ -7,7 +7,7 @@ lang: fr
 ref: post-install-std-lightning
 ---
 
-# Etapes de post-installation
+# Etapes de post-installation de Galigeo Lightning
 
 Pour terminer l’installation :
 
@@ -20,7 +20,7 @@ Pour terminer l’installation :
 
 ## Attribuer les nouvelles permissions aux utilisateurs
 
-Cette nouvelle version fournit un ensemble d'autorisation nommé "G4SFDC Map V2" contenant les droits nécesaires pour que les utilisateurs puissent d'une toute nouvelle expérience avec Galigeo
+Cette nouvelle version fournit un ensemble d'autorisation nommé "G4SFDC Map V2" contenant les droits nécesaires pour que les utilisateurs puissent profiter d'une toute nouvelle expérience avec Galigeo Lightning.
 
 ![Galigeo for Salesforce V2 Permission Set]({{ site.url }}/assets/img-std-v2/postinstall/g4sfdcv2_permset.png){:.img.img-responsive.img-center.img-bordered}
 
@@ -32,7 +32,7 @@ Afin d'assurer une transition fluide de suite nouvelle version, l'onglet "Galige
 
 Voici les étapes à suivre pour avoir accès à ce nouvel onglet:
 
-1. Configuration ==> Créer ==> Applications
+1. Aller dans Configuration → Créer → Applications
   ![Galigeo for Salesforce V2 App]({{ site.url }}/assets/img-std-v2/postinstall/galigeo_sfdc_app.png){:.img.img-responsive.img-center.img-bordered}
 2. Cliquer sur le lien "Modifier" devant "Galigeo App" et ajouter l'onglet "Glaigeo V2" à la liste des onglets sélectionnés
   ![Galigeo for Salesforce V2 Tab]({{ site.url }}/assets/img-std-v2/postinstall/galigeo_sfdc_tab.png){:.img.img-responsive.img-center.img-bordered}

@@ -1,0 +1,44 @@
+fr:
+  std:
+    install:
+      - { url: '/install-std', text: 'Installation du package', next: '/post-install-std' }
+      - { url: '/post-install-std', text: 'Post-installation', prev: '/install-std' , next: '/acces' }
+    admin:
+      - { url: '/acces', text: 'Accès', prev: '/post-install-std' , next: '/objet-geo' }
+      - { url: '/objet-geo', text: 'Objet géographique', prev: '/acces' , next: '/fiche-info-etiquettes-admin' }
+      - { url: '/fiche-info-etiquettes-admin', text: 'Fiche info et étiquettes', prev: '/objet-geo' , next: '/filtres-admin' }
+      - { url: '/filtres-admin', text: 'Filtres', prev: '/fiche-info-etiquettes-admin' , next: '/analyses-admin' }
+      - { url: '/analyses-admin', text: 'Analyses', prev: '/filtres-admin' , next: '/tableaux-de-bord-admin' }
+      - { url: '/tableaux-de-bord-admin', text: 'Tableaux de bord', prev: '/analyses-admin' , next: '/actions-admin' }
+      - { url: '/actions-admin', text: 'Actions personnalisées', prev: '/tableaux-de-bord-admin' , next: '/listes-associees-admin' }
+      - { url: '/listes-associees-admin', text: 'Listes associées' , prev: '/actions-admin' , next: '/statistiques' }
+      - { url: '/statistiques', text: 'Statistiques' , prev: '/listes-associees-admin' , next: '/app-mobile-admin' }
+      - { url: '/app-mobile-admin', text: 'Configuration de l''app mobile' , prev: '/statistiques' , next: '/options-admin' }
+      - { url: '/options-admin', text: 'Options' , prev: '/app-mobile-admin' , next: '/debuter' }
+    lightning_user:
+      - { url: '/lightning/presentation', text: 'Présentation', next: '/lightning/objects' }
+      - { url: '/lightning/interface', text: 'Interface', prev: '/lightning/presentation', next: '/lightning/objects' }
+      - { url: '/lightning/objects', text: 'Objets', prev: '/lightning/interface', next: '/lightning/zone-interet' }
+      - { url: '/lightning/zone-interet', text: 'Zone Intérêt', prev: '/lightning/objects', next: '/lightning/working-layer' }
+      - { url: '/lightning/working-layer', text: 'Couche de travail', prev: '/lightning/zone-interet' }
+    faqs:
+      - { url: '/faq', text: 'FAQ' }
+en:
+  std:
+    install:
+      - { url: '/install-std-en', text: 'Package Installation', next: '/post-install-std-en' }
+      - { url: '/post-install-std-en', text: 'Post installation', prev: '/install-std-en', next: '/access-en' }
+    admin:
+      - { url: '/access-en', text: 'Access', prev: '/post-install-std-en', next: '/geo-object-en' }
+      - { url: '/geo-object-en', text: 'Geographical Object', prev: '/access-en', next: '/infowindow-labels-admin' }
+      - { url: '/infowindow-labels-admin', text: 'Infowindow and labels', prev: '/geo-object-en', next: '/filters-admin' }
+      - { url: '/filters-admin', text: 'Filters', prev: '/infowindow-labels-admin', next: '/analytics-admin' }
+      - { url: '/analytics-admin', text: 'Analytics', prev: '/filters-admin', next: '/actions-admin-en' }
+      - { url: '/actions-admin-en', text: 'Custom actions', prev: '/analytics-admin', next: '/dashboards-admin' }
+      - { url: '/dashboards-admin', text: 'Dashboards configuration', prev: '/actions-admin-en', next: '/related-lists-admin' }
+      - { url: '/related-lists-admin', text: 'Related lists', prev: '/dashboards-admin', next: '/statistics' }
+      - { url: '/statistics', text: 'Statistics', prev: '/related-lists-admin', next: '/mobile-app-admin' }
+      - { url: '/mobile-app-admin', text: 'Mobile app configuration', prev: '/statistics', next: '/admin-options' }
+      - { url: '/admin-options', text: 'Options', prev: '/mobile-app-admin', next: '/getting-started' }    
+    faqs:
+      - { url: '/faqs', text: 'FAQs' }

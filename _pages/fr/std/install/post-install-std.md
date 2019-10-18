@@ -9,6 +9,10 @@ ref: post-install-std
 
 # Etapes de post-installation
 
+{:.table.table-bordered}
+| ![warning]({{ site.url }}/assets/warning.png)     | Pour activer la version Galigeo Lightning, veuillez suivre les instructions décrites dans la <a href="/post-install-std-lightning">Post-Installation de Galigeo Lightning</a> après avoir effectué celles sur cette page|
+
+--- 
 Pour terminer l’installation :
 
 - Donnez des droits d’accès à un profil utilisateur en utilisant l’une deux méthodes : 
@@ -19,6 +23,7 @@ Pour terminer l’installation :
 | ![warning]({{ site.url }}/assets/warning.png)     | Pour les utilisateurs avancés, qui ont accès à l’onglet « Galigeo Admin », l’assistant thématique est une application connectée (au sens de Salesforce) et hébergée sur Heroku. En suivant le workflow Java OAuth fourni par Salesforce, assurez-vous que l’option **« Afficher la configuration »** est activée dans les propriétés du profil ou dans les « ensembles d’autorisation ». |
 
 - Créez un champ custom Geolocation pour chque objet destiné à être cartographié.
+
 
 ---
 
