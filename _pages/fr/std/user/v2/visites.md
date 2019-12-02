@@ -6,9 +6,6 @@ permalink: /lightning/visites
 lang: fr
 ref: lightning-visites
 ---
-<style>
-  .table-noheader th { display:none;}
-</style>
 
 # Plans de visite et itinéraires optimisés
 

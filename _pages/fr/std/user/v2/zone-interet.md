@@ -7,10 +7,6 @@ lang: fr
 ref: lightning-areaofinterest
 ---
 
-<style>
-  .table-noheader th { display:none;}
-</style>
-
 # Zones d'intérêt
 
 Une zone d'intérêt est un polygone pouvant être dessiné sur la carte, sauvegardé et rechargé. L'onglet des zones d'intérêt est toujours disponible dans le tableau de données.
@@ -23,7 +19,7 @@ L'outil de dessin est accessible en cliquant sur l'icône ![Area of Interest]({{
 - Cliquer sur la carte pour dessiner le polygone
 - Cliquer sur le premier point pour fermer le polygone et terminer le dessin
 
-{:.table.table-noheader}
+{:.table}
 | | |
 |:-------------:|:-------------:|
 |![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|

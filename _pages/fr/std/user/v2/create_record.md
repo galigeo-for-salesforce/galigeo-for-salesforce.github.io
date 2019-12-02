@@ -7,10 +7,6 @@ lang: fr
 ref: lightning-createrecord
 ---
 
-<style>
-  .table-noheader th { display:none;}
-</style>
-
 # Création d'objets
 
 <div class="alert alert-warning" role="alert"> <strong>Important :</strong> La fonctionnalité de création d'objets est uniquement disponible dans un context Lightning de Salesforce ou dans l'Application Salesforce Mobile.</div>

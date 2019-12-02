@@ -7,10 +7,6 @@ lang: fr
 ref: lightning-workinglayer
 ---
 
-<style>
-  .table-noheader th { display:none;}
-</style>
-
 # Couches de travail
 
 Une couche de travail est une extraction des couches (objets Salesforce) visibles à l'écran.
@@ -20,7 +16,7 @@ Cette extraction peut se faire à partir:
 - [d'une zone d'intérêt](/lightning/zone-interet)
 - [d'un filtrage suite à une recherche à proximité](/lightning/objects#filtrage-par-recherche--proximit)
 
-{:.table.table-noheader}
+{:.table}
 | | |
 |:-------------:|:-------------:|
 |![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_aoi.png){:.img.img-responsive.img-center}|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_nearbysearch.png){:.img.img-responsive.img-center}|
@@ -43,7 +39,7 @@ Pour chacune de ces couches de travail, il est possible:
 - Ajouter ces objets à un itinéraire
 - Retirer la couche de travail
 
-{:.table.table-noheader}
+{:.table}
 | |
 |:-------------:|
 |![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/wl_popupmenu.png){:.img.img-responsive.img-center}|

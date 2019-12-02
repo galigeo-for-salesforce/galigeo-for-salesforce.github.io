@@ -7,21 +7,17 @@ lang: fr
 ref: lightning-related-lists
 ---
 
-<style>
-  .table-noheader th { display:none;}
-</style>
-
 # Listes associées
 
 Les Listes associées vous permettent de voir les objets liés à un point et leurs données, et de les afficher sur la carte s’ils sont géolocalisés.
 
 Pour un enregistrement, et s'il existe des listes associées configurées dans la page de présentation de l'objet (pouvant différer en fonction des utilisateurs et de leur rôle), il est possible d'obtenir ces listes en cliquant sur l'action "Liste(s) associée(s)" depuis le tableau de données ou une des actions de la fiche d'informations.
 
-{:.table.table-noheader}
+{:.table}
 | | |
 |:-------------:|:-------------:|
 |![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access_datatable.png){:.img.img-responsive.img-center} |![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access_infowindow.png){:.img.img-responsive.img-center} |
-| \_Tableau de données* | _Fiche d'information_ |
+| *Tableau de données* | *Fiche d'information* |
 
 Le résultat est affiché dans un tableau en bas de la carte et les différentes listes sont regroupées par onglet.
 
