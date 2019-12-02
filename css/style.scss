@@ -131,16 +131,21 @@ pre.highlight {
 
 .no-padding {padding: 0;}
 
-.img-center {margin: 0 auto;}
-
-.img-bordered {border: 1px solid #eaecef;}
-
 .table-small {font-size: 12px;}
 
 .table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
     background: #f7f7f7;
     border-bottom-width: 0;
 }
+
+.table-noheader th, .table-noheader td {
+	display: none !important;
+}
+
+
+.img-center {margin: 0 auto; }
+
+.img-bordered {border: 1px solid #eaecef;}
 
 .img-responsive {width : auto;}
 
@@ -169,8 +174,8 @@ pre.highlight {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-   border: #f1f1f1;
-   border-width: 2px;
+	border: #f1f1f1;
+	border-width: 2px;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
@@ -394,19 +399,20 @@ https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using
 .block-home {
 	margin-top: 20px;
 	margin-bottom: 20px;
- }
+}
 
- .block-home .wrap {
-  	padding: 0 24px 0;
-  	min-height: 200px;
-    border: 1px solid #f1f1f1;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,.03);
-    border-radius: 4px;
-    &:hover {
-    	border-color: #BBD1EE;
-    	box-shadow: 0 1px 4px 0 rgba(0,0,0,.08);
-    	cursor: pointer;
-    	}
-    .img {margin-top: 24px;}
-    .anchorjs-link {display: none;}
- }
+.block-home .wrap {
+	padding: 0 24px 0;
+	min-height: 200px;
+	border: 1px solid #f1f1f1;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.03);
+	border-radius: 4px;
+	&:hover {
+		border-color: #BBD1EE;
+		box-shadow: 0 1px 4px 0 rgba(0,0,0,.08);
+		cursor: pointer;
+		}
+	.img {margin-top: 24px;}
+	.anchorjs-link {display: none;}
+}
+

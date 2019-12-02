@@ -19,10 +19,10 @@ release:
 footer:
   en:
     - {url: "https://www.galigeo.com/location-intelligence-software-overview/galigeo-salesforce/", text: "Product Page"}
-    - {url: "https://www.galigeo.com/company/about-galigeo/", text: "About Galigeo"}
+    - {url: "https://www.galigeo.com/societe-galigeo/", text: "About Galigeo"}
   fr:
-    - {url: "https://www.galigeo.com/fr/cartographie-pour-salesforce-sap-et-ibm/cartographie-pour-salesforce/", text: "Page produit"}
-    - {url: "https://www.galigeo.com/fr/societe/apps-de-cartographie/", text: "A propos de Galigeo"}
+    - {url: "https://www.galigeo.com/salesforce-map/", text: "Page produit"}
+    - {url: "https://www.galigeo.com/societe-galigeo/", text: "A propos de Galigeo"}
 
 pagination:
   en:
