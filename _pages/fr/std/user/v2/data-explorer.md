@@ -33,7 +33,7 @@ Si l'utilisateur est dans un contexte d'exécution Lightning de Salesforce, la f
 {:.table.table-noheader}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene*newlead.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newaccount.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newcontact.png){:.img.img-responsive.img-center}
+|![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newlead.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newaccount.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newcontact.png){:.img.img-responsive.img-center}
 | \_Nouvelle Piste* | _Nouveau Compte_ | _Nouveau Contact_ |
 
 <div class="alert alert-warning" role="alert"> <strong>Important :</strong> La création de ces objets est entièrement déléguée à Salesforce, i.e le formulaire est celui paramétré dans Salesforce. Galigeo envoie uniquement les informations nécessaires.</div>

@@ -26,7 +26,7 @@ L'outil de dessin est accessible en cliquant sur l'icône ![Area of Interest]({{
 {:.table.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi*drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|
+|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|
 | \_Dessin en cours* | _Dessin terminé_ |
 
 Une fois terminé, la zone est disponible dans la liste:

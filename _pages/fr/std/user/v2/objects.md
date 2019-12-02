@@ -182,7 +182,7 @@ L'application offre trois manières de réaliser un filtrage des éléments en f
 {:.table.table-bordered.table-noheader}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns*currentlocation.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_infowindow.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_rightclick.png){:.img.img-responsive.img-center}|
+|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_currentlocation.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_infowindow.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_rightclick.png){:.img.img-responsive.img-center}|
 | \_Localisation courante* | _Fiche d'information_ | _Clic droit_|
 
 Ce qui ouvre une fenêtre invitant l'utilisateur à renseigner la distance et l'unité:

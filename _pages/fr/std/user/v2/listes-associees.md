@@ -20,7 +20,7 @@ Pour un enregistrement, et s'il existe des listes associées configurées dans l
 {:.table.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access*datatable.png){:.img.img-responsive.img-center} |![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access_infowindow.png){:.img.img-responsive.img-center} |
+|![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access_datatable.png){:.img.img-responsive.img-center} |![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access_infowindow.png){:.img.img-responsive.img-center} |
 | \_Tableau de données* | _Fiche d'information_ |
 
 Le résultat est affiché dans un tableau en bas de la carte et les différentes listes sont regroupées par onglet.
