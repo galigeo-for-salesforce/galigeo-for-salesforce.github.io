@@ -6,12 +6,14 @@ permalink: /lightning/zone-interet
 lang: fr
 ref: lightning-areaofinterest
 ---
+
 <style>
   .table-noheader th { display:none;}
 </style>
+
 # Zones d'intérêt
 
-Une zone d'intérêt est un polygone pouvant être dessiné sur la carte, sauvegardé et rechargé. L'onglet des zones d'intérêt est toujours disponible dans le tableau de donnée.
+Une zone d'intérêt est un polygone pouvant être dessiné sur la carte, sauvegardé et rechargé. L'onglet des zones d'intérêt est toujours disponible dans le tableau de données.
 ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/blank_panel.png){:.img.img-responsive.img-center}
 
 ## Dessiner des zones
@@ -22,17 +24,17 @@ L'outil de dessin est accessible en cliquant sur l'icône ![Area of Interest]({{
 - Cliquer sur le premier point pour fermer le polygone et terminer le dessin
 
 {:.table.table-noheader}
-|               |               |
+| | |
 |:-------------:|:-------------:|
-|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|
-| *Dessin en cours* | *Dessin terminé* |
+|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi*drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|
+| \_Dessin en cours* | _Dessin terminé_ |
 
 Une fois terminé, la zone est disponible dans la liste:
 ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done_list.png){:.img.img-responsive.img-center}
 
-## Outils 
+## Outils
 
-Pour chacune des zones d'intérêt il est possible: 
+Pour chacune des zones d'intérêt il est possible:
 
 - de changer sa visibilité sur la carte en activant ou non la case à cocher devant le nom
 - de modifier son nom et sa description
@@ -45,7 +47,7 @@ Un autre menu d'actions est disponible en cliquant l'icône ![Area of Interest](
 - d'extraire les objets pour en faire un couche de travail
 - de l'enregistrer
 - de la retirer de la liste
-- de la supprimer (option disponible uniquement si la couche a été sauvegardé)
+- de la supprimer (option disponible uniquement si la couche a été sauvegardée)
 
 ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_popupmenu.png){:.img.img-responsive.img-center}
 
