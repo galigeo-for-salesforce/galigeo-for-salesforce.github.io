@@ -22,7 +22,7 @@ ref: lightning-objects
 {:.table.table-noheader}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer*tab_maps.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_layers.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_opened.png){:.img.img-responsive.img-center}|
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_maps.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_layers.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_opened.png){:.img.img-responsive.img-center}|
 | \_Onglet des cartes* | _Objets cartograpiables_ | _Couches ouvertes_ |
 
 {:.table.table-bordered}
@@ -42,7 +42,7 @@ Chaque couche ouverte est présentée dans une section permettant à l'utilisate
 {:.table.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Cluster rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer*viz_cluster.png){:.img.img-responsive.img-center}|![Marker rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_marker.png){:.img.img-responsive.img-center} |
+|![Cluster rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_cluster.png){:.img.img-responsive.img-center}|![Marker rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_marker.png){:.img.img-responsive.img-center} |
 | \_Rendu par clusters* | _Rendu par marqueurs_ |
 
 <div class="alert alert-warning" role="alert"> <strong>Important :</strong>  L'utilisation des clusters améliore les performances d'affichage. <br>Lors du changement de rendu de cluster vers marqueur, seuls 1000 éléments sont affichés à l'écran.</div>
@@ -59,7 +59,7 @@ La fiche d'informations d'un enregistrement s'obtient en cliquant sur un marqueu
 {:.table.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Infowindow and custom actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow*quick_actions.png){:.img.img-responsive.img-center}|![Infowindow and standard actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_actions.png){:.img.img-responsive.img-center} |
+|![Infowindow and custom actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_quick_actions.png){:.img.img-responsive.img-center}|![Infowindow and standard actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_actions.png){:.img.img-responsive.img-center} |
 | \_Actions personnalisées* | _Actions standards_ |
 
 ## Filtrer la donnée
@@ -80,7 +80,7 @@ Grâce aux filtres pré-configurés, l'utilisateur peut modifier le contenu de s
 {:.table.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer*filters_panel.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel02.png){:.img.img-responsive.img-center} |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel02.png){:.img.img-responsive.img-center} |
 | \_Filtre "Client", "Prospect" et "Ancien client activés"* | _Filtre "Prospect" activé_ |
 
 #### Filtres dynamiques
@@ -94,7 +94,7 @@ Les filtres dynamiques permettent de filtrer les enregistrements par mot clé en
 {:.table.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer*dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
 | \_Proposition de filtrage* | _Filtrage dynamique sur la ville de "Villeurbanne_ |
 
 ## Filtrage depuis le tableau de données
@@ -113,7 +113,7 @@ Une zone de saisie permet de filtrer dynamiquement les enregistrements sur leur 
 {:.table.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer*dt_filtering_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01_name.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01_name.png){:.img.img-responsive.img-center}|
 | \_Tableau de données* | _Fitrage par le nom contenant "cafe"_ |
 
 ### Filtrage des colonnes
@@ -125,13 +125,13 @@ Pour chacune des colonnes (de type liste de valeur le nombre, devises, date/date
 {:.table.table-bordered.table-noheader}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter*picklist_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_02.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_02.png){:.img.img-responsive.img-center}|
 | \_Liste de valeurs* | _Fitrage sur "Client"_ |
 
 {:.table.table-noheader}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter*picklist_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_result.png){:.img.img-responsive.img-center}|
 | \_Résultat* |
 
 #### Nombres et Devises
@@ -144,13 +144,13 @@ Le filtrage sur des champs de type numériques ou devises se définit de la mêm
 {:.table.table-bordered.table-noheader}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter*number_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_03.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_03.png){:.img.img-responsive.img-center}|
 | \_Liste des conditions* | _CA supérieur à 1 500 000_ | _Liste des conditions_|
 
 {:.table.table-noheader}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter*number_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
 | \_Résultat* |
 
 #### Dates
@@ -160,13 +160,13 @@ Le filtrage sur les champs de type Date ou DateTime est réalisé en choisissant
 {:.table.table-bordered.table-noheader}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter*date_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_03.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_03.png){:.img.img-responsive.img-center}|
 | \_Liste des conditions* | _Date de dernière visite de l'année dernière_ | _Liste des conditions_|
 
 {:.table.table-noheader}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter*number_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
 | \_Résultat* |
 
 <div class="alert alert-info" role="alert">Le filtrage sur les colonnes s'applique de gauche à droite.<br />Si des filtres sont activés sur les colonnes "CA 2016" et "CA 2017", le résultat sera obtenu en filtrant dans un premier temps la donnée avec les conditions définies sur la colonne "CA 2016", puis celles definies pour la colonne "CA 2017".</div>
