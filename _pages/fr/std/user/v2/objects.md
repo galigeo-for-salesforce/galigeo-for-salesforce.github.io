@@ -23,7 +23,52 @@ ref: lightning-objects
 
 {:.table.table-bordered}
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png){:.img.img-center}|Charge une carte ou une couche. Lorsqu'une carte est chargée, le contenu de la carte est effacé et remplacé par la carte. Il est toujours possible de rajouter des couches ensuite |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}|Gestion du partage de la carte |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}|Suppression d'une carte |
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_settings.png){:.img.img-center}|Accès à une configuration |
+
+# Gestion des cartes
+
+Une carte est un élément composé de couches (ou objets cartographiables).
+
+Cet onglet présente deux sections
+
+- la liste des cartes qui ont été partagées par un autre utilisateur avec celui connecté
+- la liste des cartes de l'utilisateur courant
+
+Pour toutes les cartes, il est possible de les charger en cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png). 
+
+Pour chacunes des cartes définis par l'utilsateur, il possible de:
+
+{:.table.table-bordered}
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}| gérer le partage avec des utilisateurs ou des groupes |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}| supprimer une carte |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map.png){:.img.img-center} ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map_selected.png){:.img.img-center}| définir une carte comme favorite pour la charger au démarrage par simple clic sur cet icône. Une icône verte indique que c'est la carte favorite |
+
+## Création d'une carte
+
+Après avoir charger des objets, l'utilsateur a la possibilité d'enregistrer cet ensemble comme une carte en cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_save.png). 
+
+![New Map]({{ site.url }}/assets/img-std-v2/user/map/new_map_01.png){:.img.img-responsive.img-center}
+
+<div class="alert alert-info" role="alert">Les cartes partagées ne sont accessibles qu'en lecture seule. L'utilisateur ne peut que les charger. L'utilisateur peut utiliser la fonctionnalité "Enregistrer sous" pour en faire une copie.</div>
+
+## Partage d'une carte
+
+En cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png), une fenêtre s'affiche contenant la liste des utilisateurs et des groupes avec lesquels un partage est fait.
+![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_01.png){:.img.img-responsive.img-center.img-bordered}
+
+Pour rajouter un partage, il faut cliquer sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_add.png) pour que la fenêtre d'ajout s'affiche. Dans celle-ci,
+- Choisissez une catégorie: utilisateurs ou groupes 
+- Choisissez parmi les éléments 
+- cliquez sur le bouton "Enregistrer"
+
+![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_02.png){:.img.img-responsive.img-center.img-bordered}
+
+Une fois l'ajout des utilisateurs (ou groupes) terminé, le contenu se rafraîchit 
+
+![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_03.png){:.img.img-responsive.img-center.img-bordered}
+
 
 # Gestion des objets ouverts
 
@@ -101,6 +146,8 @@ Pour chacune des couches ouvertes, le tableau de données permet:
 - de filtrer par colonne (liste de valeur le nombre, devises, date/dateime)
 
 L'activation de ces filtres modifie l'affichage des objets sur la carte.
+
+<div class="alert alert-info" role="alert">Pour tous les tableaux de données des objets salesforce chargés, la première colonne et l'entête du tableau sont figés.</div>
 
 ### Filtrage par mot clé sur le nom
 
