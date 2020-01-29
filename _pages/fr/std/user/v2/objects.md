@@ -51,7 +51,7 @@ Après avoir charger des objets, l'utilsateur a la possibilité d'enregistrer ce
 
 ![New Map]({{ site.url }}/assets/img-std-v2/user/map/new_map_01.png){:.img.img-responsive.img-center}
 
-<div class="alert alert-info" role="alert">Les cartes partagées ne sont accessibles qu'en lecture seule. L'utilisateur ne peut que les charger. L'utilisateur peut utiliser la fonctionnalité "Enregistrer sous" pour en faire une copie.</div>
+<div class="alert alert-info" role="alert">Les cartes partagées ne sont accessibles qu'en lecture seule. L'utilisateur ne peut que les charger. Il peut tout de même utiliser la fonctionnalité "Enregistrer sous" pour en faire une copie.</div>
 
 ## Partage d'une carte
 
