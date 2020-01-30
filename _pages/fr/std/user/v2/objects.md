@@ -204,12 +204,12 @@ Le filtrage sur les champs de type Date ou DateTime est réalisé en choisissant
 | | | |
 |:-------------:|:-------------:|:-------------:|
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_03.png){:.img.img-responsive.img-center}|
-| *Liste des conditions* | *Date de dernière visite de l'année dernière* | *Liste des conditions* |
+| *Liste des conditions* | *Date de dernière visite du mois en cours* | *Liste des conditions* |
 
 {:.table}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_result.png){:.img.img-responsive.img-center}|
 | *Résultat* |
 
 <div class="alert alert-info" role="alert">Le filtrage sur les colonnes s'applique de gauche à droite.<br />Si des filtres sont activés sur les colonnes "CA 2016" et "CA 2017", le résultat sera obtenu en filtrant dans un premier temps la donnée avec les conditions définies sur la colonne "CA 2016", puis celles definies pour la colonne "CA 2017".</div>

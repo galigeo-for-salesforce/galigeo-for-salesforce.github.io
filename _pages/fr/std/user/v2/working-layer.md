@@ -20,7 +20,7 @@ Cette extraction peut se faire à partir:
 | | |
 |:-------------:|:-------------:|
 |![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_aoi.png){:.img.img-responsive.img-center}|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_nearbysearch.png){:.img.img-responsive.img-center}|
-| \_Zone d'intérêt* | _Proximité_ |
+| *Zone d'intérêt* | *Proximité* |
 
 En activant cette option, une fenêtre propose à l'utilisateur de choisir parmi les couches affichées sur l'écran celle(s) dont il souhaite extraire les objets se trouvant à l'intérieur:
 ![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_records.png){:.img.img-responsive.img-center}
@@ -43,7 +43,7 @@ Pour chacune de ces couches de travail, il est possible:
 | |
 |:-------------:|
 |![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/wl_popupmenu.png){:.img.img-responsive.img-center}|
-| \_Menu contextuel* |
+| *Menu contextuel* |
 
 Le détail des objets extraits est visualisable dans un tableau où les différentes couches sont affichées dans un onglet:
 ![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extracted_records_details.png){:.img.img-responsive.img-center}

@@ -47,6 +47,8 @@ Cliquez sur le bouton « Calculer » pour calculer l’itinéraire. L’itinéra
 
 ![Planning]({{ site.url }}/assets/img-std-v2/user/planning/computed_route.png){:.img.img-responsive.img-center.img-bordered}
 
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> Le nombre de point maximal pour le calcul est fixé à 10. Au delà, un message informe l'utilisateur.</div>
+
 Vous pouvez à tout moment retirer un point de l'itinéraire en cliquant sur la croix à droite du nom de l'objet.
 
 ![PLanning]({{ site.url }}/assets/img-std-v2/user/planning/remove_record.png){:.img.img-responsive.img-center.img-bordered}
