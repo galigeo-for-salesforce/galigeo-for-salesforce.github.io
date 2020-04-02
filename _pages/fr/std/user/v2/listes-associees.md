@@ -29,4 +29,8 @@ En haut à droite, si les objets de la liste ont été paramétrés comme étant
 
 ## Tableaux de bord
 
-Si des tableaux de bord ont été préalablement définis sur ce type d’objet, il apparaissent dans une liste déroulante. Ils sont actualisés en fonction du résultat de la vue sélectionnée.
+Si des tableaux de bord ont été préalablement définis sur ce type d’objet, l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_dashboard.png) devient visible. En cliquant dessus, la liste des tableaux de bord accessibles est affiché.
+
+![Data Explorer]({{ site.url }}/assets/img-std-v2/user/relatedlist/acct_relatedlist_dashboard.png){:.img.img-responsive.img-center.img-bordered}
+
+
