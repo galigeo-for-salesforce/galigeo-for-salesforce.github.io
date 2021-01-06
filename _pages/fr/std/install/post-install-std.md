@@ -35,7 +35,18 @@ Pour terminer l’installation :
 
 ---
 
-## Première méthode : créer un droit d’accès grâce à un ensemble d’autorisations
+## Attribuer les droits d’accès grâce à un ensemble d’autorisations
+
+{:.table.table-bordered}
+| ![warning]({{ site.url }}/assets/warning.png)     | Nous vous conseillons d'utiliser cette méthode pour attribuer les différents droits aux utilisateurs |
+
+Le package Galigeo fournit deux ensembles de permissions pour deux profils utilisateurs
+
+- Galigeo AdminUser : le permission set destiné à un utilisateur admin
+- Galigeo EndUser : le permission set destiné à un utilisateur final
+
+
+## Créer un droit d’accès grâce à un ensemble d’autorisations
 
 Utiliser les ensembles de permissions est une façon flexible de donner aux utilisateurs Salesforce accès à des fonctionnalités spécifiques (objets, pages, classes ...). C’est la méthode que nous recommandons.
 
