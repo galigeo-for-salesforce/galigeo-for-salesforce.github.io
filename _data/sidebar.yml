@@ -58,6 +58,16 @@ en:
       - { url: '/statistics', text: 'Statistics', prev: '/related-lists-admin', next: '/mobile-app-admin' }
       - { url: '/mobile-app-admin', text: 'Mobile app configuration', prev: '/statistics', next: '/admin-options' }
       - { url: '/admin-options', text: 'Options', prev: '/mobile-app-admin', next: '/getting-started' }
+    lightning_user:
+      - { url: '/lightning/presentation-en', text: 'Presentation', next: '/lightning/interface-en' }
+      - { url: '/lightning/interface-en', text: 'Interface', prev: '/lightning/presentation-en', next: '/lightning/objects-en' }
+      - { url: '/lightning/objects-en', text: 'Objects', prev: '/lightning/interface-en', next: '/lightning/visites-en' }
+      - { url: '/lightning/visites-en', text: 'Visite Planning', prev: '/lightning/objects-en', next: '/lightning/listes-associees-en' }
+      - { url: '/lightning/listes-associees-en', text: 'Related List',  prev: '/lightning/visites-en', next: '/lightning/zone-interet-en' }
+      - { url: '/lightning/zone-interet-en', text: 'Area of Interest', prev: '/lightning/listes-associees-en', next: '/lightning/working-layer-en' }
+      - { url: '/lightning/working-layer-en', text: 'Working layers', prev: '/lightning/zone-interet-en', next: '/lightning/data-explorer-en' }
+      - { url: '/lightning/data-explorer-en', text: 'Data explore', prev: '/lightning/working-layer-en', next: '/lightning/create-record-en' }
+      - { url: '/lightning/create-record-en', text: 'Record creation', prev: '/lightning/data-explorer-en' }
     user:
       - { url: '/getting-started', text: 'Getting Started', prev: '/admin-options', next: '/create-map-en' }
       - { url: '/create-map-en', text: 'Create a map', prev: '/analytics-en', next: '/interface-en' }

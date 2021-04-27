@@ -19,7 +19,7 @@ Découvrez toutes nos nouveautés ci-dessous.
 
 ---
 
-# Visualisez et localisez vos données Salesforce en quelques clics
+# Visualize and localize your Salesforce Data in a few clicks
 
 La nouvelle version permet de visualiser simultanément sur la même carte toutes vos données Salesforce localisables tels que vos comptes, clients, prospects, distributeurs, sites, partenaires...
 
