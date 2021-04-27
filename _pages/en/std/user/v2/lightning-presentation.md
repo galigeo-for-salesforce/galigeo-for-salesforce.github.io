@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Présentation
+title: Get Started
 categories: documentation
 permalink: /lightning/presentation-en
 lang: en
@@ -43,7 +43,7 @@ Ils peuvent aussi créer leur propres filtres en quelques secondes !
 |   |    |
 |:-------------:|:-------------:|
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/gestion_filtres_sample.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/colFilter_num_sample.png){:.img.img-responsive.img-center}|
-| *Filtres des objets* | *Filtre de colonne* |
+| *Objects filters* | *Column filter* |
 
 
 # Consultez les informations détaillées et créez vos listes

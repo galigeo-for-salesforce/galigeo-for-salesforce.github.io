@@ -7,7 +7,7 @@ lang: en
 ref: lightning-interface
 ---
 
-# Interface utilisateur
+# User Interface
 
 ## Présentation générale
 
@@ -20,12 +20,12 @@ L'application Galigeo Lightning est le point d'entrée de la visualisation des d
 
 ![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
 
-## Barre d'outils
+## Tools
 
 {:.table}
 ||![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/toolsbar.png)| La barre d’outils permet d’accéder à certaines fonctionnalités de l’application telles que: la gestion des objets affichés sur la carte, la calcul d'itinéraire, visualiser un calendrier, explorer de la donnée externe |
 
-## Tableau de données
+## Data Table
 
 La section en bas de la carte est un tableau de données contenant:
 
@@ -35,7 +35,7 @@ La section en bas de la carte est un tableau de données contenant:
 
 ![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/tableau_donnees.png){:.img.img-responsive.img-center.img-bordered}
 
-## Outils de la carte
+## Map tools
 
 {:.table}
 ||![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/map_toolbar.png)| La barre d'outils en haut à droite de la carte permet de rechercher une adresse, se localiser, dessiner des zones d'intérêt, gérer le niveau de zoom et changer de fond de carte |

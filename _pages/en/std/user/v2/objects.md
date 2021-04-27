@@ -7,7 +7,7 @@ lang: en
 ref: lightning-objects
 ---
 
-# Cartes et couches
+# Maps and Layers
 
 À l'ouverture de l'application, le menu "Couches" est automatiquement ouvert et présente trois onglets:
 
@@ -27,7 +27,7 @@ ref: lightning-objects
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}|Suppression d'une carte |
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_settings.png){:.img.img-center}|Accès à une configuration |
 
-# Gestion des cartes
+# Manage Maps
 
 Une carte est un élément composé de couches (ou objets cartographiables).
 
@@ -45,7 +45,7 @@ Pour chacunes des cartes définis par l'utilsateur, il possible de:
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}| supprimer une carte |
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map.png){:.img.img-center} ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map_selected.png){:.img.img-center}| définir une carte comme favorite pour la charger au démarrage par simple clic sur cet icône. Une icône verte indique que c'est la carte favorite |
 
-## Création d'une carte
+## Create a map
 
 Après avoir charger des objets, l'utilsateur a la possibilité d'enregistrer cet ensemble comme une carte en cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_save.png). 
 
@@ -53,7 +53,7 @@ Après avoir charger des objets, l'utilsateur a la possibilité d'enregistrer ce
 
 <div class="alert alert-info" role="alert">Les cartes partagées ne sont accessibles qu'en lecture seule. L'utilisateur ne peut que les charger. Il peut tout de même utiliser la fonctionnalité "Enregistrer sous" pour en faire une copie.</div>
 
-## Partage d'une carte
+## Share a map
 
 En cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png), une fenêtre s'affiche contenant la liste des utilisateurs et des groupes avec lesquels un partage est fait.
 ![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_01.png){:.img.img-responsive.img-center.img-bordered}
@@ -70,7 +70,7 @@ Une fois l'ajout des utilisateurs (ou groupes) terminé, le contenu se rafraîch
 ![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_03.png){:.img.img-responsive.img-center.img-bordered}
 
 
-# Gestion des objets ouverts
+# Manage opened objects
 
 Chaque couche ouverte est présentée dans une section permettant à l'utilisateur d'agir:
 
@@ -88,7 +88,7 @@ Chaque couche ouverte est présentée dans une section permettant à l'utilisate
 
 <div class="alert alert-warning" role="alert"> <strong>Important :</strong>  L'utilisation des clusters améliore les performances d'affichage. <br>Lors du changement de rendu de cluster vers marqueur, seuls 1000 éléments sont affichés à l'écran.</div>
 
-## Fiche d'informations
+## Informations window
 
 La fiche d'informations d'un enregistrement s'obtient en cliquant sur un marqueur et contient:
 
@@ -103,9 +103,9 @@ La fiche d'informations d'un enregistrement s'obtient en cliquant sur un marqueu
 |![Infowindow and custom actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_quick_actions.png){:.img.img-responsive.img-center}|![Infowindow and standard actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_actions.png){:.img.img-responsive.img-center} |
 | *Actions personnalisées* | *Actions standards* |
 
-## Filtrer la donnée
+## Data filtering
 
-### Avec les filtres pré-configurés et dynamiques
+### Using pre-configured and dynamic filters
 
 Cliquer sur l'icône "Filtrer" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/objects/layer_filter_icon.png) pour faire afficher le panneau de filtres associés à la couche. Ces filtres ont été définis par l'administration de l'application lors de la configuration de l'objet géographique.
 
@@ -114,7 +114,7 @@ Le panneau est constitué de deux parties:
 - les filtres préconfigurés
 - les filtres dynamiques
 
-#### Filtres pré-configurés
+#### Pre-configured filters
 
 Grâce aux filtres pré-configurés, l'utilisateur peut modifier le contenu de sa carte en ne recupérant que les enregistrements qui vérifient les critères définis par les filtres.
 
@@ -124,7 +124,7 @@ Grâce aux filtres pré-configurés, l'utilisateur peut modifier le contenu de s
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel02.png){:.img.img-responsive.img-center} |
 | *Filtre "Client", "Prospect" et "Ancien client activés"* | *Filtre "Prospect" activé* |
 
-#### Filtres dynamiques
+#### Dynamics Filters
 
 Les filtres dynamiques permettent de filtrer les enregistrements par mot clé en quelques étapes:
 
@@ -138,7 +138,7 @@ Les filtres dynamiques permettent de filtrer les enregistrements par mot clé en
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
 | *Proposition de filtrage* | *Filtrage dynamique sur la ville de "Villeurbanne"* |
 
-## Filtrage depuis le tableau de données
+## Filtering from the data table
 
 Pour chacune des couches ouvertes, le tableau de données permet:
 
@@ -149,7 +149,7 @@ L'activation de ces filtres modifie l'affichage des objets sur la carte.
 
 <div class="alert alert-info" role="alert">Pour tous les tableaux de données des objets salesforce chargés, la première colonne et l'entête du tableau sont figés.</div>
 
-### Filtrage par mot clé sur le nom
+### Filtering using key word
 
 Une zone de saisie permet de filtrer dynamiquement les enregistrements sur leur nom.
 
@@ -159,11 +159,11 @@ Une zone de saisie permet de filtrer dynamiquement les enregistrements sur leur 
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01_name.png){:.img.img-responsive.img-center}|
 | *Tableau de données* | *Fitrage par le nom contenant "cafe"* |
 
-### Filtrage des colonnes
+### Columns filtering
 
 Pour chacune des colonnes (de type liste de valeur le nombre, devises, date/datetime), il est possible de définir un filtre en cliquant sur l'icône filtre de la colonne.
 
-#### Listes de valeurs
+#### List of values
 
 {:.table}
 | | |
@@ -177,7 +177,7 @@ Pour chacune des colonnes (de type liste de valeur le nombre, devises, date/date
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_result.png){:.img.img-responsive.img-center}|
 | *Résultat* |
 
-#### Nombres et Devises
+#### Numbers and currencies
 
 Le filtrage sur des champs de type numériques ou devises se définit de la même manière:
 
@@ -214,7 +214,7 @@ Le filtrage sur les champs de type Date ou DateTime est réalisé en choisissant
 
 <div class="alert alert-info" role="alert">Le filtrage sur les colonnes s'applique de gauche à droite.<br />Si des filtres sont activés sur les colonnes "CA 2016" et "CA 2017", le résultat sera obtenu en filtrant dans un premier temps la donnée avec les conditions définies sur la colonne "CA 2016", puis celles definies pour la colonne "CA 2017".</div>
 
-## Filtrage par recherche à proximité
+## Nearby search filtering
 
 L'application offre trois manières de réaliser un filtrage des éléments en faisant une recherche à proximité:
 
