@@ -3,7 +3,7 @@ layout: sidebar
 title: Post installation du package
 categories: documentation
 permalink: /post-install-std-lightning-en
-lang: fr
+lang: en
 ref: post-install-std-lightning
 ---
 
