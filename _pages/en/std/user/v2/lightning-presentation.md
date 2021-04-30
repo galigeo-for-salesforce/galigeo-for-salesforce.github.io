@@ -9,7 +9,7 @@ ref: lightning-presentation
 
 # Do you want to improve your sales team performance ?
 
-Donnez leur un outil efficace, simple et motivant pour cibler les clients prioritaires, planifier leurs visites, augmenter le temps passé avec leurs clients, prospecter plus et mieux !
+Give them an efficient, simple and motivating tool to target the priority clients, plan their visitis, increase the passed time with their clients, better prospect and better!
 
 Le nouveau Galigeo Maps for Salesforce a été complément repensé pour faciliter l'adoption et la satisfaction de vos utilisateurs.
 
