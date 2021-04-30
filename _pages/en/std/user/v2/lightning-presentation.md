@@ -7,7 +7,7 @@ lang: en
 ref: lightning-presentation
 ---
 
-# Vous voulez améliorer la performance de vos équipes terrain ?
+# Do you want to improve your sales team performance ?
 
 Donnez leur un outil efficace, simple et motivant pour cibler les clients prioritaires, planifier leurs visites, augmenter le temps passé avec leurs clients, prospecter plus et mieux !
 
