@@ -29,7 +29,7 @@ Vous pouvez ainsi combiner des milliers d'objets standard ou custom, avec la gar
 
 ![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
 
-# Filtrez vos données selon vos critères métier prédéfinis ou personnalisés
+# Filter you data with predefined or personalized business criteria
 
 Vous voulez visualiser les clients en période de renouvellement et les croiser avec les distributeurs agréés sur votre nouvelle offre.
 
