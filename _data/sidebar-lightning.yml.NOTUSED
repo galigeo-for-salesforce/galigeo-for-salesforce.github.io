@@ -21,6 +21,20 @@ fr:
       - { url: '/lightning/objects', text: 'Objets', prev: '/lightning/interface', next: '/lightning/zone-interet' }
       - { url: '/lightning/zone-interet', text: 'Zone Intérêt', prev: '/lightning/objects', next: '/lightning/working-layer' }
       - { url: '/lightning/working-layer', text: 'Couche de travail', prev: '/lightning/zone-interet' }
+    user:
+      - { url: '/debuter', text: 'Débuter', prev: '/options-admin' , next: '/create-map' }
+      - { url: '/create-map', text: 'Créer une carte', prev: '/actions-admin' , next: '/interface-carto' }
+      - { url: '/interface-carto', text: 'Présentation de l''interface', prev: '/create-map' , next: '/filtres' }
+      - { url: '/filtres', text: 'Filtres', prev: '/interface-carto' , next: '/planifier' }
+      - { url: '/planifier', text: 'Plans de visite', prev: '/filtres' , next: '/analyses' }
+      - { url: '/analyses', text: 'Analyses', prev: '/planifier' , next: '/tableaux-de-bord' }
+      - { url: '/tableaux-de-bord', text: 'Tableaux de bord', prev: '/analyses' , next: '/selection' }
+      - { url: '/selection', text: 'Sélection', prev: '/tableaux-de-bord' , next: '/adresses' }
+      - { url: '/adresses', text: 'Recherche d''adresses', prev: '/selection' , next: '/fonds-de-plan' }
+      - { url: '/fonds-de-plan', text: 'Fonds de plan', prev: '/adresses' , next: '/actions' }
+      - { url: '/actions', text: 'Actions', prev: '/fonds-de-plan' , next: '/listes-associees' }
+      - { url: '/listes-associees', text: 'Listes associées', prev: '/actions' , next: '/app-mobile' }
+      - { url: '/app-mobile', text: 'Application mobile', prev: '/listes-associees' }
     faqs:
       - { url: '/faq', text: 'FAQ' }
 en:
@@ -46,5 +60,19 @@ en:
       - { url: '/lightning/objects-en', text: 'Objects', prev: '/lightning/interface-en', next: '/lightning/zone-interet-en' }
       - { url: '/lightning/zone-interet-en', text: 'Area of Interest', prev: '/lightning/objects-en', next: '/lightning/working-layer-en' }
       - { url: '/lightning/working-layer-en', text: 'Working Layer', prev: '/lightning/zone-interet-en' }
+    user:
+      - { url: '/getting-started', text: 'Getting Started', prev: '/admin-options', next: '/create-map-en' }
+      - { url: '/create-map-en', text: 'Create a map', prev: '/analytics-en', next: '/interface-en' }
+      - { url: '/interface-en', text: 'Interface presentation', prev: '/create-map-en', next: '/filters-en' }
+      - { url: '/filters-en', text: 'Filters and Actions', prev: '/interface-en', next: '/plan-en' }
+      - { url: '/plan-en', text: 'Visit planning', prev: '/filters-en', next: '/analytics' }
+      - { url: '/analytics', text: 'Analytics', prev: '/plan-en', next: '/dashboards' }
+      - { url: '/dashboards', text: 'Dashboards', prev: '/analytics', next: '/selection-en' }
+      - { url: '/selection-en', text: 'Selection', prev: '/dashboards', next: '/addresses-en' }
+      - { url: '/addresses-en', text: 'Address Lookup', prev: '/selection-en' , next: '/basemaps' }
+      - { url: '/basemaps', text: 'Basemaps', prev: '/addresses-en' , next: '/actions-en' }
+      - { url: '/actions-en', text: 'Actions', prev: '/basemaps' , next: '/related-lists' }
+      - { url: '/related-lists', text: 'Related lists', prev: '/actions-en' , next: '/mobile-app' }
+      - { url: '/mobile-app', text: 'Mobile app', prev: '/related-lists' }
     faqs:
       - { url: '/faqs', text: 'FAQs' }

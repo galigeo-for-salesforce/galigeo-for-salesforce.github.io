@@ -2,6 +2,7 @@
 {% if page.lang == 'en' %}
 	{% assign links_install = site.data.sidebar.en.std.install %}
 	{% assign links_admin = site.data.sidebar.en.std.admin %}
+	{% assign links_lightning_user = site.data.sidebar.en.std.lightning_user %}
 	{% assign links_user = site.data.sidebar.en.std.user %}
 	{% assign links_faqs = site.data.sidebar.en.std.faqs %}
 
@@ -10,7 +11,6 @@
 	{% assign admin_guide = site.data.translation.sidebar.en.admin_guide %}
 	{% assign install_guide = site.data.translation.sidebar.en.install_guide %}
 	
-
 {% else %}
 	{% assign links_install = site.data.sidebar.fr.std.install %}
 	{% assign links_admin = site.data.sidebar.fr.std.admin %}
@@ -64,7 +64,6 @@
 	</li>
 	{% endfor %}
 </ul>
-
 
 <h4>{{user_guide}}</h4>
 <ul>
