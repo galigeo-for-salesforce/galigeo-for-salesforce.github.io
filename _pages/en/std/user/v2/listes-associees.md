@@ -7,11 +7,11 @@ lang: en
 ref: lightning-related-lists
 ---
 
-# Listes associées
+# Related Lists
 
-Les Listes associées vous permettent de voir les objets liés à un point et leurs données, et de les afficher sur la carte s’ils sont géolocalisés.
+Related Lists allow you to see objects related to a point and their data, and display them on the map if they are geolocated.
 
-Pour un enregistrement, et s'il existe des listes associées configurées dans la page de présentation de l'objet (pouvant différer en fonction des utilisateurs et de leur rôle), il est possible d'obtenir ces listes en cliquant sur l'action "Liste(s) associée(s)" depuis le tableau de données ou une des actions de la fiche d'informations.
+For a record, and if there are related lists configured in the object presentation page (which may differ depending on the users and their role), it is possible to obtain these lists by clicking on the action "Related list(s)" from the data table or one of the actions of the information sheet.
 
 {:.table}
 | | |
@@ -19,17 +19,17 @@ Pour un enregistrement, et s'il existe des listes associées configurées dans l
 |![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access_datatable.png){:.img.img-responsive.img-center} |![Related list]({{ site.url }}/assets/img-std-v2/user/relatedlist/access_infowindow.png){:.img.img-responsive.img-center} |
 | *Tableau de données* | *Fiche d'information* |
 
-Le résultat est affiché dans un tableau en bas de la carte et les différentes listes sont regroupées par onglet.
+The result is displayed in a table at the bottom of the map and the different lists are grouped by tab.
 
 ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/relatedlist/acct_relatedlist.png){:.img.img-responsive.img-center.img-bordered}
 
-## Visualisation sur la carte
+## View on the Map
 
-En haut à droite, si les objets de la liste ont été paramétrés comme étant géographiques, une case à cocher permet de les visualiser sur la carte (si les informations nécessaires à la localisation sont présentes).
+At the top right, if the objects in the list have been configured as geographic, a checkbox allows them to be viewed on the map (if the information required for location is present).
 
-## Tableaux de bord
+## Dashboard
 
-Si des tableaux de bord ont été préalablement définis sur ce type d’objet, l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_dashboard.png) devient visible. En cliquant dessus, la liste des tableaux de bord accessibles est affiché.
+If dashboards have been previously defined on this type of object, the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_dashboard.png) becomes visible. By clicking on it, the list of accessible dashboards is displayed.
 
 ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/relatedlist/acct_relatedlist_dashboard.png){:.img.img-responsive.img-center.img-bordered}
 

@@ -7,50 +7,50 @@ lang: en
 ref: lightning-areaofinterest
 ---
 
-# Zones d'intérêt
+# Area of Interest
 
-Une zone d'intérêt est un polygone pouvant être dessiné sur la carte, sauvegardé et rechargé. L'onglet des zones d'intérêt est toujours disponible dans le tableau de données.
+An area of interest is a polygon that can be drawn on the map, saved and reloaded. The areas of interest tab is always available in the data table.
 ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/blank_panel.png){:.img.img-responsive.img-center}
 
-## Dessiner des zones
+## Drawing the Areas
 
-L'outil de dessin est accessible en cliquant sur l'icône ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_drawtool.png):
+The drawing tool is accessible by clicking on the ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_drawtool.png) icon:
 
-- Cliquer sur la carte pour dessiner le polygone
-- Cliquer sur le premier point pour fermer le polygone et terminer le dessin
+- Click on the map to draw a polygon
+- Click on the first point to close the polygon and finish the drawing
 
 {:.table}
 | | |
 |:-------------:|:-------------:|
 |![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|
-| *Dessin en cours* | *Dessin terminé* |
+| *Drawing in process* | *Drawing finished* |
 
-Une fois terminé, la zone est disponible dans la liste:
+Once completed, the zone is available in the list:
 ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done_list.png){:.img.img-responsive.img-center}
 
-## Outils
+## Tools
 
-Pour chacune des zones d'intérêt il est possible:
+For each of the area of interest it is possible:
 
-- de changer sa visibilité sur la carte en activant ou non la case à cocher devant le nom
-- de modifier son nom et sa description
-- de changer sa couleur
+- to change its visibility on the map by activating, or not, the checkbox in front of the name
+- to modify its name and description
+- to change its color
 
-Un autre menu d'actions est disponible en cliquant l'icône ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_more.png) et permet:
+Another menu of actions is available by clicking the ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_more.png) icon, and allows:
 
-- de zoomer sur la zone
-- de la modifier
-- d'extraire les objets pour en faire un couche de travail
-- de l'enregistrer
-- de la retirer de la liste
-- de la supprimer (option disponible uniquement si la couche a été sauvegardée)
+- zooming on the area
+- modifying it
+- extracting the objects to make a working layer
+- save it
+- removing it from the list
+- deleting it (option available only if the layer was saved)
 
 ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_popupmenu.png){:.img.img-responsive.img-center}
 
-## Chargement d'une zone
+## Loading of an Area
 
-Le chargement d'une zone préalablement enregistrée se fait en cliquant sur l'icône ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_load.png) pour ouvrir une fenêtre listant l'ensemble des zones disponibles non encore chargées:
+Loading a previously saved area is done by clicking on the  ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_load.png) icon to open a window listing all the available zones not yet loaded:
 
 ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_loadingpopup.png){:.img.img-responsive.img-center}
 
-Un clic sur l'icône ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_load.png) devant la zone désirée la charge, l'affiche à l'écran et celle-ci est disponible dans le l'onglet zone d'intérêt.
+A click on the ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_load.png) icon in front of the area that is desired loads it, displays it on the screen and it is available in the area of interest tab.

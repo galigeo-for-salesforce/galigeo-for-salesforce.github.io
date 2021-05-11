@@ -9,33 +9,33 @@ ref: lightning-interface
 
 # User Interface
 
-## Présentation générale
+## General Presentation
 
-L'application Galigeo Lightning est le point d'entrée de la visualisation des données du CRM. Grâce à elle, l'utilisateur peut:
+The Galigeo Lightning application is the entry point for CRM data visualization. Thanks to it, the user can:
 
-- Visualiser des objets Salesforce sur la carte
-- Définir des zones d'intérêts
-- Extraire des enregistrements pour créer des couches de travail
-- Planifier des tournées associées aux données
+- View Salesforce objects on the map
+- Define areas of interest
+- Extract records to create working layers
+- Plan routes associated with the data
 
 ![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Tools
 
 {:.table}
-||![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/toolsbar.png)| La barre d’outils permet d’accéder à certaines fonctionnalités de l’application telles que: la gestion des objets affichés sur la carte, la calcul d'itinéraire, visualiser un calendrier, explorer de la donnée externe |
+||![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/toolsbar.png)| The toolbar provides access to certain features of the application such as: management of objects displayed on the map, route calculation, view a calendar, explore external data |
 
 ## Data Table
 
-La section en bas de la carte est un tableau de données contenant:
+The section at the bottom of the map is a data table containing:
 
-- L'ensemble des couches ouvertes: visualisation des données salesforce par onglet
-- La liste des zones d'intérêts
-- La liste des couches de travail (extraction faite à partir de zone d'intérêt)
+- All open layers: Salesforce data visualization by tab
+- The list of areas of interest
+- The list of working layers (extraction made from area of interest)
 
 ![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/tableau_donnees.png){:.img.img-responsive.img-center.img-bordered}
 
-## Map tools
+## Map Tools
 
 {:.table}
-||![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/map_toolbar.png)| La barre d'outils en haut à droite de la carte permet de rechercher une adresse, se localiser, dessiner des zones d'intérêt, gérer le niveau de zoom et changer de fond de carte |
+||![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/map_toolbar.png)| The toolbar at the top right of the map allows you to search for an address, locate yourself, draw areas of interest, manage the zoom level and change the basemap |

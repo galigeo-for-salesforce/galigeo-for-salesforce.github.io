@@ -7,24 +7,24 @@ lang: en
 ref: lightning-dataexplorer
 ---
 
-# Exploration de données
+# Data Exploration
 
-Cliquez sur l’icône ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_explorer.png) dans la barre d’outils pour afficher le panneau de l'explorateur de données.
+Click on the icon ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_explorer.png) in the toolbar in order to display the data explorer panel.
 
-## La Base SIRENE
+## Database SIRENE
 
-- Entrer un mot clé et appuyer ENTREE pour lancer la rechercher
-- Une liste d'établissements s'affiche en dessous et aussi sur la carte
+- Enter the keyword and click on ENTER in order to launch a search
+- A list of establishments is displayed below and also on the map
 
 ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/mainpanel.png){:.img.img-responsive.img-center.img-bordered}
 
-Cliquer sur un établissement de la liste pour afficher sa fiche d'informations (celle-ci peut aussi s'obtenir en cliquant directement sur un marqueur de la carte)
+Click on an establishment on the list to display its information sheet (this can also be obtained by clicking directly on a marker on the map)
 
 ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_infowindow.png){:.img.img-responsive.img-center.img-bordered}
 
-### Enrichissement du CRM
+### CRM Enrichment
 
-Si l'utilisateur est dans un contexte d'exécution Lightning de Salesforce, la fiche d'informations contient des actions permettant de créer une nouvelle piste, un nouveau compte ou un nouveau contact à partir des informations de la base SIRENE (nom, adresse, coordonnées).
+If the user is in a Salesforce Lightning execution context, the information sheet contains actions allowing you to create a new lead, a new account or a new contact from the information in the SIRENE database (name, address, contact information).
 
 {:.table}
 | | | |

@@ -9,35 +9,35 @@ ref: lightning-presentation
 
 # Do you want to improve your sales team performance ?
 
-Give them an efficient, simple and motivating tool to target the priority clients, plan their visitis, increase the passed time with their clients, better prospect and better!
+Give them an effective, simple and motivating tool to target priority customers, plan their visits, increase the time spent with their customers, prospect more and better!
 
-Le nouveau Galigeo Maps for Salesforce a été complément repensé pour faciliter l'adoption et la satisfaction de vos utilisateurs.
+The new Galigeo Maps for Salesforce has been completely redesigned in order to facilitate user adoption and satisfaction.
 
-Par ailleurs, Galigeo vous offre un accompagnement unique avec ses experts métier et data du territoire et des marchés français de la santé, du retail, de la CHD ou des services B2B...
+In addition, Galigeo offers you unique support with its business and territory data experts and the French markets for health, retail, CHD or B2B services ...
 
-Découvrez toutes nos nouveautés ci-dessous.
+Discover all our new products below.
 
 ---
 
 # Visualize and localize your Salesforce Data in a few clicks
 
-La nouvelle version permet de visualiser simultanément sur la même carte toutes vos données Salesforce localisables tels que vos comptes, clients, prospects, distributeurs, sites, partenaires...
+The new version allows you to view simultaneously on the same map all your localizable Salesforce data such as your accounts, customers, prospects, distributors, sites, partners ...
 
-En un clic, vous pouvez visualiser toutes les informations liées à un "objet", par exemple tous les contacts d'un compte client.
+With one click, you can view all the information linked to an "object", for example all the contacts of a customer account.
 
-Vous pouvez ainsi combiner des milliers d'objets standard ou custom, avec la garantie sur les performances, la simplicité et la sécurité d'accès.
+You can thus combine thousands of standard or custom objects, with the guarantee of performance, simplicity and access security.
 
 ![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
 
 # Filter you data with predefined or personalized business criteria
 
-Vous voulez visualiser les clients en période de renouvellement et les croiser avec les distributeurs agréés sur votre nouvelle offre.
+You want to visualize the customers in period of renewal and cross them with the authorized distributors on your new offer.
 
-Configurez en quelques minutes des filtres métier par période, par statut, par segmentation clients...
+Configure business filters in just a few minutes by period, by status, by customer segmentation ...
 
-Vos utilisateurs n'ont plus qu'à activer les filtres prédéfinis pour se concentrer sur les cibles prioritaires.
+Your users just have to activate the predefined filters to focus on priority targets.
 
-Ils peuvent aussi créer leur propres filtres en quelques secondes !
+They can also create their own filters in seconds!
 
 {:.table}
 |   |    |
@@ -46,24 +46,24 @@ Ils peuvent aussi créer leur propres filtres en quelques secondes !
 | *Objects filters* | *Column filter* |
 
 
-# Consultez les informations détaillées et créez vos listes
+# View detailed information and create your lists
 
-En complément de la visualisation sur la carte, vous retrouvez toutes les informations extraites de Salesforce selon vos filtres métier dans des tableaux de données pour chacun des objets de la carte.
+In addition to the visualization on the map, you will find all the information extracted from Salesforce according to your business filters in data tables for each of the objects on the map.
 
-Vous pouvez aisément retraiter vos données avant de les exporter :
+You can easily reprocess your data before exporting it:
 
-- Tri par colonne
-- Filtre par mot clé sur le nom
-- Filtrage par colonne en fonction de conditions paramétrables multiples (date de dernière visite, statut, fourchette de CA...)
+- Sort by column
+- Filter by keyword on the name
+- Filtering by column according to multiple configurable conditions (date of last visit, status, turnover range, etc.)
 
 ![Galigeo Lightning - Tableau de données]({{ site.url }}/assets/img-std-v2/user/tableau_donnees.png){:.img.img-responsive.img-center.img-bordered}
 
-# Créez des données et des actions directement à partir d'un emplacement sur la carte
+# Create data and actions directly from a location on the map
 
-Pilotez directement vos données et actions Salesforce à partir de Galigeo Lightning :
+Directly manage your Salesforce data and actions from Galigeo Lightning:
 
-- Recherche de proximité autour d'un point ou dans une zone
-- Création d'un rendez-vous ou d'un événement à partir d'un objet sur la carte
-- Création d'un objet Salesforce (client, opportunité, chantier, logement...) à partir d'un emplacement sur la carte avec saisie automatique de l'adresse et des coordonnées
-- Lancement d'actions personnalisées à partir d'un type d'objets
+- Proximity search around a point or in an area
+- Creation of an appointment or an event from an object on the map
+- Creation of a Salesforce object (customer, opportunity, site, housing ...) from a location on the map with automatic entry of address and contact details
+- Launch of personalized actions from a type of object
 
