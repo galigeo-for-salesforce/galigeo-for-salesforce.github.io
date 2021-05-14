@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Listes associées
+title: Related Lists
 categories: documentation
 permalink: /lightning/listes-associees-en
 lang: en
@@ -17,7 +17,7 @@ For a record, and if there are related lists configured in the object presentati
 | | |
 |:-------------:|:-------------:|
 |![Related list]({{ site.url }}/assets/img-std-v2-en/user/relatedlist/access_datatable.png){:.img.img-responsive.img-center} |![Related list]({{ site.url }}/assets/img-std-v2-en/user/relatedlist/access_infowindow.png){:.img.img-responsive.img-center} |
-| *Tableau de données* | *Fiche d'information* |
+| *Data table* | *Information window* |
 
 The result is displayed in a table at the bottom of the map and the different lists are grouped by tab.
 

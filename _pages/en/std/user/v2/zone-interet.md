@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Zone d''intérêt
+title: Area of Interest
 categories: documentation
 permalink: /lightning/zone-interet-en
 lang: en

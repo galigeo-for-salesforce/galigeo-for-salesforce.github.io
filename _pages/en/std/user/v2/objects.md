@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Objets
+title: Objects
 categories: documentation
 permalink: /lightning/objects-en
 lang: en
@@ -19,13 +19,13 @@ When opening the application, the "Layers" menu is automatically opened and pres
 | | | |
 |:-------------:|:-------------:|:-------------:|
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_maps.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_layers.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_opened.png){:.img.img-responsive.img-center}|
-| *Onglet des cartes* | *Objets cartograpiables* | *Couches ouvertes* |
+| *Maps Tab* | *Geographic Objects* | *Opened layers* |
 
 {:.table.table-bordered}
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png){:.img.img-center}|Charge une carte ou une couche. Lorsqu'une carte est chargée, le contenu de la carte est effacé et remplacé par la carte. Il est toujours possible de rajouter des couches ensuite |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}|Gestion du partage de la carte |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}|Suppression d'une carte |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_settings.png){:.img.img-center}|Accès à une configuration |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png){:.img.img-center}|Load a map or a layer. When a map is loaded, everything is cleared and replace by the content of the loaded map. It's still possible to add more layer after |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}|Manage map sharing |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}|Delete a map |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_settings.png){:.img.img-center}|Go to configuration page|
 
 # Manage Maps
 
@@ -41,9 +41,9 @@ For all maps, it is possible to load them by clicking on the icon ![Galigeo for 
 For each of the cards defined by the user, it is possible to:
 
 {:.table.table-bordered}
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}| gérer le partage avec des utilisateurs ou des groupes |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}| supprimer une carte |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map.png){:.img.img-center} ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map_selected.png){:.img.img-center}| définir une carte comme favorite pour la charger au démarrage par simple clic sur cet icône. Une icône verte indique que c'est la carte favorite |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}| Manage map sharing with users or groups |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}| delete a map |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map.png){:.img.img-center} ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map_selected.png){:.img.img-center}| Define a map as favorite by clicking on it. A map is identified as favorite when the icon is green. When opening the application, if a favorite map is defined, all its content is loaded automatically. |
 
 ## Create a Map
 
@@ -136,7 +136,7 @@ Dynamic filters allow you to filter records by keyword in a few steps:
 | | |
 |:-------------:|:-------------:|
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
-| *Proposition de filtrage* | *Filtrage dynamique sur la ville de "Villeurbanne"* |
+| *Canditates filter* | *Dynamic filtering applied to the city of "Villeurbanne"* |
 
 ## Filtering from the Data Table
 
@@ -212,7 +212,7 @@ The filtering on fields of the type Date or DateTime is performed by choosing an
 |![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_result.png){:.img.img-responsive.img-center}|
 | *Result* |
 
-<div class="alert alert-info" role="alert">Le filtrage sur les colonnes s'applique de gauche à droite.<br />If the filters are activated on the columns "CA 2016" and "CA 2017", the result will be obtained by first filtering the data with the conditions defined on the column "CA 2016", and then those defined on the column "CA 2017".</div>
+<div class="alert alert-info" role="alert">Columns filtering is applied from left to right.<br />If the filters are activated on the columns "CA 2016" and "CA 2017", the result will be obtained by first filtering the data with the conditions defined on the column "CA 2016", and then those defined on the column "CA 2017".</div>
 
 ## Nearby Search Filtering
 

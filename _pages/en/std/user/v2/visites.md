@@ -101,7 +101,7 @@ Clicking on the "[End date]" link automatically calculates this date, taking int
 - Weekly: End date = (Current date) + 52 * interval (in weeks)
 - Monthly: End date = (Current Date) + 60 * interval (in months)
 
-<div class="alert alert-info" role="alert"> <strong>Note :</strong> The maximum end date depends on the type of recurrence and is a setting enforced by Salesforce because it is not possible to create endless recurring events.</div>
+<div class="alert alert-info" role="alert">The maximum end date depends on the type of recurrence and is a setting enforced by Salesforce because it is not possible to create endless recurring events.</div>
 
 In the Galigeo calendar, recurring appointments can be identified by the icon ![Loop icon]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_icon.png).
 
@@ -113,7 +113,7 @@ To open the calendar, click on the icon ![Galigeo for Salesforce User]({{ site.u
 
 ![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/calendar.png){:.img.img-responsive.img-center.img-bordered}
 
-<div class="alert alert-info" role="alert"> <strong>Note :</strong> Only events within a certain date range appear in the calendar. This is 30 days in the past, 60 days in the future by default, and can be changed in the options on the administration page.</div>
+<div class="alert alert-info" role="alert">Only events within a certain date range appear in the calendar. This is 30 days in the past, 60 days in the future by default, and can be changed in the options on the administration page.</div>
 
 All the events can be moved directly there by drag and drop. Their duration can also be modified by dragging the bottom of an event.
 

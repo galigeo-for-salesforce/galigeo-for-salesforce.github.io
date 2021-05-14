@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Exploration de données
+title: Data Explorer
 categories: documentation
 permalink: /lightning/data-explorer-en
 lang: en

@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Création d'objets
+title: Create Records
 categories: documentation
 permalink: /lightning/create-record-en
 lang: en

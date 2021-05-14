@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Interface utilisateur
+title: User Interface
 categories: documentation
 permalink: /lightning/interface-en
 lang: en

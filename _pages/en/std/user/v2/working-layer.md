@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Couche de travail
+title: Working Layers
 categories: documentation
 permalink: /lightning/working-layer-en
 lang: en
@@ -13,8 +13,8 @@ A working layer is an extraction of layers (Salesforce objects) visible on the s
 
 This extraction can be done from:
 
-- [an area of interest](/lightning/zone-interet)
-- [a filtering following a nerby search](/lightning/objects#filtrage-par-recherche--proximit)
+- [an area of interest](/lightning/zone-interet-en)
+- [a filtering following a nerby search](/lightning/objects-en#nearby-search-filtering)
 
 {:.table}
 | | |
