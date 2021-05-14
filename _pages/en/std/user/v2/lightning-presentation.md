@@ -27,7 +27,7 @@ With one click, you can view all the information linked to an "object", for exam
 
 You can thus combine thousands of standard or custom objects, with the guarantee of performance, simplicity and access security.
 
-![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2-en/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
 
 # Filter you data with predefined or personalized business criteria
 
@@ -42,7 +42,7 @@ They can also create their own filters in seconds!
 {:.table}
 |   |    |
 |:-------------:|:-------------:|
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/gestion_filtres_sample.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/colFilter_num_sample.png){:.img.img-responsive.img-center}|
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/gestion_filtres_sample.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/colFilter_num_sample.png){:.img.img-responsive.img-center}|
 | *Objects filters* | *Column filter* |
 
 
@@ -56,7 +56,7 @@ You can easily reprocess your data before exporting it:
 - Filter by keyword on the name
 - Filtering by column according to multiple configurable conditions (date of last visit, status, turnover range, etc.)
 
-![Galigeo Lightning - Tableau de données]({{ site.url }}/assets/img-std-v2/user/tableau_donnees.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo Lightning - Tableau de données]({{ site.url }}/assets/img-std-v2-en/user/tableau_donnees.png){:.img.img-responsive.img-center.img-bordered}
 
 # Create data and actions directly from a location on the map
 

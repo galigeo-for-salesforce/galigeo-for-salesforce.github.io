@@ -18,7 +18,7 @@ When opening the application, the "Layers" menu is automatically opened and pres
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_maps.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_layers.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_opened.png){:.img.img-responsive.img-center}|
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_maps.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_layers.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_opened.png){:.img.img-responsive.img-center}|
 | *Onglet des cartes* | *Objets cartograpiables* | *Couches ouvertes* |
 
 {:.table.table-bordered}
@@ -56,18 +56,18 @@ After loading objects, the user has the possibility to save this set as a map by
 ## Share a Map
 
 By clicking on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png), a window is displayed containing the list of users and groups with whom a sharing was made.
-![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_01.png){:.img.img-responsive.img-center.img-bordered}
+![New Share]({{ site.url }}/assets/img-std-v2-en/user/map/map_share_01.png){:.img.img-responsive.img-center.img-bordered}
 
 To add a sharing, click on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_add.png) in order to display the window. In it there you can:
 - choose a category: users or groups 
 - choose from the elements 
 - click on the "Save" button
 
-![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_02.png){:.img.img-responsive.img-center.img-bordered}
+![New Share]({{ site.url }}/assets/img-std-v2-en/user/map/map_share_02.png){:.img.img-responsive.img-center.img-bordered}
 
 Once the addition of users (or groups) is complete, the content is refreshed 
 
-![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_03.png){:.img.img-responsive.img-center.img-bordered}
+![New Share]({{ site.url }}/assets/img-std-v2-en/user/map/map_share_03.png){:.img.img-responsive.img-center.img-bordered}
 
 
 # Manage Opened Objects
@@ -83,7 +83,7 @@ Each open layer is presented in a section allowing the user to take action:
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Cluster rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_cluster.png){:.img.img-responsive.img-center}|![Marker rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_marker.png){:.img.img-responsive.img-center} |
+|![Cluster rendering]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_viz_cluster.png){:.img.img-responsive.img-center}|![Marker rendering]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_viz_marker.png){:.img.img-responsive.img-center} |
 | *Rendering by clusters* | *Rendering by markers* |
 
 <div class="alert alert-warning" role="alert"> <strong>Important :</strong>  Using clusters improves display performance. <br>When changing render from cluster to marker, only 1000 items are displayed on the screen.</div>
@@ -100,7 +100,7 @@ The info-window of a recording is obtained by clicking on a marker and contains:
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Infowindow and custom actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_quick_actions.png){:.img.img-responsive.img-center}|![Infowindow and standard actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_actions.png){:.img.img-responsive.img-center} |
+|![Infowindow and custom actions]({{ site.url }}/assets/img-std-v2-en/user/objects/infowindow_quick_actions.png){:.img.img-responsive.img-center}|![Infowindow and standard actions]({{ site.url }}/assets/img-std-v2-en/user/objects/infowindow_actions.png){:.img.img-responsive.img-center} |
 | *Customized Actions* | *Standard Actions* |
 
 ## Data Filtering
@@ -121,8 +121,8 @@ Thanks to the pre-configured filters, the user can modify the content of his map
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel02.png){:.img.img-responsive.img-center} |
-| *Filter "Customer", "Prospect", and "Old activated customer"* | *Filter "Prospect" activated* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_filters_panel.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_filters_panel02.png){:.img.img-responsive.img-center} |
+| *Filter "Client", "Prospect", and "Ancient client"* | *Filter "Prospect" activated* |
 
 #### Dynamics Filters
 
@@ -135,7 +135,7 @@ Dynamic filters allow you to filter records by keyword in a few steps:
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
 | *Proposition de filtrage* | *Filtrage dynamique sur la ville de "Villeurbanne"* |
 
 ## Filtering from the Data Table
@@ -156,7 +156,7 @@ An enter zone allows the dynamic filtering of the records by their name.
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01_name.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dt_filtering_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dt_filtering_01_name.png){:.img.img-responsive.img-center}|
 | *Data Table* | *Fitering by the name containing "cafe"* |
 
 ### Columns Filtering
@@ -168,14 +168,14 @@ For each of the columns (of type list of values, number, currency, date/datetime
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_02.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_picklist_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_picklist_02.png){:.img.img-responsive.img-center}|
 | *Values List* | *Fitering on "Client"* |
 
 {:.table}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_result.png){:.img.img-responsive.img-center}|
-| *Résultat* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_picklist_result.png){:.img.img-responsive.img-center}|
+| *Result* |
 
 #### Numbers and Currencies
 
@@ -187,13 +187,13 @@ The filtering on fields of type numeric or currency is defined in the same way:
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_03.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_03.png){:.img.img-responsive.img-center}|
 | *Liste des conditions* | *CA supérieur à 1 500 000* | *Liste des conditions* |
 
 {:.table}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
 | *Result* |
 
 #### Dates
@@ -203,13 +203,13 @@ The filtering on fields of the type Date or DateTime is performed by choosing an
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_03.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_03.png){:.img.img-responsive.img-center}|
 | *Conditions List* | *Date of the last visit on the current month* | *Conditions List* |
 
 {:.table}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_result.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_result.png){:.img.img-responsive.img-center}|
 | *Result* |
 
 <div class="alert alert-info" role="alert">Le filtrage sur les colonnes s'applique de gauche à droite.<br />If the filters are activated on the columns "CA 2016" and "CA 2017", the result will be obtained by first filtering the data with the conditions defined on the column "CA 2016", and then those defined on the column "CA 2017".</div>
@@ -225,11 +225,11 @@ The app offers three ways to filter items by searching nearby:
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_currentlocation.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_infowindow.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_rightclick.png){:.img.img-responsive.img-center}|
+|![Recherche à proximité]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_currentlocation.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_infowindow.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_rightclick.png){:.img.img-responsive.img-center}|
 | *Current Localization* | *Info-Window* | *Right Click* |
 
 This opens a window inviting the user to enter the distance and the unit:
-![Nearby popup]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_popup.png){:.img.img-responsive.img-center}
+![Nearby popup]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_popup.png){:.img.img-responsive.img-center}
 
 Once validated, all the layers are filtered both on the map and in the data table.
 

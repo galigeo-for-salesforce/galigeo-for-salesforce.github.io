@@ -18,7 +18,7 @@ The Galigeo Lightning application is the entry point for CRM data visualization.
 - Extract records to create working layers
 - Plan routes associated with the data
 
-![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2-en/user/multi_objets.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Tools
 
@@ -33,7 +33,7 @@ The section at the bottom of the map is a data table containing:
 - The list of areas of interest
 - The list of working layers (extraction made from area of interest)
 
-![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2/user/tableau_donnees.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce Next Gen UI]({{ site.url }}/assets/img-std-v2-en/user/tableau_donnees.png){:.img.img-responsive.img-center.img-bordered}
 
 ## Map Tools
 
