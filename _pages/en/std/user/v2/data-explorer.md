@@ -1,35 +1,37 @@
 ---
 layout: sidebar-lightning
-title: Exploration de données
+title: Data Explorer
 categories: documentation
 permalink: /lightning/data-explorer-en
 lang: en
 ref: lightning-dataexplorer
 ---
 
-# Exploration de données
+# Data Exploration
 
-Cliquez sur l’icône ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_explorer.png) dans la barre d’outils pour afficher le panneau de l'explorateur de données.
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> This feature only works for french companies.</div>
 
-## La Base SIRENE
+Click on the icon ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_explorer.png) in the toolbar in order to display the data explorer panel.
 
-- Entrer un mot clé et appuyer ENTREE pour lancer la rechercher
-- Une liste d'établissements s'affiche en dessous et aussi sur la carte
+## SIRENE Database
 
-![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/mainpanel.png){:.img.img-responsive.img-center.img-bordered}
+- Enter the keyword and click on ENTER in order to launch a search
+- A list of establishments is displayed below and also on the map
 
-Cliquer sur un établissement de la liste pour afficher sa fiche d'informations (celle-ci peut aussi s'obtenir en cliquant directement sur un marqueur de la carte)
+![Data Explorer]({{ site.url }}/assets/img-std-v2-en/user/dataexplorer/mainpanel.png){:.img.img-responsive.img-center.img-bordered}
 
-![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_infowindow.png){:.img.img-responsive.img-center.img-bordered}
+Click on an establishment on the list to display its information sheet (this can also be obtained by clicking directly on a marker on the map)
 
-### Enrichissement du CRM
+![Data Explorer]({{ site.url }}/assets/img-std-v2-en/user/dataexplorer/sirene_infowindow.png){:.img.img-responsive.img-center.img-bordered}
 
-Si l'utilisateur est dans un contexte d'exécution Lightning de Salesforce, la fiche d'informations contient des actions permettant de créer une nouvelle piste, un nouveau compte ou un nouveau contact à partir des informations de la base SIRENE (nom, adresse, coordonnées).
+### CRM Enrichment
+
+If the user is in a Salesforce Lightning execution context, the information sheet contains actions allowing you to create a new lead, a new account or a new contact from the information in the SIRENE database (name, address, contact information).
 
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newlead.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newaccount.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newcontact.png){:.img.img-responsive.img-center}
-| *Nouvelle Piste* | *Nouveau Compte* | *Nouveau Contact* |
+|![Data Explorer]({{ site.url }}/assets/img-std-v2-en/user/dataexplorer/sirene_newlead.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2-en/user/dataexplorer/sirene_newaccount.png){:.img.img-responsive.img-center} |![Data Explorer]({{ site.url }}/assets/img-std-v2/user/dataexplorer/sirene_newcontact.png){:.img.img-responsive.img-center}
+| *new Lead* | *New Account* | *New Contact* |
 
-<div class="alert alert-warning" role="alert"> <strong>Important :</strong> La création de ces objets est entièrement déléguée à Salesforce, i.e le formulaire est celui paramétré dans Salesforce. Galigeo envoie uniquement les informations nécessaires.</div>
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> The creation of these objects are delegated to Salesforce and the creation page layout is the one defined in Salesforce. Galigeo only sent the needed informations.</div>

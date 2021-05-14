@@ -1,6 +1,6 @@
 ---
 layout: sidebar-lightning
-title: Objets
+title: Objects
 categories: documentation
 permalink: /lightning/objects-en
 lang: en
@@ -9,228 +9,228 @@ ref: lightning-objects
 
 # Maps and Layers
 
-À l'ouverture de l'application, le menu "Couches" est automatiquement ouvert et présente trois onglets:
+When opening the application, the "Layers" menu is automatically opened and presents three tabs:
 
-- Carte(s): liste les cartes enregistrées par l'utilsateur ou qui lui ont été partaggées
-- Couche(s): liste l'ensemble des objets cartographiables configurés par un administrateur Galigeo
-- Ouvert(s): liste l'ensemble des couches ouvertes
+- Map(s): list the maps saved by the user or which have been shared with him
+- Layer(s): list all the mappable objects configured by a Galigeo administrator
+- Opened: list all opened layers
 
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_maps.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_layers.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/mlayer_tab_opened.png){:.img.img-responsive.img-center}|
-| *Onglet des cartes* | *Objets cartograpiables* | *Couches ouvertes* |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_maps.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_layers.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/mlayer_tab_opened.png){:.img.img-responsive.img-center}|
+| *Maps Tab* | *Geographic Objects* | *Opened layers* |
 
 {:.table.table-bordered}
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png){:.img.img-center}|Charge une carte ou une couche. Lorsqu'une carte est chargée, le contenu de la carte est effacé et remplacé par la carte. Il est toujours possible de rajouter des couches ensuite |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}|Gestion du partage de la carte |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}|Suppression d'une carte |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_settings.png){:.img.img-center}|Accès à une configuration |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png){:.img.img-center}|Load a map or a layer. When a map is loaded, everything is cleared and replace by the content of the loaded map. It's still possible to add more layer after |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}|Manage map sharing |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}|Delete a map |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_settings.png){:.img.img-center}|Go to configuration page|
 
 # Manage Maps
 
-Une carte est un élément composé de couches (ou objets cartographiables).
+A map is an element made up of layers (or mappable objects).
 
-Cet onglet présente deux sections
+This tab has two sections
 
-- la liste des cartes qui ont été partagées par un autre utilisateur avec celui connecté
-- la liste des cartes de l'utilisateur courant
+- the list of maps that have been shared by another user with the one connected
+- the list of maps of the current user
 
-Pour toutes les cartes, il est possible de les charger en cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png). 
+For all maps, it is possible to load them by clicking on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_map.png). 
 
-Pour chacunes des cartes définis par l'utilsateur, il possible de:
+For each of the cards defined by the user, it is possible to:
 
 {:.table.table-bordered}
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}| gérer le partage avec des utilisateurs ou des groupes |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}| supprimer une carte |
-|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map.png){:.img.img-center} ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map_selected.png){:.img.img-center}| définir une carte comme favorite pour la charger au démarrage par simple clic sur cet icône. Une icône verte indique que c'est la carte favorite |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png){:.img.img-center}| Manage map sharing with users or groups |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_delete.png){:.img.img-center}| delete a map |
+|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map.png){:.img.img-center} ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_fav_map_selected.png){:.img.img-center}| Define a map as favorite by clicking on it. A map is identified as favorite when the icon is green. When opening the application, if a favorite map is defined, all its content is loaded automatically. |
 
-## Create a map
+## Create a Map
 
-Après avoir charger des objets, l'utilsateur a la possibilité d'enregistrer cet ensemble comme une carte en cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_save.png). 
+After loading objects, the user has the possibility to save this set as a map by clicking on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_save.png). 
 
 ![New Map]({{ site.url }}/assets/img-std-v2/user/map/new_map_01.png){:.img.img-responsive.img-center}
 
-<div class="alert alert-info" role="alert">Les cartes partagées ne sont accessibles qu'en lecture seule. L'utilisateur ne peut que les charger. Il peut tout de même utiliser la fonctionnalité "Enregistrer sous" pour en faire une copie.</div>
+<div class="alert alert-info" role="alert">Shared maps are only read-only accessible. The user can only load them. He can still use the "Save As" feature to make a copy.</div>
 
-## Share a map
+## Share a Map
 
-En cliquant sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png), une fenêtre s'affiche contenant la liste des utilisateurs et des groupes avec lesquels un partage est fait.
-![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_01.png){:.img.img-responsive.img-center.img-bordered}
+By clicking on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_share.png), a window is displayed containing the list of users and groups with whom a sharing was made.
+![New Share]({{ site.url }}/assets/img-std-v2-en/user/map/map_share_01.png){:.img.img-responsive.img-center.img-bordered}
 
-Pour rajouter un partage, il faut cliquer sur l'icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_add.png) pour que la fenêtre d'ajout s'affiche. Dans celle-ci,
-- Choisissez une catégorie: utilisateurs ou groupes 
-- Choisissez parmi les éléments 
-- cliquez sur le bouton "Enregistrer"
+To add a sharing, click on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_add.png) in order to display the window. In it there you can:
+- choose a category: users or groups 
+- choose from the elements 
+- click on the "Save" button
 
-![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_02.png){:.img.img-responsive.img-center.img-bordered}
+![New Share]({{ site.url }}/assets/img-std-v2-en/user/map/map_share_02.png){:.img.img-responsive.img-center.img-bordered}
 
-Une fois l'ajout des utilisateurs (ou groupes) terminé, le contenu se rafraîchit 
+Once the addition of users (or groups) is complete, the content is refreshed 
 
-![New Share]({{ site.url }}/assets/img-std-v2/user/map/map_share_03.png){:.img.img-responsive.img-center.img-bordered}
+![New Share]({{ site.url }}/assets/img-std-v2-en/user/map/map_share_03.png){:.img.img-responsive.img-center.img-bordered}
 
 
-# Manage opened objects
+# Manage Opened Objects
 
-Chaque couche ouverte est présentée dans une section permettant à l'utilisateur d'agir:
+Each open layer is presented in a section allowing the user to take action:
 
 {:.table.table-bordered}
-|![Layer visibility]({{ site.url }}/assets/img-std-v2/user/objects/layer_toggle_viz_switch.png){:.img.img-center}| Gère la visibilité de la couche sur la carte |
-|![Show Filters]({{ site.url }}/assets/img-std-v2/user/objects/layer_filter_icon.png){:.img.img-center}| Affiche les filtres de la couche |
-|![Remove layer]({{ site.url }}/assets/img-std-v2/user/objects/layer_remove_icon.png){:.img.img-center}| Retire la couche de la carte |
-|![Rendering types]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_type_icons.png){:.img.img-center}| Change le type de rendu sur la carte (cluster ou marqueurs). Par défaut au chargement, le type de rendu par cluster est actif |
+|![Layer visibility]({{ site.url }}/assets/img-std-v2/user/objects/layer_toggle_viz_switch.png){:.img.img-center}| Manages the layer visibility on the map |
+|![Show Filters]({{ site.url }}/assets/img-std-v2/user/objects/layer_filter_icon.png){:.img.img-center}| Displays the layer filters |
+|![Remove layer]({{ site.url }}/assets/img-std-v2/user/objects/layer_remove_icon.png){:.img.img-center}| Removes the layer from the map |
+|![Rendering types]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_type_icons.png){:.img.img-center}| Changes the type of rendering on the map (cluster or markers). By default on load, the rendering type by cluster is active |
 
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Cluster rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_cluster.png){:.img.img-responsive.img-center}|![Marker rendering]({{ site.url }}/assets/img-std-v2/user/objects/layer_viz_marker.png){:.img.img-responsive.img-center} |
-| *Rendu par clusters* | *Rendu par marqueurs* |
+|![Cluster rendering]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_viz_cluster.png){:.img.img-responsive.img-center}|![Marker rendering]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_viz_marker.png){:.img.img-responsive.img-center} |
+| *Rendering by clusters* | *Rendering by markers* |
 
-<div class="alert alert-warning" role="alert"> <strong>Important :</strong>  L'utilisation des clusters améliore les performances d'affichage. <br>Lors du changement de rendu de cluster vers marqueur, seuls 1000 éléments sont affichés à l'écran.</div>
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong>  Using clusters improves display performance. <br>When changing render from cluster to marker, only 1000 items are displayed on the screen.</div>
 
-## Informations window
+## Informations Window
 
-La fiche d'informations d'un enregistrement s'obtient en cliquant sur un marqueur et contient:
+The info-window of a recording is obtained by clicking on a marker and contains:
 
-- un lien vers la page de présentation Salesforce de l'enregistrement (en cliquant sur le nom)
-- des informations essentielles sur l'objet [provenant de champs standards ou personnalisés](/fiche-info-etiquettes-admin)
-- des [actions personnalisées](/actions-admin)
-- des actions standards
-
-{:.table}
-| | |
-|:-------------:|:-------------:|
-|![Infowindow and custom actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_quick_actions.png){:.img.img-responsive.img-center}|![Infowindow and standard actions]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_actions.png){:.img.img-responsive.img-center} |
-| *Actions personnalisées* | *Actions standards* |
-
-## Data filtering
-
-### Using pre-configured and dynamic filters
-
-Cliquer sur l'icône "Filtrer" ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/objects/layer_filter_icon.png) pour faire afficher le panneau de filtres associés à la couche. Ces filtres ont été définis par l'administration de l'application lors de la configuration de l'objet géographique.
-
-Le panneau est constitué de deux parties:
-
-- les filtres préconfigurés
-- les filtres dynamiques
-
-#### Pre-configured filters
-
-Grâce aux filtres pré-configurés, l'utilisateur peut modifier le contenu de sa carte en ne recupérant que les enregistrements qui vérifient les critères définis par les filtres.
+- a link to the Salesforce presentation page of the recording (by clicking on the name)
+- essential information on the object [coming from standard or personalized fields](/fiche-info-etiquettes-admin)
+- [customized actions](/actions-admin)
+- standard actions
 
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_filters_panel02.png){:.img.img-responsive.img-center} |
-| *Filtre "Client", "Prospect" et "Ancien client activés"* | *Filtre "Prospect" activé* |
+|![Infowindow and custom actions]({{ site.url }}/assets/img-std-v2-en/user/objects/infowindow_quick_actions.png){:.img.img-responsive.img-center}|![Infowindow and standard actions]({{ site.url }}/assets/img-std-v2-en/user/objects/infowindow_actions.png){:.img.img-responsive.img-center} |
+| *Customized Actions* | *Standard Actions* |
+
+## Data Filtering
+
+### Using Preconfigured and Dynamic Filters
+
+Click on the "Filter" icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/objects/layer_filter_icon.png) in order to display the panels of filter associated to the layer. These filters were defined by the application administrator when the geographical object was configured.
+
+The panel has two parts:
+
+- the preconfigured filters
+- the dynamic filters
+
+#### Preconfigured Filters
+
+Thanks to the pre-configured filters, the user can modify the content of his map by retrieving only the records that meet the criteria defined by the filters.
+
+{:.table}
+| | |
+|:-------------:|:-------------:|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_filters_panel.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_filters_panel02.png){:.img.img-responsive.img-center} |
+| *Filter "Client", "Prospect", and "Ancient client"* | *Filter "Prospect" activated* |
 
 #### Dynamics Filters
 
-Les filtres dynamiques permettent de filtrer les enregistrements par mot clé en quelques étapes:
+Dynamic filters allow you to filter records by keyword in a few steps:
 
-1. taper du texte
-2. choisir une proposition
-3. Visualiser le résultat
-
-{:.table}
-| | |
-|:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
-| *Proposition de filtrage* | *Filtrage dynamique sur la ville de "Villeurbanne"* |
-
-## Filtering from the data table
-
-Pour chacune des couches ouvertes, le tableau de données permet:
-
-- de filtrer par une recherche sur le nom
-- de filtrer par colonne (liste de valeur le nombre, devises, date/dateime)
-
-L'activation de ces filtres modifie l'affichage des objets sur la carte.
-
-<div class="alert alert-info" role="alert">Pour tous les tableaux de données des objets salesforce chargés, la première colonne et l'entête du tableau sont figés.</div>
-
-### Filtering using key word
-
-Une zone de saisie permet de filtrer dynamiquement les enregistrements sur leur nom.
+1. enter the text
+2. choose a clause
+3. visualize the result
 
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/layer_dt_filtering_01_name.png){:.img.img-responsive.img-center}|
-| *Tableau de données* | *Fitrage par le nom contenant "cafe"* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dynfilter_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dynfilter_01_result.png){:.img.img-responsive.img-center}|
+| *Canditates filter* | *Dynamic filtering applied to the city of "Villeurbanne"* |
 
-### Columns filtering
+## Filtering from the Data Table
 
-Pour chacune des colonnes (de type liste de valeur le nombre, devises, date/datetime), il est possible de définir un filtre en cliquant sur l'icône filtre de la colonne.
+For each of the opened layers, the data panel allows:
 
-#### List of values
+- the filtering by a name search
+- the filtering by column (values list, the number, currency, date/datetime)
+
+The activation of these filter modifies the display of the objects on the map.
+
+<div class="alert alert-info" role="alert">For all the data tables of the Salesforce objects loaded, the first column and the table header are fix.</div>
+
+### Filtering Using Keyword
+
+An enter zone allows the dynamic filtering of the records by their name.
 
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_02.png){:.img.img-responsive.img-center}|
-| *Liste de valeurs* | *Fitrage sur "Client"* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dt_filtering_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/layer_dt_filtering_01_name.png){:.img.img-responsive.img-center}|
+| *Data Table* | *Fitering by the name containing "cafe"* |
+
+### Columns Filtering
+
+For each of the columns (of type list of values, number, currency, date/datetime), it is possible to define a filter by clicking on the filter icon of the column.
+
+#### List of Values
+
+{:.table}
+| | |
+|:-------------:|:-------------:|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_picklist_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_picklist_02.png){:.img.img-responsive.img-center}|
+| *Values List* | *Fitering on "Client"* |
 
 {:.table}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_picklist_result.png){:.img.img-responsive.img-center}|
-| *Résultat* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_picklist_result.png){:.img.img-responsive.img-center}|
+| *Result* |
 
-#### Numbers and currencies
+#### Numbers and Currencies
 
-Le filtrage sur des champs de type numériques ou devises se définit de la même manière:
+The filtering on fields of type numeric or currency is defined in the same way:
 
-1. Définir un (des) critère(s): en choisissant un opérateur et une valeur
-2. Appliquer le filtre
+1. Define one or more criteria: by choosing an operator and a value
+2. Apply the filter
 
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_03.png){:.img.img-responsive.img-center}|
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_03.png){:.img.img-responsive.img-center}|
 | *Liste des conditions* | *CA supérieur à 1 500 000* | *Liste des conditions* |
 
 {:.table}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
-| *Résultat* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_number_result.png){:.img.img-responsive.img-center}|
+| *Result* |
 
 #### Dates
 
-Le filtrage sur les champs de type Date ou DateTime est réalisé en choisissant un opérateur et une période pré-définie.
+The filtering on fields of the type Date or DateTime is performed by choosing an operator and a predefined period.
 
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_03.png){:.img.img-responsive.img-center}|
-| *Liste des conditions* | *Date de dernière visite du mois en cours* | *Liste des conditions* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_01.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_02.png){:.img.img-responsive.img-center}|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_03.png){:.img.img-responsive.img-center}|
+| *Conditions List* | *Date of the last visit on the current month* | *Conditions List* |
 
 {:.table}
 | |
 |:-------------:|
-|![Filtres actifs]({{ site.url }}/assets/img-std-v2/user/objects/colfilter_date_result.png){:.img.img-responsive.img-center}|
-| *Résultat* |
+|![Filtres actifs]({{ site.url }}/assets/img-std-v2-en/user/objects/colfilter_date_result.png){:.img.img-responsive.img-center}|
+| *Result* |
 
-<div class="alert alert-info" role="alert">Le filtrage sur les colonnes s'applique de gauche à droite.<br />Si des filtres sont activés sur les colonnes "CA 2016" et "CA 2017", le résultat sera obtenu en filtrant dans un premier temps la donnée avec les conditions définies sur la colonne "CA 2016", puis celles definies pour la colonne "CA 2017".</div>
+<div class="alert alert-info" role="alert">Columns filtering is applied from left to right.<br />If the filters are activated on the columns "CA 2016" and "CA 2017", the result will be obtained by first filtering the data with the conditions defined on the column "CA 2016", and then those defined on the column "CA 2017".</div>
 
-## Nearby search filtering
+## Nearby Search Filtering
 
-L'application offre trois manières de réaliser un filtrage des éléments en faisant une recherche à proximité:
+The app offers three ways to filter items by searching nearby:
 
-- depuis le marqueur vert ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_currentlocation.png) indiquant la localisation courante: obtenue soit par localisation automatique de l'utilisateur soit par recherche d'adresse
-- depuis une des actions standards disponibles dans la fiche d'informations
-- depuis le menu contextuel à partir du clic droit
+- from the green marker ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_currentlocation.png) indicating the current location: obtained either by user automatic localization, or by address search
+- from one of the standard actions available in the info-window
+- from the right click contextual menu
 
 {:.table}
 | | | |
 |:-------------:|:-------------:|:-------------:|
-|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_currentlocation.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_infowindow.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_rightclick.png){:.img.img-responsive.img-center}|
-| *Localisation courante* | *Fiche d'information* | *Clic droit* |
+|![Recherche à proximité]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_currentlocation.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_infowindow.png){:.img.img-responsive.img-center}|![Recherche à proximité]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_rightclick.png){:.img.img-responsive.img-center}|
+| *Current Localization* | *Info-Window* | *Right Click* |
 
-Ce qui ouvre une fenêtre invitant l'utilisateur à renseigner la distance et l'unité:
-![Nearby popup]({{ site.url }}/assets/img-std-v2/user/nearbysearch/ns_popup.png){:.img.img-responsive.img-center}
+This opens a window inviting the user to enter the distance and the unit:
+![Nearby popup]({{ site.url }}/assets/img-std-v2-en/user/nearbysearch/ns_popup.png){:.img.img-responsive.img-center}
 
-Une fois validé, toutes les couches sont filtrées aussi bien sur la carte que dans le tableau de données.
+Once validated, all the layers are filtered both on the map and in the data table.
 
-Pour supprimer le filtrage, il suffit de cliquer sur le cercle pour faire apparaître un menu contextuel et cliquer sur "Annuler la recherche".
+To remove the filtering, all you have to do is click on the circle to bring up a contextual menu and click on "Cancel Search".

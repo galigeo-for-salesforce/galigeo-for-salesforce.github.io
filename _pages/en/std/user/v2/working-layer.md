@@ -1,52 +1,52 @@
 ---
 layout: sidebar-lightning
-title: Couche de travail
+title: Working Layers
 categories: documentation
 permalink: /lightning/working-layer-en
 lang: en
 ref: lightning-workinglayer
 ---
 
-# Couches de travail
+# Working Layers
 
-Une couche de travail est une extraction des couches (objets Salesforce) visibles à l'écran.
+A working layer is an extraction of layers (Salesforce objects) visible on the screen.
 
-Cette extraction peut se faire à partir:
+This extraction can be done from:
 
-- [d'une zone d'intérêt](/lightning/zone-interet)
-- [d'un filtrage suite à une recherche à proximité](/lightning/objects#filtrage-par-recherche--proximit)
+- [an area of interest](/lightning/zone-interet-en)
+- [a filtering following a nerby search](/lightning/objects-en#nearby-search-filtering)
 
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_aoi.png){:.img.img-responsive.img-center}|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_nearbysearch.png){:.img.img-responsive.img-center}|
-| *Zone d'intérêt* | *Proximité* |
+|![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_from_aoi.png){:.img.img-responsive.img-center}|![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_from_nearbysearch.png){:.img.img-responsive.img-center}|
+| *Area of Interest* | *Proximity** |
 
-En activant cette option, une fenêtre propose à l'utilisateur de choisir parmi les couches affichées sur l'écran celle(s) dont il souhaite extraire les objets se trouvant à l'intérieur:
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_records.png){:.img.img-responsive.img-center}
+By activating this option, a window offers the user to choose among the layers displayed on the screen the one (s) from which he wishes to extract the objects located inside:
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_records.png){:.img.img-responsive.img-center}
 
-Une fois validé, on obtient une couche de travail, listant les objets extraits:
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extracted_records.png){:.img.img-responsive.img-center}
+Once validated, we obtain a working layer, listing the extracted objects:
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extracted_records.png){:.img.img-responsive.img-center}
 
-Pour chacune de ces couches de travail, il est possible:
+For each of these working layers, it is possible:
 
-- de modifier la visibilité sur la carte
-- de changer la couleur des marqueurs dessinés sur la carte
+- to modify the visibility on the map
+- to change the color of the markers drawn on the map
 
-&Agrave; partir de l'icône ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_more.png) à droite, le menu contextuel propose les actions suivantes:
+From the icon ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_more.png) at the right side, the context menu suggests the following actions:
 
-- Afficher le détail des objets extraits
-- Ajouter ces objets à un itinéraire
-- Retirer la couche de travail
+- Display the detail for the extracted objects
+- Add these object to a route
+- Remove the working layer
 
 {:.table}
 | |
 |:-------------:|
-|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/wl_popupmenu.png){:.img.img-responsive.img-center}|
-| *Menu contextuel* |
+|![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/wl_popupmenu.png){:.img.img-responsive.img-center}|
+| *Contextual Menu* |
 
-Le détail des objets extraits est visualisable dans un tableau où les différentes couches sont affichées dans un onglet:
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extracted_records_details.png){:.img.img-responsive.img-center}
+The detail of the extracted objects can be viewed in a table where the different layers are displayed in a tab:
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extracted_records_details.png){:.img.img-responsive.img-center}
 
-En ajoutant ces objets à un itinéraire, on obtient l'ensemble des points de passage sur la carte et dans le menu "Itinéraire"
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extracted_records_toroute.png){:.img.img-responsive.img-center}
+By adding these objects to a route, we obtain all the waypoints on the map and in the "Route" menu.
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extracted_records_toroute.png){:.img.img-responsive.img-center}

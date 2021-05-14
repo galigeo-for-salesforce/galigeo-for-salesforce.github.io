@@ -1,133 +1,133 @@
 ---
 layout: sidebar-lightning
-title: Plan de visite et Itinéraire optimisé
+title: Visit Planning and Optimized Routing
 categories: documentation
 permalink: /lightning/visites-en
 lang: en
 ref: lightning-visites
 ---
 
-# Plans de visite et itinéraires optimisés
+# Visit Plans and Optimized Routes
 
-L'article vous montrera comment ajouter des objets à un plan de visite, générer un itinéraire optimisé et créer des [événements](https://help.salesforce.com/articleView?id=events_and_calendars.htm) dans le calendrier Salesforce depuis l'application.
+The article will show you how to add objects to a tour plan, generate an optimized routes and create [événements](https://help.salesforce.com/articleView?id=events_and_calendars.htm) in the Salesforce calendar from the application.
 
-## Ajouter un événement au calendrier Salesforce
+## Add an Event in the Salesforce Calendar
 
-Pour créer un événement sur un objet spécifique, cliquez sur l'action "Ajouter au calendrier" depuis la fiche d'information
-![Planning]({{ site.url }}/assets/img-std-v2/user/objects/infowindow_actions.png){:.img.img-responsive.img-center.img-bordered}
+To create an event on a specific object, click on the "Add to calendar" action from the info-window
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/objects/infowindow_actions.png){:.img.img-responsive.img-center.img-bordered}
 
-Le formation de création d'un événement apparaît, complétez alors les champs obligatoires pour créer votre événement dans Salesforce. 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/evt_create_popup_record.png){:.img.img-responsive.img-center.img-bordered}
+The creation event form appears, then complete the required fields to create your event in Salesforce. 
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/evt_create_popup_record.png){:.img.img-responsive.img-center.img-bordered}
 
-<div class="alert alert-warning" role="alert"> <strong>Important :</strong> Cette option n'est disponible uniquement pour Lightning ou dans l'application Salesforce Mobile</div>
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> This option is only available for Lightning or in the Salesforce Mobile app.</div>
 
-## Plannifier un itinéraire optimisé
+## Plan an Optimized Route
 
-Grâce à la planification d'itinéraires il est possible d'ajouter simultanément plusieurs événements au calendrier Salesforce.
+With route planning, it is possible to simultaneously add multiple events to the Salesforce calendar.
 
-Cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_route.png) dans la barre d’outils pour afficher le panneau d’itinéraire.
+Click on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_route.png) in the toolbar to display the route panel.
 
-Pour ajouter un point à votre itinéraire, vous pouvez :
+In order to add a point in your route, you can:
 
-- Cliquer sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_addbyclick.png) dans le panneau d'itinéraire pour sélectioner plusieurs objets à la suite en cliquant desssus (il devient alors actif et bleu)
-- Cliquer sur l'action "Ajouter à l'itinéraire" depuis la ficher d'information d'un objet
-- ou encore ajouter une liste d'objet à partir d'une [couche de travail](/lightning/working-layer)
+- Click on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_addbyclick.png) in the route panel in order to select several objects by clicking on them (they become active and are highlighted in blue)
+- Click on the "Add a Route" action from the info-window of an object
+- or add a list of objects from a [couche de travail](/lightning/working-layer)
 
-Lorsqu’un objet est ajouté à l’itinéraire, un numéro est ajouté au centre du marqueur correspondant et un aperçu indique la distance à vol d'oiseau.
+When an object is added to the route, a number is added to the center of the corresponding marker and a preview shows the distance as the crow flies.
 
-Différentes options de calcul d'itinéraire sont proposées :
+Different route calculation options are available:
 
-- En voiture ou à pied (optionnel)
-- Calculé uniquement entre les objets ou depuis le dernier emplacement connu via géolocalisation, recherche d'adresse ou déplacement de l'icône vert ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_currentlocation.png) indiquant la localisation courante
-- Optimisé (modifie l’ordre des points de passage pour le chemin le plus efficient) ou non optimisé (conserve l’ordre des points de passage)
+- by car or on foot (optional)
+- Calculated only between objects or from the last known location via geolocation, address search or moving the green icon ![Data Explorer]({{ site.url }}/assets/img-std-v2/user/icons/icon_currentlocation.png) indicating the current location
+- Optimized (modifies the order of the waypoints for the most efficient path) or not optimized (keeps the waypoints order)
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/selected_records.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/selected_records.png){:.img.img-responsive.img-center.img-bordered}
 
-Cliquez sur le bouton « Calculer » pour calculer l’itinéraire. L’itinéraire s’affiche sur la carte et un résumé du trajet apparaît en haut. 
+Click the "Calculate" button to calculate the route. The route is displayed on the map and a route summary appears at the top. 
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/computed_route.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/computed_route.png){:.img.img-responsive.img-center.img-bordered}
 
-<div class="alert alert-warning" role="alert"> <strong>Important :</strong> Le nombre de point maximal pour le calcul est fixé à 10. Au delà, un message informe l'utilisateur.</div>
+<div class="alert alert-warning" role="alert"> <strong>Important :</strong> The maximum number of points for calculation is fixed at 10. Beyond that, a message informs the user.</div>
 
-Vous pouvez à tout moment retirer un point de l'itinéraire en cliquant sur la croix à droite du nom de l'objet.
+You can remove a point from the route at any time by clicking on the cross to the right of the name of the object.
 
-![PLanning]({{ site.url }}/assets/img-std-v2/user/planning/remove_record.png){:.img.img-responsive.img-center.img-bordered}
+![PLanning]({{ site.url }}/assets/img-std-v2-en/user/planning/remove_record.png){:.img.img-responsive.img-center.img-bordered}
 
-## Ajouter plusieurs événements au calendrier
+## Add Several Events to the Calendar
 
-Pour ajouter l'ensemble des objets qui constituent votre itinéraire, cliquez sur "Ajouter au calendrier".
+To add all the objects that make up your route, click on "Add to Calendar".
 
-Pour l'ensemble de vos rendez-vous, sélectionnez ensuite :
+For all of your appointments, select then:
 
-- Date
-- Sujet (la liste de types d'enregistrement d'événement est [gérable dans Salesforce](https://help.salesforce.com/articleView?id=event_fields_lex.htm))
-- Heure de premier rendez-vous
-- Fin du RDV
+- The date
+- The subject (the list of event recording types is [manageable in Salesforce](https://help.salesforce.com/articleView?id=event_fields_lex.htm))
+- The hour of the first appointment
+- The end of the appointment
 
-![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/planning/create_events_popup.png){:.img.img-responsive.img-center.img-bordered}
+![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/planning/create_events_popup.png){:.img.img-responsive.img-center.img-bordered}
 
-A noter que :
+To note that:
 
-- Le premier RDV débute à 8h par défaut
-- La durée des RDVs est de 60 min par défaut
-- Le temps de trajet entre deux RDVs est arrondi au quart d'heure supérieur pour prendre en compte l'heure de début du prochain
-- Un changement de l'heure de fin d'un RDV change automatiquement l'heure de début des suivants
+- The first appointment starts at 8 AM by default
+- The duration of the appointments is 60 min by default
+- The travel time between two appointments is rounded up to the next quarter of an hour to take into account the start time of the next one
+- A change of the end time of an appointment automatically changes the start time of the following ones
 
-## Créer des événements récurrents
+## Create Recurrent Events
 
-Cliquer sur "Répéter la série d'événements" permet de rendre les événements récurrents selon une fréquence :
+Click on the "Repeat the series of events" allows you to make the events recurring according to a frequency:
 
-### Hebdomadaire
+### Weekly
 
-Choisissez :
+Choose:
 
-- La fréquence à laquelle ils vont se répéter en semaines
-- Quels jours de la semaine du Lundi au Dimanche (plusieurs choix possibles)
+- How often they will repeat in weeks
+- Which days of the week from Monday to Sunday (several choices possible)
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/create_events_popup_recurrent_weekly.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/create_events_popup_recurrent_weekly.png){:.img.img-responsive.img-center.img-bordered}
 
-### Mensuelle
+### Monthly
 
-Choisissez :
+Choose:
 
-- La fréquence à laquelle ils vont se répéter en mois
-- Quel jour de la semaine du Lundi au Dimanche (un seul choix possible)
-- Pour le jour de la semaine, si il s'agit du 1er, 2nd, 3ème, 4ème ou dernier du mois
+- The frequency with which they will repeat themselves in months
+- Which day of the week from Monday to Sunday (only one choice possible)
+- For the day of the week, if it is the 1st, 2nd, 3rd, 4th or last of the month
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/create_events_popup_recurrent_monthly.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/create_events_popup_recurrent_monthly.png){:.img.img-responsive.img-center.img-bordered}
 
-Un clic sur le lien "[Date de fin]" permet de calculer automatiquement cette date en prenant compte les contraintes suivantes:
+Clicking on the "[End date]" link automatically calculates this date, taking into account the following constraints:
 
-- Hebdomaire : Date de fin = (Date Courante) + 52 * intervalle (en semaines)
-- Mensuelle : Date de fin = (Date Courante) + 60 * intervalle (en mois)
+- Weekly: End date = (Current date) + 52 * interval (in weeks)
+- Monthly: End date = (Current Date) + 60 * interval (in months)
 
-<div class="alert alert-info" role="alert"> <strong>Note :</strong> La date maximale de fin dépend du type de récurrence et est un paramètre imposé par Salesforce car il n'est pas possible de créer des événements récurrents sans fin.</div>
+<div class="alert alert-info" role="alert">The maximum end date depends on the type of recurrence and is a setting enforced by Salesforce because it is not possible to create endless recurring events.</div>
 
-Dans le calendrier Galigeo les RDVs récurrents sont identifiables grâce à l'icône ![Loop icon]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_icon.png).
+In the Galigeo calendar, recurring appointments can be identified by the icon ![Loop icon]({{ site.url }}/assets/img-std-user/plan_events-recurr_events_icon.png).
 
-![PLanning]({{ site.url }}/assets/img-std-v2/user/planning/created_events_recurrent.png){:.img.img-responsive.img-center.img-bordered}
+![PLanning]({{ site.url }}/assets/img-std-v2-en/user/planning/created_events_recurrent.png){:.img.img-responsive.img-center.img-bordered}
 
-## Gérer les événements
+## Manage the Events
 
-Pour ouvrir le calendrier, cliquez sur l’icône ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_calendar.png). Une vue complète de la semaine est disponible sur la droite de la fenêtre et les événements précédemment créés y apparaissent :
+To open the calendar, click on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_calendar.png). A complete view of the week is available on the right of the window and the previously created events appear there:
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/calendar.png){:.img.img-responsive.img-center.img-bordered}
 
-<div class="alert alert-info" role="alert"> <strong>Note :</strong> Seuls les événements dans une certaine plage de date apparaissent dans le calendrier. Celle-ci est de 30 jours dans le passé, 60 jours dans le futur par défaut, et peut être modifiée dans les options de la page d'administration.</div>
+<div class="alert alert-info" role="alert">Only events within a certain date range appear in the calendar. This is 30 days in the past, 60 days in the future by default, and can be changed in the options on the administration page.</div>
 
-Tous les événements y sont directement déplaçables par glisser-déposer. Leur durée est également modifiable en tirant le bas d'un événement.
+All the events can be moved directly there by drag and drop. Their duration can also be modified by dragging the bottom of an event.
 
-En cliquant sur une date du calendrier, vous filtrez la carte pour n’afficher que les objets pour lesquels il y a un rendez-vous à cette date. La carte sera centrée sur ces points (pour annuler la sélection cliquez à nouveau sur la date) et un résumé de la tournée s'affiche.
+By clicking on a date in the calendar, you filter the map to display only the objects for which there is an appointment on that date. The map will be centered on these points (to cancel the selection click again on the date) and a summary of the tour is displayed.
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar_datefiltered.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/calendar_datefiltered.png){:.img.img-responsive.img-center.img-bordered}
 
-Pour voir le calendrier d’un collaborateur, cliquez sur « Changer » en haut du calendrier.
+To view a collaborator's calendar, click on "Change" at the top of the calendar.
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar_changeuser.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/calendar_changeuser.png){:.img.img-responsive.img-center.img-bordered}
 
-Sélectionnez un collaborateur en cliquant sur son nom, pour faire apparaître son calendrier. Un champ de recherche permet également de filtrer cette liste.
+Select a collaborator by clicking on the name, to display the calendar. A search field is also used to filter this list.
 
-![Planning]({{ site.url }}/assets/img-std-v2/user/planning/calendar_userpopup.png){:.img.img-responsive.img-center.img-bordered}
+![Planning]({{ site.url }}/assets/img-std-v2-en/user/planning/calendar_userpopup.png){:.img.img-responsive.img-center.img-bordered}
 
-Si vous avez les droits nécessaires, vous pouvez créer ou modifier les événements de ce calendrier.
+If you have the necessary rights, you can create or modify the events of this calendar.
 
