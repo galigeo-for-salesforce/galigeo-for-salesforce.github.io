@@ -43,7 +43,7 @@ They can also create their own filters in seconds!
 |   |    |
 |:-------------:|:-------------:|
 |![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/gestion_filtres_sample.png){:.img.img-responsive.img-center}|![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2-en/user/colFilter_num_sample.png){:.img.img-responsive.img-center}|
-| *Objects filters* | *Column filter* |
+| *Objects filters* | *Column filtering* |
 
 
 # View detailed information and create your lists

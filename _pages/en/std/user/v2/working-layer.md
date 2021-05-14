@@ -20,7 +20,7 @@ This extraction can be done from:
 | | |
 |:-------------:|:-------------:|
 |![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_from_aoi.png){:.img.img-responsive.img-center}|![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_from_nearbysearch.png){:.img.img-responsive.img-center}|
-| *Area of Interest* | *Proximity** |
+| *Area of Interest* | *Proximity* |
 
 By activating this option, a window offers the user to choose among the layers displayed on the screen the one (s) from which he wishes to extract the objects located inside:
 ![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_records.png){:.img.img-responsive.img-center}
