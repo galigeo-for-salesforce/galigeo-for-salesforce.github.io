@@ -9,7 +9,7 @@ ref: lightning-visites
 
 # Visit Plans and Optimized Routes
 
-The article will show you how to add objects to a tour plan, generate an optimized routes and create [événements](https://help.salesforce.com/articleView?id=events_and_calendars.htm) in the Salesforce calendar from the application.
+The article will show you how to add objects to a tour plan, generate an optimized routes and create [events](https://help.salesforce.com/articleView?id=events_and_calendars.htm) in the Salesforce calendar from the application.
 
 ## Add an Event in the Salesforce Calendar
 
@@ -31,7 +31,7 @@ In order to add a point in your route, you can:
 
 - Click on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_addbyclick.png) in the route panel in order to select several objects by clicking on them (they become active and are highlighted in blue)
 - Click on the "Add a Route" action from the info-window of an object
-- or add a list of objects from a [couche de travail](/lightning/working-layer)
+- or add a list of objects from a [working layer](/lightning/working-layer-en)
 
 When an object is added to the route, a number is added to the center of the corresponding marker and a preview shows the distance as the crow flies.
 

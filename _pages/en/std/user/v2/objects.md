@@ -93,8 +93,8 @@ Each open layer is presented in a section allowing the user to take action:
 The info-window of a recording is obtained by clicking on a marker and contains:
 
 - a link to the Salesforce presentation page of the recording (by clicking on the name)
-- essential information on the object [coming from standard or personalized fields](/fiche-info-etiquettes-admin)
-- [customized actions](/actions-admin)
+- essential information on the object [coming from standard or personalized fields](/infowindow-labels-admin)
+- [customized actions](/actions-admin-en)
 - standard actions
 
 {:.table}
