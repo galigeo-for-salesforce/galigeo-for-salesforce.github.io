@@ -10,7 +10,7 @@ ref: lightning-areaofinterest
 # Area of Interest
 
 An area of interest is a polygon that can be drawn on the map, saved and reloaded. The areas of interest tab is always available in the data table.
-![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/blank_panel.png){:.img.img-responsive.img-center}
+![Area of Interest]({{ site.url }}/assets/img-std-v2-en/user/aoi/blank_panel.png){:.img.img-responsive.img-center}
 
 ## Drawing the Areas
 
@@ -22,11 +22,11 @@ The drawing tool is accessible by clicking on the ![Area of Interest]({{ site.ur
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|
+|![Area of Interest]({{ site.url }}/assets/img-std-v2-en/user/aoi/aoi_drawing_inprogress.png){:.img.img-responsive.img-center}|![Area of Interest]({{ site.url }}/assets/img-std-v2-en/user/aoi/aoi_drawing_done.png){:.img.img-responsive.img-center}|
 | *Drawing in process* | *Drawing finished* |
 
 Once completed, the zone is available in the list:
-![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_drawing_done_list.png){:.img.img-responsive.img-center}
+![Area of Interest]({{ site.url }}/assets/img-std-v2-en/user/aoi/aoi_drawing_done_list.png){:.img.img-responsive.img-center}
 
 ## Tools
 
@@ -45,12 +45,12 @@ Another menu of actions is available by clicking the ![Area of Interest]({{ site
 - removing it from the list
 - deleting it (option available only if the layer was saved)
 
-![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_popupmenu.png){:.img.img-responsive.img-center}
+![Area of Interest]({{ site.url }}/assets/img-std-v2-en/user/aoi/aoi_popupmenu.png){:.img.img-responsive.img-center}
 
 ## Loading of an Area
 
 Loading a previously saved area is done by clicking on the  ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_load.png) icon to open a window listing all the available zones not yet loaded:
 
-![Area of Interest]({{ site.url }}/assets/img-std-v2/user/aoi/aoi_loadingpopup.png){:.img.img-responsive.img-center}
+![Area of Interest]({{ site.url }}/assets/img-std-v2-en/user/aoi/aoi_loadingpopup.png){:.img.img-responsive.img-center}
 
 A click on the ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/icon_load.png) icon in front of the area that is desired loads it, displays it on the screen and it is available in the area of interest tab.

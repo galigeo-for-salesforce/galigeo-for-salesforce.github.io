@@ -19,14 +19,14 @@ This extraction can be done from:
 {:.table}
 | | |
 |:-------------:|:-------------:|
-|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_aoi.png){:.img.img-responsive.img-center}|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_from_nearbysearch.png){:.img.img-responsive.img-center}|
+|![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_from_aoi.png){:.img.img-responsive.img-center}|![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_from_nearbysearch.png){:.img.img-responsive.img-center}|
 | *Area of Interest* | *Proximity** |
 
 By activating this option, a window offers the user to choose among the layers displayed on the screen the one (s) from which he wishes to extract the objects located inside:
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extract_records.png){:.img.img-responsive.img-center}
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extract_records.png){:.img.img-responsive.img-center}
 
 Once validated, we obtain a working layer, listing the extracted objects:
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extracted_records.png){:.img.img-responsive.img-center}
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extracted_records.png){:.img.img-responsive.img-center}
 
 For each of these working layers, it is possible:
 
@@ -42,11 +42,11 @@ From the icon ![Area of Interest]({{ site.url }}/assets/img-std-v2/user/icons/ic
 {:.table}
 | |
 |:-------------:|
-|![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/wl_popupmenu.png){:.img.img-responsive.img-center}|
+|![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/wl_popupmenu.png){:.img.img-responsive.img-center}|
 | *Contextual Menu* |
 
 The detail of the extracted objects can be viewed in a table where the different layers are displayed in a tab:
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extracted_records_details.png){:.img.img-responsive.img-center}
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extracted_records_details.png){:.img.img-responsive.img-center}
 
 By adding these objects to a route, we obtain all the waypoints on the map and in the "Route" menu.
-![Working Layer]({{ site.url }}/assets/img-std-v2/user/wl/extracted_records_toroute.png){:.img.img-responsive.img-center}
+![Working Layer]({{ site.url }}/assets/img-std-v2-en/user/wl/extracted_records_toroute.png){:.img.img-responsive.img-center}
