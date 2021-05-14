@@ -49,7 +49,7 @@ For each of the cards defined by the user, it is possible to:
 
 After loading objects, the user has the possibility to save this set as a map by clicking on the icon ![Galigeo for Salesforce User]({{ site.url }}/assets/img-std-v2/user/icons/icon_save.png). 
 
-![New Map]({{ site.url }}/assets/img-std-v2/user/map/new_map_01.png){:.img.img-responsive.img-center}
+![New Map]({{ site.url }}/assets/img-std-v2-en/user/map/new_map_01.png){:.img.img-responsive.img-center}
 
 <div class="alert alert-info" role="alert">Shared maps are only read-only accessible. The user can only load them. He can still use the "Save As" feature to make a copy.</div>
 
