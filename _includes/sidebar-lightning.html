@@ -7,6 +7,8 @@
 	{% assign links_faqs = site.data.sidebar.en.std.faqs %}
 
 	{% assign faqs_guide = site.data.translation.sidebar.en.faqs_guide %}
+	{% assign user_guide_lighning = site.data.translation.sidebar.en.user_guide_lighning %}
+	{% assign user_guide_old = site.data.translation.sidebar.en.user_guide_old %}
 	{% assign user_guide = site.data.translation.sidebar.en.user_guide %}
 	{% assign admin_guide = site.data.translation.sidebar.en.admin_guide %}
 	{% assign install_guide = site.data.translation.sidebar.en.install_guide %}
@@ -19,6 +21,8 @@
 	{% assign links_faqs = site.data.sidebar.fr.std.faqs %}
 
 	{% assign faqs_guide = site.data.translation.sidebar.fr.faqs_guide %}
+	{% assign user_guide_lighning = site.data.translation.sidebar.fr.user_guide_lighning %}
+	{% assign user_guide_old = site.data.translation.sidebar.fr.user_guide_old %}
 	{% assign user_guide = site.data.translation.sidebar.fr.user_guide %}
 	{% assign admin_guide = site.data.translation.sidebar.fr.admin_guide %}
 	{% assign install_guide = site.data.translation.sidebar.fr.install_guide %}
@@ -52,7 +56,7 @@
 	{% endfor %}
 </ul>
 
-<h4>{{user_guide}} Lightning</h4>
+<h4>{{user_guide_lighning}}</h4>
 <ul>
 	{% for item in links_lightning_user %}
 	<li>
@@ -65,7 +69,7 @@
 	{% endfor %}
 </ul>
 
-<h4>{{user_guide}}</h4>
+<h4>{{user_guide_old}}</h4>
 <ul>
 	{% for item in links_user %}
 	<li>

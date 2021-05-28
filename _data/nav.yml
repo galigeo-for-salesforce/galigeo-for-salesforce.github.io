@@ -1,5 +1,5 @@
 fr:
-  - { url: '/debuter', text: 'Standard', type: 'documentation' }
+  - { url: '/lightning/presentation', text: 'Standard', type: 'documentation' }
   - { url: '/debuter-adv', text: 'Advanced', type: 'advanced' }
   - { url: '/debuter-geocodage', text: 'Starter', type: 'starter' }
 #  - { url: '/faq', text: 'FAQ', type: 'faqs' }
@@ -7,7 +7,7 @@ fr:
 # - { url: '/videos', text: 'Vidéos', type: 'video' }
 
 en:
-  - { url: '/getting-started', text: 'Standard', type: 'documentation' }
+  - { url: '/lightning/presentation-en', text: 'Standard', type: 'documentation' }
   - { url: '/getting-started-adv', text: 'Advanced', type: 'advanced' }
   - { url: '/getting-started-geocoding', text: 'Starter', type: 'starter' }
 #  - { url: '/faqs', text: 'FAQs', type: 'faqs' }
