@@ -2,11 +2,15 @@ sidebar:
   en:
     install_guide: "Installation Guide"
     admin_guide: "Admin Guide"
+    user_guide_lighning: "User Guide - New Lightning version"
+    user_guide_old: "User Guide - Old deprecated version"
     user_guide: "User Guide"
-    faqs_guide: "Frequently Asked Questions"
+    faqs_guide: "Frequently Asked Questions"    
   fr:
     install_guide: "Guide d'Installation"
     admin_guide: "Guide Administrateur"
+    user_guide_lighning: "Guide Utilisateur - Nouvelle version Lightning"
+    user_guide_old: "Guide Utilisateur - Ancienne version (dépréciée)"
     user_guide: "Guide Utilisateur"
     faqs_guide: "Foire Aux Questions"
 
