@@ -19,7 +19,7 @@ Discover all our new products below.
 
 ---
 
-# Visualize and localize your Salesforce Data in a few clicks
+# Visualize and locate your Salesforce Data in a few clicks
 
 The new version allows you to view simultaneously on the same map all your localizable Salesforce data such as your accounts, customers, prospects, distributors, sites, partners ...
 
